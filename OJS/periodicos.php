@@ -13,21 +13,21 @@ include 'header.html'
                         <div class="row 150%">
                             <div class="4u 12u$(medium)">
                                 <section class="box">
-                                    <img src="images/informacao_e_sociedade.jpg" alt="">
+                                    <img src="images/informacao_e_sociedade.png" alt="" class="imageBox">
                                     <h3>Informação e Sociedade</h3>
                                     <p> É publicada ininterruptamente desde 1991 quando foi criada pela Universidade Federal da Paraíba. </p>
                                 </section>
                             </div>
                             <div class="4u 12u$(medium)">
                                 <section class="box">
-                                   <img src="images/moringa.png" alt="">
+                                   <img src="images/moringa2.png" alt="" class="imageBox">
                                     <h3>Moringa</h3>
                                     <p> MORINGA é uma publicação semestral do Departamento de Artes Cênicas, vinculado ao Centro de Comunicação. <br></p>
                                 </section>
                             </div>
                             <div class="4u$ 12u$(medium)">
                                 <section class="box">
-                                    <img src="images/juee.png" alt="">
+                                    <img src="images/juee.png" alt="" class= >
                                         <h3>JUEE</h3>
                                         <p> Journal of Urban and Environmental Engineering (JUEE) provides a forum for original papers.</p>
                                     </a>
@@ -55,16 +55,26 @@ include 'header.html'
             	<!-- REVISTAS INICIO -->
                 <div class="container">
 
-                            <p><span class="image left"><img src="images/informacao_e_sociedade.jpg" alt="" /></span> <a href="http://periodicos.ufpb.br/index.php/ies">Informação e Sociedade</a> <br>
+                            <p><span class="image left"><img src="images/informacao_e_sociedade.png" alt="" /></span> <a href="http://periodicos.ufpb.br/index.php/ies">Informação e Sociedade</a> <br>
                             <strong>Escopo: </strong> Informação & Sociedade: Estudos (I&S) é um periódico na área da Ciência da Informação vinculado ao Programa de Pós-Graduação em Ciência da Informação da Universidade Federal da Paraíba. I&S está avaliado na base de dados 
                             <a href="">Qualis da CAPES como A1.</a> É publicada ininterruptamente desde 1991 - quando foi criada pela Universidade Federal da Paraíba, e foi uma das primeiras a ser publicada no Portal de Periódicos da UFPB. Atualmente, é uma das três revistas brasileiras da área de Ciência da Informação incluídas no Journal Citation Reports (JCR Web) do Institute for Scientiﬁc Information (ISI Web of Knowledge). </p>  
                             <strong>Área de conhecimento:</strong> <p>ciência da informação, biblioteconomia e áreas afins.</p>
                             <hr />
                                 
-                            <p><span class="image left"><img src="images/moringa.png" alt="" /></span> <a href="http://periodicos.ufpb.br/index.php/moringa">Moringa</a> <br>
-                            <strong>Escopo: </strong> Informação & Sociedade: Estudos (I&S) é um periódico na área da Ciência da Informação vinculado ao Programa de Pós-Graduação em Ciência da Informação da Universidade Federal da Paraíba. I&S está avaliado na base de dados 
-                            <a href="">Qualis da CAPES como A1.</a> É publicada ininterruptamente desde 1991 - quando foi criada pela Universidade Federal da Paraíba, e foi uma das primeiras a ser publicada no Portal de Periódicos da UFPB. Atualmente, é uma das três revistas brasileiras da área de Ciência da Informação incluídas no Journal Citation Reports (JCR Web) do Institute for Scientiﬁc Information (ISI Web of Knowledge). </p>  
-                            <strong>Área de conhecimento:</strong> <p>ciência da informação, biblioteconomia e áreas afins.</p>
+                            <p><span class="image left"><img src="images/moringa2.png" alt="" /></span> <a
+                                    href="http://periodicos.ufpb.br/index.php/moringa">Moringa</a> <br>
+                                <strong>Escopo: </strong> MORINGA é uma publicação semestral do Departamento de Artes
+                                Cênicas e do Mestrado Profissional em Artes (ProfArtes) do Centro de Comunicação,
+                                Turismo e Artes da Universidade Federal da Paraíba (CCTA-UFPB). Fomenta o diálogo
+                                interdisciplinar no campo das artes do espetáculo. Seus eixos de interesse situam-se
+                                tanto nos aspectos que compõem os processos de criação quanto nas poéticas que regem as
+                                artes espetaculares em suas relações com os distintos campos de produção cultural e
+                                demais áreas das humanidades. Este periódico permite, aos autores, a manutenção de
+                                direitos sem restrições.</a> É publicada ininterruptamente desde 1991 - quando foi
+                                criada pela Universidade Federal da Paraíba, e foi uma das primeiras a ser publicada no
+                                Portal de Periódicos da UFPB.</p>
+                            <strong>Área de conhecimento:</strong>
+                            <p>Ciências humanas, artes cênicas.</p>
                             <hr />
                             
                             <p><span class="image left"><img src="images/juee.png" alt="" /></span> <a href="http://periodicos.ufpb.br/index.php/juee">Journal of Urban and Environmental Engineering</a> <br>
@@ -222,7 +232,7 @@ include 'header.html'
                             <strong>Área de conhecimento:</strong> <p>ciência da informação, biblioteconomia e áreas afins.</p>
                                 <hr />
 
-                                <p><span class="image left"><img src="images/pic08.jpg" alt="" /></span> <a href="http://periodicos.ufpb.br/index.php/rsbc">Revista Brasileira de Ciências da Saúde</a> <br>
+                                <p><span class="image left"><img src="images/pic08.jpg" alt="" /></span> <a href="http://www.periodicos.ufpb.br/index.php/rbcs">Revista Brasileira de Ciências da Saúde</a> <br>
                             <strong>Escopo: </strong> Informação & Sociedade: Estudos (I&S) é um periódico na área da Ciência da Informação vinculado ao Programa de Pós-Graduação em Ciência da Informação da Universidade Federal da Paraíba. I&S está avaliado na base de dados 
                             <a href="">Qualis da CAPES como A1.</a> É publicada ininterruptamente desde 1991 - quando foi criada pela Universidade Federal da Paraíba, e foi uma das primeiras a ser publicada no Portal de Periódicos da UFPB. Atualmente, é uma das três revistas brasileiras da área de Ciência da Informação incluídas no Journal Citation Reports (JCR Web) do Institute for Scientiﬁc Information (ISI Web of Knowledge). </p>  
                             <strong>Área de conhecimento:</strong> <p>ciência da informação, biblioteconomia e áreas afins.</p>
@@ -277,12 +287,6 @@ include 'header.html'
                                 <hr />
 
                                 <p><span class="image left"><img src="images/pic08.jpg" alt="" /></span> <a href="http://periodicos.ufpb.br/index.php/at">Agropecuária Técnica</a> <br>
-                            <strong>Escopo: </strong> Informação & Sociedade: Estudos (I&S) é um periódico na área da Ciência da Informação vinculado ao Programa de Pós-Graduação em Ciência da Informação da Universidade Federal da Paraíba. I&S está avaliado na base de dados 
-                            <a href="">Qualis da CAPES como A1.</a> É publicada ininterruptamente desde 1991 - quando foi criada pela Universidade Federal da Paraíba, e foi uma das primeiras a ser publicada no Portal de Periódicos da UFPB. Atualmente, é uma das três revistas brasileiras da área de Ciência da Informação incluídas no Journal Citation Reports (JCR Web) do Institute for Scientiﬁc Information (ISI Web of Knowledge). </p>  
-                            <strong>Área de conhecimento:</strong> <p>ciência da informação, biblioteconomia e áreas afins.</p>
-                                <hr />
-
-                                <p><span class="image left"><img src="images/pic08.jpg" alt="" /></span> <a href="http://periodicos.ufpb.br/index.php/publicsphere">ESFERA PÚBLICA</a> <br>
                             <strong>Escopo: </strong> Informação & Sociedade: Estudos (I&S) é um periódico na área da Ciência da Informação vinculado ao Programa de Pós-Graduação em Ciência da Informação da Universidade Federal da Paraíba. I&S está avaliado na base de dados 
                             <a href="">Qualis da CAPES como A1.</a> É publicada ininterruptamente desde 1991 - quando foi criada pela Universidade Federal da Paraíba, e foi uma das primeiras a ser publicada no Portal de Periódicos da UFPB. Atualmente, é uma das três revistas brasileiras da área de Ciência da Informação incluídas no Journal Citation Reports (JCR Web) do Institute for Scientiﬁc Information (ISI Web of Knowledge). </p>  
                             <strong>Área de conhecimento:</strong> <p>ciência da informação, biblioteconomia e áreas afins.</p>
