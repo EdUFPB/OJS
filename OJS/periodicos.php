@@ -96,7 +96,7 @@ include 'header.html'
                             <p>ciência da informação, biblioteconomia e áreas afins.</p>
                             <hr /> -->
 
-                            <p><span class="image left"><img src="images/auk.jpg" alt="" /></span>
+                            <p><span class="image left"><img src="images/auk.png" alt="" /></span>
                                 <a href="http://periodicos.ufpb.br/index.php/arf">Aufklärung: revista de filosofia</a>
                                 <br>
                                 <strong>Escopo: </strong> Aufklärung, revista de filosofia (Qualis B1, DOI 10.18012/ARF)
@@ -361,7 +361,7 @@ include 'header.html'
                             <hr />
 
                             <p>
-                                <span class="image left"><img src="images/pic08.jpg" alt="" /></span> 
+                                <span class="image left"><img src="images/politicaetrabalho.png" alt="" /></span> 
                                 <a href="http://periodicos.ufpb.br/index.php/politicaetrabalho">REVISTA DE CIÊNCIAS SOCIAIS - POLÍTICA & TRABALHO</a>
                                 <br>
                                 <strong>Escopo: </strong>A Revista de Ciências Sociais Política & Trabalho é a
@@ -710,7 +710,7 @@ include 'header.html'
                             <hr />
 
                             <p>
-                                <span class="image left"><img src="images/pic08.jpg" alt="" /></span>
+                                <span class="image left"><img src="images/claves.png" alt="" /></span>
                                 <a href="http://periodicos.ufpb.br/index.php/clavis">Claves</a>
                                 <br>
                                 <strong>Escopo: </strong>Claves, periódico do Programa de Pós-Graduação em Música da
@@ -720,6 +720,7 @@ include 'header.html'
                                 inglês e espanhol, objetivando o estímulo a uma saudável interação com programas
                                 acadêmicos congêneres no país e no exterior.
                             </p>
+                            <br>
                             <!-- </p>
                             <strong>Área de conhecimento:</strong>
                             <p>ciência da informação, biblioteconomia e áreas afins.</p>
@@ -767,7 +768,9 @@ include 'header.html'
                                 diferentes ramos
                                 das Ciências Agrárias que contemplem estudos nas seguintes seções: <strong>Agronomia,
                                 Biodiversidade, Ciências Florestais, Ciências de Alimentos, Engenharia Agrícola,
-                                Geociências, Medicina Veterinária e Zootecnia.</strong></p>
+                                Geociências, Medicina Veterinária e Zootecnia.</strong>
+                            </p>
+                            <br>
                             <!-- </p>
                             <strong>Área de conhecimento:</strong>
                             <p>ciência da informação, biblioteconomia e áreas afins.</p>
@@ -961,7 +964,7 @@ include 'header.html'
                             <hr /> -->
                             <hr />
 
-                            <p><span class="image left"><img src="images/pic08.jpg" alt="" /></span> <a
+                            <p><span class="image left"><img src="images/tematica.png" alt="" /></span> <a
                                     href="http://periodicos.ufpb.br/index.php/tematica">Temática</a> <br>
                                 <strong>Escopo: </strong>A revista Temática é uma publicação mensal de Comunicação e
                                 áreas afins (interdisciplinar), destinada à publicação de artigos científicos de
@@ -1079,14 +1082,16 @@ include 'header.html'
                                 e áreas afins. Recebe, em fluxo contínuo, artigos, ensaios bibliográficos, resenhas e
                                 entrevistas, em português, inglês e espanhol. Eventualmente, também serão publicados
                                 Dossiês. A revista estrutura-se a partir de um Comitê Editorial, um Conselho Editorial,
-                                um Conselho Científico e Equipe Técnica.</p>
+                                um Conselho Científico e Equipe Técnica.
+                            </p>
+                            <br>
                             <!-- </p>
                             <strong>Área de conhecimento:</strong>
                             <p>ciência da informação, biblioteconomia e áreas afins.</p>
                             <hr /> -->
                             <hr />
 
-                            <p><span class="image left"><img src="images/comunicações-informatica" alt="" /></span> <a
+                            <p><span class="image left"><img src="images/comunicacoes-informatica.png" alt="" /></span> <a
                                     href="http://periodicos.ufpb.br/index.php/cei">Comunicações em Informática</a> <br>
                                 <strong>Escopo: </strong>Comunicações em Informática (CI) é um periódico da área de
                                 Ciências da Computação, vinculado ao Departamento de Informática da Universidade Federal
@@ -1094,7 +1099,9 @@ include 'header.html'
                                 A revista foi criada no ano de 2017 como um veículo de comunicação de trabalhos
                                 desenvolvidos no contexto unidisciplinar da Computação e também multidisciplinar que
                                 envolva a área de informática. Assim, a política editorial da CI está aberta às diversas
-                                teorias e aplicações da informática, bem como a sua relação com as demais ciências.</p>
+                                teorias e aplicações da informática, bem como a sua relação com as demais ciências.
+                            </p>
+                            <br>
                             <!-- </p>
                             <strong>Área de conhecimento:</strong>
                             <p>ciência da informação, biblioteconomia e áreas afins.</p>
@@ -1140,7 +1147,7 @@ include 'header.html'
                             <hr /> -->
                             <hr />
 
-                            <p><span class="image left"><img src="images/trombone.png" alt="" /></span> <a
+                            <p><span class="image left"><img src="images/trombone.jpg" alt="" /></span> <a
                                     href="http://periodicos.ufpb.br/index.php/btaj">The Brazilian Trombone Association
                                     Journal</a> <br>
                                 <strong>Escopo: </strong>Criada no dia dez de outubro de 1995, a Associação Brasileira
@@ -1178,7 +1185,7 @@ include 'header.html'
                             <hr />
 
                             <p><span class="image left"><img src="images/ciab.png" alt="" /></span> <a
-                                    href="http://periodicos.ufpb.br/index.php/petrart">Ciência da Informação em
+                                    href="http://periodicos.ufpb.br/index.php/ciab">Ciência da Informação em
                                     Aberto</a> <br>
                                 <strong>Escopo: </strong>ciência da informação em aberto (ciab) – periódico científico
                                 na área de Ciência da Informação (CI) vinculado aos Grupos de Pesquisa: “Da Informação e
@@ -1186,7 +1193,9 @@ include 'header.html'
                                 que possibilitem contribuição para o desenvolvimento de conhecimentos em CI,
                                 Biblioteconomia, Arquivologia, Museologia e áreas afins, entre pesquisadores, docentes,
                                 discentes e demais profissionais, independentemente de sua vinculação profissional e
-                                local de origem.</p>
+                                local de origem.
+                            </p>
+                            <br>
                             <!-- </p>
                             <strong>Área de conhecimento:</strong>
                             <p>ciência da informação, biblioteconomia e áreas afins.</p>
@@ -1194,7 +1203,7 @@ include 'header.html'
                             <hr />
 
                             <p><span class="image left"><img src="images/pic08.jpg" alt="" /></span> <a
-                                    href="http://periodicos.ufpb.br/index.php/petrart">CAOS – Revista Eletrônica de
+                                    href="http://periodicos.ufpb.br/index.php/caos">CAOS – Revista Eletrônica de
                                     Ciências Sociais</a> <br>
                                 <strong>Escopo: </strong>Publicação do Curso de Ciências Sociais da UFPB, criada em
                                 1999, teve circulação contínua até 2012, publicando nesse período 22 números. Em 2012,
@@ -1209,14 +1218,18 @@ include 'header.html'
                             <hr /> -->
                             <hr />
 
-                            <p><span class="image left"><img src="images/pic08.jpg" alt="" /></span> <a
-                                    href="http://periodicos.ufpb.br/index.php/petrart">Revista Científica de Produção Animal</a> <br>
-                                <strong>Escopo: </strong> Os trabalhos mais bem avaliados no WIDaT 2018 (II Workshop de
-                                Informação, Dados e Tecnologia) podem ser encaminhados para fast-track na MEPAD. Os
-                                trabalhados indicados para o fast-track automaticamente superam a fase de desk review e
-                                passam diretamente para a fase de blind review da MEPAD, podendo assim concluir mais
-                                rapidamente os processos de avaliação e publicação. Para maiores informações sobre o
-                                evento: http://www.ufpb.br/widat </p>
+                            <p><span class="image left"><img src="images/rcpa.png" alt="" /></span> <a
+                                    href="http://periodicos.ufpb.br/index.php/rcpa">Revista Científica de Produção Animal</a> <br>
+                                <strong>Escopo: </strong>A <strong>Revista Científica de Produção Animal (RCPA)</strong> 
+                                é o órgão oficial de publicação Cientifica da Sociedade Nordestina de Produção Animal, desde 1999, estando
+                                  vinculada ao Departamento de Zootecnia do Centro de Ciências Agrárias da Universidade 
+                                  Federal da Paraíba. A RCPA publica semestralmente trabalhos acadêmicos inéditos, no 
+                                  campo da Zootecnia, em Português, Inglês e Espanhol nas seguintes áreas temáticas: 
+                                  <strong>Avaliação de Alimentos para Animais; Produção e Nutrição de Animais Ruminantes e Não 
+                                  Ruminantes; Forragicultura; Melhoramento Genético Animal; Reprodução Animal; Avaliação
+                                   de Produtos de Origem Animal; Genômica; Sistemas de Produção Animal</strong> e demais temas 
+                                   relacionados a Zootecnia.
+                            </p>
                             <!-- </p>
                             <strong>Área de conhecimento:</strong>
                             <p>ciência da informação, biblioteconomia e áreas afins.</p>
