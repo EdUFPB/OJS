@@ -2,6 +2,17 @@
 @import url(font-awesome.min.css);
 @import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
 
+/* Lista de periódicos e input para função de pesquisa */
+#myInput{
+	float: center;
+	margin: 0px auto;
+}
+
+#myUL {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
 /* Basic */
 
 	body {
@@ -320,7 +331,7 @@ body{
 	}
 
 	textarea {
-		padding: ;
+		padding: 0;
 	}
 
 	input[type="checkbox"],
