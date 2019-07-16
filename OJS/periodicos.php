@@ -14,7 +14,7 @@ include 'header.html'
             <div class="4u 12u$(medium)">
                 <section class="box">
                     <img src="images/informacao_e_sociedade.png" alt="" class="imageBox">
-                    <h3>ιnformação e Sociedade</h3>
+                    <h3>Informação e Sociedade</h3>
                     <p> É publicada ininterruptamente desde 1991 quando foi criada pela Universidade Federal da Paraíba.
                     </p>
                 </section>
@@ -62,7 +62,7 @@ include 'header.html'
             <li>
                 <p>
                     <span class="image left"><img src="images/informacao_e_sociedade.png" alt="" /></span>
-                    <a href="http://periodicos.ufpb.br/index.php/ies">ιnformação e Sociedade</a>
+                    <a href="http://periodicos.ufpb.br/index.php/ies">Informação e Sociedade</a>
                     <br>
                     <strong>Escopo: </strong> Informação & Sociedade: Estudos (I&S) é um periódico na área
                     da Ciência da Informação vinculado ao Programa de Pós-Graduação em Ciência da Informação
@@ -131,7 +131,7 @@ include 'header.html'
 
             <li>
                 <p>
-                    <span class="image left"><img src="images/pic08.jpg" alt="" /></span>
+                    <span class="image left"><img src="images/gaia-scientia.png" alt="" /></span>
                     <a href="http://periodicos.ufpb.br/index.php/gaia">Gaia Scientia</a>
                     <br>
                     <strong>Escopo: </strong>A Revista GAIA SCIENTIA é uma revista online que destina-se à
@@ -141,6 +141,7 @@ include 'header.html'
                     exclusivamente à Revista GAIA SCIENTIA, não sendo permitida sua apresentação simultânea
                     a outro periódico.
                 </p>
+                <br>
                 <hr>
             </li>
 
@@ -163,7 +164,7 @@ include 'header.html'
 
             <li>
                 <p>
-                    <span class="image left"><img src="images/perspectiva_conhe.jpg" alt="" /></span>
+                    <span class="image left"><img src="images/pgec.png" alt="" /></span>
                     <a href="http://periodicos.ufpb.br/index.php/pgc">Perspectivas em Gestão & Conhecimento</a>
                     <br>
                     <strong>Escopo: </strong> De iniciativa da <a href="http://ufpb.br">Universidade Federal da
@@ -218,23 +219,6 @@ include 'header.html'
                     A revista visa propiciar debates atualizados sobre problemas do Brasil e do mundo
                     contemporâneo com a participação de pesquisadores de diversas universidades nacionais e
                     estrangeiras.
-                    A perspectiva jurídica está em constante diálogo com a dimensão temporal e política da
-                    vida em sociedade, uma vez que não é possível compreender o direito em separado dos
-                    interesses sociais e econômicos.
-
-
-                    Cabe trazer à mesa de discussões a compreensão aprofundada dos temas que compõem a área
-                    de concentração "Direitos Humanos e Desenvolvimento", bem como as linhas de pesquisa do
-                    PPGCJ/UFPB:
-                    "Linha 1. Direitos Sociais, Regulação Econômica e Desenvolvimento;
-                    Linha 2 - Inclusão Social, Proteção e Defesa dos Direitos Humanos, e
-                    Linha 3 - Teoria e História do Direito – Teoria e História dos Direitos Humanos."
-
-
-                    Nestas perspectiva, cabe ressaltar que as instituições públicas, mas, igualmente, as
-                    relações e os sujeitos privados constituem pólos de produção normativa e de tensões de
-                    interesses, que devem e necessitam ser objeto dos debates refletidos na produção
-                    científica da Prim@ Facie.
                 </p>
                 <hr>
             </li>
@@ -273,7 +257,7 @@ include 'header.html'
 
             <li>
                 <p>
-                    <span class="image left"><img src="images/pic08.jpg" alt="" /></span>
+                    <span class="image left"><img src="images/artemis.png" alt="" /></span>
                     <a href="http://periodicos.ufpb.br/index.php/artemis">Revista Ártemis</a>
                     <br>
                     <strong>Escopo: </strong>Esse periódico tem como missão a divulgação da produção
@@ -286,9 +270,7 @@ include 'header.html'
                     interdisciplinar, vinculada aos <a href="http://www.cchla.ufpb.br/ppgs/">Programas de Pós Graduação em
                         Sociologia</a> e <a href="http://www.cchla.ufpb.br/ppgl/">Programa de Pós Graduação em Letras da
                         UFPB</a>, dos quais
-                    recebe financiamento para editoração. Em 2011, a revista foi contemplada pelo edital do
-                    IPEA, PROESP Nº 001/2011 APOIO À PUBLICAÇÃO DE PERIÓDICOS BRASILEIROS EM CIÊNCIAS
-                    HUMANAS, um recurso extra que possibilitou a produção da versão impressa do periódico.
+                    recebe financiamento para editoração.
                 </p>
                 <hr>
             </li>
@@ -306,10 +288,7 @@ include 'header.html'
                     para publicar a sua produção científica. Como espaço de divulgação eletrônica, a sua
                     pretensão é facilitar e aprofundar o diálogo acadêmico, não de forma ruidosa, mas na
                     perspectiva de dar visibilidade à relação existente entre sociedade, educação e
-                    currículo num mundo sem fronteiras. É uma publicação quadrimestral (abril, agosto e
-                    dezembro) e reserva-se o direito de selecionar os artigos enviados, espontaneamente, e
-                    submetê-los à apreciação de um Conselho Editorial constituído por investigadores de
-                    diferentes instituições.
+                    currículo num mundo sem fronteiras.
                 </p>
                 <hr>
             
@@ -354,6 +333,7 @@ include 'header.html'
                     Humanidades. Publicamos dossiês temáticos, artigos de tema livre, entrevistas, resenhas
                     e traduções.
                 </p>
+                <br>
                 <hr>            
             </li>
 
@@ -403,19 +383,7 @@ include 'header.html'
                     Brasileira de Professores de Linguística (Pais, 1977) hoje, está sendo publicada pelo
                     Programa de Pós Graduação em Letras da Universidade Federal da Paraíba-Brasil, mais
                     especificamente pela linha Estudos Semióticos que atende, também, a estudiosos usuários
-                    de libras e braille, numa experiência pioneira entre nós . Pretende ser um instrumento
-                    que permita, ao mesmo tempo, a divulgação de trabalhos de especialistas brasileiros no
-                    exterior e o melhor conhecimento, no Brasil, de pesquisas realizadas em outros países.
-                    Espera promover, assim, a cooperação fecunda desses cientistas em torno de problemas,
-                    métodos e ideais comuns. Aceita artigos que defendam diferentes posições teóricas e
-                    exprimam o pensamento de correntes diversas, no trato das questões semióticas, tanto do
-                    signo, como do texto (literário ou não) ou do conjunto de fatos culturais e suas
-                    manifestações nas sociedades humanas. Acolhe, preferencialmente, artigos de doutores, ou
-                    ainda de pós-graduandos que tenham concluído pesquisa sob a orientação de um doutor.
-                    Para melhor aproveitamento da produção científica dos pesquisadores, organizamos as
-                    publicações em três seções: artigos (teóricos ou analíticos), traduções ( de artigos
-                    estrangeiros para o Português e vice-versa ) e entrevistas. O pesquisador poderá
-                    escolher qualquer uma dessas seções para submeter seu trabalho.
+                    de libras e braille, numa experiência pioneira entre nós. 
                 </p>
                 <hr>
             </li>
@@ -441,7 +409,7 @@ include 'header.html'
 
             <li>
                 <p>
-                    <span class="image left"><img src="images/pic08.jpg" alt="" /></span>
+                    <span class="image left"><img src="images/okara.png" alt="" /></span>
                     <a href="http://periodicos.ufpb.br/index.php/okara">OKARA: Geografia em debate</a>
                     <br>
                     <strong>Escopo: </strong>A revista OKARA: Geografia em debate, é uma publicação
@@ -451,6 +419,7 @@ include 'header.html'
                     Enquanto veículo de difusão científica e cultural tem por objetivo divulgar pesquisas e
                     experiências que contribuam para o conhecimento teórico e prático da Geografia.
                 </p>
+                <br>
                 <hr>
             </li>
 
@@ -467,13 +436,8 @@ include 'header.html'
                     Direito, História, Administração, Educação, Engenharia, Geografia, Demografia, Ciências
                     da Saúde, entre outras. Requer, ao mesmo tempo, que a construção das abordagens
                     teórico-metodológicas e empíricas caminhe na direção da interdisciplinaridade e
-                    transdisciplinaridade. A Revista da ABET foi lançada em 2001 com periodicidade
-                    semestral. É avaliada como B2 na área de Sociologia, B3 nas áreas de Economia e Serviço
-                    Social, (B4) Interdisciplinar e Geografia, B4 nas de Ciência Política e Relações
-                    Internacionais e Engenharias III. Está indexada nas seguintes bases: DOAJ, Latindex,
-                    EBSCO, DRJI, Portal de Periódicos da CAPES.
+                    transdisciplinaridade.
                 </p>
-                <br>
                 <hr>
             </li>
 
@@ -679,13 +643,15 @@ include 'header.html'
 
             <li>
                 <p>
-                    <span class="image left"><img src="images/pic08.jpg" alt="" /></span>
+                    <span class="image left"><img src="images/diversidade-religiosa.png" alt="" /></span>
                     <a href="http://periodicos.ufpb.br/index.php/dr">Diversidade Religiosa</a>
                     <br>
                     <strong>Escopo: </strong>Diversidade Religiosa (ISSN 2317-0476) é uma publicação
                     eletrônica e semestral dos alunos do Programa de Pós-Graduação em Ciências das Religiões
                     (PPGCR) da Universidade Federal da Paraíba (UFPB). Foi de 2011 a 2015 uma publicação da
-                    Graduação.</p>
+                    Graduação.
+                </p>
+                <br>
                 <hr>
             </li>
 
@@ -712,7 +678,7 @@ include 'header.html'
 
             <li>
                 <p>
-                    <span class="image left"><img src="images/pic08.jpg" alt="" /></span>
+                    <span class="image left"><img src="images/imaginario.png" alt="" /></span>
                     <a href="http://periodicos.ufpb.br/index.php/imgn">Imaginário!</a>
                     <br>
                     <strong>Escopo: </strong>Imaginário! é uma revista eletrônica semestral, que tem como
@@ -729,7 +695,7 @@ include 'header.html'
 
             <li>
                 <p>
-                    <span class="image left"><img src="images/pic08.jpg" alt="" /></span>
+                    <span class="image left"><img src="images/info-e-tec.png" alt="" /></span>
                     <a href="http://periodicos.ufpb.br/index.php/itec">Informação & Tecnologia</a>
                     <br>
                     <strong>Escopo: </strong>Informação & Tecnologia (Itec) é uma publicação semestral da
@@ -743,9 +709,7 @@ include 'header.html'
                     Dada a abrangência e complexidade dessa temática, a compreensão dos distintos aspectos
                     relacionados ao tema exige que as abordagens teórico-metodológicas e empíricas sejam na
                     direção da inter e da transdisciplinaridade, com estudos e pesquisas que contemplem
-                    contribuições de pesquisadores de diferentes áreas, tais como Ciência da Computação,
-                    Ciência Cognitiva, Engenharia, Administração, Direito, Linguística, Educação, Geografia,
-                    Ciências da Saúde, entre outras.
+                    contribuições de pesquisadores de diferentes áreas.
                 </p>
                 <hr>
             </li>
@@ -823,7 +787,7 @@ include 'header.html'
 
             <li>
                 <p>
-                    <span class="image left"><img src="images/pic08.jpg" alt="" /></span>
+                    <span class="image left"><img src="images/rppi.png" alt="" /></span>
                     <a href="http://periodicos.ufpb.br/index.php/rppi">Revista Brasileira de Políticas
                     Públicas e Internacionais - RPPI</a>
                     <br>
@@ -832,13 +796,9 @@ include 'header.html'
                     Pós-Graduação em Gestão Pública e Cooperação Internacional (PGPCI) da Universidade
                     Federal da Paraíba (UFPB). Criada em 2016, seu principal objetivo é ser um veículo
                     inédito de divulgação de pesquisas que abordam temas de Gestão Pública e Políticas
-                    Públicas sob dois níveis: o doméstico e o internacional. São temas de interesse do
-                    periódico: investigações sobre formulação, implementação e avaliação de políticas
-                    públicas, ferramentas de gestão governamental, gestão social, economia solidária,
-                    relação entre política e burocracia, políticas de cooperação internacional, formulação
-                    de política externa e políticas criadas e executadas por organismos regionais e
-                    internacionais. A RPPI publica artigos em português, inglês e espanhol.
+                    Públicas sob dois níveis: o doméstico e o internacional.
                 </p>
+                <br>
                 <hr>
             </li>
                 
@@ -873,7 +833,6 @@ include 'header.html'
                     Brasil e exterior, incentivando essa modalidade de produção científica. Buscamos
                     contribuir para a ampliação do debate sobre as relações internacionais em suas distintas
                     abordagens epistemológica e metodológica.</p>
-                <br>
                 <hr>
             </li>
 
@@ -937,22 +896,7 @@ include 'header.html'
                     e suas interfaces e aplicabilidades no campo comunicacional e áreas afins. Enfatiza a
                     pesquisa, reflexão teórica-metodológica, vertentes e hibridismos do campo jornalístico
                     bem como análise das práticas e produtos do mercado da notícia, plataformas de produção
-                    e veiculação jornalística. ÂNCORA tem como objetivos estimular a produção acadêmica, a
-                    pesquisa, a reflexão analítica, a experimentação e as releituras dos processos
-                    comunicacionais demarcados no campo do jornalismo.
-
-                    [EN]
-
-                    The scientific journal Latin American Journalism - ÂNCORA is an academic publication
-                    linked to the Graduate Program of Journalism at the Universidade Federal da Paraíba
-                    aimed at academics researches and practitioners of journalism from Brazil and abroad.
-                    The journal is targeted at academic-scientific production in the area of journalism and
-                    it’s interfaces and applicabilities in the communication field and related fields. The
-                    journal emphasizes researches, theoretical and methodological reflection, sheds and
-                    hybridity of the journalistic field as well as analysis of practices and news market,
-                    production platforms and news broadcasting. ÂNCORA aims to stimulate the academic
-                    production, research, analytical reflection, experimentation and reinterpretation of
-                    communication processes demarcated in the field of journalism.
+                    e veiculação jornalística.
                 </p>
                 <hr>
             </li>
@@ -987,7 +931,6 @@ include 'header.html'
                     da Educação; Filosofia da Educação; História da Educação; Psicologia da Educação e
                     Sociologia da Educação (Conforme CNPq/Área de conhecimento/Educação).
                 </p>
-                <br>
                 <hr>
             </li>
 
@@ -1051,7 +994,6 @@ include 'header.html'
                     envolva a área de informática. Assim, a política editorial da CI está aberta às diversas
                     teorias e aplicações da informática, bem como a sua relação com as demais ciências.
                 </p>
-                <br>
                 <hr>
             </li>
 
@@ -1069,27 +1011,6 @@ include 'header.html'
                     Old Norse Studies, mainly the Viking Age. Published works include many perspectives of
                     the Human Sciences concerning the journal’s general field of research, especially those
                     regarding Mythology, Religion, History, Literature, and Archaeology.
-
-                    Scandia publishes original papers, reviews, and translations in English, Portuguese,
-                    Spanish, French, and Italian.
-
-                    Works may be submitted continuously.
-
-                    Scandia: Journal of Medieval Norse Studies (ISSN: 2595-9107)) é um periódico anual
-                    publicado pelo NEVE – Núcleo de Estudos Vikings e Escandinavos, um grupo de pesquisa
-                    registrado no Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq). O
-                    Scandia está vinculado ao Programa de Pós-Graduação em Ciências das Religiões da
-                    Universidade Federal da Paraíba (UFPB) e volta-se para as investigações sobre Estudos
-                    Nórdicos Antigos e Medievais, principalmente acerca da Era Viking. Os trabalhos
-                    publicados inserem-se em muitas perspectivas das Ciências Humanas referentes à grande
-                    área de pesquisa do periódico, especialmente no que tange à Mitologia, Religião,
-                    História, Literatura e Arqueologia.
-
-                    O Scandia publica artigos originais, resenhas e traduções em inglês, português,
-                    espanhol, francês e italiano. Trabalhos podem ser submetidos em fluxo contínuo.
-
-                    O Scandia é indexado no IBICT (ISSN: 2595-9107), LATINDEX, Biblioteca da Universidade de
-                    Hamburgo e Biblioteca da Universidade de Leipzig (Alemanha).
                 </p>
                 <hr>
             </li>
@@ -1107,17 +1028,14 @@ include 'header.html'
                     brasileiros.
 
                     A Revista tem como objetivo divulgar pesquisas e relatos de experiência de músicos
-                    brasileiros e estrangeiros e poderá incluir em seus números traduções de artigos e
-                    entrevistas que terão o intuito de conectar o mundo acadêmico com a prática
-                    trombonistica nos diferentes pontos do país. Criada no formato online a Revista terá
-                    duas edições anuais com a média de doze artigos por publicação.
+                    brasileiros e estrangeiros.
                 </p>
                 <hr>
             </li>
 
             <li>
                 <p>
-                    <span class="image left"><img src="images/pic08.jpg" alt="" /></span>
+                    <span class="image left"><img src="images/petrart.png" alt="" /></span>
                     <a href="http://periodicos.ufpb.br/index.php/petrart">Revista PetrART</a>
                     <br>
                     <strong>Escopo: </strong>PetrART é um periódico online na área de Arqueologia vinculada
@@ -1147,7 +1065,6 @@ include 'header.html'
                     discentes e demais profissionais, independentemente de sua vinculação profissional e
                     local de origem.
                 </p>
-                <br>
                 <hr>
             </li>
 
