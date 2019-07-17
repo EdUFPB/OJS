@@ -293,8 +293,8 @@ include 'header.html'
                 <hr>
             
             </li>
-                <p>
-                    <span class="image left"><img src="images/pic08.jpg" alt="" /></span>
+                <p id="periodics">
+                    <span class="image left"><img src="images/graphos.png" alt="" /></span>
                     <a href="http://periodicos.ufpb.br/index.php/graphos">Revista Graphos</a>
                     <br>
                     <strong>Escopo: </strong>A REVISTA GRAPHOS é uma publicação do PPGL - Programa de
@@ -303,10 +303,11 @@ include 'header.html'
                     Literatura e Cultura, Teoria e Tradução. A partir de 2004, passou a ter periodicidade
                     semestral. A GRAPHOS está avaliada pela CAPES com o índice Qualis B2.
                 </p>
+                <br>
                 <hr>
-            
             <li>
                 <p>
+                    <br>
                     <span class="image left"><img src="images/pic08.jpg" alt="" /></span>
                     <a href="http://periodicos.ufpb.br/index.php/rle">Revista Lugares de Educação</a>
                     <br>
@@ -390,7 +391,7 @@ include 'header.html'
 
             <li>
                 <p>
-                    <span class="image left"><img src="images/pic08.jpg" alt="" /></span>
+                    <span class="image left"><img src="images/dlcv.png" alt="" /></span>
                     <a href="http://periodicos.ufpb.br/index.php/dclv">DLCV - Língua, Linguística &
                     Literatura</a> <br>
                     <strong>Escopo: </strong>A Revista DLCV - Língua, Linguística & Literatura tem como
@@ -477,7 +478,7 @@ include 'header.html'
 
             <li>
                 <p>
-                    <span class="image left"><img src="images/pic08.jpg" alt="" /></span>
+                    <span class="image left"><img src="images/archeion.png" alt="" /></span>
                     <a href="http://periodicos.ufpb.br/index.php/archeion">Archeion Online</a>
                     <br>
                     <strong>Escopo: </strong> Informação & Sociedade: Estudos (I&S) é um periódico na área
@@ -751,7 +752,7 @@ include 'header.html'
 
             <li>
                 <p>
-                    <span class="image left"><img src="images/pic08.jpg" alt="" /></span>
+                    <span class="image left"><img src="images/logos.png" alt="" /></span>
                     <a href="http://periodicos.ufpb.br/index.php/le">Revista Logos & Existência: Revista da Associação 
                     Brasileira de Logoterapia e Análise Existencial</a>
                     <br>
