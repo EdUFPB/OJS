@@ -69,7 +69,7 @@
 								<p>Henry Pôncio</p>
 							</section>
 							<section class="3u 6u$(medium) 12u$(xsmall) profile">
-								<img src="images/fabiana.jpg" alt="" width="100px" height="100px"/>
+								<img src="images/fabi3.png" alt="" width="100px" height="100px"/>
 								<h4>Bibliotecária</h4>
 								<p>Fabiana França</p>
 							</section>
@@ -79,7 +79,7 @@
 								<p>Lucas Aragão</p>
 							</section>
 							<section class="3u$ 6u$(medium) 12u$(xsmall) profile">
-								<img src="images/pedro.jpg" alt="" width="100px" height="100px"/>
+								<img src="images/pedro2.png" alt="" width="100px" height="100px"/>
 								<h4>Estagiário</h4>
 								<p>Pedro Henrrique</p>
 							</section>
