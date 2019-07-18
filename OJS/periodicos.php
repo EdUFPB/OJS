@@ -464,14 +464,12 @@ include 'header.html'
                     <span class="image left"><img src="images/tpa.png" alt="" /></span>
                     <a href="http://periodicos.ufpb.br/index.php/tpa">TPA - Teoria e Prática em Administração</a>
                     <br>
-                    <strong>Escopo: </strong> Informação & Sociedade: Estudos (I&S) é um periódico na área
-                    da Ciência da Informação vinculado ao Programa de Pós-Graduação em Ciência da Informação
-                    da Universidade Federal da Paraíba. I&S está avaliado na base de dados
-                    <a href="">Qualis da CAPES como A1.</a> É publicada ininterruptamente desde 1991 -
-                    quando foi criada pela Universidade Federal da Paraíba, e foi uma das primeiras a ser
-                    publicada no Portal de Periódicos da UFPB. Atualmente, é uma das três revistas
-                    brasileiras da área de Ciência da Informação incluídas no Journal Citation Reports (JCR
-                    Web) do Institute for Scientiﬁc Information (ISI Web of Knowledge).
+                    <strong>Escopo: </strong>A revista Teoria e Prática em Administração é um periódico acadêmico
+                    vinculado ao Programa de Pós-Graduação em Administração da UFPB, e tem por finalidade disseminar
+                    conhecimentos voltados a contribuir com a prática de profissionais de Administração, sejam estes
+                    executivos empresariais, gestores públicos ou sociais, empreendedores ou docentes da área.
+                    A TPA tem Qualis B2 na área de avaliação de Administração Pública e de Empresas, Ciências Contábeis
+                    e Turismo.
                 </p>
                 <hr>
             </li>
@@ -481,14 +479,14 @@ include 'header.html'
                     <span class="image left"><img src="images/archeion.png" alt="" /></span>
                     <a href="http://periodicos.ufpb.br/index.php/archeion">Archeion Online</a>
                     <br>
-                    <strong>Escopo: </strong> Informação & Sociedade: Estudos (I&S) é um periódico na área
-                    da Ciência da Informação vinculado ao Programa de Pós-Graduação em Ciência da Informação
-                    da Universidade Federal da Paraíba. I&S está avaliado na base de dados
-                    <a href="">Qualis da CAPES como A1.</a> É publicada ininterruptamente desde 1991 -
-                    quando foi criada pela Universidade Federal da Paraíba, e foi uma das primeiras a ser
-                    publicada no Portal de Periódicos da UFPB. Atualmente, é uma das três revistas
-                    brasileiras da área de Ciência da Informação incluídas no Journal Citation Reports (JCR
-                    Web) do Institute for Scientiﬁc Information (ISI Web of Knowledge).
+                    <strong>Escopo: </strong>A revista Archeion Online é um periódico eletrônico na área de Arquivologia
+                    e tem por objetivo estimular e publicizar artigos produzidos pelos discentes, docentes e
+                    pesquisadores em geral da área de Arquivologia e/ou áreas afins. É de periodicidade semestral
+                    publicando artigos originais, como também resultados da pesquisa de Teses, dissertações, iniciação
+                    científica, da prática nos estágios, da extensão universitária, dos Trabalhos de Conclusão de Curso
+                    e outras pesquisas que enriqueçam a área. Com o propósito de difundir o ensino, a pesquisa e a
+                    extensão, o periódico contribui para o alinhamento entre teoria e prática profissional atendendo à
+                    natureza da Arquivologia bem como da interdisciplinaridade com áreas afins.
                 </p>
                 <hr>
             </li>
