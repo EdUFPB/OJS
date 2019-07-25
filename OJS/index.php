@@ -79,7 +79,7 @@
 								<p>Lucas Aragão</p>
 							</section>
 							<section class="3u$ 6u$(medium) 12u$(xsmall) profile">
-								<img src="images/pedro2.png" alt="" width="100px" height="100px"/>
+								<img src="images/pedro4.jpg" alt="" width="100px" height="100px"/>
 								<h5><strong>Estagiário</strong></h5>
 								<p>Pedro Henrique</p>
 							</section>

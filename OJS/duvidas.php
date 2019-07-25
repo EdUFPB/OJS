@@ -7,10 +7,6 @@ include 'header.html'
         </section>
 			<section id="main" class="wrapper">
                     <div class="container">
-                        <h2>Dúvidas</h2>
-                            <p>O Portal está vinculado à Editora da UFPB e é coordenado pelo Prof. Dr. Henry Poncio Cruz de Oliveira (DCI/CCSA/UFPB). <br>
-                                Utiliza o Open Journal Systems (OJS), desenvolvido pelo Public Knowleadge Project (PKP), que adota as inciativas de acesso aberto ao conhecimento. </p>
-                        
                         <h2>Criação de Periódicos</h2>
                         <p>Para criar uma revista no Portal de Periódicos da UFPB é necessário destinar à Coordenação do Portal dois documentos: </p>
                                 <p>a) Documento que vincula a Revista a um Departamento ou programa de Pós-Graduação ou Grupo de Pesquisa Certificado pelo CNPq. </p>
