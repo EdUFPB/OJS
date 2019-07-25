@@ -69,7 +69,7 @@
 								<p>Henry Pôncio</p>
 							</section>
 							<section class="3u 6u$(medium) 12u$(xsmall) profile">
-								<img src="images/fabi3.png" alt="" width="100px" height="100px"/>
+								<img src="images/fabi.png" alt="" width="100px" height="100px"/>
 								<h5><strong>Bibliotecária</strong></h5>
 								<p>Fabiana França</p>
 							</section>
