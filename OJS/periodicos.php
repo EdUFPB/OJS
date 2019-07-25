@@ -398,21 +398,13 @@
                         <p class="text-justify">
                             <a href="http://periodicos.ufpb.br/index.php/artemis">Revista Ártemis</a>
                             <br>
-                            <strong>Escopo: </strong>Esse periódico tem como missão a divulgação da produção
-                            científica no campo dos estudos de gênero, feminismos e sexualidades, dentro de uma
-                            perspectiva interdisciplinar, aborda fenômenos socioculturais a partir de análises
-                            históricas, literárias, culturais, psicológicas, etc. Os objetivos são: contribuir para
-                            a construção de novas abordagens teóricas e metodológicas de investigação e reflexão; e,
-                            difundir artigos nacionais e internacionais, pesquisas originais, resenhas e traduções.
-                            A <a href="http://periodicos.ufpb.br/index.php/artemis">Revista Ártemis</a> é um periódico
-                            semestral,
-                            interdisciplinar, vinculada aos <a href="http://www.cchla.ufpb.br/ppgs/">Programas de Pós
-                                Graduação
-                                em
-                                Sociologia</a> e <a href="http://www.cchla.ufpb.br/ppgl/">Programa de Pós Graduação em
-                                Letras da
-                                UFPB</a>, dos quais
-                            recebe financiamento para editoração.
+                            <strong>Escopo: </strong>A <strong>Revista Ártemis</strong> divulga produção científica em gênero, feminismos
+                            e sexualidades pelo viés interdisciplinar, abordando fenômenos socioculturais a partir de
+                            análises históricas, literárias, culturais, psicológicas. O objetivo é contribuir com a
+                            construção de novas abordagens teórico-metodológicas, difundir artigos e pesquisas nacionais
+                            e internacionais, resenhas, entrevistas e traduções. A revista é semestral, estando
+                            vinculada aos Programas de Pós-Graduação em Sociologia e em Letras da UFPB. Em julho de
+                            2019, recebeu classificação Qualis A2.
                         </p>
                         <hr>
                     </div>
@@ -520,6 +512,8 @@
                 </div>
             </li>
 
+            <br>
+            
             <li>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
