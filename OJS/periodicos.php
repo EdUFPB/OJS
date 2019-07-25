@@ -62,7 +62,7 @@ include 'header.html'
             <li>
                 <p>
                     <span class="image left"><img src="images/informacao_e_sociedade.png" alt="" /></span>
-                    <a href="http://periodicos.ufpb.br/index.php/ies">Informação e Sociedade</a>
+                    <a href="http://periodicos.ufpb.br/index.php/ies">Informação e Sociedade: Estudos</a>
                     <br>
                     <strong>Escopo: </strong> Informação & Sociedade: Estudos (I&S) é um periódico na área
                     da Ciência da Informação vinculado ao Programa de Pós-Graduação em Ciência da Informação
@@ -98,7 +98,7 @@ include 'header.html'
             <li>
                 <p>
                     <span class="image left"><img src="images/auk.png" alt="" /></span>
-                    <a href="http://periodicos.ufpb.br/index.php/arf">Aufklärung: revista de filosofia</a>
+                    <a href="http://periodicos.ufpb.br/index.php/arf">Aufklärung: Revista de filosofia</a>
                     <br>
                     <strong>Escopo: </strong> Aufklärung, revista de filosofia (Qualis B1, DOI 10.18012/ARF)
                     tem foco na publicação de artigos na área de filosofia, ou que sejam relevantes para a
@@ -110,7 +110,41 @@ include 'header.html'
                     entre pesquisadores do Brasil e do exterior.
                 </p>
                 <hr>
+            </li>
 
+            <li>
+                <p>
+                    <span class="image left"><img src="images/acta.png" alt="" /></span>
+                    <a href="http://periodicos.ufpb.br/index.php/actas">Acta Semiótica et Lingvistica</a>
+                    <br>
+                    <strong>Escopo: </strong>Acta Semiotica et Linguistica (ASEL) é um periódico cientifico
+                    internacional que tem por objetivo favorecer o intercâmbio entre docentes e
+                    pesquisadores de ciências humanas, interessados no problema da significação e da
+                    linguagem — verbal, não verbal e complexa ou sincrética. Fundada pela Sociedade
+                    Brasileira de Professores de Linguística (Pais, 1977) hoje, está sendo publicada pelo
+                    Programa de Pós Graduação em Letras da Universidade Federal da Paraíba-Brasil, mais
+                    especificamente pela linha Estudos Semióticos que atende, também, a estudiosos usuários
+                    de libras e braille, numa experiência pioneira entre nós. 
+                </p>
+                <hr>
+            </li>
+
+            <li>
+                <p>
+                    <span class="image left"><img src="images/ancora.png" alt="" /></span>
+                    <a href="http://periodicos.ufpb.br/index.php/ancora">ÂNCORA - Revista Latino-americana
+                    de Jornalismo</a>
+                    <br>
+                    <strong>Escopo: </strong>A Revista Latino-americana de Jornalismo – ÂNCORA é uma
+                    publicação acadêmica vinculada ao Programa de Pós-graduação em Jornalismo da UFPB
+                    destinada a acadêmicos, pesquisadores e profissionais do jornalismo do Brasil e do
+                    exterior. A Revista é direcionada a produção acadêmico-científica na área do Jornalismo
+                    e suas interfaces e aplicabilidades no campo comunicacional e áreas afins. Enfatiza a
+                    pesquisa, reflexão teórica-metodológica, vertentes e hibridismos do campo jornalístico
+                    bem como análise das práticas e produtos do mercado da notícia, plataformas de produção
+                    e veiculação jornalística.
+                </p>
+                <hr>
             </li>
 
             <li>
@@ -149,7 +183,7 @@ include 'header.html'
                 <p>
                     <span class="image left"><img src="images/juee1.png" alt="" /></span>
                     <a href="http://periodicos.ufpb.br/index.php/juee">Journal of Urban and Environmental
-                        Engineering</a>
+                        Engineering (JUEE)</a>
                     <br>
                     <strong>Escopo: </strong> Journal of Urban and Environmental Engineering (JUEE) provides
                     a forum for original papers and for the exchange of information and views on significant
@@ -207,7 +241,7 @@ include 'header.html'
             <li>
                 <p>
                     <span class="image left"><img src="images/prima-facie.png" alt="" /></span>
-                    <a href="http://periodicos.ufpb.br/index.php/primafacie">Prim@ Facie - Direito, História e Política</a>
+                    <a href="http://periodicos.ufpb.br/index.php/primafacie">Prim@ Facie - Revista do Programa de Pós-Graduação em Ciências Jurídicas</a>
                     <br>
                     <strong>Escopo: </strong> A revista eletrônica Prim@ Facie, <a href="http://ufpb.br">UFPB</a>, online, ISSN
                     1678-2593, QUALIS B1 (Direito), é um periódico quadrimestral, vinculado ao Programa de
@@ -226,7 +260,7 @@ include 'header.html'
             <li>
                 <p>
                     <span class="image left"><img src="images/problemata.png" alt="" /></span>
-                    <a href="http://periodicos.ufpb.br/index.php/problemata">Problemata</a>
+                    <a href="http://periodicos.ufpb.br/index.php/problemata">Problemata - Revista Internacional de Filosofia</a>
                     <br>
                     <strong>Escopo: </strong>Problemata, ISSN 1516-9219, e-ISSN 2236-8612, é uma revista
                     fundada em 1998 pelo Prof. Edmilson A. de Azevêdo. A revista recebe colaborações
@@ -257,6 +291,23 @@ include 'header.html'
 
             <li>
                 <p>
+                    <span class="image left"><img src="images/pic08.jpg" alt="" /></span>
+                    <a href="http://periodicos.ufpb.br/index.php/religare">Religare: Revista do Programa de
+                    Pós-Graduação em Ciências das Religiões da UFPB</a> <br>
+                    <strong>Escopo: </strong>Religare é o periódico semestral do Programa de Pós-Graduação
+                    em Ciências das Religiões da Universidade Federal da Paraíba. Seu objetivo é publicar
+                    trabalhos originais na área de Ciências das Religiões. São bem vindos, além de artigos,
+                    resenhas, traduções e entrevistas relacionadas à área. Nosso intuito é apresentar à
+                    comunidade científica textos que refletem uma contribuição significativa para o campo
+                    das Ciências das Religiões e áreas afins. Desde os números de 2017 passamos a contar com
+                    o DOI -Digital Object Identifier. Estamos indexados no Latindex, no CiteFactor, no
+                    Periódicos Capes, no LivRe e no Sumários.Org.
+                </p>
+                <hr>
+            </li>
+
+            <li>
+                <p>
                     <span class="image left"><img src="images/artemis.png" alt="" /></span>
                     <a href="http://periodicos.ufpb.br/index.php/artemis">Revista Ártemis</a>
                     <br>
@@ -272,6 +323,25 @@ include 'header.html'
                         UFPB</a>, dos quais
                     recebe financiamento para editoração.
                 </p>
+                <hr>
+            </li>
+
+            </li>
+                <p>
+                    <span class="image left"><img src="images/politicaetrabalho.png" alt="" /></span>
+                    <a href="http://periodicos.ufpb.br/index.php/politicaetrabalho">REVISTA DE CIÊNCIAS SOCIAIS - POLÍTICA &
+                        TRABALHO</a>
+                    <br>
+                    <strong>Escopo: </strong>A Revista de Ciências Sociais Política & Trabalho é a
+                    publicação oficial do Programa de Pós-Graduação em Sociologia da UFPB. Em circulação há
+                    mais de 30 anos, reflete o compromisso do PPGS-UFPB na disseminação de um debate
+                    acadêmico atualizado e de alta qualidade na área das ciências sociais. Nas suas
+                    primeiras edições, a Revista enfatizou os temas do trabalho e da política, ampliando seu
+                    escopo para a diversidade temática nas áreas da Sociologia, Política, Antropologia e
+                    Humanidades. Publicamos dossiês temáticos, artigos de tema livre, entrevistas, resenhas
+                    e traduções.
+                </p>
+                <br>
                 <hr>
             </li>
 
@@ -291,20 +361,23 @@ include 'header.html'
                     currículo num mundo sem fronteiras.
                 </p>
                 <hr>
-            
             </li>
+
+            <li>
                 <p id="periodics">
-                    <span class="image left"><img src="images/graphos.png" alt="" /></span>
-                    <a href="http://periodicos.ufpb.br/index.php/graphos">Revista Graphos</a>
-                    <br>
-                    <strong>Escopo: </strong>A REVISTA GRAPHOS é uma publicação do PPGL - Programa de
-                    Pós-Graduação em Letras da Universidade Federal da Paraíba. Divulga, desde o ano de
-                    1995, artigos inéditos de pesquisadores brasileiros ou estrangeiros, nas áreas de
-                    Literatura e Cultura, Teoria e Tradução. A partir de 2004, passou a ter periodicidade
-                    semestral. A GRAPHOS está avaliada pela CAPES com o índice Qualis B2.
-                </p>
+                        <span class="image left"><img src="images/graphos.png" alt="" /></span>
+                        <a href="http://periodicos.ufpb.br/index.php/graphos">Revista Graphos</a>
+                        <br>
+                        <strong>Escopo: </strong>A REVISTA GRAPHOS é uma publicação do PPGL - Programa de
+                        Pós-Graduação em Letras da Universidade Federal da Paraíba. Divulga, desde o ano de
+                        1995, artigos inéditos de pesquisadores brasileiros ou estrangeiros, nas áreas de
+                        Literatura e Cultura, Teoria e Tradução. A partir de 2004, passou a ter periodicidade
+                        semestral. A GRAPHOS está avaliada pela CAPES com o índice Qualis B2.
+                    </p>
                 <br>
                 <hr>
+            </li>
+                
             <li>
                 <p>
                     <br>
@@ -318,42 +391,6 @@ include 'header.html'
                     antes do prazo da sua periodicidade oficial. <strong> Qualis B 1 - ENSINO</strong>
                 </p>
                 <hr>
-            
-            </li>
-                <p>
-                    <span class="image left"><img src="images/politicaetrabalho.png" alt="" /></span>
-                    <a href="http://periodicos.ufpb.br/index.php/politicaetrabalho">REVISTA DE CIÊNCIAS SOCIAIS - POLÍTICA &
-                        TRABALHO</a>
-                    <br>
-                    <strong>Escopo: </strong>A Revista de Ciências Sociais Política & Trabalho é a
-                    publicação oficial do Programa de Pós-Graduação em Sociologia da UFPB. Em circulação há
-                    mais de 30 anos, reflete o compromisso do PPGS-UFPB na disseminação de um debate
-                    acadêmico atualizado e de alta qualidade na área das ciências sociais. Nas suas
-                    primeiras edições, a Revista enfatizou os temas do trabalho e da política, ampliando seu
-                    escopo para a diversidade temática nas áreas da Sociologia, Política, Antropologia e
-                    Humanidades. Publicamos dossiês temáticos, artigos de tema livre, entrevistas, resenhas
-                    e traduções.
-                </p>
-                <br>
-                <hr>            
-            </li>
-
-            <li>
-                <p>
-                    <span class="image left"><img src="images/pic08.jpg" alt="" /></span>
-                    <a href="http://periodicos.ufpb.br/index.php/religare">Religare: Revista do Programa de
-                    Pós-Graduação em Ciências das Religiões da UFPB</a> <br>
-                    <strong>Escopo: </strong>Religare é o periódico semestral do Programa de Pós-Graduação
-                    em Ciências das Religiões da Universidade Federal da Paraíba. Seu objetivo é publicar
-                    trabalhos originais na área de Ciências das Religiões. São bem vindos, além de artigos,
-                    resenhas, traduções e entrevistas relacionadas à área. Nosso intuito é apresentar à
-                    comunidade científica textos que refletem uma contribuição significativa para o campo
-                    das Ciências das Religiões e áreas afins. Desde os números de 2017 passamos a contar com
-                    o DOI -Digital Object Identifier. Estamos indexados no Latindex, no CiteFactor, no
-                    Periódicos Capes, no LivRe e no Sumários.Org.
-                </p>
-                <hr>
-            </li>
 
             <li>
                 <p>
@@ -374,17 +411,36 @@ include 'header.html'
 
             <li>
                 <p>
-                    <span class="image left"><img src="images/acta.png" alt="" /></span>
-                    <a href="http://periodicos.ufpb.br/index.php/actas">Acta Semiótica et Lingvistica</a>
+                    <span class="image left"><img src="images/biblionline.png" alt="" /></span>
+                    <a href="http://periodicos.ufpb.br/index.php/biblio">Biblionline</a>
                     <br>
-                    <strong>Escopo: </strong>Acta Semiotica et Linguistica (ASEL) é um periódico cientifico
-                    internacional que tem por objetivo favorecer o intercâmbio entre docentes e
-                    pesquisadores de ciências humanas, interessados no problema da significação e da
-                    linguagem — verbal, não verbal e complexa ou sincrética. Fundada pela Sociedade
-                    Brasileira de Professores de Linguística (Pais, 1977) hoje, está sendo publicada pelo
-                    Programa de Pós Graduação em Letras da Universidade Federal da Paraíba-Brasil, mais
-                    especificamente pela linha Estudos Semióticos que atende, também, a estudiosos usuários
-                    de libras e braille, numa experiência pioneira entre nós. 
+                    <strong>Escopo: </strong>Biblionline é uma revista eletrônica voltada para as áreas de
+                    Biblioteconomia, Arquivologia, Ciência da Informação e Museologia.
+                    Vinculada ao Departamento de Ciência da Informação da Umiversidade Federal da Paraíba,
+                    vem sendo publicada ininterruptamente desde 2005.
+                    Inicialmente tinha periodicidade semestral, entretanto devido à grande demanda, passou a
+                    ter periodicidade trimestral a partir de 2017.
+                    Adota o sistema de avaliação pelos pares e obedece aos preceitos do acesso aberto ao
+                    conhecimento.
+                </p>
+                <br>
+                <hr>
+            </li>
+
+            <li>
+                <p>
+                    <span class="image left"><img src="images/cultura-oriental.png" alt="" /></span>
+                    <a href="http://periodicos.ufpb.br/index.php/co">Cultura Oriental</a>
+                    <br>
+                    <strong>Escopo: </strong>O objetivo da revista Cultura Oriental é divulgar trabalhos de
+                    pesquisa a respeito dos vários aspectos culturais do extremo oriente asiático
+                    (especialmente Índia, China, Japão e Tibete), incluindo língua, religião, literatura,
+                    filosofia, artes e outros temas, abrangendo tanto a cultura atual quanto aspectos
+                    históricos. Este periódico pretende fortalecer e dar maior visibilidade às pesquisas
+                    brasileiras dessa área, oferecendo um veículo para intercâmbio, difusão e debate, que
+                    poderá contribuir para a redução da fragmentação e para a institucionalização desse
+                    campo de estudos eminentemente interdisciplinar. A iniciativa de criação desta revista é
+                    do Grupo de Pesquisa Padma.
                 </p>
                 <hr>
             </li>
@@ -410,6 +466,23 @@ include 'header.html'
 
             <li>
                 <p>
+                    <span class="image left"><img src="images/genero-direito.png" alt="" /></span>
+                    <a href="http://periodicos.ufpb.br/index.php/ged">Revista Gênero & Direito</a>
+                    <br>
+                    <strong>Escopo: </strong>A missão da Revista Gênero e Direito (G&D) destina-se a
+                    informar a comunidade acadêmica sobre os desafios e perspectivas que revestem a
+                    discussão interdisciplinar do gênero. O objetivo da G&D é estimular o debate e produção
+                    científica com o propósito de produzir conhecimentos e atuar como transformador social e
+                    instrumento de reflexão para uma isonomia entre os indivíduos.
+                    O público-alvo de nossa revista é pós-doutores, doutores, mestres e estudantes de
+                    pós-graduação. Dessa maneira os autores devem possuir alguma titulação citada ou cursar
+                    algum curso de pós-graduação. Além disso a G&D aceitará a participação em coautoria.
+                </p>
+                <hr>
+            </li>
+
+            <li>
+                <p>
                     <span class="image left"><img src="images/okara.png" alt="" /></span>
                     <a href="http://periodicos.ufpb.br/index.php/okara">OKARA: Geografia em debate</a>
                     <br>
@@ -429,6 +502,21 @@ include 'header.html'
                     <span class="image left"><img src="images/abet.png" alt="" /></span>
                     <a href="http://periodicos.ufpb.br/index.php/abet">Revista da ABET</a>
                     <br>
+                    <strong>Escopo: </strong>Criada em 1991, a Revista Temas em Educação (RTE) publicou seu primeiro
+                    número na versão online em 2010. Com publicação quadrimestral e contínua, a partir de 2019, a RTE é
+                    uma revista eminentemente acadêmica, organizada pelo Programa de Pós-graduação em Educação da UFPB.
+                    Sua prioridade é divulgar produções que resultem de estudos e pesquisas científicas de âmbito
+                    nacional e internacional.
+                </p>
+                <br>
+                <hr>
+            </li>
+
+            <li>
+                <p>
+                    <span class="image left"><img src="images/rte.png" alt="" /></span>
+                    <a href="http://periodicos.ufpb.br/index.php/rteo">Revista Temas em Educação</a>
+                    <br>
                     <strong>Escopo: </strong>A Revista da ABET, periódico mantido pela Associação Brasileira
                     de Estudos (ABET), tem como objetivo veicular estudos sobre o mundo do trabalho. Dada a
                     abrangência e complexidade dessa temática, a compreensão dos distintos aspectos
@@ -438,23 +526,6 @@ include 'header.html'
                     da Saúde, entre outras. Requer, ao mesmo tempo, que a construção das abordagens
                     teórico-metodológicas e empíricas caminhe na direção da interdisciplinaridade e
                     transdisciplinaridade.
-                </p>
-                <hr>
-            </li>
-
-            <li>
-                <p>
-                    <span class="image left"><img src="images/genero-direito.png" alt="" /></span>
-                    <a href="http://periodicos.ufpb.br/index.php/ged">Revista Gênero & Direito</a>
-                    <br>
-                    <strong>Escopo: </strong>A missão da Revista Gênero e Direito (G&D) destina-se a
-                    informar a comunidade acadêmica sobre os desafios e perspectivas que revestem a
-                    discussão interdisciplinar do gênero. O objetivo da G&D é estimular o debate e produção
-                    científica com o propósito de produzir conhecimentos e atuar como transformador social e
-                    instrumento de reflexão para uma isonomia entre os indivíduos.
-                    O público-alvo de nossa revista é pós-doutores, doutores, mestres e estudantes de
-                    pós-graduação. Dessa maneira os autores devem possuir alguma titulação citada ou cursar
-                    algum curso de pós-graduação. Além disso a G&D aceitará a participação em coautoria.
                 </p>
                 <hr>
             </li>
@@ -471,6 +542,7 @@ include 'header.html'
                     A TPA tem Qualis B2 na área de avaliação de Administração Pública e de Empresas, Ciências Contábeis
                     e Turismo.
                 </p>
+                <br>
                 <hr>
             </li>
 
@@ -488,24 +560,6 @@ include 'header.html'
                     extensão, o periódico contribui para o alinhamento entre teoria e prática profissional atendendo à
                     natureza da Arquivologia bem como da interdisciplinaridade com áreas afins.
                 </p>
-                <hr>
-            </li>
-
-            <li>
-                <p>
-                    <span class="image left"><img src="images/biblionline.png" alt="" /></span>
-                    <a href="http://periodicos.ufpb.br/index.php/biblio">Biblionline</a>
-                    <br>
-                    <strong>Escopo: </strong>Biblionline é uma revista eletrônica voltada para as áreas de
-                    Biblioteconomia, Arquivologia, Ciência da Informação e Museologia.
-                    Vinculada ao Departamento de Ciência da Informação da Umiversidade Federal da Paraíba,
-                    vem sendo publicada ininterruptamente desde 2005.
-                    Inicialmente tinha periodicidade semestral, entretanto devido à grande demanda, passou a
-                    ter periodicidade trimestral a partir de 2017.
-                    Adota o sistema de avaliação pelos pares e obedece aos preceitos do acesso aberto ao
-                    conhecimento.
-                </p>
-                <br>
                 <hr>
             </li>
 
@@ -593,6 +647,26 @@ include 'header.html'
 
             <li>
                 <p>
+                    <span class="image left"><img src="images/agrotec.png" alt="" /></span>
+                    <a href="http://periodicos.ufpb.br/index.php/at">Agropecuária Técnica</a>
+                    <br>
+                    <strong>Escopo: </strong>A Revista Agropecuária Técnica (AGROTEC) é uma revista de
+                    divulgação científica de fluxo
+                    contínuo, editada pelo Centro de Ciências Agrária (CCA), da Universidade Federal da
+                    Paraíba
+                    (UFPB) e destina-se à divulgação de artigos técnico-científicos originais e inéditos,
+                    resultados de
+                    pesquisas ou significativos para a área, artigos de revisão e estudos de caso nos
+                    diferentes ramos
+                    das Ciências Agrárias que contemplem estudos nas seguintes seções: <strong>Agronomia,
+                        Biodiversidade, Ciências Florestais, Ciências de Alimentos, Engenharia Agrícola,
+                        Geociências, Medicina Veterinária e Zootecnia.</strong>
+                </p>
+                <hr>
+            </li>
+
+            <li>
+                <p>
                     <span class="image left"><img src="images/cadernos-logepa.png" alt="" /></span>
                     <a href="http://periodicos.ufpb.br/index.php/logepa">CADERNOS DO LOGEPA</a>
                     <br>
@@ -610,17 +684,67 @@ include 'header.html'
 
             <li>
                 <p>
-                    <span class="image left"><img src="images/claves.png" alt="" /></span>
-                    <a href="http://periodicos.ufpb.br/index.php/claves">Claves</a>
+                    <span class="image left"><img src="images/pic08.jpg" alt="" /></span>
+                    <a href="http://periodicos.ufpb.br/index.php/mpgoa">Gestão & Aprendizagem</a>
                     <br>
-                    <strong>Escopo: </strong>Claves, periódico do Programa de Pós-Graduação em Música da
-                    UFPB, é uma publicação bianual, aberta à produção acadêmica nas várias subáreas do
-                    conhecimento musical: Composição, Educação, Estética, Musicologias e Práticas
-                    Interpretativas. Publica artigos, resenhas e relatos de pesquisa inéditos em português,
-                    inglês e espanhol, objetivando o estímulo a uma saudável interação com programas
-                    acadêmicos congêneres no país e no exterior.
+                    <strong>Escopo: </strong>Gestão & Aprendizagem (G&A) é um periódico do Programa de
+                    Pós-Graduação em Gestão nas Organizações Aprendentes (MPGOA) da Universidade Federal da
+                    Paraíba. Nasce em 2012 enquanto meio de divulgação dos trabalhos oriundos do MPGOA/UFPB
+                    e vem se consolidando enquanto um periódico com o foco nos estudos dos processos de
+                    gestão e aprendizagem organizacionais.
+                </p>
+                <hr>
+            </li>
+
+            <li>
+                <p>
+                    <span class="image left"><img src="images/rppi.png" alt="" /></span>
+                    <a href="http://periodicos.ufpb.br/index.php/rppi">Revista Brasileira de Políticas
+                    Públicas e Internacionais - RPPI</a>
+                    <br>
+                    <strong>Escopo: </strong>A RPPI – Revista Brasileira de Políticas Públicas e
+                    Internacionais (ISSN 2525-5584) é um periódico científico vinculado ao Programa de
+                    Pós-Graduação em Gestão Pública e Cooperação Internacional (PGPCI) da Universidade
+                    Federal da Paraíba (UFPB). Criada em 2016, seu principal objetivo é ser um veículo
+                    inédito de divulgação de pesquisas que abordam temas de Gestão Pública e Políticas
+                    Públicas sob dois níveis: o doméstico e o internacional.
                 </p>
                 <br>
+                <hr>
+            </li>
+
+            <li>
+                <p>
+                    <span class="image left"><img src="images/logos.png" alt="" /></span>
+                    <a href="http://periodicos.ufpb.br/index.php/le">Revista Logos & Existência: Revista da Associação 
+                    Brasileira de Logoterapia e Análise Existencial</a>
+                    <br>
+                    <strong>Escopo: </strong>A Revista Logos e Existência, com periodicidade semestral, é um
+                    periódico online, vinculado a Associação Brasileira de Logoterapia e Análise Existencial
+                    (ABLAE). Seu objetivo é divulgar artigos científicos originais (teóricos e empíricos)
+                    dos pesquisadores e estudiosos do sentido da vida, bem como difundir o pensamento de
+                    Viktor Frankl em suas possíveis aplicações em diversos contextos (filosófico, clínico,
+                    educacional, laboral, social etc.). Além dos artigos, a revista também publica resenhas
+                    de livros e entrevistas com personalidades de destaque na Logoterapia no Brasil e no
+                    mundo - PSICOLOGIA; Qualis B4.
+                </p>
+                <hr>
+            </li>
+
+            <li>
+                <p>
+                    <span class="image left"><img src="images/tematica.png" alt="" /></span>
+                    <a href="http://periodicos.ufpb.br/index.php/tematica">Revista Temática</a>
+                    <br>
+                    <strong>Escopo: </strong>A revista Temática é uma publicação mensal de Comunicação e
+                    áreas afins (interdisciplinar), destinada à publicação de artigos científicos de
+                    pesquisadores da graduação e da pós-graduação (graduandos, graduados, mestrandos,
+                    mestres, doutorandos e doutores). Fundada em 2004, tem conceito Qualis B4 da Capes e
+                    atualmente está integrada ao NAMID - Núcleo de Arte, Midia e Informação Digital, do
+                    Curso de Comunicação em Mídias Digitais (DEMID/CCHLA/UFPB) e do Programa de
+                    Pós-Graduação em Comunicação (PPGC/UFPB). A Temática recebe artigos em fluxo contínuo.
+                    TRABALHOS QUE NÃO ESTIVEREM ATENDENDO AS DIRETRIZES PARA AUTORES NÃO SERÃO AVALIADOS.
+                </p>
                 <hr>
             </li>
 
@@ -651,26 +775,6 @@ include 'header.html'
                     Graduação.
                 </p>
                 <br>
-                <hr>
-            </li>
-
-            <li>
-                <p>
-                    <span class="image left"><img src="images/agrotec.png" alt="" /></span>
-                    <a href="http://periodicos.ufpb.br/index.php/at">Agropecuária Técnica</a>
-                    <br>
-                    <strong>Escopo: </strong>A Revista Agropecuária Técnica (AGROTEC) é uma revista de
-                    divulgação científica de fluxo
-                    contínuo, editada pelo Centro de Ciências Agrária (CCA), da Universidade Federal da
-                    Paraíba
-                    (UFPB) e destina-se à divulgação de artigos técnico-científicos originais e inéditos,
-                    resultados de
-                    pesquisas ou significativos para a área, artigos de revisão e estudos de caso nos
-                    diferentes ramos
-                    das Ciências Agrárias que contemplem estudos nas seguintes seções: <strong>Agronomia,
-                        Biodiversidade, Ciências Florestais, Ciências de Alimentos, Engenharia Agrícola,
-                        Geociências, Medicina Veterinária e Zootecnia.</strong>
-                </p>
                 <br>
                 <hr>
             </li>
@@ -689,6 +793,22 @@ include 'header.html'
                     pesquisadores da graduação e da pós-graduação, e demais produções como entrevistas,
                     ensaios e resenhas.
                 </p>
+                <hr>
+            </li>
+
+            <li>
+                <p>
+                    <span class="image left"><img src="images/claves.png" alt="" /></span>
+                    <a href="http://periodicos.ufpb.br/index.php/claves">Claves</a>
+                    <br>
+                    <strong>Escopo: </strong>Claves, periódico do Programa de Pós-Graduação em Música da
+                    UFPB, é uma publicação bianual, aberta à produção acadêmica nas várias subáreas do
+                    conhecimento musical: Composição, Educação, Estética, Musicologias e Práticas
+                    Interpretativas. Publica artigos, resenhas e relatos de pesquisa inéditos em português,
+                    inglês e espanhol, objetivando o estímulo a uma saudável interação com programas
+                    acadêmicos congêneres no país e no exterior.
+                </p>
+                <br>
                 <hr>
             </li>
 
@@ -750,59 +870,6 @@ include 'header.html'
 
             <li>
                 <p>
-                    <span class="image left"><img src="images/logos.png" alt="" /></span>
-                    <a href="http://periodicos.ufpb.br/index.php/le">Revista Logos & Existência: Revista da Associação 
-                    Brasileira de Logoterapia e Análise Existencial</a>
-                    <br>
-                    <strong>Escopo: </strong>A Revista Logos e Existência, com periodicidade semestral, é um
-                    periódico online, vinculado a Associação Brasileira de Logoterapia e Análise Existencial
-                    (ABLAE). Seu objetivo é divulgar artigos científicos originais (teóricos e empíricos)
-                    dos pesquisadores e estudiosos do sentido da vida, bem como difundir o pensamento de
-                    Viktor Frankl em suas possíveis aplicações em diversos contextos (filosófico, clínico,
-                    educacional, laboral, social etc.). Além dos artigos, a revista também publica resenhas
-                    de livros e entrevistas com personalidades de destaque na Logoterapia no Brasil e no
-                    mundo - PSICOLOGIA; Qualis B4.
-                </p>
-                <hr>
-            </li>
-
-            <li>
-                <p>
-                    <span class="image left"><img src="images/cultura-oriental.png" alt="" /></span>
-                    <a href="http://periodicos.ufpb.br/index.php/co">Cultura Oriental</a>
-                    <br>
-                    <strong>Escopo: </strong>O objetivo da revista Cultura Oriental é divulgar trabalhos de
-                    pesquisa a respeito dos vários aspectos culturais do extremo oriente asiático
-                    (especialmente Índia, China, Japão e Tibete), incluindo língua, religião, literatura,
-                    filosofia, artes e outros temas, abrangendo tanto a cultura atual quanto aspectos
-                    históricos. Este periódico pretende fortalecer e dar maior visibilidade às pesquisas
-                    brasileiras dessa área, oferecendo um veículo para intercâmbio, difusão e debate, que
-                    poderá contribuir para a redução da fragmentação e para a institucionalização desse
-                    campo de estudos eminentemente interdisciplinar. A iniciativa de criação desta revista é
-                    do Grupo de Pesquisa Padma.
-                </p>
-                <hr>
-            </li>
-
-            <li>
-                <p>
-                    <span class="image left"><img src="images/rppi.png" alt="" /></span>
-                    <a href="http://periodicos.ufpb.br/index.php/rppi">Revista Brasileira de Políticas
-                    Públicas e Internacionais - RPPI</a>
-                    <br>
-                    <strong>Escopo: </strong>A RPPI – Revista Brasileira de Políticas Públicas e
-                    Internacionais (ISSN 2525-5584) é um periódico científico vinculado ao Programa de
-                    Pós-Graduação em Gestão Pública e Cooperação Internacional (PGPCI) da Universidade
-                    Federal da Paraíba (UFPB). Criada em 2016, seu principal objetivo é ser um veículo
-                    inédito de divulgação de pesquisas que abordam temas de Gestão Pública e Políticas
-                    Públicas sob dois níveis: o doméstico e o internacional.
-                </p>
-                <br>
-                <hr>
-            </li>
-                
-            <li>
-                <p>
                     <span class="image left"><img src="images/pic08.jpg" alt="" /></span>
                     <a href="http://periodicos.ufpb.br/index.php/revico">Revista de Iniciação Científica em
                     Odontologia - RevICO</a> <br>
@@ -848,55 +915,6 @@ include 'header.html'
                     história, bem como reflexões acerca de sua escrita.
                 </p>
                 <br>
-                <hr>
-            </li>
-
-            <li>
-                <p>
-                    <span class="image left"><img src="images/pic08.jpg" alt="" /></span>
-                    <a href="http://periodicos.ufpb.br/index.php/mpgoa">Gestão & Aprendizagem</a>
-                    <br>
-                    <strong>Escopo: </strong>Gestão & Aprendizagem (G&A) é um periódico do Programa de
-                    Pós-Graduação em Gestão nas Organizações Aprendentes (MPGOA) da Universidade Federal da
-                    Paraíba. Nasce em 2012 enquanto meio de divulgação dos trabalhos oriundos do MPGOA/UFPB
-                    e vem se consolidando enquanto um periódico com o foco nos estudos dos processos de
-                    gestão e aprendizagem organizacionais.
-                </p>
-                <hr>
-            </li>
-
-            <li>
-                <p>
-                    <span class="image left"><img src="images/tematica.png" alt="" /></span>
-                    <a href="http://periodicos.ufpb.br/index.php/tematica">Revista Temática</a>
-                    <br>
-                    <strong>Escopo: </strong>A revista Temática é uma publicação mensal de Comunicação e
-                    áreas afins (interdisciplinar), destinada à publicação de artigos científicos de
-                    pesquisadores da graduação e da pós-graduação (graduandos, graduados, mestrandos,
-                    mestres, doutorandos e doutores). Fundada em 2004, tem conceito Qualis B4 da Capes e
-                    atualmente está integrada ao NAMID - Núcleo de Arte, Midia e Informação Digital, do
-                    Curso de Comunicação em Mídias Digitais (DEMID/CCHLA/UFPB) e do Programa de
-                    Pós-Graduação em Comunicação (PPGC/UFPB). A Temática recebe artigos em fluxo contínuo.
-                    TRABALHOS QUE NÃO ESTIVEREM ATENDENDO AS DIRETRIZES PARA AUTORES NÃO SERÃO AVALIADOS.
-                </p>
-                <hr>
-            </li>
-
-            <li>
-                <p>
-                    <span class="image left"><img src="images/ancora.png" alt="" /></span>
-                    <a href="http://periodicos.ufpb.br/index.php/ancora">ÂNCORA - Revista Latino-americana
-                    de Jornalismo</a>
-                    <br>
-                    <strong>Escopo: </strong>A Revista Latino-americana de Jornalismo – ÂNCORA é uma
-                    publicação acadêmica vinculada ao Programa de Pós-graduação em Jornalismo da UFPB
-                    destinada a acadêmicos, pesquisadores e profissionais do jornalismo do Brasil e do
-                    exterior. A Revista é direcionada a produção acadêmico-científica na área do Jornalismo
-                    e suas interfaces e aplicabilidades no campo comunicacional e áreas afins. Enfatiza a
-                    pesquisa, reflexão teórica-metodológica, vertentes e hibridismos do campo jornalístico
-                    bem como análise das práticas e produtos do mercado da notícia, plataformas de produção
-                    e veiculação jornalística.
-                </p>
                 <hr>
             </li>
 
