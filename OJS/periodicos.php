@@ -82,9 +82,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/moringa.png" alt="" style="width: 100%;margin-right:15px;">
@@ -109,9 +108,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/auk.png" alt="" style="width: 100%;margin-right:15px;">
@@ -134,9 +132,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/acta.png" alt="" style="width: 100%;margin-right:15px;">
@@ -159,9 +156,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/ancora.png" alt="" style="width: 100%;margin-right:15px;">
@@ -185,9 +181,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/culturas-midiaticas.png" alt=""
@@ -209,9 +204,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/gaia-scientia.png" alt=""
@@ -233,9 +227,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/juee1.png" alt="" style="width: 100%;margin-right:15px;">
@@ -257,9 +250,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/pgec.png" alt="" style="width: 100%;margin-right:15px;">
@@ -283,9 +275,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/prima-facie.png" alt=""
@@ -314,9 +305,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/problemata.png" alt=""
@@ -338,9 +328,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/prolingua.png" alt=""
@@ -361,9 +350,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/religare.png" alt="" style="width: 100%;margin-right:15px;">
@@ -387,9 +375,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/artemis.png" alt="" style="width: 100%;margin-right:15px;">
@@ -398,30 +385,22 @@
                         <p class="text-justify">
                             <a href="http://periodicos.ufpb.br/index.php/artemis">Revista Ártemis</a>
                             <br>
-                            <strong>Escopo: </strong>Esse periódico tem como missão a divulgação da produção
-                            científica no campo dos estudos de gênero, feminismos e sexualidades, dentro de uma
-                            perspectiva interdisciplinar, aborda fenômenos socioculturais a partir de análises
-                            históricas, literárias, culturais, psicológicas, etc. Os objetivos são: contribuir para
-                            a construção de novas abordagens teóricas e metodológicas de investigação e reflexão; e,
-                            difundir artigos nacionais e internacionais, pesquisas originais, resenhas e traduções.
-                            A <a href="http://periodicos.ufpb.br/index.php/artemis">Revista Ártemis</a> é um periódico
-                            semestral,
-                            interdisciplinar, vinculada aos <a href="http://www.cchla.ufpb.br/ppgs/">Programas de Pós
-                                Graduação
-                                em
-                                Sociologia</a> e <a href="http://www.cchla.ufpb.br/ppgl/">Programa de Pós Graduação em
-                                Letras da
-                                UFPB</a>, dos quais
-                            recebe financiamento para editoração.
+                            <strong>Escopo: </strong>A <strong>Revista Ártemis</strong> divulga produção científica em
+                            gênero, feminismos
+                            e sexualidades pelo viés interdisciplinar, abordando fenômenos socioculturais a partir de
+                            análises históricas, literárias, culturais, psicológicas. O objetivo é contribuir com a
+                            construção de novas abordagens teórico-metodológicas, difundir artigos e pesquisas nacionais
+                            e internacionais, resenhas, entrevistas e traduções. A revista é semestral, estando
+                            vinculada aos Programas de Pós-Graduação em Sociologia e em Letras da UFPB. Em julho de
+                            2019, recebeu classificação Qualis A2.
                         </p>
                         <hr>
                     </div>
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/politicaetrabalho.png" alt=""
@@ -447,9 +426,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/revista-espaco-do-curriculo.png" alt=""
@@ -476,9 +454,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/graphos.png" alt="" style="width: 100%;margin-right:15px;">
@@ -498,9 +475,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/rle.png" alt="" style="width: 100%;margin-right:15px;">
@@ -521,6 +497,7 @@
             </li>
 
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/saeculum2.png" alt=""
@@ -544,9 +521,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/biblionline.png" alt=""
@@ -570,9 +546,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/cultura-oriental.png" alt=""
@@ -597,9 +572,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/dlcv.png" alt="" style="width: 100%;margin-right:15px;">
@@ -626,9 +600,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/genero-direito.png" alt=""
@@ -652,9 +625,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/okara.png" alt="" style="width: 100%;margin-right:15px;">
@@ -675,9 +647,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/abet.png" alt="" style="width: 100%;margin-right:15px;">
@@ -701,9 +672,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/rte.png" alt="" style="width: 100%;margin-right:15px;">
@@ -730,9 +700,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/tpa.png" alt="" style="width: 100%;margin-right:15px;">
@@ -755,9 +724,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/archeion.png" alt="" style="width: 100%;margin-right:15px;">
@@ -781,9 +749,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/cadernos-imbondeiro.png" alt=""
@@ -807,9 +774,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/rbcs.png" alt="" style="width: 100%;margin-right:15px;">
@@ -830,9 +796,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/economia-e-desenvolvimento.png" alt=""
@@ -855,9 +820,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/recfin.png" alt="" style="width: 100%;margin-right:15px;">
@@ -879,9 +843,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/nordestina-bio.png" alt=""
@@ -907,9 +870,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/agrotec.png" alt="" style="width: 100%;margin-right:15px;">
@@ -936,9 +898,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/cadernos-logepa.png" alt=""
@@ -961,9 +922,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/gestao-aprendizagem.png" alt=""
@@ -987,6 +947,7 @@
             <br>
 
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/rppi.png" alt="" style="width: 100%;margin-right:15px;">
@@ -1007,8 +968,6 @@
                     </div>
                 </div>
             </li>
-
-            <br>
 
             <li>
                 <div class="row">
@@ -1031,9 +990,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/tematica.png" alt="" style="width: 100%;margin-right:15px;">
@@ -1056,9 +1014,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/cultura-traducao.png" alt=""
@@ -1080,8 +1037,8 @@
                 </div>
             </li>
 
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/diversidade-religiosa.png" alt=""
@@ -1101,8 +1058,8 @@
                 </div>
             </li>
 
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/imaginario.png" alt=""
@@ -1126,9 +1083,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/info-e-tec.png" alt=""
@@ -1157,9 +1113,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/mepad.png" alt="" style="width: 100%;margin-right:15px;">
@@ -1181,9 +1136,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/revico.png" alt="" style="width: 100%;margin-right:15px;">
@@ -1208,9 +1162,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/lv.png" alt="" style="width: 100%;margin-right:15px;">
@@ -1233,9 +1186,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/ric.png" alt="" style="width: 100%;margin-right:15px;">
@@ -1258,9 +1210,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/revista-pb-historia.png" alt=""
@@ -1283,6 +1234,7 @@
             </li>
 
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/letras-ideias.png" alt=""
@@ -1304,9 +1256,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/educare.png" alt="" style="width: 100%;margin-right:15px;">
@@ -1328,9 +1279,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/medicina-pesquisa.png" alt=""
@@ -1355,9 +1305,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/rdive.png" alt="" style="width: 100%;margin-right:15px;">
@@ -1378,6 +1327,7 @@
             </li>
 
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/altera.png" alt="" style="width: 100%;margin-right:15px;">
@@ -1398,9 +1348,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/comunicacoes-informatica.png" alt=""
@@ -1423,9 +1372,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/scandia.png" alt="" style="width: 100%;margin-right:15px;">
@@ -1449,9 +1397,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/trombone.jpg" alt="" style="width: 100%;margin-right:15px;">
@@ -1474,9 +1421,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/petrart.png" alt="" style="width: 100%;margin-right:15px;">
@@ -1500,9 +1446,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/ciab.png" alt="" style="width: 100%;margin-right:15px;">
@@ -1525,9 +1470,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/caos.png" alt="" style="width: 100%;margin-right:15px;">
@@ -1550,9 +1494,8 @@
                 </div>
             </li>
 
-            <br>
-
             <li>
+                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/rcpa.png" alt="" style="width: 100%;margin-right:15px;">
