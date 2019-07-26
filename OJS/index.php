@@ -65,23 +65,23 @@
 						<div class="row">
 							<section class="3u 6u(medium) 12u$(xsmall) profile">
 								<img src="images/henry.jpg" alt="" width="100px" height="100px" />
-								<h4>Coordenador</h4>
+								<h5><strong>Coordenador</strong></h5>
 								<p>Henry Pôncio</p>
 							</section>
 							<section class="3u 6u$(medium) 12u$(xsmall) profile">
 								<img src="images/fabi3.png" alt="" width="100px" height="100px"/>
-								<h4>Bibliotecária</h4>
+								<h5><strong>Bibliotecária</strong></h5>
 								<p>Fabiana França</p>
 							</section>
 							<section class="3u 6u(medium) 12u$(xsmall) profile">
 								<img src="images/lucas.jpg" alt="" width="100px" height="100px" />
-								<h4>Estagiário</h4>
+								<h5><strong>Estagiário</strong></h5>
 								<p>Lucas Aragão</p>
 							</section>
 							<section class="3u$ 6u$(medium) 12u$(xsmall) profile">
 								<img src="images/pedro2.png" alt="" width="100px" height="100px"/>
-								<h4>Estagiário</h4>
-								<p>Pedro Henrrique</p>
+								<h5><strong>Estagiário</strong></h5>
+								<p>Pedro Henrique</p>
 							</section>
 						</div>
 					</section>
@@ -105,7 +105,7 @@
 						<h2>Um novo Sistemas pronto para você! </h2>
 						<p>O novo sistema completo para você, mais intuitivo, mais prático, mais rápido e novinho em folha!</p>
 					</header>
-					<div class="container">
+					<div class="container d-none d-sm-block">
 						<img src="images/ojs.png" alt="" id="ojs-img" > <br><br> <br>
 					</div>
 					<ul class="actions">
