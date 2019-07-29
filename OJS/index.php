@@ -28,7 +28,7 @@
 							<section class="box">
 								<a href="acesso.php"> <i class="icon big rounded color1 fa-rocket"></i></a>
 									<h3>Acesso</h3>
-									<p>Acesso o nosso novo sistema, um novo visual, novas funções.</p>
+									<p>Acesse o nosso sistema com um novo visual.</p>
 								
 							</section>
 						</div>
@@ -61,8 +61,8 @@
 						<h2>Equipe Portal de Periódicos</h2>
 						<p>Conheça nossa equipe completa do Portal de Periódicos UFPB e tire suas dúvidas.</p>
 					</header>
-					<section class="profiles">
-						<div class="row">
+					<section class="profiles" id="teamSection">
+						<div class="row justify-content-center">
 							<section class="3u 6u(medium) 12u$(xsmall) profile">
 								<img src="images/henry.jpg" alt="" width="100px" height="100px" />
 								<h5><strong>Coordenador</strong></h5>
@@ -73,12 +73,7 @@
 								<h5><strong>Bibliotecária</strong></h5>
 								<p>Fabiana França</p>
 							</section>
-							<section class="3u 6u(medium) 12u$(xsmall) profile">
-								<img src="images/lucas.jpg" alt="" width="100px" height="100px" />
-								<h5><strong>Estagiário</strong></h5>
-								<p>Lucas Aragão</p>
-							</section>
-							<section class="3u$ 6u$(medium) 12u$(xsmall) profile">
+							<section class="3u 6u$(medium) 12u$(xsmall) profile">
 								<img src="images/pedro4.jpg" alt="" width="100px" height="100px"/>
 								<h5><strong>Estagiário</strong></h5>
 								<p>Pedro Henrique</p>
@@ -86,10 +81,9 @@
 						</div>
 					</section>
 					<footer>
-						<p>Estamos prontos para lhe atender!</p>
 						<ul class="actions">
 							<li>
-								<a href="contato.php" class="button big">Conheça nossa equipe	</a>
+								<a href="contato.php" class="button big">Conheça nossa equipe</a>
 							</li>
 						</ul>
 					</footer>

@@ -18,9 +18,9 @@
 }
 
 /* Basic */
-
 	body {
 		background: #fff;
+		scroll-behavior: smooth;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -868,7 +868,7 @@ body{
 		cursor: pointer !important; 
 		align-items: center;
 	}
-
+	
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
