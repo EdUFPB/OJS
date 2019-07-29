@@ -14,7 +14,6 @@
                         <h2>Equipe</h2>
                                 <p>Coordenador do Portal: Henry Pôncio</p>
                                 <p>Bibliotecária - Documentalista: Fabiana França</p>
-                                <p>Estagiário: Lucas Aragão</p>
                                 <p>Estagiário: Pedro Henrique</p>
     
                     </div>

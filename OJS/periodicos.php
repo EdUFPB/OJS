@@ -76,6 +76,14 @@
                             publicada no Portal de Periódicos da UFPB. Atualmente, é uma das três revistas
                             brasileiras da área de Ciência da Informação incluídas no Journal Citation Reports (JCR
                             Web) do Institute for Scientiﬁc Information (ISI Web of Knowledge).
+                            <br>
+                            <strong>e-ISSN: </strong>1809-4783
+                            <br>
+                            <strong>Contato: </strong>ghafreire@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/ies">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/ies/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -90,7 +98,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/ies">Moringa</a>
+                            <a href="http://periodicos.ufpb.br/index.php/moringa">Moringa</a>
                             <br>
                             <strong>Escopo: </strong> MORINGA é uma publicação semestral do Departamento de Artes
                             Cênicas e do Mestrado Profissional em Artes (ProfArtes) do Centro de Comunicação,
@@ -102,6 +110,14 @@
                             direitos sem restrições. É publicada ininterruptamente desde 1991 - quando foi
                             criada pela Universidade Federal da Paraíba, e foi uma das primeiras a ser publicada no
                             Portal de Periódicos da UFPB.
+                            <br>
+                            <strong>e-ISSN: </strong>2177-8841
+                            <br>
+                            <strong>Contato: </strong>tonezzi@hotmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/moringa">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/moringa/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -116,7 +132,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/ies">Aufklärung</a>
+                            <a href="http://periodicos.ufpb.br/index.php/arf">Aufklärung</a>
                             <br>
                             <strong>Escopo: </strong> Aufklärung, revista de filosofia (Qualis B1, DOI 10.18012/ARF)
                             tem foco na publicação de artigos na área de filosofia, ou que sejam relevantes para a
@@ -126,6 +142,14 @@
                             originados a partir de pesquisas filosóficas voltadas para a pós-graduação com base em
                             princípios éticos tranparentes; e c) constituir-se como um espaço público para o debate
                             entre pesquisadores do Brasil e do exterior.
+                            <br>
+                            <strong>e-ISSN: </strong>2318-9428
+                            <br>
+                            <strong>Contato: </strong>arf2318@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/arf">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/arf/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -150,6 +174,14 @@
                             Programa de Pós Graduação em Letras da Universidade Federal da Paraíba-Brasil, mais
                             especificamente pela linha Estudos Semióticos que atende, também, a estudiosos usuários
                             de libras e braille, numa experiência pioneira entre nós.
+                            <br>
+                            <strong>e-ISSN: </strong>2446-7006
+                            <br>
+                            <strong>Contato: </strong>mariadefatimambatista@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/actas">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/actas/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -167,14 +199,20 @@
                             <a href="http://periodicos.ufpb.br/index.php/ancora">ÂNCORA - Revista Latino-americana
                                 de Jornalismo</a>
                             <br>
-                            <strong>Escopo: </strong>A Revista Latino-americana de Jornalismo – ÂNCORA é uma
-                            publicação acadêmica vinculada ao Programa de Pós-graduação em Jornalismo da UFPB
-                            destinada a acadêmicos, pesquisadores e profissionais do jornalismo do Brasil e do
-                            exterior. A Revista é direcionada a produção acadêmico-científica na área do Jornalismo
-                            e suas interfaces e aplicabilidades no campo comunicacional e áreas afins. Enfatiza a
-                            pesquisa, reflexão teórica-metodológica, vertentes e hibridismos do campo jornalístico
-                            bem como análise das práticas e produtos do mercado da notícia, plataformas de produção
-                            e veiculação jornalística.
+                            <strong>Escopo: </strong>Âncora - Revista Latino-americana de Jornalismo é uma publicação
+                            acadêmica semestral vinculada ao Programa de Pós-graduação em Jornalismo – PPJ|UFPB.
+                            Objetiva a produção acadêmico-Científica na área do Jornalismo e suas interfaces com o campo
+                            comunicacional e em áreas afins. Seu foco de abordagem temática será direcionado para
+                            publicações de artigos, resenhas e entrevistas que retratem, de modo interdisciplinar,
+                            narrativas, linguagens, produtos e processos do Jornalismo.
+                            <br>
+                            <strong>e-ISSN: </strong>2359‐375X
+                            <br>
+                            <strong>Contato: </strong>revistaancoraufpb@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/ancora">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/ancora/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -198,6 +236,14 @@
                             (PPGC/UFPB), intituladas Mídia, Cotidiano e Imaginário, e Culturas Midiáticas
                             Audiovisuais. Aceitam-se artigos de professores doutores, mestres, doutorandos e de
                             mestrandos, nesse último caso, em co-autoria com professores doutores.
+                            <br>
+                            <strong>e-ISSN: </strong>1983-5930
+                            <br>
+                            <strong>Contato: </strong>marcosnicolau.ufpb@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/cm">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/cm/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -208,12 +254,12 @@
                 <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/gaia-scientia.png" alt=""
+                        <img class="float left" src="images/gaia.png" alt=""
                             style="width: 100%;margin-right:15px;">
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/cm">Gaia Scientia</a>
+                            <a href="http://periodicos.ufpb.br/index.php/gaia">Gaia Scientia</a>
                             <br>
                             <strong>Escopo: </strong>A Revista GAIA SCIENTIA é uma revista online que destina-se à
                             divulgação de artigos técnico-científicos originais e inéditos ou artigos de revisão
@@ -221,6 +267,14 @@
                             ramos das Ciências Ambientais. Os manuscritos elaborados devem destinar-se
                             exclusivamente à Revista GAIA SCIENTIA, não sendo permitida sua apresentação simultânea
                             a outro periódico.
+                            <br>
+                            <strong>e-ISSN: </strong>1981-1268
+                            <br>
+                            <strong>Contato: </strong>gaiascientiaufpb@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/gaia">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/gaia/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -244,6 +298,14 @@
                             includes:Water Resources and Waste Management; Constructions and Environment; Urban
                             Design; Transportation Engineering.The Editors welcome original papers, scientific notes
                             and discussions, in English, in those and related topics.
+                            <br>
+                            <strong>e-ISSN: </strong>1982-3932
+                            <br>
+                            <strong>Contato: </strong>celso@journal-uee.org
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/juee">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/juee/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -269,6 +331,14 @@
                             Conhecimento sob abordagens que priorizem diálogos inter/pluri/multi/transdisciplinares
                             e representem contribuição para o desenvolvimento de novos conhecimentos e/ou para
                             aplicação nos diversos setores e organizações da sociedade.
+                            <br>
+                            <strong>e-ISSN: </strong>2236-417X
+                            <br>
+                            <strong>Contato: </strong>lucianna.costa@yahoo.com.br
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/pgc">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/pgc/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -299,6 +369,14 @@
                             A revista visa propiciar debates atualizados sobre problemas do Brasil e do mundo
                             contemporâneo com a participação de pesquisadores de diversas universidades nacionais e
                             estrangeiras.
+                            <br>
+                            <strong>e-ISSN: </strong>1678-2593
+                            <br>
+                            <strong>Contato: </strong>pfacie.dhp@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/primafacie">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/primafacie/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -322,6 +400,14 @@
                             espanhol, italiano e alemão. Atualmente ela é editada pelo GP Hermes/PPGF/UFPB/CNPq. É
                             referenciada pelo indexador: LATINDEX, e está registrada no DOI. (Está avaliada na base
                             de dados Qualis da CAPES como B1 - Área: Filosofia).
+                            <br>
+                            <strong>e-ISSN: </strong>2236-8612
+                            <br>
+                            <strong>Contato: </strong>revistaproblemata@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/problemata">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/problemata/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -344,6 +430,14 @@
                             http://www.cchla.ufpb.br/proling, é um periódico semestral que divulga trabalhos
                             oriundos das variadas linhas de pesquisa dos estudos da linguagem, tanto na área de
                             teoria e análise linguísticas quanto na esfera da linguística aplicada.
+                            <br>
+                            <strong>e-ISSN: </strong>1983-9979
+                            <br>
+                            <strong>Contato: </strong>revistaprolingua@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/prolingua">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/prolingua/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -367,8 +461,16 @@
                             resenhas, traduções e entrevistas relacionadas à área. Nosso intuito é apresentar à
                             comunidade científica textos que refletem uma contribuição significativa para o campo
                             das Ciências das Religiões e áreas afins. Desde os números de 2017 passamos a contar com
-                            o DOI -Digital Object Identifier. Estamos indexados no Latindex, no CiteFactor, no
-                            Periódicos Capes, no LivRe e no Sumários.Org.
+                            o DOI - Digital Object Identifier. Estamos indexados no Latindex, no CiteFactor, no
+                            Periódicos Capes, no LivRe e no Sumários.Org
+                            <br>
+                            <strong>e-ISSN: </strong>1982-6605
+                            <br>
+                            <strong>Contato: </strong>religare.ppgcr.ufpb@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/religare">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/religare/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -393,6 +495,14 @@
                             e internacionais, resenhas, entrevistas e traduções. A revista é semestral, estando
                             vinculada aos Programas de Pós-Graduação em Sociologia e em Letras da UFPB. Em julho de
                             2019, recebeu classificação Qualis A2.
+                            <br>
+                            <strong>e-ISSN: </strong>1887-8214
+                            <br>
+                            <strong>Contato: </strong>artemisestudosdegenero@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/artemis">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/artemis/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -420,6 +530,14 @@
                             escopo para a diversidade temática nas áreas da Sociologia, Política, Antropologia e
                             Humanidades. Publicamos dossiês temáticos, artigos de tema livre, entrevistas, resenhas
                             e traduções.
+                            <br>
+                            <strong>e-ISSN: </strong>1517-5901
+                            <br>
+                            <strong>Contato: </strong>politicaetrabalho@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/politicaetrabalho">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/politicaetrabalho/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -448,6 +566,14 @@
                             pretensão é facilitar e aprofundar o diálogo acadêmico, não de forma ruidosa, mas na
                             perspectiva de dar visibilidade à relação existente entre sociedade, educação e
                             currículo num mundo sem fronteiras.
+                            <br>
+                            <strong>e-ISSN: </strong>1983-1579
+                            <br>
+                            <strong>Contato: </strong>rec@ce.ufpb.br
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rec">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/rec/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -469,6 +595,14 @@
                             1995, artigos inéditos de pesquisadores brasileiros ou estrangeiros, nas áreas de
                             Literatura e Cultura, Teoria e Tradução. A partir de 2004, passou a ter periodicidade
                             semestral. A GRAPHOS está avaliada pela CAPES com o índice Qualis B2.
+                            <br>
+                            <strong>e-ISSN: </strong>1516-1536
+                            <br>
+                            <strong>Contato: </strong>revistagraphos@cchla.ufpb.br
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/graphos">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/graphos/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -490,6 +624,14 @@
                             e Agrárias da Universidade Federal da Paraíba.
                             Ela oportuniza edições futuras dos artigos que já estiverem prontos para publicação
                             antes do prazo da sua periodicidade oficial. <strong> Qualis B 1 - ENSINO</strong>
+                            <br>
+                            <strong>e-ISSN: </strong>2237-1451
+                            <br>
+                            <strong>Contato: </strong>decchsaufpb@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rle">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/rle/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -515,6 +657,14 @@
                             o diálogo entre pesquisadores do Brasil e do exterior. Está avaliada como Qualis B1 na
                             área de História pela Capes e é indexada no DOAJ (Directory of Open Access Journals) e
                             no Latindex (Qualis B1 - História; Qualis B2 - Interdisciplinar; Qualis B3 - Geografia).
+                            <br>
+                            <strong>e-ISSN: </strong>2317-6725
+                            <br>
+                            <strong>Contato: </strong>saeculum@cchla.ufpb.br
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/srh">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/srh/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -540,6 +690,14 @@
                             ter periodicidade trimestral a partir de 2017.
                             Adota o sistema de avaliação pelos pares e obedece aos preceitos do acesso aberto ao
                             conhecimento.
+                            <br>
+                            <strong>e-ISSN: </strong>1809-4775
+                            <br>
+                            <strong>Contato: </strong>marynice.autran@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/biblio">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/biblio/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -566,6 +724,14 @@
                             poderá contribuir para a redução da fragmentação e para a institucionalização desse
                             campo de estudos eminentemente interdisciplinar. A iniciativa de criação desta revista é
                             do Grupo de Pesquisa Padma.
+                            <br>
+                            <strong>e-ISSN: </strong>2358-5021
+                            <br>
+                            <strong>Contato: </strong>cultura.oriental.ufpb@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/co">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/co/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -593,7 +759,15 @@
                             alunos de pós-graduação, garantindo, assim, efetiva diversidade de temas e a livre
                             afiliação teórica dos autores, zelando pela qualidade das discussões através de uma
                             rigorosa seleção dos textos submetidos à publicação. <strong>(Qualis B2 - LETRAS /
-                                LINGUÍSTICA)</strong>
+                            LINGUÍSTICA)</strong>
+                            <br>
+                            <strong>e-ISSN: </strong>2237-0900
+                            <br>
+                            <strong>Contato: </strong>dlcv.revista@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/dclv">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/dclv/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -619,6 +793,14 @@
                             O público-alvo de nossa revista é pós-doutores, doutores, mestres e estudantes de
                             pós-graduação. Dessa maneira os autores devem possuir alguma titulação citada ou cursar
                             algum curso de pós-graduação. Além disso a G&D aceitará a participação em coautoria.
+                            <br>
+                            <strong>e-ISSN: </strong>2179-7137
+                            <br>
+                            <strong>Contato: </strong>revistageneroedireito@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/ged">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/ged/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -641,6 +823,14 @@
                             especialistas, professores, pós-graduandos e profissionais que trabalham na Geografia.
                             Enquanto veículo de difusão científica e cultural tem por objetivo divulgar pesquisas e
                             experiências que contribuam para o conhecimento teórico e prático da Geografia.
+                            <br>
+                            <strong>e-ISSN: </strong>1982-3878
+                            <br>
+                            <strong>Contato: </strong>richarde@geociencias.ufpb.br
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/okara">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/okara/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -666,6 +856,14 @@
                             da Saúde, entre outras. Requer, ao mesmo tempo, que a construção das abordagens
                             teórico-metodológicas e empíricas caminhe na direção da interdisciplinaridade e
                             transdisciplinaridade.
+                            <br>
+                            <strong>e-ISSN: </strong>1679-2483
+                            <br>
+                            <strong>Contato: </strong>ivantarginomoreira@yahoo.com.br
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/abet">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/abet/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -694,6 +892,14 @@
                             B4 (Psicologia; Serviço Social) e
                             B5 (Sociologia; Educação Física)
                             ISSN: 0104-2777 (Versão Impressa) e 2359-7003 (Versão On-line)
+                            <br>
+                            <strong>e-ISSN: </strong>0104-2777
+                            <br>
+                            <strong>Contato: </strong>revistateducppge@ce.ufpb.br
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rteo">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/rteo/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -718,6 +924,14 @@
                             empreendedores ou docentes da área.
                             A TPA tem Qualis B2 na área de avaliação de Administração Pública e de Empresas, Ciências
                             Contábeis e Turismo.
+                            <br>
+                            <strong>e-ISSN: </strong>2238-104X
+                            <br>
+                            <strong>Contato: </strong>franze.mq@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/tpa">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/tpa/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -743,6 +957,14 @@
                             Com o propósito de difundir o ensino, a pesquisa e a extensão, o periódico contribui para o
                             alinhamento entre teoria e prática profissional atendendo à natureza da Arquivologia bem
                             como da interdisciplinaridade com áreas afins.
+                            <br>
+                            <strong>e-ISSN: </strong>2318-6186
+                            <br>
+                            <strong>Contato: </strong>archeionline@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/archeion">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/archeion/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -768,6 +990,14 @@
                             Temáticas: história, literaturas africanas e da diáspora negra, educação, ações
                             afirmativas e relações étnico-raciais (Qualis B5 - LETRAS / LINGUÍSTICA; Qualis C -
                             FILOSOFIA/TEOLOGIA:subcomissão TEOLOGIA).
+                            <br>
+                            <strong>e-ISSN: </strong>2316-2937
+                            <br>
+                            <strong>Contato: </strong>anamarinho@cchla.ufpb.br
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/ci">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/ci/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -790,6 +1020,14 @@
                             na área de Ciências da Saúde. Publica preferencialmente estudos científicos inseridos na
                             realidade brasileira e divulga contribuições visando a melhoria da qualidade do Ensino,
                             da Investigação Científica e da Assistência à Saúde no Brasil.
+                            <br>
+                            <strong>e-ISSN: </strong>2317-6032
+                            <br>
+                            <strong>Contato: </strong>anamarinho@cchla.ufpb.br
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rbcs">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/rbcs/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -814,6 +1052,14 @@
                             e questões relacionados com o processo de desenvolvimento econômico e social (Qualis B2
                             - PLANEJAMENTO URBANO E REGIONAL/DEMOGRAFIA; Qualis B4 - ECONOMIA; Qualis B5 -
                             GEOGRAFIA).
+                            <br>
+                            <strong>e-ISSN: </strong>1517-9354
+                            <br>
+                            <strong>Contato: </strong>cassiodanobrega@yahoo.com.br
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/economia">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/economia/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -837,6 +1083,14 @@
                             como: SPELL, DOAJ, Ebsco, e-Revist@s, Latindex, Sumários, entre outros. A RECFin é
                             publicada quadrimestralmente, com oito artigos identificados pelo DOI (Digital Object
                             Identifier), sendo ainda disponibilizados na modalidade ahead of print.
+                            <br>
+                            <strong>e-ISSN: </strong>2318-1001
+                            <br>
+                            <strong>Contato: </strong>recfin@ccsa.ufpb.br
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/recfin">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/recfin/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -864,6 +1118,14 @@
                             Alcança todas as disciplinas biológicas clássicas: Virologia, Bacteriologia,
                             Protistologia, Botânica, Paleobotânica, Zoologia, Paleozoologia, Ecologia, Oceonografia,
                             Genética, Bioquímica, Biofísica e Evolução.
+                            <br>
+                            <strong>e-ISSN: </strong>2236-1480
+                            <br>
+                            <strong>Contato: </strong>revnebio@dse.ufpb.br
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/revnebio">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/revnebio/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -891,7 +1153,16 @@
                             <strong>Agronomia,
                                 Biodiversidade, Ciências Florestais, Ciências de Alimentos, Engenharia
                                 Agrícola,Geociências, Medicina
-                                Veterinária e Zootecnia.</strong>
+                                Veterinária e Zootecnia.
+                            </strong>
+                            <br>
+                            <strong>e-ISSN: </strong>2525-8990 
+                            <br>
+                            <strong>Contato: </strong>agrotec@cca.ufpb.br
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/at">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/at/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -916,6 +1187,14 @@
                             contribuam para o ensino de Geografia, sobretudo, de temas vinculados a Paraíba e ao
                             Nordeste. A publicação da revista é semestral. (Qualis B4 -GEOGRAFIA; Qualis B4 -
                             INTERDISCIPLINAR; Qualis B5 - CIÊNCIAS AMBIENTAIS).
+                            <br>
+                            <strong>e-ISSN: </strong>2237-7522
+                            <br>
+                            <strong>Contato: </strong>richarde@geociencias.ufpb.br
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/logepa">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/logepa/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -931,13 +1210,21 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/logepa">Gestão & Aprendizagem</a>
+                            <a href="http://150.165.254.102/index.php/mpgoa">Gestão & Aprendizagem</a>
                             <br>
                             <strong>Escopo: </strong>Gestão & Aprendizagem (G&A) é um periódico do Programa de
                             Pós-Graduação em Gestão nas Organizações Aprendentes (MPGOA) da Universidade Federal da
                             Paraíba. Nasce em 2012 enquanto meio de divulgação dos trabalhos oriundos do MPGOA/UFPB
                             e vem se consolidando enquanto um periódico com o foco nos estudos dos processos de
                             gestão e aprendizagem organizacionais.
+                            <br>
+                            <strong>e-ISSN: </strong>2526-3102
+                            <br>
+                            <strong>Contato: </strong>gestaoeaprendizagem@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/mpgoa">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/mpgoa/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -947,7 +1234,6 @@
             <br>
 
             <li>
-                <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/rppi.png" alt="" style="width: 100%;margin-right:15px;">
@@ -963,6 +1249,14 @@
                             Federal da Paraíba (UFPB). Criada em 2016, seu principal objetivo é ser um veículo
                             inédito de divulgação de pesquisas que abordam temas de Gestão Pública e Políticas
                             Públicas sob dois níveis: o doméstico e o internacional.
+                            <br>
+                            <strong>e-ISSN: </strong>2525-5584
+                            <br>
+                            <strong>Contato: </strong>rppi.ufpb@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rppi">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/rppi/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -984,6 +1278,14 @@
                             Interpretativas. Publica artigos, resenhas e relatos de pesquisa inéditos em português,
                             inglês e espanhol, objetivando o estímulo a uma saudável interação com programas
                             acadêmicos congêneres no país e no exterior.
+                            <br>
+                            <strong>e-ISSN: </strong>1983-3709
+                            <br>
+                            <strong>Contato: </strong>euridessantos@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/claves">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/claves/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1008,6 +1310,14 @@
                             Curso de Comunicação em Mídias Digitais (DEMID/CCHLA/UFPB) e do Programa de
                             Pós-Graduação em Comunicação (PPGC/UFPB). A Temática recebe artigos em fluxo contínuo.
                             TRABALHOS QUE NÃO ESTIVEREM ATENDENDO AS DIRETRIZES PARA AUTORES NÃO SERÃO AVALIADOS.
+                            <br>
+                            <strong>e-ISSN: </strong>1807-8931
+                            <br>
+                            <strong>Contato: </strong>marcosnicolau.ufpb@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/tematica">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/tematica/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1031,6 +1341,14 @@
                             Nacional Cultura e Tradução, que acontece a cada três anos na Universidade Federal da
                             Paraíba. O ENCULT busca consolidar uma tradição de reflexão sobre o fenômeno tradutório,
                             aqui abordado em seu duplo viés linguístico-literário.
+                            <br>
+                            <strong>e-ISSN: </strong>2238-9059
+                            <br>
+                            <strong>Contato: </strong>anamarinho@cchla.ufpb.br
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/ct">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/ct/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1052,6 +1370,14 @@
                             eletrônica e semestral dos alunos do Programa de Pós-Graduação em Ciências das Religiões
                             (PPGCR) da Universidade Federal da Paraíba (UFPB). Foi de 2011 a 2015 uma publicação da
                             Graduação.
+                            <br>
+                            <strong>e-ISSN: </strong>2317-0476
+                            <br>
+                            <strong>Contato: </strong>r.diversidadereligiosa@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/dr">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/dr/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1077,6 +1403,14 @@
                             projeto editorial Marca de Fantasia. A revista publica artigos científicos de
                             pesquisadores da graduação e da pós-graduação, e demais produções como entrevistas,
                             ensaios e resenhas.
+                            <br>
+                            <strong>e-ISSN: </strong>2237-6933
+                            <br>
+                            <strong>Contato: </strong>henriquemais@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/imgn">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/imgn/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1107,6 +1441,14 @@
                             relacionados ao tema exige que as abordagens teórico-metodológicas e empíricas sejam na
                             direção da inter e da transdisciplinaridade, com estudos e pesquisas que contemplem
                             contribuições de pesquisadores de diferentes áreas.
+                            <br>
+                            <strong>e-ISSN: </strong>2358-3908
+                            <br>
+                            <strong>Contato: </strong>santarem@usp.br
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/itec">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/itec/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1130,6 +1472,14 @@
                             passam diretamente para a fase de blind review da MEPAD, podendo assim concluir mais
                             rapidamente os processos de avaliação e publicação. Para maiores informações sobre o
                             evento: http://www.ufpb.br/widat
+                            <br>
+                            <strong>e-ISSN: </strong>2525-3867
+                            <br>
+                            <strong>Contato: </strong>stephanieisb@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/mepad">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/mepad/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1156,6 +1506,14 @@
                             de vivências no campo da Odontologia e dos Anais da Mostra de Iniciação Científica em
                             Odontologia (MICO). No Quadriênio 2013-2016 obteve Qualis 5 para Odontologia e
                             Interdisciplinar.
+                            <br>
+                            <strong>e-ISSN: </strong>1677-3527
+                            <br>
+                            <strong>Contato: </strong>wiltonpadilha@yahoo.com.br
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/revico">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/revico/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1180,6 +1538,14 @@
                             ao periódico são avaliados, anonimamente, pelo Conselho Consultivo da Revista e, quando
                             necessário, por pareceristas ad hoc. A Letr@ Viv@ tem edição semestral, com um número
                             regular e outro temático (Qualis B4 - LETRAS / LINGUÍSTICA).
+                            <br>
+                            <strong>e-ISSN: </strong>1517-3100 
+                            <br>
+                            <strong>Contato: </strong>betamedrado@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/lv">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/lv/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1204,6 +1570,14 @@
                             Brasil e exterior, incentivando essa modalidade de produção científica. Buscamos
                             contribuir para a ampliação do debate sobre as relações internacionais em suas distintas
                             abordagens epistemológica e metodológica.</p>
+                            <br>
+                            <strong>e-ISSN: </strong>1517-3100 
+                            <br>
+                            <strong>Contato: </strong>betamedrado@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/lv">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/lv/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1227,6 +1601,14 @@
                             elaborados em consonância com a produção historiográfica contemporânea, buscando se
                             constituir como um espaço de veiculação de práticas de pesquisa, extensão e ensino da
                             história, bem como reflexões acerca de sua escrita.
+                            <br>
+                            <strong>e-ISSN: </strong>2446-5852
+                            <br>
+                            <strong>Contato: </strong>revistapbhistoria@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rph">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/rph/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1250,6 +1632,14 @@
                             Pós-Graduação de Letras (<a href="http://www.cchla.ufpb.br/ppgl/">PPGL</a>). Publica
                             trabalhos inéditos na área de Letras, especialmente nas linhas de pesquisa do programa
                             de pós-graduação.
+                            <br>
+                            <strong>e-ISSN: </strong>2575-7295 
+                            <br>
+                            <strong>Contato: </strong>ligepsi@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/lestaseideias">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/letraseideias/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1273,6 +1663,14 @@
                             educativo, tendo como referência as seguintes áreas: Antropologia da Educação; Economia
                             da Educação; Filosofia da Educação; História da Educação; Psicologia da Educação e
                             Sociologia da Educação (Conforme CNPq/Área de conhecimento/Educação).
+                            <br>
+                            <strong>e-ISSN: </strong>2527-1083
+                            <br>
+                            <strong>Contato: </strong>eduardojorgels@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/educare">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/educare/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1299,6 +1697,13 @@
                             avaliação pelo Conselho Editorial da Revista. Será considerado para publicação todo
                             manuscrito fruto de pesquisa científica de alunos, com o respectivo professor orientador
                             e outros alunos e professores colaboradores do trabalho.
+                            <br>
+                            <strong>e-ISSN: </strong>2525-5851
+                            <br>
+                            <strong>Contato: </strong>claudiosmp@terra.com.br
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rmp">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/rmp/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1314,12 +1719,20 @@
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
                             <a href="http://periodicos.ufpb.br/index.php/rdive">Revista Discurso & Imagem Visual em
-                                Educação</a>
+                            Educação</a>
                             <br>
                             <strong>Escopo: </strong>A Revista Discurso & Imagem Visual em Educação - RDIVE é uma
                             publicação semestral do Grupo de Estudos e Pesquisas em Educação de Jovens e Adultos –
                             GEPEJA, que integra a Linha de Pesquisa Educação Popular do Programa de Pós-graduação em
-                            Educação, do Centro de Educação da Universidade Federal da Paraíba.</p>
+                            Educação, do Centro de Educação da Universidade Federal da Paraíba.
+                            <br>
+                            <strong>e-ISSN: </strong>2526-0839
+                            <br>
+                            <strong>Contato: </strong>rdive.gepeja.ufpb@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rdive">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/rdive/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1342,6 +1755,14 @@
                             entrevistas, em português, inglês e espanhol. Eventualmente, também serão publicados
                             Dossiês. A revista estrutura-se a partir de um Comitê Editorial, um Conselho Editorial,
                             um Conselho Científico e Equipe Técnica.
+                            <br>
+                            <strong>e-ISSN: </strong>2447-9837
+                            <br>
+                            <strong>Contato: </strong>revistaaltera@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/altera">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/altera/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1366,6 +1787,14 @@
                             desenvolvidos no contexto unidisciplinar da Computação e também multidisciplinar que
                             envolva a área de informática. Assim, a política editorial da CI está aberta às diversas
                             teorias e aplicações da informática, bem como a sua relação com as demais ciências.
+                            <br>
+                            <strong>e-ISSN: </strong>2595-0622
+                            <br>
+                            <strong>Contato: </strong>liliane@di.ufpb.br
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/cei">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/cei/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1391,6 +1820,14 @@
                             Old Norse Studies, mainly the Viking Age. Published works include many perspectives of
                             the Human Sciences concerning the journal’s general field of research, especially those
                             regarding Mythology, Religion, History, Literature, and Archaeology.
+                            <br>
+                            <strong>e-ISSN: </strong>2595-9107
+                            <br>
+                            <strong>Contato: </strong>scandiajournalneve@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/scandia">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/scandia/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1415,6 +1852,14 @@
                             brasileiros.
                             A Revista tem como objetivo divulgar pesquisas e relatos de experiência de músicos
                             brasileiros e estrangeiros.
+                            <br>
+                            <strong>e-ISSN: </strong>2595-1238
+                            <br>
+                            <strong>Contato: </strong>leliotrombone@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/btaj">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/btaj/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1440,6 +1885,14 @@
                             conhecimento produzido pelos estudos dos registros rupestres, contribua para a
                             comunicação e interlocução sobre relatos de estudos, proposição e resultados de
                             aplicações, reflexões e proposições junto às comunidades de estudiosos sobre o tema.
+                            <br>
+                            <strong>e-ISSN: </strong>
+                            <br>
+                            <strong>Contato: </strong>revistapetrart@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/petrart">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/petrart/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1464,6 +1917,14 @@
                             Biblioteconomia, Arquivologia, Museologia e áreas afins, entre pesquisadores, docentes,
                             discentes e demais profissionais, independentemente de sua vinculação profissional e
                             local de origem.
+                            <br>
+                            <strong>e-ISSN: </strong>
+                            <br>
+                            <strong>Contato: </strong>nacoeli@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/ciab">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/ciab/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1488,6 +1949,14 @@
                             Coordenação do Curso de Ciências Sociais na disseminação de um debate acadêmico
                             atualizado, no qual, alunos de ciências sociais (especialmente da graduação) encontrem
                             acolhimento para suas produções.
+                            <br>
+                            <strong>e-ISSN: </strong>1517-6916
+                            <br>
+                            <strong>Contato: </strong>revistacaos99@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/caos">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/caos/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1516,6 +1985,14 @@
                                 de Produtos de Origem Animal; Genômica; Sistemas de Produção Animal</strong> e demais
                             temas
                             relacionados a Zootecnia.
+                            <br>
+                            <strong>e-ISSN: </strong>2176-4158
+                            <br>
+                            <strong>Contato: </strong>recipran@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rcpa">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/rcpa/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
