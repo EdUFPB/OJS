@@ -145,7 +145,7 @@
                             <br>
                             <strong>e-ISSN: </strong>2318-9428
                             <br>
-                            <strong>Contato: </strong>arf2318@gmail.com
+                            <strong>Contato: </strong>revistaaufklarung@hotmail.com
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/arf">Acessar Revista</a>
@@ -1023,7 +1023,7 @@
                             <br>
                             <strong>e-ISSN: </strong>2317-6032
                             <br>
-                            <strong>Contato: </strong>anamarinho@cchla.ufpb.br
+                            <strong>Contato: </strong>editoriasaudeccs@gmail.com
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rbcs">Acessar Revista</a>
@@ -1638,7 +1638,7 @@
                             <strong>Contato: </strong>ligepsi@gmail.com
                             <br>
                             <br>
-                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/lestaseideias">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/letraseideias">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/letraseideias/issue/current">Edição Atual</a>
                         </p>
                         <hr>
@@ -1870,6 +1870,42 @@
                 <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
+                        <img class="float left" src="images/rcpa.png" alt="" style="width: 100%;margin-right:15px;">
+                    </div>
+                    <div class="col-md-9 col-lg-9">
+                        <p class="text-justify">
+                            <a href="http://periodicos.ufpb.br/index.php/rcpa">Revista Científica de Produção Animal</a>
+                            <br>
+                            <strong>Escopo: </strong>A <strong>Revista Científica de Produção Animal (RCPA)</strong>
+                            é o órgão oficial de publicação Cientifica da Sociedade Nordestina de Produção Animal, desde
+                            1999,
+                            estando
+                            vinculada ao Departamento de Zootecnia do Centro de Ciências Agrárias da Universidade
+                            Federal da Paraíba. A RCPA publica semestralmente trabalhos acadêmicos inéditos, no
+                            campo da Zootecnia, em Português, Inglês e Espanhol nas seguintes áreas temáticas:
+                            <strong>Avaliação de Alimentos para Animais; Produção e Nutrição de Animais Ruminantes e Não
+                                Ruminantes; Forragicultura; Melhoramento Genético Animal; Reprodução Animal; Avaliação
+                                de Produtos de Origem Animal; Genômica; Sistemas de Produção Animal</strong> e demais
+                            temas
+                            relacionados a Zootecnia.
+                            <br>
+                            <strong>e-ISSN: </strong>2176-4158
+                            <br>
+                            <strong>Contato: </strong>recipran@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rcpa">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/rcpa/issue/current">Edição Atual</a>
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <br>
+                <div class="row">
+                    <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/petrart.png" alt="" style="width: 100%;margin-right:15px;">
                     </div>
                     <div class="col-md-9 col-lg-9">
@@ -1957,42 +1993,6 @@
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/caos">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/caos/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/rcpa.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/rcpa">Revista Científica de Produção Animal</a>
-                            <br>
-                            <strong>Escopo: </strong>A <strong>Revista Científica de Produção Animal (RCPA)</strong>
-                            é o órgão oficial de publicação Cientifica da Sociedade Nordestina de Produção Animal, desde
-                            1999,
-                            estando
-                            vinculada ao Departamento de Zootecnia do Centro de Ciências Agrárias da Universidade
-                            Federal da Paraíba. A RCPA publica semestralmente trabalhos acadêmicos inéditos, no
-                            campo da Zootecnia, em Português, Inglês e Espanhol nas seguintes áreas temáticas:
-                            <strong>Avaliação de Alimentos para Animais; Produção e Nutrição de Animais Ruminantes e Não
-                                Ruminantes; Forragicultura; Melhoramento Genético Animal; Reprodução Animal; Avaliação
-                                de Produtos de Origem Animal; Genômica; Sistemas de Produção Animal</strong> e demais
-                            temas
-                            relacionados a Zootecnia.
-                            <br>
-                            <strong>e-ISSN: </strong>2176-4158
-                            <br>
-                            <strong>Contato: </strong>recipran@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rcpa">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/rcpa/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
