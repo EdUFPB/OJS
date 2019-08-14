@@ -83,7 +83,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/ies">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/ies/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/ies/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -117,7 +117,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/moringa">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/moringa/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/moringa/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -149,7 +149,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/arf">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/arf/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/arf/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -181,7 +181,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/actas">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/actas/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/actas/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -212,7 +212,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/ancora">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/ancora/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/ancora/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -243,7 +243,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/cm">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/cm/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/cm/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -274,7 +274,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/gaia">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/gaia/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/gaia/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -305,7 +305,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/juee">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/juee/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/juee/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -338,7 +338,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/pgc">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/pgc/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/pgc/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -376,7 +376,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/primafacie">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/primafacie/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/primafacie/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -407,7 +407,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/problemata">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/problemata/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/problemata/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -437,7 +437,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/prolingua">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/prolingua/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/prolingua/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -470,7 +470,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/religare">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/religare/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/religare/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -502,7 +502,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/artemis">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/artemis/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/artemis/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -537,7 +537,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/politicaetrabalho">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/politicaetrabalho/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/politicaetrabalho/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -573,7 +573,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rec">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/rec/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rec/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -602,7 +602,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/graphos">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/graphos/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/graphos/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -631,7 +631,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rle">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/rle/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rle/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -664,7 +664,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/srh">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/srh/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/srh/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -697,7 +697,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/biblio">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/biblio/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/biblio/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -731,7 +731,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/co">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/co/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/co/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -767,7 +767,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/dclv">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/dclv/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/dclv/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -800,7 +800,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/ged">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/ged/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/ged/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -830,7 +830,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/okara">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/okara/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/okara/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -863,7 +863,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/abet">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/abet/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/abet/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -899,7 +899,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rteo">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/rteo/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rteo/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -931,7 +931,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/tpa">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/tpa/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/tpa/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -964,7 +964,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/archeion">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/archeion/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/archeion/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -997,7 +997,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/ci">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/ci/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/ci/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1027,7 +1027,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rbcs">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/rbcs/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rbcs/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1059,7 +1059,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/economia">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/economia/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/economia/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1090,7 +1090,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/recfin">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/recfin/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/recfin/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1125,7 +1125,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/revnebio">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/revnebio/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/revnebio/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1162,7 +1162,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/at">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/at/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/at/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1194,7 +1194,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/logepa">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/logepa/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/logepa/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1210,7 +1210,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://150.165.254.102/index.php/mpgoa">Gestão & Aprendizagem</a>
+                            <a href="http://periodicos.ufpb.br/index.php/mpgoa">Gestão & Aprendizagem</a>
                             <br>
                             <strong>Escopo: </strong>Gestão & Aprendizagem (G&A) é um periódico do Programa de
                             Pós-Graduação em Gestão nas Organizações Aprendentes (MPGOA) da Universidade Federal da
@@ -1224,7 +1224,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/mpgoa">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/mpgoa/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/mpgoa/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1256,7 +1256,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rppi">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/rppi/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rppi/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1285,7 +1285,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/claves">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/claves/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/claves/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1317,7 +1317,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/tematica">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/tematica/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/tematica/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1348,7 +1348,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/ct">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/ct/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/ct/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1377,7 +1377,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/dr">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/dr/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/dr/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1410,7 +1410,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/imgn">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/imgn/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/imgn/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1448,7 +1448,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/itec">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/itec/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/itec/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1479,7 +1479,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/mepad">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/mepad/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/mepad/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1513,7 +1513,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/revico">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/revico/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/revico/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1545,7 +1545,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/lv">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/lv/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/lv/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1577,7 +1577,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/lv">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/lv/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/lv/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1608,7 +1608,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rph">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/rph/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rph/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1639,7 +1639,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/letraseideias">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/letraseideias/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/letraseideias/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1670,7 +1670,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/educare">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/educare/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/educare/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1703,7 +1703,7 @@
                             <strong>Contato: </strong>claudiosmp@terra.com.br
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rmp">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/rmp/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rmp/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1732,7 +1732,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rdive">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/rdive/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rdive/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1762,7 +1762,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/altera">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/altera/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/altera/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1794,7 +1794,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/cei">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/cei/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/cei/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1827,7 +1827,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/scandia">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/scandia/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/scandia/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1859,7 +1859,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/btaj">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/btaj/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/btaj/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1895,7 +1895,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rcpa">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/rcpa/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/rcpa/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1928,7 +1928,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/petrart">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/petrart/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/petrart/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1960,7 +1960,7 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/ciab">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/ciab/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/ciab/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1992,12 +1992,44 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/caos">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm" href="http://150.165.254.102/index.php/caos/issue/current">Edição Atual</a>
+                            <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/caos/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
                 </div>
             </li>
+
+            <li>
+                <div class="row">
+                    <div class="col-md-3 col-lg-3">
+                        <img class="float left" src="images/abordagens.png" alt=""
+                            style="width: 100%;margin-right:15px;">
+                    </div>
+                    <div class="col-md-9 col-lg-9">
+                        <p class="text-justify">
+                            <a href="http://periodicos.ufpb.br/index.php/rappgs">Revista Abordagens</a>
+                            <br>
+                            <strong>Escopo: </strong>A Revista Abordagens é uma publicação científica do corpo discente
+                            do Programa de Pós-Graduação em Sociologia da Universidade Federal da Paraíba (PPGS/UFPB).
+                            Trata-se de um periódico com publicação semestral e com uma linha editorial plural,
+                            objetivando, com isso, construir diálogos e promover a disseminação de pesquisas que abordem
+                            o campo sociológico e áreas que com ele dialogue. O seu meio de divulgação será eletrônico.
+                            <br>
+                            <strong>e-ISSN: </strong>
+                            <br>
+                            <strong>Contato: </strong>emilaynesouto@hotmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm"
+                                href="http://periodicos.ufpb.br/index.php/rappgs">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm"
+                                href="http://periodicos.ufpb.br/index.php/rappgs/issue/current">Edição Atual</a>
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+            </li>
+
         </ul>
 
     </div>
