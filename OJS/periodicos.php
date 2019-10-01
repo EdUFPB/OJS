@@ -1571,9 +1571,9 @@
                             contribuir para a ampliação do debate sobre as relações internacionais em suas distintas
                             abordagens epistemológica e metodológica.</p>
                             <br>
-                            <strong>e-ISSN: </strong>1517-3100 
+                            <strong>e-ISSN: </strong>2318-9452
                             <br>
-                            <strong>Contato: </strong>betamedrado@gmail.com
+                            <strong>Contato: </strong>ricri.ufpb@gmail.com
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/lv">Acessar Revista</a>
