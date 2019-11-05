@@ -1780,7 +1780,7 @@
                 <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/letras-ideias.png" alt=""
+                        <img class="float left" src="images/letras-ideias1.png" alt=""
                             style="width: 100%;margin-right:15px;">
                     </div>
                     <div class="col-md-9 col-lg-9">
@@ -1794,7 +1794,7 @@
                             trabalhos inéditos na área de Letras, especialmente nas linhas de pesquisa do programa
                             de pós-graduação.
                             <br>
-                            <strong>e-ISSN: </strong>2575-7295
+                            <strong>e-ISSN: </strong>2595-7295
                             <br>
                             <strong>Contato: </strong>ligepsi@gmail.com
                             <br>
