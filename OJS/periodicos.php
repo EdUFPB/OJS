@@ -2200,9 +2200,9 @@
                             objetivando, com isso, construir diálogos e promover a disseminação de pesquisas que abordem
                             o campo sociológico e áreas que com ele dialogue. O seu meio de divulgação será eletrônico.
                             <br>
-                            <strong>e-ISSN: </strong>
+                            <strong>e-ISSN: </strong>2674-824X
                             <br>
-                            <strong>Contato: </strong>emilaynesouto@hotmail.com
+                            <strong>Contato: </strong>revistaabordagens@gmail.com
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
