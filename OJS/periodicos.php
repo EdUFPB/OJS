@@ -1881,7 +1881,7 @@
                 <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/comunicacoes-informatica.png" alt=""
+                        <img class="float left" src="images/ci.png" alt=""
                             style="width: 100%;margin-right:15px;">
                     </div>
                     <div class="col-md-9 col-lg-9">
@@ -1898,7 +1898,7 @@
                             <br>
                             <strong>e-ISSN: </strong>2595-0622
                             <br>
-                            <strong>Contato: </strong>liliane@di.ufpb.br
+                            <strong>Contato: </strong>cominfo@di.ufpb.br
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
