@@ -684,17 +684,18 @@
                             <a href="http://periodicos.ufpb.br/index.php/actas">Acta Semiótica et Lingvistica</a>
                             <br>
                             <strong>Escopo: </strong>Acta Semiotica et Linguistica (ASEL) é um periódico cientifico
-                            internacional que tem por objetivo favorecer o intercâmbio entre docentes e
-                            pesquisadores de ciências humanas, interessados no problema da significação e da
-                            linguagem — verbal, não verbal e complexa ou sincrética. Fundada pela Sociedade
-                            Brasileira de Professores de Linguística (Pais, 1977) hoje, está sendo publicada pelo
-                            Programa de Pós Graduação em Letras da Universidade Federal da Paraíba-Brasil, mais
-                            especificamente pela linha Estudos Semióticos que atende, também, a estudiosos usuários
-                            de libras e braille, numa experiência pioneira entre nós.
+                            internacional, com publicação quadrimestral, que tem por objetivo favorecer o intercâmbio
+                            entre docentes e pesquisadores de ciências humanas, interessados nos problemas da Semiótica
+                            e da Linguística, considerando tendências teóricas diversas. Fundada na USP de São Paulo, em
+                            1977, hoje, está sendo publicada pelo Programa de Pós Graduação em Letras da Universidade
+                            Federal da Paraíba-Br e atende, também, a estudiosos de Literatura Popular, libras e braile
+                            que utilizem a Semiótica e a Linguística como proposta teórica. As produções são
+                            distribuídas em três seções: artigos, traduções/versões e entrevistas (com pesquisadores que
+                            atuam na linha de proposta da revista).
                             <br>
                             <strong>e-ISSN: </strong>2446-7006
                             <br>
-                            <strong>Contato: </strong>mariadefatimambatista@gmail.com
+                            <strong>Contato: </strong>mariadefatimambatista@gmail.com <br> actasemioticaetlingvistica@gmail.com
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
@@ -1505,7 +1506,7 @@
                     </div>
                 </div>
             </li>
-            
+
             <li>
                 <br>
                 <div class="row">
@@ -1541,7 +1542,7 @@
                     </div>
                 </div>
             </li>
-            
+
             <li>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
@@ -1573,7 +1574,7 @@
                     </div>
                 </div>
             </li>
-            
+
             <li>
                 <br>
                 <div class="row">
@@ -1676,7 +1677,7 @@
                     </div>
                 </div>
             </li>
-            
+
             <li>
                 <br>
                 <div class="row">
@@ -1910,7 +1911,7 @@
                     </div>
                 </div>
             </li>
-            
+
             <li>
                 <br>
                 <div class="row">
