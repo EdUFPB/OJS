@@ -453,7 +453,7 @@
                             <br>
                             <strong>e-ISSN: </strong>1887-8214
                             <br>
-                            <strong>Contato: </strong>revistaartemis@yahoo.com.br
+                            <strong>Contato: </strong>artemisestudosdegenero@gmail.com
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
