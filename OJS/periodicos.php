@@ -1794,7 +1794,7 @@
                             trabalhos inéditos na área de Letras, especialmente nas linhas de pesquisa do programa
                             de pós-graduação.
                             <br>
-                            <strong>e-ISSN: </strong>2575-7295
+                            <strong>e-ISSN: </strong>2595-7295
                             <br>
                             <strong>Contato: </strong>ligepsi@gmail.com
                             <br>
