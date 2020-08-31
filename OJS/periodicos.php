@@ -447,7 +447,7 @@
                             e sexualidades pelo viés interdisciplinar, abordando fenômenos socioculturais a partir de
                             análises históricas, literárias, culturais, psicológicas. O objetivo é contribuir com a
                             construção de novas abordagens teórico-metodológicas, difundir artigos e pesquisas nacionais
-                            e internacionais, resenhas, entrevistas e traduções. Em julho de
+                            e internacionais, resenhas, entrevistas e traduções. A revista é semestral, estando vinculada ao Programa de Pós-Graduaçãoem Letras da UFPB. Em julho de
                             2019, recebeu classificação Qualis A2.
                             <br>
                             <strong>e-ISSN: </strong>1887-8214
