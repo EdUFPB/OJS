@@ -447,7 +447,8 @@
                             e sexualidades pelo viés interdisciplinar, abordando fenômenos socioculturais a partir de
                             análises históricas, literárias, culturais, psicológicas. O objetivo é contribuir com a
                             construção de novas abordagens teórico-metodológicas, difundir artigos e pesquisas nacionais
-                            e internacionais, resenhas, entrevistas e traduções. A revista é semestral, estando vinculada ao Programa de Pós-Graduaçãoem Letras da UFPB. Em julho de
+                            e internacionais, resenhas, entrevistas e traduções. A revista é semestral, estando
+                            vinculada ao Programa de Pós-Graduaçãoem Letras da UFPB. Em julho de
                             2019, recebeu classificação Qualis A2.
                             <br>
                             <strong>e-ISSN: </strong>1887-8214
@@ -694,7 +695,8 @@
                             <br>
                             <strong>e-ISSN: </strong>2446-7006
                             <br>
-                            <strong>Contato: </strong>mariadefatimambatista@gmail.com <br> actasemioticaetlingvistica@gmail.com
+                            <strong>Contato: </strong>mariadefatimambatista@gmail.com <br>
+                            actasemioticaetlingvistica@gmail.com
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
@@ -718,21 +720,18 @@
                             <a href="http://periodicos.ufpb.br/index.php/dclv">DLCV - Língua, Linguística &
                                 Literatura</a>
                             <br>
-                            <strong>Escopo: </strong>A Revista DLCV - Língua, Linguística & Literatura tem como
-                            objetivo divulgar estudos de caráter teórico, experimental ou aplicado, na área de
-                            conhecimento em Linguística e Letras e suas diversas interfaces, priorizando
-                            contribuições inéditas de autores vinculados a programas de pós-graduação e professores
-                            das áreas . A Revista é vinculada ao Departamento de Letras Clássicas e Vernáculas da
-                            UFPB e publica artigos, ensaios, traduções e resenhas elaborados por profissionais
-                            vinculados ao ensino e à pesquisa nas áreas em questão, além de textos produzidos por
-                            alunos de pós-graduação, garantindo, assim, efetiva diversidade de temas e a livre
-                            afiliação teórica dos autores, zelando pela qualidade das discussões através de uma
-                            rigorosa seleção dos textos submetidos à publicação. <strong>(Qualis B2 - LETRAS /
-                                LINGUÍSTICA)</strong>
+                            <strong>Escopo: </strong>A Revista DLCV - Língua, Linguística & Literatura tem como objetivo
+                            divulgar estudos inéditos de caráter teórico, experimental ou aplicado, na área de
+                            Linguística, Literaturas e Letras Clássicas. A Revista é vinculada ao Departamento de Letras
+                            Clássicas e Vernáculas e ao Departamento de Língua Portuguesa e Linguística da UFPB, e
+                            publica artigos, ensaios, traduções, entrevistas e resenhas elaborados por profissionais
+                            vinculados ao ensino e à pesquisa nas áreas em questão, garantindo, assim, efetiva
+                            diversidade de temas e a livre afiliação teórica dos autores, zelando pela qualidade das
+                            discussões através de uma rigorosa seleção dos textos submetidos à publicação.
                             <br>
                             <strong>e-ISSN: </strong>2237-0900
                             <br>
-                            <strong>Contato: </strong>dlcv.revista@gmail.com
+                            <strong>Contato: </strong>revistadlcv.ufpb@gmail.com
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
