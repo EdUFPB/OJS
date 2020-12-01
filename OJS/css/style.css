@@ -1031,9 +1031,11 @@ body{
 			height: inherit;
 			line-height: inherit;
 			position: absolute;
-			right: 3em;
+			right: 8em;
 			vertical-align: middle;
 		}
+
+		
 
 			#header nav > ul {
 				list-style: none;
@@ -1122,11 +1124,11 @@ body{
 
 		#banner a img{
 			position: absolute;
-			width: 600px;
-			height: 200px;
+			width: 800px;
+			height: 300px;
 			float: left;
 			margin-left: 10em;
-			
+			padding-bottom: 5em;
 		}
 
 /* Wrapper */
@@ -1296,3 +1298,25 @@ body{
 		.grid-demo .row.flush > div:last-child span {
 			border-radius: 0 4px 4px 0;
 		}
+/* Grid Demo */
+
+@media only screen and (max-width: 768px) {
+  #banner {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #banner a img {
+		width: 600px;
+		height: 250px;
+	}
+	#header nav {
+		right: 5em;
+	}
+	#header nav > ul {
+		font-size: 15px;
+		padding-left: 1em;
+	}
+}
+
