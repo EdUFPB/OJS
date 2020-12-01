@@ -1354,9 +1354,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/imgn">Acessar Revista</a>
+                                href="https://www.marcadefantasia.com/imaginario.html">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/imgn/issue/current">Edição Atual</a>
+                                href="https://www.marcadefantasia.com/revistas/imaginario/edicoes.html">Edições Disponíveis</a>
                         </p>
                         <hr>
                     </div>
