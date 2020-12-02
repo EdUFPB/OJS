@@ -1332,41 +1332,6 @@
                 <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/imaginario.png" alt=""
-                            style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/imgn">Imaginário!</a>
-                            <br>
-                            <strong>Escopo: </strong>Imaginário! é uma revista eletrônica semestral, que tem como
-                            propósito a divulgação dos estudos voltados à Cultura Pop e às Artes Visuais, como
-                            História em Quadrinhos, Grafite, Humor, Animação, Fanzine e Game. É vinculada ao NAMID -
-                            Núcleo de Arte, Mídia e Informação Digital, do Curso de Comunicação em Mídais Digitais
-                            (DEMID/UFPB) e do Programa de Pós-Graduação em Comunicação (PPGC/UFPB), e produzida pelo
-                            projeto editorial Marca de Fantasia. A revista publica artigos científicos de
-                            pesquisadores da graduação e da pós-graduação, e demais produções como entrevistas,
-                            ensaios e resenhas.
-                            <br>
-                            <strong>e-ISSN: </strong>2237-6933
-                            <br>
-                            <strong>Contato: </strong>henriquemais@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://www.marcadefantasia.com/imaginario.html">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://www.marcadefantasia.com/revistas/imaginario/edicoes.html">Edições Disponíveis</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/info-e-tec.png" alt=""
                             style="width: 100%;margin-right:15px;">
                     </div>
@@ -2109,40 +2074,6 @@
                                 href="http://periodicos.ufpb.br/index.php/petrart">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
                                 href="http://periodicos.ufpb.br/index.php/petrart/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/ciab.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/ciab">Ciência da Informação em
-                                Aberto</a>
-                            <br>
-                            <strong>Escopo: </strong>ciência da informação em aberto (ciab) – periódico científico
-                            na área de Ciência da Informação (CI) vinculado aos Grupos de Pesquisa: “Da Informação e
-                            do Conhecimento” e “Imclusos”, certificados pelo CNPq, cuja missão é divulgar trabalhos
-                            que possibilitem contribuição para o desenvolvimento de conhecimentos em CI,
-                            Biblioteconomia, Arquivologia, Museologia e áreas afins, entre pesquisadores, docentes,
-                            discentes e demais profissionais, independentemente de sua vinculação profissional e
-                            local de origem.
-                            <br>
-                            <strong>e-ISSN: </strong>
-                            <br>
-                            <strong>Contato: </strong>nacoeli@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/ciab">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/ciab/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
