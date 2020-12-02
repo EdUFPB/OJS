@@ -65,7 +65,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/imgn">Imaginário!</a>
+                            <a href="https://www.marcadefantasia.com/imaginario.html">Imaginário!</a>
                             <br>
                             <strong>Escopo: </strong>Imaginário! é uma revista eletrônica semestral, que tem como
                             propósito a divulgação dos estudos voltados à Cultura Pop e às Artes Visuais, como
