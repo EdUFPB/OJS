@@ -65,9 +65,9 @@
 		<section class="profiles" id="teamSection">
 			<div class="row justify-content-center">
 				<section class="3u 6u(medium) 12u$(xsmall) profile">
-					<img src="images/henry.jpg" alt="" width="100px" height="100px" />
-					<h5><strong>Coordenador</strong></h5>
-					<p>Henry Pôncio</p>
+					<img src="https://via.placeholder.com/100" alt="" width="100px" height="100px" />
+					<h5 style="font-size: 19px"><strong>Coordenadora</strong></h5>
+					<p>Cassandra Campos</p>
 				</section>
 				<section class="3u 6u$(medium) 12u$(xsmall) profile">
 					<img src="images/fabi.png" alt="" width="100px" height="100px" />
