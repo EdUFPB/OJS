@@ -12,7 +12,6 @@
 	<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/skel.min.js"></script>
-	<script src="js/skel-layers.min.js"></script>
 	<script src="js/init.js"></script>
 	<script src="js/main.js"></script>
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
@@ -46,29 +45,45 @@
 	<div id="loading">
 		<div id="status"></div>
 	</div>
-
-		<!-- Header -->
-		<header id="header">
-			<h1></h1>
-			<nav id="nav">
-				<ul>
-					<li><a href="index.php">Inicio</a></li>
-					<li><a href="quem-somos.php">Quem Somos</a></li>
-					<li><a href="duvidas.php">Dúvidas</a></li>
-					<li><a href="periodicos.php">Periódicos</a></li>
-					<li><a href="parcerias.php">Parcerias</a></li>
-					<li><a href="espaco-editor.php">Espaço do Editor</a></li>
-					<li><a href="contato.php">Contato</a></li>
-					<li><a href="acesso.php" class="button special">Acesso</a></li>
-				</ul>
-			</nav>
-		</header>
-
-	<!-- Banner -->
-	<section id="banner">
-		<div class="container d-none d-lg-block">
-			<a href="index.php" class="image fit "><img src="images/logo.png" alt=""></a>
-			<p></p>
+		<div class="container">
+			<header>
+				<nav class="navbar navbar-expand-lg navbar-light" style="color: #444751 !important;">
+					<a class="navbar-brand" href="index.php"><img src="images/logo.png" width="600" height="200" alt="" srcset=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="index.php">Início <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="quem-somos.php">Quem somos</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="duvidas.php">Dúvidas</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="periodicos.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Periódicos
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="periodicos.php">Periódicos</a>
+									<a class="dropdown-item" href="incubadas.php">Periódicos incubados</a>
+									<a class="dropdown-item" href="parcerias.php">Parcerias</a>
+									<a class="dropdown-item" href="espaco-editor.php">Espaço do Editor</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="contato.php">Contato</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link orange-rounded button-special" href="acesso.php">Acesso</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</header>
 		</div>
 	</section>
 

@@ -1070,17 +1070,6 @@ body{
 						margin-left: 0;
 					}
 
-					#header nav > ul > li .button {
-						background-color: #D06729;
-						color: #ffff !important;
-						height: 2.25em;
-						line-height: 2.25em;
-						margin-bottom: 0;
-						padding: 0 1em;
-						position: relative;
-						top: -0.075em;
-						vertical-align: middle;
-					}
 
 		#header .container {
 			position: relative;
@@ -1301,8 +1290,8 @@ body{
 /* Grid Demo */
 
 @media only screen and (max-width: 768px) {
-  #banner {
-    display: none;
+  .navbar-brand {
+    display: none !important;
   }
 }
 
@@ -1320,3 +1309,25 @@ body{
 	}
 }
 
+.nav-item > .button-special {
+	padding: 2px;
+	color: #ffff !important;
+	height: 2.25em;
+	line-height: 2.25em;
+	margin-bottom: 0;
+	padding: 0 1em;
+	position: relative;
+	top: -0.075em;
+	vertical-align: middle;
+}
+
+.orange-rounded {
+	font-weight: bolder;
+	background-color: #D06729;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.active{
+	font-weight: bolder;
+}
