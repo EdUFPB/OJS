@@ -43,7 +43,7 @@
   <div class="container">
 
     <header class="major">
-      <h2><strong>Revistas Incubadas</strong></h2>
+      <h2><strong>Periódicos Incubados</strong></h2>
       <h4> <strong>Confira abaixo a lista de periódicos recém criados e que não possuem edição.</strong> </h4>
       <br>
       <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Pesquise por periódicos">
