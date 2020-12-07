@@ -892,7 +892,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/tpa">TPA - Teoria e Prática em
+                            <a href="http://periodicos.ufpb.br/index.php/tpa">Teoria e Prática em
                                 Administração</a>
                             <br>
                             <strong>Escopo: </strong>A revista Teoria e Prática em Administração é um periódico
@@ -900,7 +900,7 @@
                             finalidade disseminar conhecimentos voltados a contribuir com a prática de profissionais de
                             Administração, sejam estes executivos empresariais, gestores públicos ou sociais,
                             empreendedores ou docentes da área.
-                            A TPA tem Qualis B2 na área de avaliação de Administração Pública e de Empresas, Ciências
+                            A Teoria e Prática em Administração tem Qualis B2 na área de avaliação de Administração Pública e de Empresas, Ciências
                             Contábeis e Turismo.
                             <br>
                             <strong>e-ISSN: </strong>2238-104X
