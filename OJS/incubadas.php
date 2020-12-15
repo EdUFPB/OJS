@@ -60,6 +60,39 @@
         <br>
         <div class="row">
           <div class="col-md-3 col-lg-3">
+            <img class="float left" src="./images/praxis.png" alt="" style="width: 100%;margin-right:15px;">
+          </div>
+          <div class="col-md-9 col-lg-9">
+            <p class="text-justify">
+              <a href="https://periodicos.ufpb.br/index.php/prx/index">PRÁXIS</a>
+              <br>
+              <strong>Escopo: </strong>A revista <strong>PRÁXIS</strong> Educação e
+              Diversidade tem por objetivo fomentar contribuição a ciência, estimular conhecimentos entre pesquisadores,
+              docentes, discentes e profissionais em educação, movimentos sociais, etnia, economia solidária, cultura,
+              diversidade e ou áreas afins, independente de sua vinculação profissional, podendo publicar artigos,
+              dossiês, resumos, imagens e similares, provenientes de chamadas de editais, eventos acadêmicos promovidos
+              pelo Grupo de Estudos e Pesquisas em Educação, Etnia e Economia Solidária - GEPeeeS ou dissertações
+              aprovadas no DED-CCAE. Artigos devem ter originalidade, possuir autores com titulação de doutor. Artigos
+              serão submetidos aos parâmetros de apreciação e publicação, além obter a aferição final do editor.
+              <br>
+              <strong>e-ISSN: </strong>
+              <br>
+              <strong>Contato: </strong>revistaprx@gmail.com
+              <br>
+              <br>
+              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/prx/index/">Acessar
+                Revista</a>
+              <a class="btn btn-outline-primary btn-sm"
+                href="https://periodicos.ufpb.br/index.php/prx/issue/current">Edições Disponíveis</a>
+            </p>
+            <hr>
+          </div>
+        </div>
+      </li>
+      <li>
+        <br>
+        <div class="row">
+          <div class="col-md-3 col-lg-3">
             <img class="float left" src="images/dsbr.png" alt="" style="width: 100%;margin-right:15px;">
           </div>
           <div class="col-md-9 col-lg-9">
