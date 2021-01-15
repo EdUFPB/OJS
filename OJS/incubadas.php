@@ -66,13 +66,14 @@
             <p class="text-justify">
               <a href="https://periodicos.ufpb.br/index.php/prosp/index">Prosppectus</a>
               <br>
-              <strong>Escopo: A Prosppectus é uma revista do Departamento de Finanças e Contabilidade
-                (DFC) do Centro de Ciências Sociais Aplicadas (CCSA) da Universidade
-                Federal da Paraíba que tem como objetivo divulgar artigos inéditos teóricos e
-                teórico-empíricos, com metodologias qualitativas na área de Contabilidade e
-                Organizações, em diferentes contextos e de várias perspectivas teóricas, escritos
-                nos idiomas Português, Espanhol ou Inglês e que contribuam para os debates
-                acadêmicos contemporâneos.</strong>
+              <strong>Escopo: </strong>A <strong>Prosppectus</strong> é uma revista do Departamento de Finanças e
+              Contabilidade
+              (DFC) do Centro de Ciências Sociais Aplicadas (CCSA) da Universidade
+              Federal da Paraíba que tem como objetivo divulgar artigos inéditos teóricos e
+              teórico-empíricos, com metodologias qualitativas na área de Contabilidade e
+              Organizações, em diferentes contextos e de várias perspectivas teóricas, escritos
+              nos idiomas Português, Espanhol ou Inglês e que contribuam para os debates
+              acadêmicos contemporâneos.
               <br>
               <strong>e-ISSN: </strong>
               <br>
