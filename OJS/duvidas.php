@@ -76,6 +76,51 @@ include 'header.html'
             </div>
 
             <div class="panel panel-default">
+                <div class="panel-heading p-3 mb-3" role="tab" id="heading5">
+                    <h4 class="panel-title">
+                        <a class="collapsed text-center" role="button" title="" data-toggle="collapse"
+                            data-parent="#accordion" href="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                            <strong>Onde encontro o manual do OJS 3?</strong>
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+                    <div class="panel-body px-3 mb-4 text-justify pl-5 pr-5">
+                        <div class="row">
+                            <div class="col-md-3 col-lg-3">
+                                <a href="https://drive.google.com/file/d/1EsTxRoMKsa7LoZ9aZPmGF2QLOZIyHSy9/view?usp=sharing">
+                                    <img class="float left" src="images/ojs3.png" alt="" style="width: 100%;margin-right:15px;">
+                                </a>
+                                
+                            </div>
+                            <div class="col-md-9 col-lg-9">
+                                <p class="text-justify">
+                                    <a href="https://drive.google.com/file/d/1EsTxRoMKsa7LoZ9aZPmGF2QLOZIyHSy9/view?usp=sharing">Manual do Usuário OJS 3</a>
+                                    <br>
+                                    A presente obra é uma adaptação e ampliação da documentação oficial do Open Journal
+                                    Systems (OJS), publicada pelo Public Knowledge Project (PKP) e disponível
+                                    integralmente na internet, de forma livre, com os ajustes necessários a língua
+                                    portuguesa do Brasil e ao contexto da publicação brasileira.
+                                    <br>
+                                    Este trabalho foi desenvolvido colaborativamente, de forma a contemplar visões de
+                                    vários pesquisadores e usuários do OJS, no âmbito do projeto firmado entre o
+                                    Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) e a Secretaria
+                                    Nacional de Juventude (SNJ), sendo desenvolvido na Coordenação de Articulação,
+                                    Geração e Aplicação de Tecnologia (CoTec)
+                                    <br>
+                                    <br>
+                                    <a class="btn btn-outline-primary btn-sm"
+                                        href="https://drive.google.com/file/d/1EsTxRoMKsa7LoZ9aZPmGF2QLOZIyHSy9/view?usp=sharing">Acessar Manual
+                                    </a>
+                                </p>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
                 <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
                     <h4 class="panel-title">
                         <a class="collapsed text-center" role="button" title="" data-toggle="collapse"
@@ -86,7 +131,8 @@ include 'header.html'
                 </div>
                 <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
                     <div class="panel-body px-3 mb-4 text-justify pl-5 pr-5">
-                        <p class="text-justify">Para acompanhar o status de seu artigo/manuscrito será necessário estar sempre atento ao seu
+                        <p class="text-justify">Para acompanhar o status de seu artigo/manuscrito será necessário estar
+                            sempre atento ao seu
                             email cadastrado no sistema, ou sempre observar o andamento do fluxo pelo sistema.</p>
                     </div>
                 </div>
@@ -95,8 +141,8 @@ include 'header.html'
             <div class="panel panel-default">
                 <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
                     <h4 class="panel-title">
-                        <a class="collapsed text-center" role="button" title="" data-toggle="collapse" data-parent="#accordion"
-                            href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                        <a class="collapsed text-center" role="button" title="" data-toggle="collapse"
+                            data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
                             <strong>Como entrar em contato?</strong>
                         </a>
                     </h4>
@@ -104,7 +150,8 @@ include 'header.html'
                 <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
                     <div class="panel-body px-3 mb-4 text-justify pl-5 pr-5">
                         <p class="text-justify">
-                            Entre em contato conosco por email: <a href="mailto:periodicos.ufpb@gmail.com">periodicos.ufpb@gmail.com</a>
+                            Entre em contato conosco por email: <a
+                                href="mailto:periodicos.ufpb@gmail.com">periodicos.ufpb@gmail.com</a>
                             <br>
                             Ou pelo telefone: <a href="tel:+558432167147">(83) 3216 - 7147</a>
                         </p>
@@ -115,8 +162,8 @@ include 'header.html'
             <div class="panel panel-default">
                 <div class="panel-heading p-3 mb-3" role="tab" id="heading4">
                     <h4 class="panel-title">
-                        <a class="collapsed text-center" role="button" title="" data-toggle="collapse" data-parent="#accordion"
-                            href="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                        <a class="collapsed text-center" role="button" title="" data-toggle="collapse"
+                            data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
                             <strong>Qual a equipe atual?</strong>
                         </a>
                     </h4>
