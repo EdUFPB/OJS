@@ -13,23 +13,22 @@
 			<div class="4u 12u$(medium)">
 				<section class="box">
 					<a href="espaco-editor.php"> <i class="icon big rounded color1 fa-cloud"></i></a>
-					<h3>Espaço do Editor</h3>
-					<p>Um novo espaço exclusivo para o editor, venha conhecer.</p>
+					<h3><strong>Dúvidas</strong></h3>
+					<p>Surgiu alguma dúvida? Aqui reunimos todas dúvidas frequentes.</p>
 				</section>
 			</div>
 			<div class="4u 12u$(medium)">
 				<section class="box">
 					<a href="periodicos.php"> <i class="icon big rounded color8 fas fa-book"></i></a>
-					<h3>Periódicos</h3>
-					<p> Tenha acesso a nossa lista completa de periódicos</p>
+					<h3><strong>Periódicos</strong></h3>
+					<p> Tenha acesso a nossa lista completa de periódicos disponíveis</p>
 				</section>
 			</div>
 			<div class="4u$ 12u$(medium)">
 				<section class="box">
 					<a href="acesso.php"> <i class="icon big rounded color1 fa-rocket"></i></a>
-					<h3>Acesso</h3>
-					<p>Acesse o nosso sistema com um novo visual.</p>
-
+					<h3><strong>Acesso</strong></h3>
+					<p>Acesse ou cadastre-se na nova versão do sistema disponível.</p>
 				</section>
 			</div>
 		</div>
@@ -55,40 +54,32 @@
 
 </section>
 
-<!-- Two -->
 <section id="two" class="wrapper style2 special">
 	<div class="container">
 		<header class="major">
-			<h2>Equipe Portal de Periódicos</h2>
-			<p>Conheça nossa equipe completa do Portal de Periódicos UFPB e tire suas dúvidas.</p>
+			<h2 class="mb-6"><strong>Equipe</strong></h2>
+			<p class="mt-2">Conheça a equipe do Portal de Periódicos</p>
 		</header>
 		<section class="profiles" id="teamSection">
 			<div class="row justify-content-center">
 				<section class="3u 6u(medium) 12u$(xsmall) profile">
 					<img src="https://via.placeholder.com/100" alt="" width="100px" height="100px" />
-					<h5 style="font-size: 19px"><strong>Coordenadora</strong></h5>
 					<p>Cassandra Campos</p>
+					<h5 style="font-size: 15px"><strong>Coordenadora Geral</strong></h5>
 				</section>
 				<section class="3u 6u$(medium) 12u$(xsmall) profile">
 					<img src="images/fabi.png" alt="" width="100px" height="100px" />
-					<h5><strong>Bibliotecária</strong></h5>
 					<p>Fabiana França</p>
+					<h5 h5 style="font-size: 15px"><strong>Bibliotecária - Documentalista</strong></h5>
 				</section>
 				<section class="3u 6u$(medium) 12u$(xsmall) profile">
 					<img src="images/pedro4.jpg" alt="" width="100px" height="100px" />
-					<h5><strong>Estagiário</strong></h5>
 					<p>Pedro Henrique</p>
+					<h5 h5 style="font-size: 15px"><strong>Estágio - Sistemas de Informação</strong></h5>   
 				</section>
 			</div>
 		</section>
-		<footer>
-			<ul class="actions">
-				<li>
-					<a href="contato.php" class="button big">Conheça nossa equipe</a>
-				</li>
-			</ul>
-		</footer>
-	</div>
+	</div>     
 </section>
 
 

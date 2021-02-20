@@ -12,9 +12,9 @@
         <p><strong>Email</strong> - periodicos.ufpb@gmail.com</p>
 
         <h2>Equipe</h2>
-        <p>Coordenador do Portal: Henry Pôncio</p>
+        <p>Coordenadora do Portal: Cassandra Campos</p>
         <p>Bibliotecária - Documentalista: Fabiana França</p>
-        <p>Estagiário: Pedro Henrique</p>
+        <p>Estagiário - Sistemas de Informação: Pedro Henrique</p>
 
     </div>
 </section>

@@ -1338,6 +1338,7 @@ body{
 	padding: 0;
 }
 .accordion-section .panel-default .panel-title a {
+	text-decoration: none !important;
 	display: block;
 }
 .accordion-section .panel-default .panel-title a:after {

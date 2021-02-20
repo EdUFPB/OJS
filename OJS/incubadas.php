@@ -1,55 +1,57 @@
 <?php include 'header.html'; ?>
 <!-- One -->
 
-<section id="one" class="wrapper style1 special">
-  <div class="container">
-    <header class="major">
-      <h2><strong>Periódicos</strong></h2>
-      <p>Periódicos em <strong>DESTAQUE</strong></p>
-    </header>
-    <div class="row 150%">
-      <div class="4u 12u$(medium)">
-        <section class="box">
-          <img src="images/informacao_e_sociedade.png" alt="" class="imageBox">
-          <h4><strong>Informação e Sociedade</strong></h4>
-          <p> É publicada ininterruptamente desde 1991 quando foi criada pela UFPB.
-          </p>
-        </section>
-      </div>
-      <div class="4u 12u$(medium)">
-        <section class="box">
-          <img src="images/moringa.png" alt="" class="imageBox">
-          <h4><strong>Moringa</strong></h4>
-          <p> MORINGA é uma publicação semestral do Departamento de Artes Cênicas, vinculado ao Centro de
-            Comunicação. <br></p>
-        </section>
-      </div>
-      <div class="4u$ 12u$(medium)">
-        <section class="box">
-          <img src="images/juee1.png" alt="" class="imageBox">
-          <h4><strong>JUEE</strong></h4>
-          <p> Journal of Urban and Environmental Engineering (JUEE) provides a forum for original papers.</p>
-          </a>
-        </section>
-      </div>
-    </div>
+<!--
+ <section id="one" class="wrapper style1 special">
+    <div class="container">
+        <header class="major">
+            <h2><strong>Revistas</strong></h2>
+            <p>Revistas em <strong>DESTAQUE</strong></p>
+        </header>
+        <div class="row 150%">
+            <div class="4u 12u$(medium)">
+                <section class="box">
+                    <img src="images/informacao_e_sociedade.png" alt="" class="imageBox">
+                    <h4><strong>Informação e Sociedade</strong></h4>
+                    <p> É publicada ininterruptamente desde 1991 quando foi criada pela UFPB.
+                    </p>
+                </section>
+            </div>
+            <div class="4u 12u$(medium)">
+                <section class="box">
+                    <img src="images/moringa.png" alt="" class="imageBox">
+                    <h4><strong>Moringa</strong></h4>
+                    <p> MORINGA é uma publicação semestral do Departamento de Artes Cênicas, vinculado ao Centro de
+                        Comunicação. <br></p>
+                </section>
+            </div>
+            <div class="4u$ 12u$(medium)">
+                <section class="box">
+                    <img src="images/juee1.png" alt="" class="imageBox">
+                    <h4><strong>JUEE</strong></h4>
+                    <p> Journal of Urban and Environmental Engineering (JUEE) provides a forum for original papers.</p>
+                    </a>
+                </section>
+            </div>
+        </div>
 
-  </div>
-  <hr />
-</section>
+    </div>
+    <hr />
+</section>   
+--->
 
 <!-- Main -->
 <section id="main" class="wrapper" style="padding-top: 0px;">
-  <div class="container">
-
-    <header class="major">
-      <h2><strong>Periódicos Incubados</strong></h2>
-      <h4> <strong>Confira abaixo a lista de periódicos recém criados e que não possuem edição.</strong> </h4>
-      <br>
-      <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Pesquise por periódicos">
-    </header>
-    <hr />
-  </div>
+    <hr class="mt-5">
+    <div class="container">
+        <header class="major mt-5">
+            <h2><strong>Periódicos Incubados</strong></h2>
+            <h4> <strong>Confira abaixo nossa lista completa com os Periódicos Incubados da UFPB</strong> </h4>
+            <br>
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Pesquise por periódicos">
+        </header>
+        <hr />
+    </div>
 
 
   <!-- REVISTAS INICIO -->

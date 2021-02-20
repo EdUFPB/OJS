@@ -1,11 +1,12 @@
 <?php include 'header.html'; ?>
 <!-- One -->
 
-<section id="one" class="wrapper style1 special">
+<!--
+ <section id="one" class="wrapper style1 special">
     <div class="container">
         <header class="major">
-            <h2><strong>Periódicos</strong></h2>
-            <p>Periódicos em <strong>DESTAQUE</strong></p>
+            <h2><strong>Revistas</strong></h2>
+            <p>Revistas em <strong>DESTAQUE</strong></p>
         </header>
         <div class="row 150%">
             <div class="4u 12u$(medium)">
@@ -36,13 +37,14 @@
 
     </div>
     <hr />
-</section>
+</section>   
+--->
 
 <!-- Main -->
 <section id="main" class="wrapper" style="padding-top: 0px;">
+    <hr class="mt-5">
     <div class="container">
-
-        <header class="major">
+        <header class="major mt-5">
             <h2><strong>Parcerias</strong></h2>
             <h4> <strong>Confira abaixo a lista de periódicos vinculados a UFPB e tem acesso externo.</strong> </h4>
             <br>
