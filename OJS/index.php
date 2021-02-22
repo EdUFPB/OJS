@@ -63,7 +63,7 @@
 		<section class="profiles" id="teamSection">
 			<div class="row justify-content-center">
 				<section class="3u 6u(medium) 12u$(xsmall) profile">
-					<img src="https://via.placeholder.com/100" alt="" width="100px" height="100px" />
+					<img src="images/cassandra.jpg" alt="" width="100px" height="100px" />
 					<p>Cassandra Campos</p>
 					<h5 style="font-size: 15px"><strong>Coordenadora Geral</strong></h5>
 				</section>
