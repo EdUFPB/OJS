@@ -8,7 +8,7 @@
 <section id="main" class="wrapper">
     <div class="container">
         <form class="cmp_form cmp_form login" id="login" method="post"
-            action="http://periodicos.ufpb.br/index.php/index/login/signIn">
+            action="https://periodicos.ufpb.br/index.php/index/login/signIn">
             <input type="hidden" name="csrfToken" value="8aa2537e5ac5f82fc930308da43d2118">
 
 
@@ -38,7 +38,7 @@
                         </span>
                         <input type="password" name="password" id="password" value="" password="true" maxlength="32"
                             required="">
-                        <a href="http://periodicos.ufpb.br/index.php/index/login/lostPassword">
+                        <a href="https://periodicos.ufpb.br/index.php/index/login/lostPassword">
                             Esqueceu a senha?
                         </a>
                     </label>
@@ -57,7 +57,7 @@
                     </button>
 
 
-                    <a href="http://periodicos.ufpb.br/index.php/index/user/register?source=" class="register">
+                    <a href="https://periodicos.ufpb.br/index.php/index/user/register?source=" class="register">
                         Não é um usuário? Registe-se no site
                     </a>
                 </div>
