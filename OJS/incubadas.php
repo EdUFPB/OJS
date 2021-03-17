@@ -62,7 +62,7 @@
         <br>
         <div class="row">
           <div class="col-md-3 col-lg-3">
-            <img class="float left" src="https://via.placeholder.com/220" alt="" style="width: 100%;margin-right:15px;">
+            <img class="float left" src="./images/prospectus.jpg" alt="" style="width: 100%;margin-right:15px;">
           </div>
           <div class="col-md-9 col-lg-9">
             <p class="text-justify">
