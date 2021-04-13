@@ -901,7 +901,8 @@
                             finalidade disseminar conhecimentos voltados a contribuir com a prática de profissionais de
                             Administração, sejam estes executivos empresariais, gestores públicos ou sociais,
                             empreendedores ou docentes da área.
-                            A Teoria e Prática em Administração tem Qualis B2 na área de avaliação de Administração Pública e de Empresas, Ciências
+                            A Teoria e Prática em Administração tem Qualis B2 na área de avaliação de Administração
+                            Pública e de Empresas, Ciências
                             Contábeis e Turismo.
                             <br>
                             <strong>e-ISSN: </strong>2238-104X
@@ -1684,14 +1685,12 @@
                         <p class="text-justify">
                             <a href="http://periodicos.ufpb.br/index.php/tematica">Revista Temática</a>
                             <br>
-                            <strong>Escopo: </strong>A revista Temática é uma publicação mensal de Comunicação e
-                            áreas afins (interdisciplinar), destinada à publicação de artigos científicos de
-                            pesquisadores da graduação e da pós-graduação (graduandos, graduados, mestrandos,
-                            mestres, doutorandos e doutores). Fundada em 2004, tem conceito Qualis B4 da Capes e
-                            atualmente está integrada ao NAMID - Núcleo de Arte, Midia e Informação Digital, do
-                            Curso de Comunicação em Mídias Digitais (DEMID/CCHLA/UFPB) e do Programa de
-                            Pós-Graduação em Comunicação (PPGC/UFPB). A Temática recebe artigos em fluxo contínuo.
-                            TRABALHOS QUE NÃO ESTIVEREM ATENDENDO AS DIRETRIZES PARA AUTORES NÃO SERÃO AVALIADOS.
+                            <strong>Escopo: </strong>A revista Temática é uma publicação mensal de Comunicação e áreas
+                            afins (interdisciplinar), destinada à publicação de artigos científicos de pesquisadores da
+                            graduação e da pós-graduação (graduandos, graduados, mestrandos, mestres, doutorandos e
+                            doutores). Fundada em 2004, tem conceito Qualis da Capes e atualmente está integrada ao
+                            NAMID - Núcleo de Arte, Midia e Informação Digital, do Curso de Comunicação em Mídias
+                            Digitais (DEMID/CCHLA/UFPB).
                             <br>
                             <strong>e-ISSN: </strong>1807-8931
                             <br>
