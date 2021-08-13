@@ -77,7 +77,7 @@
               nos idiomas Português, Espanhol ou Inglês e que contribuam para os debates
               acadêmicos contemporâneos.
               <br>
-              <strong>e-ISSN: </strong>
+              <strong>e-ISSN: </strong> 2763-9606
               <br>
               <strong>Contato: vivifreitag@gmail.com</strong>
               <br>
