@@ -181,7 +181,7 @@
                             Audiovisuais. Aceitam-se artigos de professores doutores, mestres, doutorandos e de
                             mestrandos, nesse último caso, em co-autoria com professores doutores.
                             <br>
-                            <strong>e-ISSN: </strong>1983-5930
+                            <strong>e-ISSN: </strong>2763-9398
                             <br>
                             <strong>Contato: </strong>marcosnicolau.ufpb@gmail.com
                             <br>
@@ -799,7 +799,7 @@
                             <br>
                             <strong>e-ISSN: </strong>1679-2483
                             <br>
-                            <strong>Contato: </strong>ivantarginomoreira@yahoo.com.br
+                            <strong>Contato: </strong>revistadaabet@gmail.com
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
