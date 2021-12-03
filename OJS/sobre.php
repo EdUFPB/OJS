@@ -78,9 +78,9 @@
                             <h5 h5 style="font-size: 15px"><strong>Bibliotecária - Documentalista</strong></h5>
                         </section>
                         <section class="3u 6u$(medium) 12u$(xsmall) profile">
-                            <img src="images/pedro4.jpg" alt="" width="100px" height="100px" />
-                            <p>Pedro Henrique</p>
-                            <h5 h5 style="font-size: 15px"><strong>Estágio - Sistemas de Informação</strong></h5>
+                            <img src="images/gilvanilson.jpg" alt="" width="100px" height="100px" />
+                            <p>Gilvanilson Bernardino</p>
+                            <h5 h5 style="font-size: 15px"><strong>Estágio - Ciência da Computação</strong></h5>
                         </section>
                     </div>
                 </section>
