@@ -364,6 +364,40 @@
           </div>
         </div>
       </li>
+      <li>
+                <br>
+                <div class="row">
+                    <div class="col-md-3 col-lg-3">
+                        <img class="float left" src="images/genero-direito.png" alt=""
+                            style="width: 100%;margin-right:15px;">
+                    </div>
+                    <div class="col-md-9 col-lg-9">
+                        <p class="text-justify">
+                            <a href="http://periodicos.ufpb.br/index.php/ged">Revista Gênero & Direito</a>
+                            <br>
+                            <strong>Escopo: </strong>A missão da Revista Gênero e Direito (G&D) destina-se a
+                            informar a comunidade acadêmica sobre os desafios e perspectivas que revestem a
+                            discussão interdisciplinar do gênero. O objetivo da G&D é estimular o debate e produção
+                            científica com o propósito de produzir conhecimentos e atuar como transformador social e
+                            instrumento de reflexão para uma isonomia entre os indivíduos.
+                            O público-alvo de nossa revista é pós-doutores, doutores, mestres e estudantes de
+                            pós-graduação. Dessa maneira os autores devem possuir alguma titulação citada ou cursar
+                            algum curso de pós-graduação. Além disso a G&D aceitará a participação em coautoria.
+                            <br>
+                            <strong>e-ISSN: </strong>2179-7137
+                            <br>
+                            <strong>Contato: </strong>revistageneroedireito@gmail.com
+                            <br>
+                            <br>
+                            <a class="btn btn-outline-primary btn-sm"
+                                href="http://periodicos.ufpb.br/index.php/ged">Acessar Revista</a>
+                            <a class="btn btn-outline-primary btn-sm"
+                                href="http://periodicos.ufpb.br/index.php/ged/issue/current">Edição Atual</a>
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+            </li>
     </ul>
 
   </div>

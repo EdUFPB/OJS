@@ -273,6 +273,32 @@
           </div>
         </div>
       </li>
+      <li>
+        <br>
+        <div class="row">
+          <div class="col-md-3 col-lg-3">
+            <img class="float left" src="./images/rri.jpeg" alt="" style="width: 100%;margin-right:15px;">
+          </div>
+          <div class="col-md-9 col-lg-9">
+            <p class="text-justify">
+              <a href="https://periodicos.ufpb.br/index.php/rri/index">Ratio Iuris</a>
+              <br>
+              <strong>Escopo: </strong>A <strong>Revista Ratio Iuris</strong> é um periódico acadêmico construído por alunos do curso de direito do Centro de Ciências Jurídicas da UFPB. Seu objetivo é fomentar a produção científica em direito, a partir da publicação de artigos inéditos elaborados por discentes ou docentes de quaisquer instituições, sejam nacionais ou estrangeiras.
+              <br>
+              <strong>e-ISSN: </strong>
+              <br>
+              <strong>Contato: </strong>ratioiurisufpb@gmail.com
+              <br>
+              <br>
+              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/rri/index/">Acessar
+                Revista</a>
+              <a class="btn btn-outline-primary btn-sm"
+                href="https://periodicos.ufpb.br/index.php/rri/issue/current">Edições Disponíveis</a>
+            </p>
+            <hr>
+          </div>
+        </div>
+      </li>
     </ul>
 
   </div>
