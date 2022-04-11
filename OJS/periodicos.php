@@ -66,7 +66,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/ies">Informação e Sociedade</a>
+                            <a href="https://periodicos.ufpb.br/index.php/ies">Informação e Sociedade</a>
                             <br>
                             <strong>Escopo: </strong> Informação &amp; Sociedade: Estudos (I&amp;S) é um periódico na
                             área
@@ -84,9 +84,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/ies">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/ies">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/ies/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/ies/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -101,7 +101,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/moringa">Moringa</a>
+                            <a href="https://periodicos.ufpb.br/index.php/moringa">Moringa</a>
                             <br>
                             <strong>Escopo: </strong> MORINGA é uma publicação semestral do Departamento de Artes
                             Cênicas e do Mestrado Profissional em Artes (ProfArtes) do Centro de Comunicação,
@@ -120,9 +120,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/moringa">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/moringa">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/moringa/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/moringa/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -137,7 +137,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/arf">Aufklärung</a>
+                            <a href="https://periodicos.ufpb.br/index.php/arf">Aufklärung</a>
                             <br>
                             <strong>Escopo: </strong> Aufklärung, revista de filosofia (Qualis B1, DOI 10.18012/ARF)
                             tem foco na publicação de artigos na área de filosofia, ou que sejam relevantes para a
@@ -154,9 +154,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/arf">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/arf">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/arf/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/arf/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -172,7 +172,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/cm">Culturas Midiáticas</a>
+                            <a href="https://periodicos.ufpb.br/index.php/cm">Culturas Midiáticas</a>
                             <br>
                             <strong>Escopo: </strong> A revista Culturas Midiáticas destina-se à publicação
                             semestral da produção científica cujo objeto de estudo é a Comunicação. Sua temática
@@ -187,9 +187,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/cm">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/cm">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/cm/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/cm/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -204,7 +204,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/gaia">Gaia Scientia</a>
+                            <a href="https://periodicos.ufpb.br/index.php/gaia">Gaia Scientia</a>
                             <br>
                             <strong>Escopo: </strong>A Revista GAIA SCIENTIA é uma revista online que destina-se à
                             divulgação de artigos técnico-científicos originais e inéditos ou artigos de revisão
@@ -219,9 +219,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/gaia">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/gaia">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/gaia/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/gaia/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -236,7 +236,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/juee">Journal of Urban and Environmental
+                            <a href="https://periodicos.ufpb.br/index.php/juee">Journal of Urban and Environmental
                                 Engineering</a>
                             <br>
                             <strong>Escopo: </strong> Journal of Urban and Environmental Engineering (JUEE) provides
@@ -252,9 +252,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/juee">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/juee">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/juee/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/juee/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -269,11 +269,11 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/pgc">Perspectivas em Gestão & Conhecimento</a>
+                            <a href="https://periodicos.ufpb.br/index.php/pgc">Perspectivas em Gestão & Conhecimento</a>
                             <br>
-                            <strong>Escopo: </strong> De iniciativa da <a href="http://ufpb.br">Universidade Federal da
+                            <strong>Escopo: </strong> De iniciativa da <a href="https://ufpb.br">Universidade Federal da
                                 Paraíba</a> com a cooperação técnico-científica do <a
-                                href="http://www.ibict.br/">Instituto Brasileiro de Informação
+                                href="https://www.ibict.br/">Instituto Brasileiro de Informação
                                 em Ciência</a> e Tecnologia, a revista Perspectivas em Gestão & Conhecimento (PG&C) tem
                             por objetivo
                             publicar trabalhos originais e inéditos relacionados com as temáticas Gestão e
@@ -287,9 +287,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/pgc">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/pgc">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/pgc/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/pgc/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -304,7 +304,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/pbcib">Pesquisa Brasileira em Ciência da
+                            <a href="https://periodicos.ufpb.br/index.php/pbcib">Pesquisa Brasileira em Ciência da
                                 Informação e Biblioteconomia</a>
                             <br>
                             <strong>Escopo: </strong>A revista Pesquisa Brasileira em Ciência da Informação e
@@ -319,9 +319,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/pbcib">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/pbcib">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/pbcib/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/pbcib/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -337,11 +337,11 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/primafacie">Prim@ Facie - Direito, História e
+                            <a href="https://periodicos.ufpb.br/index.php/primafacie">Prim@ Facie - Direito, História e
                                 Política</a>
                             <br>
                             <strong>Escopo: </strong> A revista eletrônica Prim@ Facie, <a
-                                href="http://ufpb.br">UFPB</a>,
+                                href="https://ufpb.br">UFPB</a>,
                             online, ISSN
                             1678-2593, QUALIS B1 (Direito), é um periódico quadrimestral, vinculado ao Programa de
                             Pós-Graduação em Ciências Jurídicas (PPGCJ) da UFPB, voltado para o debate científico
@@ -359,9 +359,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/primafacie">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/primafacie">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/primafacie/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/primafacie/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -377,7 +377,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/problemata">Problemata</a>
+                            <a href="https://periodicos.ufpb.br/index.php/problemata">Problemata</a>
                             <br>
                             <strong>Escopo: </strong>Problemata, ISSN 1516-9219, e-ISSN 2236-8612, é uma revista
                             fundada em 1998 pelo Prof. Edmilson A. de Azevêdo. A revista recebe colaborações
@@ -392,9 +392,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/problemata">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/problemata">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/problemata/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/problemata/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -410,11 +410,11 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/prolingua">PROLÍNGUA</a>
+                            <a href="https://periodicos.ufpb.br/index.php/prolingua">PROLÍNGUA</a>
                             <br>
                             <strong>Escopo: </strong>A PROLINGUA, revista eletrônica do Programa de Pós-Graduação em
                             Linguística da Universidade Federal da Paraíba (PROLING/UFPB)
-                            http://www.cchla.ufpb.br/proling, é um periódico semestral que divulga trabalhos
+                            https://www.cchla.ufpb.br/proling, é um periódico semestral que divulga trabalhos
                             oriundos das variadas linhas de pesquisa dos estudos da linguagem, tanto na área de
                             teoria e análise linguísticas quanto na esfera da linguística aplicada.
                             <br>
@@ -424,9 +424,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/prolingua">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/prolingua">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/prolingua/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/prolingua/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -441,7 +441,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/artemis">Revista Ártemis</a>
+                            <a href="https://periodicos.ufpb.br/index.php/artemis">Revista Ártemis</a>
                             <br>
                             <strong>Escopo: </strong>A <strong>Revista Ártemis</strong> divulga produção científica em
                             gênero, feminismos
@@ -458,9 +458,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/artemis">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/artemis">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/artemis/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/artemis/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -476,7 +476,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/rec">Revista Espaço do Currículo</a>
+                            <a href="https://periodicos.ufpb.br/index.php/rec">Revista Espaço do Currículo</a>
                             <br>
                             <strong>Escopo: </strong>A Revista Espaço do Currículo é uma revista eletrônica de
                             <strong>qualis B1 em Ensino e B2 em Educação</strong>, organizada pelo Grupo de Estudos e
@@ -496,9 +496,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/rec">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/rec">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/rec/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/rec/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -513,7 +513,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/graphos">Revista Graphos</a>
+                            <a href="https://periodicos.ufpb.br/index.php/graphos">Revista Graphos</a>
                             <br>
                             <strong>Escopo: </strong>A REVISTA GRAPHOS é uma publicação do PPGL - Programa de
                             Pós-Graduação em Letras da Universidade Federal da Paraíba. Divulga, desde o ano de
@@ -527,9 +527,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/graphos">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/graphos">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/graphos/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/graphos/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -544,7 +544,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/rle">Revista Lugares de Educação</a>
+                            <a href="https://periodicos.ufpb.br/index.php/rle">Revista Lugares de Educação</a>
                             <br>
                             <strong>Escopo: </strong>A Revista Lugares de Educação disponível online é uma publicação
                             semestral do Departamento de Educação do Centro de Ciências Humanas, Sociais e Agrárias da
@@ -557,9 +557,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/rle">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/rle">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/rle/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/rle/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -575,7 +575,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/politicaetrabalho">REVISTA DE CIÊNCIAS SOCIAIS
+                            <a href="https://periodicos.ufpb.br/index.php/politicaetrabalho">REVISTA DE CIÊNCIAS SOCIAIS
                                 - POLÍTICA &
                                 TRABALHO</a>
                             <br>
@@ -594,9 +594,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/politicaetrabalho">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/politicaetrabalho">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/politicaetrabalho/issue/current">Edição
+                                href="https://periodicos.ufpb.br/index.php/politicaetrabalho/issue/current">Edição
                                 Atual</a>
                         </p>
                         <hr>
@@ -612,7 +612,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/religare">Religare: Revista do Programa de
+                            <a href="https://periodicos.ufpb.br/index.php/religare">Religare: Revista do Programa de
                                 Pós-Graduação em Ciências das Religiões da UFPB</a>
                             <br>
                             <strong>Escopo: </strong>Religare é o periódico semestral do Programa de Pós-Graduação
@@ -630,9 +630,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/religare">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/religare">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/religare/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/religare/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -648,7 +648,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/srh">Sæculum – Revista de História</a>
+                            <a href="https://periodicos.ufpb.br/index.php/srh">Sæculum – Revista de História</a>
                             <br>
                             <strong>Escopo: </strong>Sæculum - Revista de História é publicada pelo Departamento de
                             História da UFPB desde 1995 e, a partir de 2004, passou a ser também o periódico do
@@ -665,9 +665,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/srh">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/srh">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/srh/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/srh/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -682,7 +682,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/actas">Acta Semiótica et Lingvistica</a>
+                            <a href="https://periodicos.ufpb.br/index.php/actas">Acta Semiótica et Lingvistica</a>
                             <br>
                             <strong>Escopo: </strong>Acta Semiotica et Linguistica (ASEL) é um periódico cientifico
                             internacional, com publicação quadrimestral, que tem por objetivo favorecer o intercâmbio
@@ -701,9 +701,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/actas">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/actas">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/actas/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/actas/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -718,7 +718,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/dclv">DLCV - Língua, Linguística &
+                            <a href="https://periodicos.ufpb.br/index.php/dclv">DLCV - Língua, Linguística &
                                 Literatura</a>
                             <br>
                             <strong>Escopo: </strong>A Revista DLCV - Língua, Linguística & Literatura tem como objetivo
@@ -736,9 +736,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/dclv">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/dclv">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/dclv/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/dclv/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -753,7 +753,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/okara">OKARA: Geografia em debate</a>
+                            <a href="https://periodicos.ufpb.br/index.php/okara">OKARA: Geografia em debate</a>
                             <br>
                             <strong>Escopo: </strong>A revista OKARA: Geografia em debate, é uma publicação
                             quadrimestral do Programa de Pós-Gradução em Geografia da Universidade Federal da
@@ -768,9 +768,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/okara">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/okara">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/okara/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/okara/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -785,7 +785,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/abet">Revista da ABET</a>
+                            <a href="https://periodicos.ufpb.br/index.php/abet">Revista da ABET</a>
                             <br>
                             <strong>Escopo: </strong>A Revista da ABET, periódico mantido pela Associação Brasileira
                             de Estudos (ABET), tem como objetivo veicular estudos sobre o mundo do trabalho. Dada a
@@ -803,9 +803,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/abet">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/abet">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/abet/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/abet/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -822,7 +822,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/rteo">Revista Temas em Educação</a>
+                            <a href="https://periodicos.ufpb.br/index.php/rteo">Revista Temas em Educação</a>
                             <br>
                             <strong>Escopo: </strong>Criada em 1991, a Revista Temas em Educação (RTE) publicou seu
                             primeiro número na versão online em 2010. Com publicação quadrimestral e contínua, a partir
@@ -843,9 +843,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/rteo">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/rteo">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/rteo/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/rteo/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -860,7 +860,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/tpa">Teoria e Prática em
+                            <a href="https://periodicos.ufpb.br/index.php/tpa">Teoria e Prática em
                                 Administração</a>
                             <br>
                             <strong>Escopo: </strong>A revista Teoria e Prática em Administração é um periódico
@@ -878,9 +878,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/tpa">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/tpa">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/tpa/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/tpa/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -896,7 +896,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/archeion">Archeion Online</a>
+                            <a href="https://periodicos.ufpb.br/index.php/archeion">Archeion Online</a>
                             <br>
                             <strong>Escopo: </strong>A revista Archeion Online é um periódico eletrônico na área de
                             Arquivologia e tem por objetivo estimular e publicizar artigos produzidos pelos discentes,
@@ -914,9 +914,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/archeion">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/archeion">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/archeion/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/archeion/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -932,7 +932,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/biblio">Biblionline</a>
+                            <a href="https://periodicos.ufpb.br/index.php/biblio">Biblionline</a>
                             <br>
                             <strong>Escopo: </strong>Biblionline é uma revista eletrônica voltada para as áreas de
                             Biblioteconomia, Arquivologia, Ciência da Informação e Museologia.
@@ -949,9 +949,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/biblio">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/biblio">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/biblio/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/biblio/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -967,7 +967,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/ci">Cadernos Imbondeiro</a>
+                            <a href="https://periodicos.ufpb.br/index.php/ci">Cadernos Imbondeiro</a>
                             <br>
                             <strong>Escopo: </strong>Cadernos Imbondeiro é uma publicação do Programa de
                             Pós-graduação em Letras (PPGL). São publicados textos dos participantes do Seminário
@@ -984,9 +984,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/ci">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/ci">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/ci/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/ci/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1001,7 +1001,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/rbcs">Revista Brasileira de Ciências da
+                            <a href="https://periodicos.ufpb.br/index.php/rbcs">Revista Brasileira de Ciências da
                                 Saúde</a>
                             <br>
                             <strong>Escopo: </strong>A Revista Brasileira de Ciências da Saúde - RBCS (ISSN
@@ -1016,9 +1016,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/rbcs">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/rbcs">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/rbcs/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/rbcs/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1034,7 +1034,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/economia">Revista Economia e
+                            <a href="https://periodicos.ufpb.br/index.php/economia">Revista Economia e
                                 Desenvolvimento</a>
                             <br>
                             <strong>Escopo: </strong>A Revista Economia e Desenvolvimento é vinculada ao Programa de
@@ -1050,9 +1050,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/economia">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/economia">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/economia/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/economia/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1067,7 +1067,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/recfin">Revista Evidenciação Contábil &
+                            <a href="https://periodicos.ufpb.br/index.php/recfin">Revista Evidenciação Contábil &
                                 Finanças</a>
                             <br>
                             <strong>Escopo: </strong>Revista do Programa de Pós-Graduação em Ciências Contábeis da
@@ -1083,9 +1083,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/recfin">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/recfin">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/recfin/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/recfin/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1101,7 +1101,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/revnebio">Revista Nordestina de Biologia</a>
+                            <a href="https://periodicos.ufpb.br/index.php/revnebio">Revista Nordestina de Biologia</a>
                             <br>
                             <strong>Escopo: </strong>A <strong>Revista Nordestina de Biologia</strong> tem como objetivo
                             a
@@ -1120,9 +1120,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/revnebio">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/revnebio">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/revnebio/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/revnebio/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1138,7 +1138,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/logepa">CARDERNOS DO LOGEPA</a>
+                            <a href="https://periodicos.ufpb.br/index.php/logepa">CARDERNOS DO LOGEPA</a>
                             <br>
                             <strong>Escopo: </strong>O "CADERNOS DO LOGEPA" faz parte do programa de editoração do
                             Laboratório e Oficina de Geografia da Paraíba (LOGEPA) e do Departamento de Geociências
@@ -1154,9 +1154,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/logepa">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/logepa">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/logepa/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/logepa/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1170,7 +1170,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/claves">Claves</a>
+                            <a href="https://periodicos.ufpb.br/index.php/claves">Claves</a>
                             <br>
                             <strong>Escopo: </strong>Claves, periódico do Programa de Pós-Graduação em Música da
                             UFPB, é uma publicação bianual, aberta à produção acadêmica nas várias subáreas do
@@ -1185,9 +1185,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/claves">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/claves">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/claves/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/claves/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1203,10 +1203,10 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/ct">Cultura e Tradução</a>
+                            <a href="https://periodicos.ufpb.br/index.php/ct">Cultura e Tradução</a>
                             <br>
                             <strong>Escopo: </strong>Cultura e tradução é uma publicação do <a
-                                href="http://www.cchla.ufpb.br/ppgl/">Programa de
+                                href="https://www.cchla.ufpb.br/ppgl/">Programa de
                                 Pós-graduação em Letras (PPGL)</a>. São publicados textos dos participantes do Encontro
                             Nacional Cultura e Tradução, que acontece a cada três anos na Universidade Federal da
                             Paraíba. O ENCULT busca consolidar uma tradição de reflexão sobre o fenômeno tradutório,
@@ -1218,9 +1218,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/ct">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/ct">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/ct/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/ct/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1236,7 +1236,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/dr">Diversidade Religiosa</a>
+                            <a href="https://periodicos.ufpb.br/index.php/dr">Diversidade Religiosa</a>
                             <br>
                             <strong>Escopo: </strong>Diversidade Religiosa (ISSN 2317-0476) é uma publicação
                             eletrônica e semestral dos alunos do Programa de Pós-Graduação em Ciências das Religiões
@@ -1249,9 +1249,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/dr">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/dr">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/dr/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/dr/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1266,7 +1266,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/at">Agropecuária Técnica</a>
+                            <a href="https://periodicos.ufpb.br/index.php/at">Agropecuária Técnica</a>
                             <br>
                             <strong>Escopo: </strong>A Revista Agropecuária Técnica (AGROTEC) é uma revista de
                             divulgação científica de fluxo
@@ -1288,9 +1288,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/at">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/at">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/at/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/at/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1306,15 +1306,15 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/itec">Informação & Tecnologia</a>
+                            <a href="https://periodicos.ufpb.br/index.php/itec">Informação & Tecnologia</a>
                             <br>
                             <strong>Escopo: </strong>Informação & Tecnologia (Itec) é uma publicação semestral da
-                            <a href="http://www.ancib.org.br/"> Associação Nacional de Pesquisa e Pós-Graduação em
+                            <a href="https://www.ancib.org.br/"> Associação Nacional de Pesquisa e Pós-Graduação em
                                 Ciência da
                                 Informação - ANCIB.</a>
-                            Idealizada pelos grupos de pesquisa <a href="http://www.marilia.unesp.br/">UNESP</a> e <a
-                                href="http://ufpb.br">UFPB</a> para o <a
-                                href="http://gtancib.fci.unb.br/index.php/gt-08">GT8-Ancib</a>, tem como
+                            Idealizada pelos grupos de pesquisa <a href="https://www.marilia.unesp.br/">UNESP</a> e <a
+                                href="https://ufpb.br">UFPB</a> para o <a
+                                href="https://gtancib.fci.unb.br/index.php/gt-08">GT8-Ancib</a>, tem como
                             objetivos veicular artigos originais e favorecer a troca de informações e pontos de
                             vista sobre informação e tecnologia no dominio da Ciência da Informação em todo o mundo.
                             Dada a abrangência e complexidade dessa temática, a compreensão dos distintos aspectos
@@ -1328,9 +1328,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/itec">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/itec">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/itec/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/itec/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1345,10 +1345,10 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/lv">Letr@ Viv@</a>
+                            <a href="https://periodicos.ufpb.br/index.php/lv">Letr@ Viv@</a>
                             <br>
                             <strong>Escopo: </strong>A Letr@ Viv@ é o períodico do <a
-                                href="http://www.cchla.ufpb.br/dlem/">Departamento de Letras
+                                href="https://www.cchla.ufpb.br/dlem/">Departamento de Letras
                                 Estrangeiras Modernas (DLEM)</a> da Universidade Federal da Paraíba. A Revista publica,
                             desde 1999, estudos de caráter teórico ou aplicado, nas áreas de Literatura,
                             Linguística, Tradução, Ensino de Línguas e Formação de Professores. Os textos submetidos
@@ -1362,9 +1362,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/lv">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/lv">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/lv/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/lv/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1379,7 +1379,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/mepad">Métodos e Pesquisa em
+                            <a href="https://periodicos.ufpb.br/index.php/mepad">Métodos e Pesquisa em
                                 Administração</a>
                             <br>
                             <strong>Escopo: </strong> Os trabalhos mais bem avaliados no WIDaT 2018 (II Workshop de
@@ -1387,7 +1387,7 @@
                             trabalhados indicados para o fast-track automaticamente superam a fase de desk review e
                             passam diretamente para a fase de blind review da MEPAD, podendo assim concluir mais
                             rapidamente os processos de avaliação e publicação. Para maiores informações sobre o
-                            evento: http://www.ufpb.br/widat
+                            evento: https://www.ufpb.br/widat
                             <br>
                             <strong>e-ISSN: </strong>2525-3867
                             <br>
@@ -1395,9 +1395,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/mepad">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/mepad">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/mepad/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/mepad/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1412,7 +1412,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/le">Revista Logos & Existência: Revista da
+                            <a href="https://periodicos.ufpb.br/index.php/le">Revista Logos & Existência: Revista da
                                 Associação Brasileira de Logoterapia e Análise Existencial
                             </a>
                             <br>
@@ -1430,9 +1430,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/le">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/le">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/le/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/le/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1448,7 +1448,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/co">Cultura Oriental</a>
+                            <a href="https://periodicos.ufpb.br/index.php/co">Cultura Oriental</a>
                             <br>
                             <strong>Escopo: </strong>O objetivo da revista Cultura Oriental é divulgar trabalhos de
                             pesquisa a respeito dos vários aspectos culturais do extremo oriente asiático
@@ -1466,9 +1466,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/co">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/co">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/co/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/co/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1482,7 +1482,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/rppi">Revista Brasileira de Políticas
+                            <a href="https://periodicos.ufpb.br/index.php/rppi">Revista Brasileira de Políticas
                                 Públicas e Internacionais - RPPI</a>
                             <br>
                             <strong>Escopo: </strong>A RPPI – Revista Brasileira de Políticas Públicas e
@@ -1498,9 +1498,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/rppi">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/rppi">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/rppi/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/rppi/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1515,7 +1515,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/revico">Revista de Iniciação Científica em
+                            <a href="https://periodicos.ufpb.br/index.php/revico">Revista de Iniciação Científica em
                                 Odontologia - RevICO</a>
                             <br>
                             <strong>Escopo: </strong>A Revista de Iniciação Científica em Odontologia - RevICO (ISSN
@@ -1534,9 +1534,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/revico">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/revico">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/revico/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/revico/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1551,7 +1551,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/ricri">Revista de Iniciação Científica em
+                            <a href="https://periodicos.ufpb.br/index.php/ricri">Revista de Iniciação Científica em
                                 Relações Internacionais</a>
                             <br>
                             <strong>Escopo: </strong>A Revista de Iniciação Científica em Relações Internacionais é
@@ -1567,10 +1567,10 @@
                         <strong>Contato: </strong>ricri.ufpb@gmail.com
                         <br>
                         <br>
-                        <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/lv">Acessar
+                        <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/lv">Acessar
                             Revista</a>
                         <a class="btn btn-outline-primary btn-sm"
-                            href="http://periodicos.ufpb.br/index.php/lv/issue/current">Edição Atual</a>
+                            href="https://periodicos.ufpb.br/index.php/lv/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1586,7 +1586,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/rph">Revista Paraibana de História</a>
+                            <a href="https://periodicos.ufpb.br/index.php/rph">Revista Paraibana de História</a>
                             <br>
                             <strong>Escopo: </strong>Periódico eletrônico mantido pela Associação Nacional de
                             História – Seção Regional da Paraíba (ANPUH-PB). ISSN: 2446-5852. O objetivo geral é
@@ -1601,9 +1601,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/rph">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/rph">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/rph/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/rph/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1619,7 +1619,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/mpgoa">Gestão & Aprendizagem</a>
+                            <a href="https://periodicos.ufpb.br/index.php/mpgoa">Gestão & Aprendizagem</a>
                             <br>
                             <strong>Escopo: </strong>Gestão & Aprendizagem (G&A) é um periódico do Programa de
                             Pós-Graduação em Gestão nas Organizações Aprendentes (MPGOA) da Universidade Federal da
@@ -1633,9 +1633,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/mpgoa">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/mpgoa">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/mpgoa/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/mpgoa/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1650,7 +1650,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/tematica">Revista Temática</a>
+                            <a href="https://periodicos.ufpb.br/index.php/tematica">Revista Temática</a>
                             <br>
                             <strong>Escopo: </strong>A revista Temática é uma publicação mensal de Comunicação e áreas
                             afins (interdisciplinar), destinada à publicação de artigos científicos de pesquisadores da
@@ -1665,9 +1665,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/tematica">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/tematica">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/tematica/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/tematica/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1682,7 +1682,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/ancora">ÂNCORA - Revista Latino-americana
+                            <a href="https://periodicos.ufpb.br/index.php/ancora">ÂNCORA - Revista Latino-americana
                                 de Jornalismo</a>
                             <br>
                             <strong>Escopo: </strong>Âncora - Revista Latino-americana de Jornalismo é uma publicação
@@ -1698,9 +1698,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/ancora">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/ancora">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/ancora/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/ancora/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1716,12 +1716,12 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/letraseideias">Letras & Ideias</a>
+                            <a href="https://periodicos.ufpb.br/index.php/letraseideias">Letras & Ideias</a>
                             <br>
                             <strong>Escopo: </strong>L E T R A S & I D E I A S é uma revista eletrônica de acesso
                             livre da Universidade Federal da Paraíba (UFPB) vinculada ao Centro de Ciências Humanas,
-                            Letras e Artes (<a href="http://www.cchla.ufpb.br/cchla">CCHLA</a>) e ao Programa de
-                            Pós-Graduação de Letras (<a href="http://www.cchla.ufpb.br/ppgl/">PPGL</a>). Publica
+                            Letras e Artes (<a href="https://www.cchla.ufpb.br/cchla">CCHLA</a>) e ao Programa de
+                            Pós-Graduação de Letras (<a href="https://www.cchla.ufpb.br/ppgl/">PPGL</a>). Publica
                             trabalhos inéditos na área de Letras, especialmente nas linhas de pesquisa do programa
                             de pós-graduação.
                             <br>
@@ -1731,9 +1731,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/letraseideias">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/letraseideias">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/letraseideias/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/letraseideias/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1748,7 +1748,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/educare">Revista Educare</a>
+                            <a href="https://periodicos.ufpb.br/index.php/educare">Revista Educare</a>
                             <br>
                             <strong>Escopo: </strong>A Revista Educare (RE), com periodicidade semestral, é editada
                             pelo Departamento de Fundamentação da Educação, do Centro de Educação da Universidade
@@ -1764,9 +1764,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/educare">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/educare">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/educare/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/educare/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1782,7 +1782,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/rmp">Revista Medicina & Pesquisa</a>
+                            <a href="https://periodicos.ufpb.br/index.php/rmp">Revista Medicina & Pesquisa</a>
                             <br>
                             <strong>Escopo: </strong>A RM&P é uma publicação quadrimestral do Centro de Ciências
                             Médicas da Universidade Federal da Paraíba, com objetivo de publicar e disseminar a
@@ -1799,9 +1799,9 @@
                             <strong>Contato: </strong>claudiosmp@terra.com.br
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/rmp">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/rmp">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/rmp/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/rmp/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1817,7 +1817,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/cei">Comunicações em Informática</a>
+                            <a href="https://periodicos.ufpb.br/index.php/cei">Comunicações em Informática</a>
                             <br>
                             <strong>Escopo: </strong>Comunicações em Informática (CI) é um periódico da área de
                             Ciências da Computação, vinculado ao Departamento de Informática da Universidade Federal
@@ -1833,9 +1833,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/cei">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/cei">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/cei/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/cei/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1850,7 +1850,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/rdive">Revista Discurso & Imagem Visual em
+                            <a href="https://periodicos.ufpb.br/index.php/rdive">Revista Discurso & Imagem Visual em
                                 Educação</a>
                             <br>
                             <strong>Escopo: </strong>A Revista Discurso & Imagem Visual em Educação - RDIVE é uma
@@ -1864,9 +1864,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/rdive">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/rdive">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/rdive/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/rdive/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1881,7 +1881,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/altera">Áltera Revista de Antropologia</a>
+                            <a href="https://periodicos.ufpb.br/index.php/altera">Áltera Revista de Antropologia</a>
                             <br>
                             <strong>Escopo: </strong>A Revista Áltera promove, a partir de suporte textual,
                             contribuições ao debate teórico metodológico e empírico nas disciplinas de Antropologia
@@ -1896,9 +1896,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/altera">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/altera">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/altera/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/altera/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1913,7 +1913,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/rcpa">Revista Científica de Produção Animal</a>
+                            <a href="https://periodicos.ufpb.br/index.php/rcpa">Revista Científica de Produção Animal</a>
                             <br>
                             <strong>Escopo: </strong>A <strong>Revista Científica de Produção Animal (RCPA)</strong>
                             é o órgão oficial de publicação Cientifica da Sociedade Nordestina de Produção Animal, desde
@@ -1934,9 +1934,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/rcpa">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/rcpa">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/rcpa/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/rcpa/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1951,7 +1951,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/scandia">Scandia Journal of Medieval Norse
+                            <a href="https://periodicos.ufpb.br/index.php/scandia">Scandia Journal of Medieval Norse
                                 Studies</a>
                             <br>
                             <strong>Escopo: </strong>Scandia: Journal of Medieval Norse Studies (ISSN: 2595-9107) is
@@ -1969,9 +1969,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/scandia">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/scandia">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/scandia/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/scandia/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -1986,7 +1986,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/btaj">The Brazilian Trombone Association
+                            <a href="https://periodicos.ufpb.br/index.php/btaj">The Brazilian Trombone Association
                                 Journal</a>
                             <br>
                             <strong>Escopo: </strong>Criada no dia dez de outubro de 1995, a Associação Brasileira
@@ -2003,9 +2003,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/btaj">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/btaj">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/btaj/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/btaj/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -2020,7 +2020,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/petrart">Revista PetrART</a>
+                            <a href="https://periodicos.ufpb.br/index.php/petrart">Revista PetrART</a>
                             <br>
                             <strong>Escopo: </strong>PetrART é um periódico online na área de Arqueologia vinculada
                             à Associação Brasileira de Arte Rupestre. Sua missão é divulgar trabalhos que apresentem
@@ -2038,9 +2038,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/petrart">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/petrart">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/petrart/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/petrart/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -2055,7 +2055,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/caos">CAOS – Revista Eletrônica de
+                            <a href="https://periodicos.ufpb.br/index.php/caos">CAOS – Revista Eletrônica de
                                 Ciências Sociais</a>
                             <br>
                             <strong>Escopo: </strong>Publicação do Curso de Ciências Sociais da UFPB, criada em
@@ -2072,9 +2072,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/caos">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/caos">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/caos/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/caos/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
@@ -2089,7 +2089,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9">
                         <p class="text-justify">
-                            <a href="http://periodicos.ufpb.br/index.php/rappgs">Revista Abordagens</a>
+                            <a href="https://periodicos.ufpb.br/index.php/rappgs">Revista Abordagens</a>
                             <br>
                             <strong>Escopo: </strong>A Revista Abordagens é uma publicação científica do corpo discente
                             do Programa de Pós-Graduação em Sociologia da Universidade Federal da Paraíba (PPGS/UFPB).
@@ -2103,9 +2103,9 @@
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/rappgs">Acessar Revista</a>
+                                href="https://periodicos.ufpb.br/index.php/rappgs">Acessar Revista</a>
                             <a class="btn btn-outline-primary btn-sm"
-                                href="http://periodicos.ufpb.br/index.php/rappgs/issue/current">Edição Atual</a>
+                                href="https://periodicos.ufpb.br/index.php/rappgs/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
