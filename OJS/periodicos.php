@@ -300,38 +300,6 @@
                 <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/pbcib.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/pbcib">Pesquisa Brasileira em Ciência da
-                                Informação e Biblioteconomia</a>
-                            <br>
-                            <strong>Escopo: </strong>A revista Pesquisa Brasileira em Ciência da Informação e
-                            Biblioteconomia (PBCIB), editada pelo Grupo de Pesquisa Informação e Inclusão Social (CNPq),
-                            é publicada no Portal de Periódicos da Universidade Federal da Paraíba (UFPB), em parceria
-                            com o Laboratório de Tecnologias Intelectuais – LTi do Departamento de Ciência da
-                            Informação. Classificada como B4 no Web Qualis da Capes.
-                            <br>
-                            <strong>e-ISSN: </strong>1981-0695
-                            <br>
-                            <strong>Contato: </strong>isafreire@globo.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/pbcib">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/pbcib/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
                         <img class="float left" src="images/prima-facie.png" alt=""
                             style="width: 100%;margin-right:15px;">
                     </div>
