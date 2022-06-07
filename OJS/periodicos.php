@@ -356,7 +356,7 @@
                             <br>
                             <strong>e-ISSN: </strong>2236-8612
                             <br>
-                            <strong>Contato: </strong>revistaproblemata@gmail.com
+                            <strong>Contato: </strong>revista.problemata@cchla.ufpb.br
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
