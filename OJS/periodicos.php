@@ -842,7 +842,7 @@
                             <br>
                             <strong>e-ISSN: </strong>2238-104X
                             <br>
-                            <strong>Contato: </strong>franze.mq@gmail.com
+                            <strong>Contato: </strong>pjacome@sti.ufpb.br
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
