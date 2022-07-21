@@ -66,7 +66,7 @@
           </div>
           <div class="col-md-9 col-lg-9">
             <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/index.php/pbcib">Pesquisa Brasileira em Ciência da
+              <a href="#">Pesquisa Brasileira em Ciência da
                 Informação e Biblioteconomia</a>
               <br>
               <strong>Escopo: </strong>A revista Pesquisa Brasileira em Ciência da Informação e
@@ -80,8 +80,6 @@
               <strong>Contato: </strong>isafreire@globo.com
               <br>
               <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/pbcib">Acessar Revista</a>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/pbcib/issue/current">Edição Atual</a>
             </p>
             <hr>
           </div>
