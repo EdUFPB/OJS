@@ -2080,6 +2080,40 @@
                 </div>
             </li>
 
+            <li>
+                <br>
+                <div class="row">
+                <div class="col-md-3 col-lg-3">
+                    <img class="float left" src="./images/prospectus.jpg" alt="" style="width: 100%;margin-right:15px;">
+                </div>
+                <div class="col-md-9 col-lg-9">
+                    <p class="text-justify">
+                    <a href="https://periodicos.ufpb.br/index.php/prosp/index">Prosppectus</a>
+                    <br>
+                    <strong>Escopo: </strong>A <strong>Prosppectus</strong> é uma revista do Departamento de Finanças e
+                    Contabilidade
+                    (DFC) do Centro de Ciências Sociais Aplicadas (CCSA) da Universidade
+                    Federal da Paraíba que tem como objetivo divulgar artigos inéditos teóricos e
+                    teórico-empíricos, com metodologias qualitativas na área de Contabilidade e
+                    Organizações, em diferentes contextos e de várias perspectivas teóricas, escritos
+                    nos idiomas Português, Espanhol ou Inglês e que contribuam para os debates
+                    acadêmicos contemporâneos.
+                    <br>
+                    <strong>e-ISSN: </strong>2763-9606
+                    <br>
+                    <strong>Contato: vivifreitag@gmail.com</strong>
+                    <br>
+                    <br>
+                    <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/prosp/index/">Acessar
+                        Revista</a>
+                    <a class="btn btn-outline-primary btn-sm"
+                        href="https://periodicos.ufpb.br/index.php/prosp/issue/current">Edições Disponíveis</a>
+                    </p>
+                    <hr>
+                </div>
+                </div>
+            </li>
+
         </ul>
 
     </div>
