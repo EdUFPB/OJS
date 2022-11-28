@@ -14,7 +14,7 @@
         <h2>Equipe</h2>
         <p>Coordenadora do Portal: Cassandra Campos</p>
         <p>Bibliotecária - Documentalista: Fabiana França</p>
-        <p>Estagiário - Sistemas de Informação: Pedro Henrique</p>
+        <p>Estagiário - Ciência da Computação: Gilvanilson dos Santos Bernardino</p>
 
     </div>
 </section>
