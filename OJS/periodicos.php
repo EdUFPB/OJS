@@ -2067,7 +2067,7 @@
                             <br>
                             <strong>e-ISSN: </strong>
                             <br>
-                            <strong>Contato: </strong>emilaynesouto@hotmail.com
+                            <strong>Contato: </strong>revistaabordagens@gmail.com
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
