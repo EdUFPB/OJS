@@ -61,6 +61,39 @@
       <li>
         <br>
         <div class="row">
+            <div class="col-md-3 col-lg-3">
+                <img class="float left" src="images/mepad.png" alt="" style="width: 100%;margin-right:15px;">
+            </div>
+            <div class="col-md-9 col-lg-9">
+                <p class="text-justify">
+                    <a href="https://periodicos.ufpb.br/index.php/mepad">Métodos e Pesquisa em
+                        Administração</a>
+                    <br>
+                    <strong>Escopo: </strong> Os trabalhos mais bem avaliados no WIDaT 2018 (II Workshop de
+                    Informação, Dados e Tecnologia) podem ser encaminhados para fast-track na MEPAD. Os
+                    trabalhados indicados para o fast-track automaticamente superam a fase de desk review e
+                    passam diretamente para a fase de blind review da MEPAD, podendo assim concluir mais
+                    rapidamente os processos de avaliação e publicação. Para maiores informações sobre o
+                    evento: https://www.ufpb.br/widat
+                    <br>
+                    <strong>e-ISSN: </strong>2525-3867
+                    <br>
+                    <strong>Contato: </strong>stephanieisb@gmail.com
+                    <br>
+                    <br>
+                    <a class="btn btn-outline-primary btn-sm"
+                        href="https://periodicos.ufpb.br/index.php/mepad">Acessar Revista</a>
+                    <a class="btn btn-outline-primary btn-sm"
+                        href="https://periodicos.ufpb.br/index.php/mepad/issue/current">Edição Atual</a>
+                </p>
+                <hr>
+            </div>
+        </div>
+      </li>
+
+      <li>
+        <br>
+        <div class="row">
           <div class="col-md-3 col-lg-3">
             <img class="float left" src="images/pbcib.png" alt="" style="width: 100%;margin-right:15px;">
           </div>
