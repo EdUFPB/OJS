@@ -76,10 +76,10 @@
               <strong>Contato: </strong>ostiumsolis@gmail.com
               <br>
               <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/snh/index/">Acessar
+              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/ros/index/">Acessar
                 Revista</a>
               <a class="btn btn-outline-primary btn-sm"
-                href="https://periodicos.ufpb.br/index.php/snh/issue/current">Edições Disponíveis</a>
+                href="https://periodicos.ufpb.br/index.php/ros/issue/current">Edições Disponíveis</a>
             </p>
             <hr>
           </div>
