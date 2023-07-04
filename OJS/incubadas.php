@@ -67,6 +67,33 @@
           </div>
           <div class="col-md-9 col-lg-9">
             <p class="text-justify">
+              <a href="https://periodicos.ufpb.br/index.php/prx/index">Ostium Solis</a>
+              <br>
+              <strong>Escopo: </strong>A revista <strong>Ostium Solis</strong> publica trabalhos de filosofia elaborados por graduandos, graduados, mestrandos, mestres, doutorandos e doutores, sem distinções.
+              <br>
+              <strong>e-ISSN: </strong>
+              <br>
+              <strong>Contato: </strong>ostiumsolis@gmail.com
+              <br>
+              <br>
+              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/snh/index/">Acessar
+                Revista</a>
+              <a class="btn btn-outline-primary btn-sm"
+                href="https://periodicos.ufpb.br/index.php/snh/issue/current">Edições Disponíveis</a>
+            </p>
+            <hr>
+          </div>
+        </div>
+      </li>
+
+    <li>
+        <br>
+        <div class="row">
+          <div class="col-md-3 col-lg-3">
+            <img class="float left" src="./images/sanhaua.png" alt="" style="width: 100%;margin-right:15px;">
+          </div>
+          <div class="col-md-9 col-lg-9">
+            <p class="text-justify">
               <a href="https://periodicos.ufpb.br/index.php/prx/index">Sanhauá</a>
               <br>
               <strong>Escopo: </strong>A revista <strong>Sanhauá</strong> Revista de Extensão da UFPB é uma publicação acadêmica seriada de fluxo contínuo e vinculada à Pró-reitoria de Extensão – PROEX/UFPB.
