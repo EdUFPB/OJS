@@ -67,7 +67,7 @@
           </div>
           <div class="col-md-9 col-lg-9">
             <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/index.php/prx/index">Ostium Solis</a>
+              <a href="https://periodicos.ufpb.br/index.php/ros/index">Ostium Solis</a>
               <br>
               <strong>Escopo: </strong>A revista <strong>Ostium Solis</strong> publica trabalhos de filosofia elaborados por graduandos, graduados, mestrandos, mestres, doutorandos e doutores, sem distinções.
               <br>
@@ -94,7 +94,7 @@
           </div>
           <div class="col-md-9 col-lg-9">
             <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/index.php/prx/index">Sanhauá</a>
+              <a href="https://periodicos.ufpb.br/index.php/snh/index">Sanhauá</a>
               <br>
               <strong>Escopo: </strong>A revista <strong>Sanhauá</strong> Revista de Extensão da UFPB é uma publicação acadêmica seriada de fluxo contínuo e vinculada à Pró-reitoria de Extensão – PROEX/UFPB.
               <br>
