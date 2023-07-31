@@ -1820,12 +1820,14 @@
                         <p class="text-justify">
                             <a href="https://periodicos.ufpb.br/index.php/altera">Áltera Revista de Antropologia</a>
                             <br>
-                            <strong>Escopo: </strong>A Revista Áltera promove, a partir de suporte textual,
-                            contribuições ao debate teórico metodológico e empírico nas disciplinas de Antropologia
-                            e áreas afins. Recebe, em fluxo contínuo, artigos, ensaios bibliográficos, resenhas e
-                            entrevistas, em português, inglês e espanhol. Eventualmente, também serão publicados
-                            Dossiês. A revista estrutura-se a partir de um Comitê Editorial, um Conselho Editorial,
-                            um Conselho Científico e Equipe Técnica.
+                            <strong>Escopo: </strong>A Revista Áltera é um periódico científico de fluxo contínuo produzido
+                             pelo Programa de Pós-graduação em Antropologia (PPGA) da Universidade Federal da Paraíba (UFPB) 
+                             com o intuito de apoiar a produção antropológica nacional e internacional e realizar um trabalho 
+                             de divulgação científica acessível e de qualidade. O periódico promove contribuições para os debates 
+                             teórico-metodológicos e empíricos da disciplina da Antropologia, recebendo e publicando em fluxo 
+                             contínuo artigos, ensaios visuais, resenhas, entrevistas e traduções nos idiomas português, espanhol 
+                             e inglês. A revista conta com um espaço continuamente aberto para publicações com temática livre e 
+                             também com dossiês semestrais que abordam tópicos particulares. Avaliação com conceito Qualis A4 na CAPES.
                             <br>
                             <strong>e-ISSN: </strong>2447-9837
                             <br>
