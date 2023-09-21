@@ -63,6 +63,33 @@
         <br>
         <div class="row">
           <div class="col-md-3 col-lg-3">
+            <img class="float left" src="./images/dht.jpg" alt="" style="width: 100%;margin-right:15px;">
+          </div>
+          <div class="col-md-9 col-lg-9">
+            <p class="text-justify">
+              <a href="https://periodicos.ufpb.br/index.php/dht/index">Direitos Humanos e Transdisciplinaridade</a>
+              <br>
+              <strong>Escopo: </strong>A revista <strong>Direitos Humanos e Transdisciplinaridade</strong> é um periódico científico-acadêmico elaborado por discentes do Departamento de Ciências Jurídicas da UFPB. Valorizando o diálogo com diversas áreas do conhecimento científico e a crítica acadêmica, o objetivo do periódico é incentivar a produção científica construtiva no âmbito jurídico por discentes e docentes de instituições de ensino públicas e privadas em escalas regionais, nacionais e internacionais.
+              <br>
+              <strong>e-ISSN: </strong>
+              <br>
+              <strong>Contato: </strong>revistadhtrans@gmail.com
+              <br>
+              <br>
+              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/dht/index/">Acessar
+                Revista</a>
+              <a class="btn btn-outline-primary btn-sm"
+                href="https://periodicos.ufpb.br/index.php/dht/issue/current">Edições Disponíveis</a>
+            </p>
+            <hr>
+          </div>
+        </div>
+      </li>
+
+    <li>
+        <br>
+        <div class="row">
+          <div class="col-md-3 col-lg-3">
             <img class="float left" src="./images/ostiumSolis.jpg" alt="" style="width: 100%;margin-right:15px;">
           </div>
           <div class="col-md-9 col-lg-9">
