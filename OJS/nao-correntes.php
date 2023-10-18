@@ -58,6 +58,42 @@
   <div class="container">
 
     <ul id="myUL">
+
+      <li>
+          <br>
+          <div class="row">
+              <div class="col-md-3 col-lg-3">
+                  <img class="float left" src="images/acta.png" alt="" style="width: 100%;margin-right:15px;">
+              </div>
+              <div class="col-md-9 col-lg-9">
+                  <p class="text-justify">
+                      <a href="https://periodicos.ufpb.br/index.php/actas">Acta Semiótica et Lingvistica</a>
+                      <br>
+                      <strong>Escopo: </strong>Acta Semiotica et Linguistica (ASEL) é um periódico cientifico
+                      internacional, com publicação quadrimestral, que tem por objetivo favorecer o intercâmbio
+                      entre docentes e pesquisadores de ciências humanas, interessados nos problemas da Semiótica
+                      e da Linguística, considerando tendências teóricas diversas. Fundada na USP de São Paulo, em
+                      1977, hoje, está sendo publicada pelo Programa de Pós Graduação em Letras da Universidade
+                      Federal da Paraíba-Br e atende, também, a estudiosos de Literatura Popular, libras e braile
+                      que utilizem a Semiótica e a Linguística como proposta teórica. As produções são
+                      distribuídas em três seções: artigos, traduções/versões e entrevistas (com pesquisadores que
+                      atuam na linha de proposta da revista).
+                      <br>
+                      <strong>e-ISSN: </strong>2446-7006
+                      <br>
+                      <strong>Contato: </strong>mariadefatimambatista@gmail.com <br>
+                      actasemioticaetlingvistica@gmail.com
+                      <br>
+                      <br>
+                      <a class="btn btn-outline-primary btn-sm"
+                          href="https://periodicos.ufpb.br/index.php/actas">Acessar Revista</a>
+                      <a class="btn btn-outline-primary btn-sm"
+                          href="https://periodicos.ufpb.br/index.php/actas/issue/current">Edição Atual</a>
+                  </p>
+                  <hr>
+              </div>
+          </div>
+      </li>
       <li>
         <br>
         <div class="row">
