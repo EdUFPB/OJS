@@ -1470,10 +1470,10 @@
                         <strong>Contato: </strong>ricri.ufpb@gmail.com
                         <br>
                         <br>
-                        <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/lv">Acessar
+                        <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/ricri">Acessar
                             Revista</a>
                         <a class="btn btn-outline-primary btn-sm"
-                            href="https://periodicos.ufpb.br/index.php/lv/issue/current">Edição Atual</a>
+                            href="https://periodicos.ufpb.br/index.php/ricri/issue/current">Edição Atual</a>
                         </p>
                         <hr>
                     </div>
