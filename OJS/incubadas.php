@@ -63,6 +63,40 @@
         <br>
         <div class="row">
           <div class="col-md-3 col-lg-3">
+            <img class="float left" src="./images/ndihr.jpg" alt="" style="width: 100%;margin-right:15px;">
+          </div>
+          <div class="col-md-9 col-lg-9">
+            <p class="text-justify">
+              <a href="https://periodicos.ufpb.br/index.php/ndihr/index">Textos NDIHR</a>
+              <br>
+              <strong>Escopo: </strong>O periódico <strong>Textos NDIHR</strong> é uma publicação do Núcleo de Documentação e Informação Histórica Regional - (NDIHR), 
+              da Universidade Federal da Paraíba (UFPB), criado em 1985 e idealizado como uma publicação seriada que agora passa a ser on-line, destinada à divulgação 
+              de estudos e resultados de pesquisa, produzidos por professores, alunos e técnicos da área das Humanidades, com o objetivo de fomentar e oferecer subsídios 
+              para o debate. O Textos NDIHR busca disseminar a produção científica acadêmica, embasados em fontes dos acervos do NDIHR/UFPB e também de outras Instituições 
+              e Centros de Pesquisa nacionais e internacionais. Com uma periodicidade semestral, o Textos NDIHR tem um linha editorial que congrega os debates e pesquisas 
+              inéditas ao campo da História, da Educação, da Arqueologia e da Geografia e outras áreas do conhecimento em constante diálogo com as humanidades. Inicialmente 
+              divulgado no formato impresso, o Textos NDIHR adota a versão digital e retoma sua periodicidade a partir de 2024. É uma publicação de acesso aberto, o que 
+              significa que todo o conteúdo está disponível gratuitamente de acordo com a definição BOAI de acesso aberto.
+              <br>
+              <strong>e-ISSN: </strong>
+              <br>
+              <strong>Contato: </strong>
+              <br>
+              <br>
+              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/ndihr/index/">Acessar
+                Revista</a>
+              <a class="btn btn-outline-primary btn-sm"
+                href="https://periodicos.ufpb.br/index.php/ndihr/issue/current">Edições Disponíveis</a>
+            </p>
+            <hr>
+          </div>
+        </div>
+      </li>
+
+    <li>
+        <br>
+        <div class="row">
+          <div class="col-md-3 col-lg-3">
             <img class="float left" src="./images/dht.jpg" alt="" style="width: 100%;margin-right:15px;">
           </div>
           <div class="col-md-9 col-lg-9">
@@ -266,36 +300,7 @@
           </div>
         </div>
       </li>
-      <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="images/literalmente.jpeg" alt="" style="width: 100%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/index.php/rl/index">LiteralMente</a>
-              <br>
-              <strong>Escopo: </strong>A revista <strong>LiteralMENTE</strong> é uma publicação eletrônica do Grupo de
-              Pesquisa em
-              Literatura, Gênero e Psicanálise (LIGEPSI - UFPB). Publica artigos, ensaios e traduções que contemplem as
-              interlocuções da Literatura com a Psicanálise, com a Psicologia Analítica e coma Psicopatologia. Tem
-              periodicidade semestral (com edições em julho e dezembro).
-              <br>
-              <strong>e-ISSN: </strong>
-              <br>
-              <strong>Contato: </strong>henriquemais@gmail.com
-              <br>
-              <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/rl/index/">Acessar
-                Revista</a>
-              <a class="btn btn-outline-primary btn-sm"
-                href="https://periodicos.ufpb.br/index.php/rl/issue/current">Edições Disponíveis</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
+      
       <li>
         <br>
         <div class="row">

@@ -58,6 +58,39 @@
     <div class="container">
 
         <ul id="myUL">
+
+            <li>
+                <br>
+                <div class="row">
+                <div class="col-md-3 col-lg-3">
+                    <img class="float left" src="images/literalmente.jpeg" alt="" style="width: 100%;margin-right:15px;">
+                </div>
+                <div class="col-md-9 col-lg-9">
+                    <p class="text-justify">
+                    <a href="https://periodicos.ufpb.br/index.php/rl/index">LiteralMente</a>
+                    <br>
+                    <strong>Escopo: </strong>A revista <strong>LiteralMENTE</strong> é uma publicação eletrônica do Grupo de
+                    Pesquisa em
+                    Literatura, Gênero e Psicanálise (LIGEPSI - UFPB). Publica artigos, ensaios e traduções que contemplem as
+                    interlocuções da Literatura com a Psicanálise, com a Psicologia Analítica e coma Psicopatologia. Tem
+                    periodicidade semestral (com edições em julho e dezembro).
+                    <br>
+                    <strong>e-ISSN: </strong>
+                    <br>
+                    <strong>Contato: </strong>henriquemais@gmail.com
+                    <br>
+                    <br>
+                    <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/rl/index/">Acessar
+                        Revista</a>
+                    <a class="btn btn-outline-primary btn-sm"
+                        href="https://periodicos.ufpb.br/index.php/rl/issue/current">Edições Disponíveis</a>
+                    </p>
+                    <hr>
+                </div>
+                </div>
+            </li>
+
+            
             <li>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
