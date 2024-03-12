@@ -571,7 +571,7 @@
                 <br>
                 <div class="row">
                     <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/politicaetrabalho.png" alt=""
+                        <img class="float left" src="images/politicaetrabalho2.png" alt=""
                             style="width: 100%;margin-right:15px;">
                     </div>
                     <div class="col-md-9 col-lg-9">
