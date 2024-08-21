@@ -67,7 +67,7 @@
           </div>
           <div class="col-md-9 col-lg-9">
             <p class="text-justify">
-              <a href=":https://periodicos.ufpb.br/index.php/breti/index">Benjaminiana - Revista de Estudos em Tradução e Imagem</a>
+              <a href="https://periodicos.ufpb.br/index.php/breti/index">Benjaminiana - Revista de Estudos em Tradução e Imagem</a>
               <br>
               <strong>Escopo: </strong>A revista <strong>Benjaminiana</strong> é uma publicação especializada nas áreas de
               Estudos da Tradução e de Estudos da Imagem, dedicada a publicar textos que envolvam pesquisas
@@ -86,10 +86,10 @@
               <strong>Contato: </strong>
               <br>
               <br>
-              <a class="btn btn-outline-primary btn-sm" href=":https://periodicos.ufpb.br/index.php/breti/index">Acessar
+              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/breti/index">Acessar
                 Revista</a>
               <a class="btn btn-outline-primary btn-sm"
-                href=":https://periodicos.ufpb.br/index.php/breti/issue/current">Edições Disponíveis</a>
+                href="https://periodicos.ufpb.br/index.php/breti/issue/current">Edições Disponíveis</a>
             </p>
             <hr>
           </div>
