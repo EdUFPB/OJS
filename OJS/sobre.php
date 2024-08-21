@@ -70,7 +70,7 @@
                         <section class="3u 6u(medium) 12u$(xsmall) profile">
                             <img src="images/cassandra.jpg" alt="" width="100px" height="100px" />
                             <p>Cassandra Campos</p>
-                            <h5 style="font-size: 15px"><strong>Coordenadora</strong></h5>
+                            <h5 style="font-size: 15px"><strong>Editora de Publicações</strong></h5>
                         </section>
                         <section class="3u 6u$(medium) 12u$(xsmall) profile">
                             <img src="images/fabi.png" alt="" width="100px" height="100px" />
@@ -78,8 +78,8 @@
                             <h5 h5 style="font-size: 15px"><strong>Bibliotecária - Documentalista</strong></h5>
                         </section>
                         <section class="3u 6u$(medium) 12u$(xsmall) profile">
-                            <img src="images/gilvanilson.jpg" alt="" width="100px" height="100px" />
-                            <p>Gilvanilson Bernardino</p>
+                            <img src="images/eduarda.jpg" alt="" width="100px" height="100px" />
+                            <p>Maria Eduarda Donato</p>
                             <h5 h5 style="font-size: 15px"><strong>Estágio - Ciência da Computação</strong></h5>
                         </section>
                     </div>

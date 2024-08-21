@@ -12,9 +12,9 @@
         <p><strong>Email</strong> - periodicos.ufpb@gmail.com</p>
 
         <h2>Equipe</h2>
-        <p>Coordenadora do Portal: Cassandra Campos</p>
+        <p>Editora de Publicações: Cassandra Campos</p>
         <p>Bibliotecária - Documentalista: Fabiana França</p>
-        <p>Estagiário - Ciência da Computação: Gilvanilson dos Santos Bernardino</p>
+        <p>Estagiário - Ciência da Computação: Maria Eduarda Ribeiro Donato da Silva</p>
 
     </div>
 </section>

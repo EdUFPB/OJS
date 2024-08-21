@@ -63,6 +63,44 @@
         <br>
         <div class="row">
           <div class="col-md-3 col-lg-3">
+            <img class="float left" src="./images/logo_benjaminiana_PRETO.png" alt="" style="width: 100%;margin-right:15px;">
+          </div>
+          <div class="col-md-9 col-lg-9">
+            <p class="text-justify">
+              <a href=":https://periodicos.ufpb.br/index.php/breti/index">Benjaminiana - Revista de Estudos em Tradução e Imagem</a>
+              <br>
+              <strong>Escopo: </strong>A revista <strong>Benjaminiana</strong> é uma publicação especializada nas áreas de
+              Estudos da Tradução e de Estudos da Imagem, dedicada a publicar textos que envolvam pesquisas
+              voltadas para os campos de Tradução, Literatura, Semiótica, Crítica Literária, História Cultural, História
+              da Arte e campos afins. O periódico enfatiza a discussão sobre a produção artística, crítica, teórica e
+              historiográfica dedicada às Humanidades em suas várias dimensões, dando ênfase àqueles trabalhos que
+              dialoguem com a obra e o pensamento de Walter Benjamin e/ ou de seus comentadores. Benjaminiana é publicada pelo 
+              NEBETI – Núcleo de Estudos Benjaminianos em Tradução e Imagem,
+              órgão do Centro de Ciências Humanas, Letras e Artes da Universidade Federal da Paraíba, com sede em
+              João Pessoa, no Estado da Paraíba. Vincula-se também ao Grupo de Pesquisa “Walter Benjamin:
+              fantasma, imago, espectro” (Diretório CNPq; DMI/CCHLA/UFPB; DH/CCHLA/UFPB) e à Linha
+              de Pesquisa “Tradução e Cultura”, do Programa de Pós-Graduação em Letras do CCHLA/UFPB.
+                            <br>
+              <strong>e-ISSN: </strong>
+              <br>
+              <strong>Contato: </strong>
+              <br>
+              <br>
+              <a class="btn btn-outline-primary btn-sm" href=":https://periodicos.ufpb.br/index.php/breti/index">Acessar
+                Revista</a>
+              <a class="btn btn-outline-primary btn-sm"
+                href=":https://periodicos.ufpb.br/index.php/breti/issue/current">Edições Disponíveis</a>
+            </p>
+            <hr>
+          </div>
+        </div>
+      </li>
+
+
+    <li>
+        <br>
+        <div class="row">
+          <div class="col-md-3 col-lg-3">
             <img class="float left" src="./images/ndihr.jpg" alt="" style="width: 100%;margin-right:15px;">
           </div>
           <div class="col-md-9 col-lg-9">
@@ -218,7 +256,7 @@
               <a href="https://periodicos.ufpb.br/index.php/dsbr/index">Data Science and Business Review</a>
               <br>
               <strong>Escopo: </strong>A revista <strong>Data Science and Business Review</strong> é um periódico
-              acadêmico criado emantido pelo Programa de Pós-Graduação em Ciência de Dados para Negócios daUFPB , com o
+              acadêmico criado emantido pelo Programa de Pós-Graduação em Ciência de Dados para Negócios da UFPB , com o
               objetivo de disseminar conhecimentos em Ciência de Dados entrepesquisadores, profissionais,
               empreendedores, gestores de organizações públicas eprivadas, e formuladores de políticas públicas.
               <br>
