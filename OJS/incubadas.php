@@ -59,6 +59,53 @@
 
     <ul id="myUL">
 
+
+
+    <li>
+        <br>
+        <div class="row">
+          <div class="col-md-3 col-lg-3">
+            <img class="float left" src="./images/interculturas.png" alt="" style="width: 100%;margin-right:15px;">
+          </div>
+          <div class="col-md-9 col-lg-9">
+            <p class="text-justify">
+              <a href="https://periodicos.ufpb.br/index.php/rics/index">Revista InterCulturas</a>
+              <br>
+              <strong>Escopo: </strong>A revista <strong>InterCulturas</strong> é um periódico acadêmico semestral, criado e dirigido por
+              pesquisadores do Grupo de Pesquisa Mediações Interculturais, Negociações e
+              Negociadores Internacionais no Mundo (MINNI Mundo - UFPB/CNPq), do Departamento
+              de Mediações Interculturais (DMI), do Centro de Ciências Humanas, Letras e Artes
+              (CCHLA), da Universidade Federal da Paraíba (UFPB). A RICS aceita artigos, ensaios,
+              resenhas, traduções, entrevistas e produções artísticas que estejam atrelados às seguintes
+              áreas do conhecimento: Mediações Interculturais, Negociações Internacionais, Línguas
+              Estrangeiras Aplicadas (português, inglês, francês, espanhol e alemão), Interculturalidade,
+              Internacionalização, Comércio Exterior e áreas afins, dando espaço às produções
+              intelectuais de acadêmicos de todo o país e do exterior, vinculadas à área das Ciências das
+              Linguagens e às suas múltiplas manifestações, bem como a intercultura e intercâmbio, a
+              internacionalização e os negócios internacionais e suas aplicações.
+                            <br>
+              <strong>e-ISSN: </strong>
+              <br>
+              <strong>Contato: </strong>revistainterculturas@hotmail.com
+              <br>
+              <br>
+              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/rics/index">Acessar
+                Revista</a>
+              <a class="btn btn-outline-primary btn-sm"
+                href="https://periodicos.ufpb.br/index.php/rics/issue/current">Edições Disponíveis</a>
+            </p>
+            <hr>
+          </div>
+        </div>
+      </li>
+
+
+
+
+
+
+
+
     <li>
         <br>
         <div class="row">
@@ -131,33 +178,7 @@
         </div>
       </li>
 
-    <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="./images/dht.jpg" alt="" style="width: 100%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/index.php/dht/index">Direitos Humanos e Transdisciplinaridade</a>
-              <br>
-              <strong>Escopo: </strong>A revista <strong>Direitos Humanos e Transdisciplinaridade</strong> é um periódico científico-acadêmico elaborado por discentes do Departamento de Ciências Jurídicas da UFPB. Valorizando o diálogo com diversas áreas do conhecimento científico e a crítica acadêmica, o objetivo do periódico é incentivar a produção científica construtiva no âmbito jurídico por discentes e docentes de instituições de ensino públicas e privadas em escalas regionais, nacionais e internacionais.
-              <br>
-              <strong>e-ISSN: </strong>
-              <br>
-              <strong>Contato: </strong>revistadhtrans@gmail.com
-              <br>
-              <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/dht/index/">Acessar
-                Revista</a>
-              <a class="btn btn-outline-primary btn-sm"
-                href="https://periodicos.ufpb.br/index.php/dht/issue/current">Edições Disponíveis</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-
+    
     <li>
         <br>
         <div class="row">
@@ -197,9 +218,9 @@
               <br>
               <strong>Escopo: </strong>A revista <strong>Sanhauá</strong> Revista de Extensão da UFPB é uma publicação acadêmica seriada de fluxo contínuo e vinculada à Pró-reitoria de Extensão – PROEX/UFPB.
               <br>
-              <strong>e-ISSN: </strong>
+              <strong>e-ISSN: </strong>2966-1005
               <br>
-              <strong>Contato: </strong>
+              <strong>Contato: </strong>revistasanhauaufpb@gmail.com
               <br>
               <br>
               <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/snh/index/">Acessar
@@ -256,8 +277,8 @@
               <a href="https://periodicos.ufpb.br/index.php/dsbr/index">Data Science and Business Review</a>
               <br>
               <strong>Escopo: </strong>A revista <strong>Data Science and Business Review</strong> é um periódico
-              acadêmico criado emantido pelo Programa de Pós-Graduação em Ciência de Dados para Negócios da UFPB , com o
-              objetivo de disseminar conhecimentos em Ciência de Dados entrepesquisadores, profissionais,
+              acadêmico criado e mantido pelo Programa de Pós-Graduação em Ciência de Dados para Negócios da UFPB , com o
+              objetivo de disseminar conhecimentos em Ciência de Dados entre pesquisadores, profissionais,
               empreendedores, gestores de organizações públicas eprivadas, e formuladores de políticas públicas.
               <br>
               <strong>e-ISSN: </strong>
@@ -349,7 +370,12 @@
             <p class="text-justify">
               <a href="https://periodicos.ufpb.br/index.php/rilaer/index">RILAER</a>
               <br>
-              <strong>Escopo: </strong>A <strong>RILAER</strong> (Revista Interinstitucional Latino-americana de Ensino Religioso) é uma revista científica, de fluxo contínuo, coordenada pelo Fórum Nacional Permanente do Ensino Religioso (FONAPER), sediada no Programa de Pós-Graduaçãoem Ciências das Religiões (PPGCR), da Universidade Federal da Paraíba (UFPB). A Revista objetiva promover a socialização de conhecimentos científicos que contribuam para o avanço da área de Ensino Religioso e Ciências da Religião de perspectiva não confessional, decolonial, interdisciplinar e intercultural, especialmente dos contextos latino-americanos e caribenhos. Sua política editorial se concentra em publicar artigos e ensaios originais e inéditos,  relatos de experiências, resenhas, entrevistas e resumos de dissertações e teses de diferentes perspectivas epistemológicas, metodológicas e pedagógicas.
+              <strong>Escopo: </strong>A <strong>RILAER</strong> (Revista Interinstitucional Latino-americana de Ensino Religioso) é uma revista científica, de fluxo contínuo, 
+              coordenada pelo Fórum Nacional Permanente do Ensino Religioso (FONAPER), sediada no Programa de Pós-Graduaçãoem Ciências das Religiões (PPGCR), 
+              da Universidade Federal da Paraíba (UFPB). A Revista objetiva promover a socialização de conhecimentos científicos que contribuam para o avanço da área de 
+              Ensino Religioso e Ciências da Religião de perspectiva não confessional, decolonial, interdisciplinar e intercultural, especialmente dos contextos latino-americanos e caribenhos. 
+              Sua política editorial se concentra em publicar artigos e ensaios originais e inéditos,  relatos de experiências, resenhas, entrevistas e resumos de dissertações e teses de 
+              diferentes perspectivas epistemológicas, metodológicas e pedagógicas.
               <br>
               <strong>e-ISSN: </strong>
               <br>
@@ -365,32 +391,73 @@
           </div>
         </div>
       </li>
+
+
       <li>
         <br>
         <div class="row">
           <div class="col-md-3 col-lg-3">
-            <img class="float left" src="./images/rri.jpeg" alt="" style="width: 100%;margin-right:15px;">
+            <img class="float left" src="./images/sudamerica.jpg" alt="" style="width: 100%;margin-right:15px;">
           </div>
           <div class="col-md-9 col-lg-9">
             <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/index.php/rri/index">Ratio Iuris</a>
+              <a href="https://periodicos.ufpb.br/index.php/sda/index">Sudamérica: Revista Internacional de Direitos Humanos </a>
               <br>
-              <strong>Escopo: </strong>A <strong>Revista Ratio Iuris</strong> é um periódico acadêmico construído por alunos do curso de direito do Centro de Ciências Jurídicas da UFPB. Seu objetivo é fomentar a produção científica em direito, a partir da publicação de artigos inéditos elaborados por discentes ou docentes de quaisquer instituições, sejam nacionais ou estrangeiras.
+              <strong>Escopo: </strong>A <strong>Sudamérica: Revista Internacional de Direitos Humanos</strong> é um periódico científico- acadêmico elaborado por docentes 
+              e discentes do Programa de Pós-Graduação em Direitos Humanos, Cidadania e Políticas Públicas da UFPB. Valorizando o diálogo 
+              com diversas áreas do conhecimento científico e a crítica acadêmica, o objetivo do periódico é incentivar a produção científica 
+              e publicação qualificada de artigos científicos relacionados aos direitos humanos. 
               <br>
-              <strong>e-ISSN: </strong>
+              <strong>e-ISSN: </strong> 
               <br>
-              <strong>Contato: </strong>ratioiurisufpb@gmail.com
+              <strong>Contato: </strong>
               <br>
               <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/rri/index/">Acessar
+              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/sda/index">Acessar
                 Revista</a>
               <a class="btn btn-outline-primary btn-sm"
-                href="https://periodicos.ufpb.br/index.php/rri/issue/current">Edições Disponíveis</a>
+                href="https://periodicos.ufpb.br/index.php/sda/issue/current">Edições Disponíveis</a>
             </p>
             <hr>
           </div>
         </div>
       </li>
+
+      <li>
+        <br>
+        <div class="row">
+          <div class="col-md-3 col-lg-3">
+            <img class="float left" src="./images/pergaminho.jpg" alt="" style="width: 100%;margin-right:15px;">
+          </div>
+          <div class="col-md-9 col-lg-9">
+            <p class="text-justify">
+              <a href="https://periodicos.ufpb.br/index.php/perg/index">Perg@minho - Revista Discente de História</a>
+              <br>
+              <strong>Escopo: </strong>A <strong>Perg@minho - Revista Discente de História da Universidade Federal da Paraíba(UFPB)</strong> 
+              é editada semestralmente pelo Curso de Graduação com Licenciatura em História,
+              pelo Programa de Pós-graduação em História, pelo Mestrado Profissional em Ensino de
+              História (ProfHistória), sendo vinculada ao Departamento de História (DH-UFPB) e ao
+              Laboratório de História (LaborHis), todos estes sendo vinculados à Universidade Federal
+              da Paraíba (Campus I - João Pessoa). A Perg@minho aceita submissões de artigos de
+              alunos regularmente matriculados em Cursos de Graduação em História ou em Programas
+              de Pós-graduação em História, ou áreas conexas das Ciências Humanas e Sociais (no
+              entanto, devem ter um enfoque histórico).
+              <br>
+              <strong>e-ISSN: </strong> 
+              <br>
+              <strong>Contato: </strong> pergaminho.ufpb@gmail.com
+              <br>
+              <br>
+              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/perg/index">Acessar
+                Revista</a>
+              <a class="btn btn-outline-primary btn-sm"
+                href="https://periodicos.ufpb.br/index.php/perg/issue/current">Edições Disponíveis</a> 
+            </p>
+            <hr>
+          </div>
+        </div>
+      </li>
+      
     </ul>
 
   </div>

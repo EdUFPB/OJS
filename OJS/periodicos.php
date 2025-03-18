@@ -59,36 +59,7 @@
 
         <ul id="myUL">
 
-            <li>
-                <br>
-                <div class="row">
-                <div class="col-md-3 col-lg-3">
-                    <img class="float left" src="images/literalmente.jpeg" alt="" style="width: 100%;margin-right:15px;">
-                </div>
-                <div class="col-md-9 col-lg-9">
-                    <p class="text-justify">
-                    <a href="https://periodicos.ufpb.br/index.php/rl/index">LiteralMente</a>
-                    <br>
-                    <strong>Escopo: </strong>A revista <strong>LiteralMENTE</strong> é uma publicação eletrônica do Grupo de
-                    Pesquisa em
-                    Literatura, Gênero e Psicanálise (LIGEPSI - UFPB). Publica artigos, ensaios e traduções que contemplem as
-                    interlocuções da Literatura com a Psicanálise, com a Psicologia Analítica e coma Psicopatologia. Tem
-                    periodicidade semestral (com edições em julho e dezembro).
-                    <br>
-                    <strong>e-ISSN: </strong>
-                    <br>
-                    <strong>Contato: </strong>henriquemais@gmail.com
-                    <br>
-                    <br>
-                    <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/rl/index/">Acessar
-                        Revista</a>
-                    <a class="btn btn-outline-primary btn-sm"
-                        href="https://periodicos.ufpb.br/index.php/rl/issue/current">Edições Disponíveis</a>
-                    </p>
-                    <hr>
-                </div>
-                </div>
-            </li>
+            
 
             
             <li>
@@ -2083,6 +2054,92 @@
                 </div>
                 </div>
             </li>
+
+            <li>
+                <br>
+                <div class="row">
+                <div class="col-md-3 col-lg-3">
+                    <img class="float left" src="images/literalmente.jpeg" alt="" style="width: 100%;margin-right:15px;">
+                </div>
+                <div class="col-md-9 col-lg-9">
+                    <p class="text-justify">
+                    <a href="https://periodicos.ufpb.br/index.php/rl/index">LiteralMente</a>
+                    <br>
+                    <strong>Escopo: </strong>A revista <strong>LiteralMENTE</strong> é uma publicação eletrônica do Grupo de
+                    Pesquisa em
+                    Literatura, Gênero e Psicanálise (LIGEPSI - UFPB). Publica artigos, ensaios e traduções que contemplem as
+                    interlocuções da Literatura com a Psicanálise, com a Psicologia Analítica e coma Psicopatologia. Tem
+                    periodicidade semestral (com edições em julho e dezembro).
+                    <br>
+                    <strong>e-ISSN: </strong>2764-4251
+                    <br>
+                    <strong>Contato: </strong>henriquemais@gmail.com
+                    <br>
+                    <br>
+                    <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/rl/index/">Acessar
+                        Revista</a>
+                    <a class="btn btn-outline-primary btn-sm"
+                        href="https://periodicos.ufpb.br/index.php/rl/issue/current">Edições Disponíveis</a>
+                    </p>
+                    <hr>
+                </div>
+                </div>
+            </li>
+
+            <li>
+        <br>
+        <div class="row">
+          <div class="col-md-3 col-lg-3">
+            <img class="float left" src="./images/dht.jpg" alt="" style="width: 100%;margin-right:15px;">
+          </div>
+          <div class="col-md-9 col-lg-9">
+            <p class="text-justify">
+              <a href="https://periodicos.ufpb.br/index.php/dht/index">Direitos Humanos e Transdisciplinaridade</a>
+              <br>
+              <strong>Escopo: </strong>A revista <strong>Direitos Humanos e Transdisciplinaridade</strong> é um periódico científico-acadêmico elaborado por discentes do Departamento de Ciências Jurídicas da UFPB. Valorizando o diálogo com diversas áreas do conhecimento científico e a crítica acadêmica, o objetivo do periódico é incentivar a produção científica construtiva no âmbito jurídico por discentes e docentes de instituições de ensino públicas e privadas em escalas regionais, nacionais e internacionais.
+              <br>
+              <strong>e-ISSN: </strong>2965-4432
+              <br>
+              <strong>Contato: </strong>revistadhtrans@gmail.com
+              <br>
+              <br>
+              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/dht/index/">Acessar
+                Revista</a>
+              <a class="btn btn-outline-primary btn-sm"
+                href="https://periodicos.ufpb.br/index.php/dht/issue/current">Edições Disponíveis</a>
+            </p>
+            <hr>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <br>
+        <div class="row">
+          <div class="col-md-3 col-lg-3">
+            <img class="float left" src="./images/rri.jpeg" alt="" style="width: 100%;margin-right:15px;">
+          </div>
+          <div class="col-md-9 col-lg-9">
+            <p class="text-justify">
+              <a href="https://periodicos.ufpb.br/index.php/rri/index">Ratio Iuris</a>
+              <br>
+              <strong>Escopo: </strong>A <strong>Revista Ratio Iuris</strong> é um periódico acadêmico construído por alunos do curso de direito do Centro de Ciências Jurídicas da UFPB. Seu objetivo é fomentar a produção científica em direito, a partir da publicação de artigos inéditos elaborados por discentes ou docentes de quaisquer instituições, sejam nacionais ou estrangeiras.
+              <br>
+              <strong>e-ISSN: </strong> 2358-4351
+              <br>
+              <strong>Contato: </strong>ratioiurisufpb@gmail.com
+              <br>
+              <br>
+              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/rri/index/">Acessar
+                Revista</a>
+              <a class="btn btn-outline-primary btn-sm"
+                href="https://periodicos.ufpb.br/index.php/rri/issue/current">Edições Disponíveis</a>
+            </p>
+            <hr>
+          </div>
+        </div>
+      </li>
+
 
         </ul>
 
