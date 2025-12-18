@@ -6,7 +6,7 @@
 <section id="one" class="wrapper style1 special">
 	<div class="container">
 		<header class="major">
-			<h2>Use Nossa Navegação <strong>RÁPIDA</strong></h2>
+			<h2>Use Nossa Navegação <strong>ULTRA RÁPIDA</strong></h2>
 			<p>Simplifique sua navegação com nossas opções mais acessadas.</p>
 		</header>
 		<div class="row 150%">
