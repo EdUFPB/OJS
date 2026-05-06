@@ -88,7 +88,7 @@
 <section id="four" class="wrapper style3 special">
 	<div class="container">
 		<header class="major">
-			<h2>Um novo Sistemas pronto para você! </h2>
+			<h2>Um novo Sistema pronto para você! </h2>
 			<p>O novo sistema completo para você, mais intuitivo, mais prático, mais rápido e novinho em folha!</p>
 		</header>
 		<div class="container d-none d-lg-block">
