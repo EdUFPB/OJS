@@ -84,7 +84,7 @@
                             <br>
                             <strong>e-ISSN: </strong>1809-4783
                             <br>
-                            <strong>Contato: </strong>wagnerjunqueira.araujo@gmail.com
+                            <strong>Contato: </strong>inform.sociedade.ufpb@gmail.com
                             <br>
                             <br>
                             <a class="btn btn-outline-primary btn-sm"
