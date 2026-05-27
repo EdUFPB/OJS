@@ -60,18 +60,24 @@
 			<h2 class="mb-6"><strong>Equipe</strong></h2>
 			<p class="mt-2">Conheça a equipe do Portal de Periódicos</p>
 		</header>
-		<section class="profiles" id="teamSection">
-			<div class="row justify-content-center">
-				<section class="3u 6u(medium) 12u$(xsmall) profile">
-					<img src="images/cassandra.jpg" alt="" width="100px" height="100px" />
-					<p>Cassandra Campos</p>
-					<h5 style="font-size: 15px"><strong>Editora de Publicações</strong></h5>
-				</section>
-				<section class="3u 6u$(medium) 12u$(xsmall) profile">
-					<img src="images/fabi.png" alt="" width="100px" height="100px" />
-					<p>Fabiana França</p>
-					<h5 h5 style="font-size: 15px"><strong>Bibliotecária - Documentalista</strong></h5>
-				</section>
+<section class="3u 6u$(medium) 12u$(xsmall) profile">
+    <img src="images/ana.png" alt="" width="100px" height="100px" style="filter: grayscale(100%)" />
+    <p>Ana Roberta Mota</p>
+    <h5 style="font-size: 15px"><strong>Bibliotecária</strong></h5>
+    <a href="http://lattes.cnpq.br/6636072425703164" target="_blank">Currículo Lattes</a>
+</section>
+<section class="3u 6u$(medium) 12u$(xsmall) profile">
+    <img src="images/cassandra.jpg" alt="" width="100px" height="100px" style="filter: grayscale(100%)" />
+    <p>Cassandra Campos</p>
+    <h5 style="font-size: 15px"><strong>Editora de Publicações</strong></h5>
+    <a href="http://lattes.cnpq.br/8767155212928230" target="_blank">Currículo Lattes</a>
+</section>
+<section class="3u 6u$(medium) 12u$(xsmall) profile">
+    <img src="images/fabi.png" alt="" width="100px" height="100px" style="filter: grayscale(100%)" />
+    <p>Fabiana França</p>
+    <h5 style="font-size: 15px"><strong>Bibliotecária</strong></h5>
+    <a href="http://lattes.cnpq.br/0843349256910839" target="_blank">Currículo Lattes</a>
+</section>
 			</div>
 		</section>
 	</div>     
