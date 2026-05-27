@@ -63,7 +63,7 @@
 <section class="profiles" id="teamSection">
     <div class="row justify-content-center">
         <section class="3u 6u$(medium) 12u$(xsmall) profile">
-            <img src="images/ana.png" alt="" width="100px" height="100px" style="filter: grayscale(100%); border-radius: 50%;" />
+            <img src="images/ana.png" alt="" width="100px" height="100px" style="filter: grayscale(100%); border-radius: 50%; object-fit: cover; object-position: center;" />
             <p>Ana Roberta Mota</p>
             <h5 style="font-size: 15px"><strong>Bibliotecária</strong></h5>
             <a href="http://lattes.cnpq.br/6636072425703164" target="_blank">Currículo Lattes</a>
