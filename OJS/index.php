@@ -12,7 +12,7 @@
 		<div class="row 150%">
 			<div class="4u 12u$(medium)">
 				<section class="box">
-					<a href="espaco-editor.php"> <i class="icon big rounded color1 fa-cloud"></i></a>
+					<a href="duvidas.php"> <i class="icon big rounded color1 fa-question-circle"></i></a>
 					<h3><strong>Dúvidas</strong></h3>
 					<p>Surgiu alguma dúvida? Aqui reunimos todas dúvidas frequentes.</p>
 				</section>
