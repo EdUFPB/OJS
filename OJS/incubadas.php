@@ -106,42 +106,7 @@
 
 
 
-    <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="./images/logo_benjaminiana_PRETO.png" alt="" style="width: 100%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/index.php/breti/index">Benjaminiana - Revista de Estudos em Tradução e Imagem</a>
-              <br>
-              <strong>Escopo: </strong>A revista <strong>Benjaminiana</strong> é uma publicação especializada nas áreas de
-              Estudos da Tradução e de Estudos da Imagem, dedicada a publicar textos que envolvam pesquisas
-              voltadas para os campos de Tradução, Literatura, Semiótica, Crítica Literária, História Cultural, História
-              da Arte e campos afins. O periódico enfatiza a discussão sobre a produção artística, crítica, teórica e
-              historiográfica dedicada às Humanidades em suas várias dimensões, dando ênfase àqueles trabalhos que
-              dialoguem com a obra e o pensamento de Walter Benjamin e/ ou de seus comentadores. Benjaminiana é publicada pelo 
-              NEBETI – Núcleo de Estudos Benjaminianos em Tradução e Imagem,
-              órgão do Centro de Ciências Humanas, Letras e Artes da Universidade Federal da Paraíba, com sede em
-              João Pessoa, no Estado da Paraíba. Vincula-se também ao Grupo de Pesquisa “Walter Benjamin:
-              fantasma, imago, espectro” (Diretório CNPq; DMI/CCHLA/UFPB; DH/CCHLA/UFPB) e à Linha
-              de Pesquisa “Tradução e Cultura”, do Programa de Pós-Graduação em Letras do CCHLA/UFPB.
-                            <br>
-              <strong>e-ISSN: </strong>
-              <br>
-              <strong>Contato: </strong>
-              <br>
-              <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/breti/index">Acessar
-                Revista</a>
-              <a class="btn btn-outline-primary btn-sm"
-                href="https://periodicos.ufpb.br/index.php/breti/issue/current">Edições Disponíveis</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
+    
 
 
     <li>
@@ -204,35 +169,7 @@
             <hr>
           </div>
         </div>
-      </li>
-
-    <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="./images/sanhaua.png" alt="" style="width: 100%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/index.php/snh/index">Sanhauá</a>
-              <br>
-              <strong>Escopo: </strong>A revista <strong>Sanhauá</strong> Revista de Extensão da UFPB é uma publicação acadêmica seriada de fluxo contínuo e vinculada à Pró-reitoria de Extensão – PROEX/UFPB.
-              <br>
-              <strong>e-ISSN: </strong>2966-1005
-              <br>
-              <strong>Contato: </strong>revistasanhauaufpb@gmail.com
-              <br>
-              <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/snh/index/">Acessar
-                Revista</a>
-              <a class="btn btn-outline-primary btn-sm"
-                href="https://periodicos.ufpb.br/index.php/snh/issue/current">Edições Disponíveis</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-      
+      </li>     
       <li>
         <br>
         <div class="row">
@@ -391,38 +328,6 @@
           </div>
         </div>
       </li>
-
-
-      <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="./images/sudamerica.jpg" alt="" style="width: 100%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/index.php/sda/index">Sudamérica: Revista Internacional de Direitos Humanos </a>
-              <br>
-              <strong>Escopo: </strong>A <strong>Sudamérica: Revista Internacional de Direitos Humanos</strong> é um periódico científico- acadêmico elaborado por docentes 
-              e discentes do Programa de Pós-Graduação em Direitos Humanos, Cidadania e Políticas Públicas da UFPB. Valorizando o diálogo 
-              com diversas áreas do conhecimento científico e a crítica acadêmica, o objetivo do periódico é incentivar a produção científica 
-              e publicação qualificada de artigos científicos relacionados aos direitos humanos. 
-              <br>
-              <strong>e-ISSN: </strong> 
-              <br>
-              <strong>Contato: </strong>
-              <br>
-              <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/sda/index">Acessar
-                Revista</a>
-              <a class="btn btn-outline-primary btn-sm"
-                href="https://periodicos.ufpb.br/index.php/sda/issue/current">Edições Disponíveis</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-
       <li>
         <br>
         <div class="row">
