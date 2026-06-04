@@ -171,13 +171,13 @@ include 'header.html'
                 <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
                     <div class="panel-body px-3 mb-4 text-justify pl-5 pr-5">
                         <p class="text-justify">
-                            Nossa equipe é composta por:
-                            <br>
-                            Cassandra Campos - <strong>Coordenadora do Portal</strong>
-                            <br>
-                            Fabiana França - <strong>Bibliotecária - Documentalista</strong>
-                            <br>
-                            Pedro Henrique - <strong>Estagiário - Sistemas de Informação</strong>
+Nossa equipe é composta por:
+<br>
+Ana Roberta Mota – <strong>Bibliotecária</strong>
+<br>
+Cassandra Campos – <strong>Editora de Publicações</strong>
+<br>
+Fabiana França – <strong>Bibliotecária (em licença)</strong>
                         </p>
                     </div>
                 </div>
