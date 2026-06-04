@@ -6,16 +6,14 @@
 </section>
 <section id="main" class="wrapper">
     <div class="container">
-
         <h2>Contato Principal</h2>
         <p> <strong>Telefone</strong> - (83) 3216 - 7147</p>
         <p><strong>Email</strong> - periodicos.ufpb@gmail.com</p>
 
         <h2>Equipe</h2>
-        <p>Editora de Publicações: Cassandra Campos</p>
-        <p>Bibliotecária - Documentalista: Fabiana França</p>
-        <p>Estagiário - Ciência da Computação: Maria Eduarda Ribeiro Donato da Silva</p>
-
+        <p>Bibliotecária: <a href="http://lattes.cnpq.br/6636072425703164" target="_blank">Ana Roberta Mota</a></p>
+<p>Editora de Publicações: <a href="http://lattes.cnpq.br/8767155212928230" target="_blank">Cassandra Campos</a></p>
+<p>Bibliotecária: <a href="http://lattes.cnpq.br/0843349256910839" target="_blank">Fabiana França</a> (em licença)</p> 
     </div>
 </section>
 
