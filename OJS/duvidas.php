@@ -9,7 +9,7 @@ include 'header.html'
 <section class="pt-5">
     <div class="container">
         <header class="major">
-            <h2 class="mb-2"><strong>FAQ - Dúvidas Frequentes</strong></h2>
+            <h2 class="mb-2"><strong>FAQ - Perguntas Frequentes</strong></h2>
             <p class="mt-1">Aqui responderemos dúvidas frequentes para facilitar o uso dos nossos serviços.</p>
         </header>
 
