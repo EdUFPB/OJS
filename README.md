@@ -39,6 +39,8 @@ O **Portal de Periódicos da UFPB** reúne revistas científicas eletrônicas el
 - **Bootstrap 4** — layout responsivo
 - **JavaScript** — busca com autocomplete e normalização de acentos
 - **OJS 3.3** — plataforma de gestão editorial
+- **eMAG** — boas práticas de acessibilidade digital (alto contraste, ajuste de fonte, atalhos de navegação)
+- **VLibras** — plugin de acessibilidade para tradução de conteúdo em Língua Brasileira de Sinais (Libras)
 
 ---
 
