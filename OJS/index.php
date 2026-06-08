@@ -17,6 +17,7 @@ onkeydown="if(event.key==='Enter'){window.location.href='busca.php?q='+this.valu
         </div>
     </div>
 </section>
+</div>
 <!-- One -->
 <!-- Nossas Coleções -->
 <section id="colecoes" class="wrapper style2">
@@ -81,11 +82,17 @@ onkeydown="if(event.key==='Enter'){window.location.href='busca.php?q='+this.valu
 <!-- Sobre -->
 <section id="three" style="background-color: #0D2137; padding: 4em 0; text-align: center;">
     <div class="container">
-        <h2 style="font-size: 32px; margin-top: 0.5em;"><strong style="color: white !important; font-family: 'Raleway', Helvetica, sans-serif !important;">Sobre o Portal de Periódicos</strong></h2>
-        <p style="font-family: 'Raleway', Helvetica, sans-serif; font-size: 14px; line-height: 1.8; color: #B0B8C1; max-width: 700px; margin: 0 auto 1.5em;">O Portal de Periódicos da UFPB constitui um espaço estratégico para a comunicação científica da Universidade Federal da Paraíba, promovendo a preservação da memória científica institucional, a visibilidade da produção acadêmica, a ciência aberta e a democratização do acesso ao conhecimento. Por meio dos periódicos editados e gerenciados por pesquisadores vinculados à UFPB, contribui para a disseminação da produção científica nacional e internacional, fortalecendo o impacto da ciência, da inovação e da pesquisa na sociedade.</p>
+    <h2 style="font-size: 18px; text-transform: uppercase; letter-spacing: 0.08em; color: #E8682A; font-weight: 500; margin-bottom: 0.5rem;">Sobre o Portal de Periódicos</h2>
+</div>
+</div>
+    <h3 style="font-size: 28px; margin-top: 0.5em;"><strong style="color: white !important; font-family: 'Raleway', Helvetica, sans-serif !important;">Ciência aberta da Paraíba para o mundo</strong></h3>
+</div>
+</div>
+        <p style="font-family: 'Raleway', Helvetica, sans-serif; font-size: 14px; line-height: 1.8; color: #B0B8C1; max-width: 700px; margin: 0 auto 1.5em;">O Portal de Periódicos da UFPB reúne publicações científicas gerenciadas por pesquisadores da Universidade Federal da Paraíba — um importante veículo de memória institucional e disseminação do conhecimento.</p>
         <div style="display: flex; justify-content: center; gap: 1em; margin-bottom: 1.5em;">
             <span style="background: #D4714A; color: white; padding: 6px 16px; border-radius: 20px; font-size: 13px; font-weight: bold; font-family: 'Raleway', Helvetica, sans-serif;">🔓 Acesso Gratuito</span>
             <span style="background: rgba(255,255,255,0.2); color: white; padding: 6px 16px; border-radius: 20px; font-size: 13px; font-weight: bold; font-family: 'Raleway', Helvetica, sans-serif;">✦ Open Access</span>
+        </div>
         </div>
         <div style="display: flex; justify-content: center; gap: 3em; margin-bottom: 2em;">
             <div style="text-align: center;">
@@ -98,39 +105,40 @@ onkeydown="if(event.key==='Enter'){window.location.href='busca.php?q='+this.valu
         </div>
         <a href="sobre.php" style="background: #D4714A; color: white; border: none; padding: 12px 30px; font-size: 14px; border-radius: 8px; font-family: 'Raleway', Helvetica, sans-serif; text-decoration: none;">Saiba Mais</a>
     </div>
-<section id="two" class="wrapper" style="background-color: white; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8;">
-    <div class="container">
-        <div style="text-align: center; margin-bottom: 2em;">
-            <h2 style="font-size: 32px; font-family: 'Raleway', Helvetica, sans-serif; margin-bottom: 0.3em; color: #444751;"><strong>Equipe</strong></h2>
-            <p style="font-size: 14px; line-height: 1.6; font-family: 'Raleway', Helvetica, sans-serif; color: #808080; max-width: 600px; margin: 0 auto;">Conheça as profissionais que garantem o funcionamento e a qualidade científica do nosso portal.</p>
+    </div>
+    </div>
+</div>
+</section>
+
+<!-- Equipe -->
+ </div>
+ </div>
+<div style="padding: 2.5rem 2rem; text-align: center; background: #ffffff; border-top: 1px solid #e0e0e0;">
+    <p style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: #E8682A; font-weight: 500; margin-bottom: 0.5rem;">Equipe</p>
+    <h3 style="font-size: 18px; font-weight: 500; color: #444; margin-bottom: 2rem;">Conheça as profissionais que garantem o funcionamento e a qualidade científica do nosso portal.</h3>
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; max-width: 600px; margin: 0 auto;">
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;">
+            <img src="images/ana.png" alt="Ana Roberta Mota" width="60" height="60" style="border-radius: 50%; object-fit: cover; object-position: center; filter: grayscale(100%); border: 3px solid #E8682A; margin-bottom: 4px;" />
+            <span style="font-size: 14px; font-weight: 500; color: #444;">Ana Roberta Mota</span>
+            <span style="font-size: 12px; color: #E8682A;">Bibliotecária</span>
+            <a href="http://lattes.cnpq.br/6636072425703164" target="_blank" style="font-size: 12px; color: #888; text-decoration: none; border-bottom: 0.5px solid #ccc;">Currículo Lattes</a>
         </div>
-        <section class="profiles" id="teamSection">
-            <div class="row justify-content-center">
-                <section class="3u 6u$(medium) 12u$(xsmall) profile" style="text-align: center;">
-                    <div style="width:120px; height:120px; border-radius:50%; overflow:hidden; display:inline-block; margin-bottom: 1em;">
-                        <img src="images/ana.png" alt="" style="filter: grayscale(100%); object-fit: cover; width:100%; height:100%;" />
-                    </div>
-                    <p style="font-family: 'Raleway', Helvetica, sans-serif; font-size: 14px; color: #444751; margin-bottom: 0.2em;">Ana Roberta Mota</p>
-                    <h5 style="font-size: 13px; font-family: 'Raleway', Helvetica, sans-serif; margin-bottom: 0.5em;"><strong>Bibliotecária</strong></h5>
-                    <a href="http://lattes.cnpq.br/6636072425703164" target="_blank" style="font-size: 13px; font-family: 'Raleway', Helvetica, sans-serif; color: #1B3A6B;">Currículo Lattes</a>
-                </section>
-                <section class="3u 6u$(medium) 12u$(xsmall) profile" style="text-align: center;">
-                    <div style="width:120px; height:120px; border-radius:50%; overflow:hidden; display:inline-block; margin-bottom: 1em;">
-                        <img src="images/cassandra.jpg" alt="" style="filter: grayscale(100%); object-fit: cover; width:100%; height:100%;" />
-                    </div>
-                    <p style="font-family: 'Raleway', Helvetica, sans-serif; font-size: 14px; color: #444751; margin-bottom: 0.2em;">Cassandra Campos</p>
-                    <h5 style="font-size: 13px; font-family: 'Raleway', Helvetica, sans-serif; margin-bottom: 0.5em;"><strong>Editora de Publicações</strong></h5>
-                    <a href="http://lattes.cnpq.br/8767155212928230" target="_blank" style="font-size: 13px; font-family: 'Raleway', Helvetica, sans-serif; color: #1B3A6B;">Currículo Lattes</a>
-                </section>
-                <section class="3u 6u$(medium) 12u$(xsmall) profile" style="text-align: center;">
-                    <div style="width:120px; height:120px; border-radius:50%; overflow:hidden; display:inline-block; margin-bottom: 1em;">
-                        <img src="images/fabi.png" alt="" style="filter: grayscale(100%); object-fit: cover; width:100%; height:100%;" />
-                    </div>
-                    <p style="font-family: 'Raleway', Helvetica, sans-serif; font-size: 14px; color: #444751; margin-bottom: 0.2em;">Fabiana França</p>
-                    <h5 style="font-size: 13px; font-family: 'Raleway', Helvetica, sans-serif; margin-bottom: 0.5em;"><strong>Bibliotecária</strong></h5>
-                    <a href="http://lattes.cnpq.br/0843349256910839" target="_blank" style="font-size: 13px; font-family: 'Raleway', Helvetica, sans-serif; color: #1B3A6B;">Currículo Lattes</a>
-                </section>
-            </div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;">
+            <img src="images/cassandra.jpg" alt="Cassandra Campos" width="60" height="60" style="border-radius: 50%; object-fit: cover; filter: grayscale(100%); border: 3px solid #E8682A; margin-bottom: 4px;" />
+            <span style="font-size: 14px; font-weight: 500; color: #444;">Cassandra Campos</span>
+            <span style="font-size: 12px; color: #E8682A;">Editora de Publicações</span>
+            <a href="http://lattes.cnpq.br/8767155212928230" target="_blank" style="font-size: 12px; color: #888; text-decoration: none; border-bottom: 0.5px solid #ccc;">Currículo Lattes</a>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;">
+            <img src="images/fabi.png" alt="Fabiana França" width="60" height="60" style="border-radius: 50%; object-fit: cover; filter: grayscale(100%); border: 3px solid #E8682A; margin-bottom: 4px;" />
+            <span style="font-size: 14px; font-weight: 500; color: #444;">Fabiana França</span>
+            <span style="font-size: 12px; color: #E8682A;">Bibliotecária</span>
+            <a href="http://lattes.cnpq.br/0843349256910839" target="_blank" style="font-size: 12px; color: #888; text-decoration: none; border-bottom: 0.5px solid #ccc;">Currículo Lattes</a>
+        </div>
+ </div>
+    </div>
+</div>
+ </div>
         </section>
     </div>
 </section>
