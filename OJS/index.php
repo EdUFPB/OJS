@@ -57,12 +57,12 @@
 </style>
 
 <!-- Hero Banner -->
-<section id="hero" style="background-color: #f5f5f5; padding: 3em 0; text-align: center;">
+<section id="hero" style="background-color: #e2601a; padding: 3em 0; text-align: center;">
     <div class="container">
-        <h1 style="color: #444751; font-size: 28px; font-weight: bold; margin: 0.5em 0; font-family: 'Inter', Helvetica, sans-serif;">
+        <h1 style="color: #e7e9ee; font-size: 28px; font-weight: bold; margin: 0.5em 0; font-family: 'Inter', Helvetica, sans-serif;">
             Explore os periódicos científicos da UFPB
         </h1>
-        <p style="color: #808080; font-size: 14px; max-width: 520px; margin: 0 auto 1.25em; line-height: 1.6;">
+        <p style="color: #f2efef; font-size: 14px; max-width: 520px; margin: 0 auto 1.25em; line-height: 1.6;">
             Pesquise por título, área ou ISSN — encontre periódicos relevantes rapidamente e acesse produções de alta qualidade técnica e científica.
         </p>
 
@@ -122,31 +122,33 @@
 </section>
 
 <!-- Sobre -->
-<section id="three" style="background-color: #0D2137; padding: 4em 2em; text-align: center;">
-    <div class="container">
-        <p style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: #E8682A; font-weight: 600; margin-bottom: 0.5rem;">Sobre o portal</p>
-        <h2 style="font-size: 24px; color: #fff; font-weight: 700; margin-bottom: 1rem;">Sobre o Portal de Periódicos</h2>
-        <p style="font-size: 14px; line-height: 1.8; color: #B0B8C1; max-width: 700px; margin: 0 auto 1.75em; text-align: justify;">
+<section id="three" style="background: #f2f4f6; border-top: 1px solid #dde1e7; border-bottom: 1px solid #dde1e7; padding: 4em 2em; text-align: center;">
+    <div class="container" style="max-width: 720px; margin: 0 auto;">
+
+        <p style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; color: #E8682A; font-weight: 600; margin-bottom: 0.4rem;">Sobre o portal</p>
+        <h2 style="font-size: 22px; color: #1B3A6B; font-weight: 700; margin-bottom: 1.25rem;">Ciência aberta da Paraíba para o mundo</h2>
+
+        <p style="font-size: 14px; line-height: 1.85; color: #3d5070; margin-bottom: 1.75em; text-align: justify;">
             O Portal de Periódicos da UFPB constitui um espaço estratégico para a comunicação científica da Universidade Federal da Paraíba, promovendo a preservação da memória científica institucional, a visibilidade da produção acadêmica, a ciência aberta e a democratização do acesso ao conhecimento. Por meio dos periódicos editados e gerenciados por pesquisadores vinculados à UFPB, contribui para a disseminação da produção científica nacional e internacional, fortalecendo o impacto da ciência, da inovação e da pesquisa na sociedade.
         </p>
 
-        <div style="display: flex; justify-content: center; gap: 1em; flex-wrap: wrap; margin-bottom: 2em;">
-            <span style="background: #D4714A; color: white; padding: 6px 16px; border-radius: 20px; font-size: 13px; font-weight: bold;">🔓 Acesso Gratuito</span>
-            <span style="background: rgba(255,255,255,0.15); color: white; padding: 6px 16px; border-radius: 20px; font-size: 13px; font-weight: bold;">✦ Open Access</span>
+        <div style="margin-bottom: 2em;">
+            <span style="background: #e0e6ef; color: #1B3A6B; padding: 5px 16px; border-radius: 20px; font-size: 13px; font-weight: 600;">✦ Open Access</span>
         </div>
 
-        <div class="sobre-stats" style="display: flex; justify-content: center; gap: 3em; flex-wrap: wrap; margin-bottom: 2em;">
-            <div style="text-align: center;">
-                <p style="font-size: 36px; font-weight: bold; color: #D4714A; margin: 0;">+70</p>
-                <p style="font-size: 12px; color: rgba(255,255,255,0.7); margin: 0; text-transform: uppercase; letter-spacing: 1px;">Periódicos</p>
+        <div style="display: flex; justify-content: center; gap: 3.5em; flex-wrap: wrap; margin-bottom: 2em;">
+            <div>
+                <p style="font-size: 38px; font-weight: 800; color: #1B3A6B; margin: 0; line-height: 1;">+70</p>
+                <p style="font-size: 11px; color: #6b7a99; margin: 6px 0 0; text-transform: uppercase; letter-spacing: 1.5px;">Periódicos</p>
             </div>
-            <div style="text-align: center;">
-                <p style="font-size: 36px; font-weight: bold; color: #D4714A; margin: 0;">+27.000</p>
-                <p style="font-size: 12px; color: rgba(255,255,255,0.7); margin: 0; text-transform: uppercase; letter-spacing: 1px;">Artigos Publicados</p>
+            <div>
+                <p style="font-size: 38px; font-weight: 800; color: #1B3A6B; margin: 0; line-height: 1;">+27.000</p>
+                <p style="font-size: 11px; color: #6b7a99; margin: 6px 0 0; text-transform: uppercase; letter-spacing: 1.5px;">Artigos Publicados</p>
             </div>
         </div>
 
-        <a href="sobre.php" style="background: #D4714A; color: white; border: none; padding: 12px 30px; font-size: 14px; border-radius: 8px; text-decoration: none;">Saiba Mais</a>
+        <a href="sobre.php" style="background: #E8682A; color: white; padding: 11px 30px; font-size: 14px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block;">Saiba Mais</a>
+
     </div>
 </section>
 
@@ -177,20 +179,19 @@
 </div>
 
 <!-- OJS -->
-<section id="four" style="background-color: #0D2137; padding: 4em 2em;">
+<section id="four" style="background-color: #f2f4f6; border-top: 1px solid #dde1e7; padding: 4em 2em;">
     <div class="container">
         <div style="display: flex; align-items: center; gap: 3em; flex-wrap: wrap;">
             <div style="flex: 1; min-width: 280px;">
-                <span style="background: rgba(255,255,255,0.15); color: white; padding: 6px 14px; border-radius: 8px; font-size: 12px; font-weight: bold; letter-spacing: 1px; text-transform: uppercase;">🖥 Infraestrutura de Ponta</span>
-                <h2 style="color: white !important; font-size: 28px; margin-top: 0.8em; line-height: 1.3;"><strong>Baseado no ecossistema Open Journal Systems (OJS)</strong></h2>
-                <p style="color: #B0B8C1; font-size: 14px; line-height: 1.8; max-width: 450px;">Utilizamos o padrão ouro global para publicação científica de código aberto. Uma interface intuitiva para submissões, avaliação por pares e publicação rápida.</p>
+                <span style="background: #e0e6ef; color: #1B3A6B; padding: 6px 14px; border-radius: 8px; font-size: 12px; font-weight: bold; letter-spacing: 1px; text-transform: uppercase;">🖥 Infraestrutura de Ponta</span>
+                <h2 style="color: #1B3A6B; font-size: 26px; margin-top: 0.8em; line-height: 1.3;"><strong>Baseado no ecossistema Open Journal Systems (OJS)</strong></h2>
+                <p style="color: #3d5070; font-size: 14px; line-height: 1.8; max-width: 450px;">Utilizamos o padrão ouro global para publicação científica de código aberto. Uma interface intuitiva para submissões, avaliação por pares e publicação rápida.</p>
                 <div style="display: flex; gap: 1em; margin-top: 1.5em; flex-wrap: wrap;">
-                    <a href="acesso.php" style="background: #E05A2B; color: white; padding: 12px 24px; border-radius: 8px; font-size: 14px; text-decoration: none; font-weight: bold;">Acesse a plataforma</a>
-                    <a href="duvidas.php" style="background: transparent; color: white; padding: 12px 24px; border-radius: 8px; font-size: 14px; text-decoration: none; border: 1px solid rgba(255,255,255,0.4);">Saiba como enviar</a>
+                    <a href="acesso.php" style="background: #E8682A; color: white; padding: 12px 24px; border-radius: 8px; font-size: 14px; text-decoration: none; font-weight: bold;">Acesse a plataforma</a>
                 </div>
             </div>
             <div style="flex: 1; min-width: 280px;">
-                <div style="background: white; border-radius: 12px; padding: 1.5em; box-shadow: 0 20px 40px rgba(0,0,0,0.3);">
+                <div style="background: white; border-radius: 12px; padding: 1.5em; box-shadow: 0 8px 24px rgba(0,0,0,0.1);">
                     <img src="images/ojs.png" alt="OJS" style="width: 100%; border-radius: 8px;">
                 </div>
             </div>
