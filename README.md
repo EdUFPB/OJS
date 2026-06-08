@@ -1,23 +1,53 @@
-# A Editora
+# 📰 Portal de Periódicos da UFPB
 
-Bem vindo ao repositório oficial do sistema **OJS** da **Editora UFPB**! Buscamos disseminar conhecimento e cultura, preservar a comunidade acadêmica, incentivar a pesquisa e tornar a memória da **Universidade Federal da Paraíba** mais evidente enquanto uma instituição promotora do saber científico.
+> Página de capa do Portal de Periódicos da Universidade Federal da Paraíba, mantido pela **Editora UFPB** e desenvolvido sobre o **Open Journal Systems (OJS)**.
 
+[![OJS](https://img.shields.io/badge/Plataforma-OJS%203.3-orange?style=flat-square)](https://pkp.sfu.ca/ojs/)
+[![Acesso Aberto](https://img.shields.io/badge/Acesso-Aberto-brightgreen?style=flat-square)](https://periodicos.ufpb.br)
+[![UFPB](https://img.shields.io/badge/Instituição-UFPB-blue?style=flat-square)](https://www.ufpb.br)
 
-# O Repositório
+---
 
-O  **Open Journal Systems (OJS)** é um  software de gerenciamento e publicação de revistas eletrônicas, desenvolvido no âmbito do [Public Knowledge Project](http://pkp.sfu.ca/) (PKP). Foi originalmente traduzido, suportado e disseminado no Brasil pelo Instituto Brasileiro de Informação em Ciência e Tecnologia ([IBICT](http://www.ibict.br/)) do Ministério da Ciência e Tecnologia (MCT), sendo recomendado pela CAPES e amplamente aceito pela comunidade brasileira de editores científicos.
+## Sobre
 
-No Brasil ele era divulgado como **[Sistema Eletrônico de Editoração de Revistas (SEER)](http://periodicos.emnuvens.com.br/o-que-e/seer/ "Sistema Eletrônico de Editoração de Revistas – SEER")**. A partir da versão 3 o IBICT recomenda utilizar apenas seu nome original, como é conhecido internacionalmente:  **OJS**.
+O **Portal de Periódicos da UFPB** reúne revistas científicas eletrônicas elaboradas ou gerenciadas por pesquisadores vinculados à UFPB. Inaugurado em 2006, é um dos primeiros portais do gênero em Universidades Federais Brasileiras. Todos os conteúdos são disponibilizados em **acesso aberto**.
 
-Dentre suas principais funcionalidades, o **OJS**  oferece:
+---
 
--   Pode ser instalado e gerenciado localmente ou utilizado através do **[Periódicos em Nuvens](http://periodicos.emnuvens.com.br/ "Periódicos em nuvens")**, dando liberdade para os editores
--   Editores configuram os requisitos, seções, processo de revisão, etc.
--   Submissão é feita online pelos autores
--   Suporte a revisão cega e duplo cega por pares
--   Gerenciamento de conteúdo (site da revista)
--   Indexação do conteúdo e mecanismo de busca
--   Notificação por email e sistema de comentários para leitores
--   Sistema de ajuda online sensível ao contexto
--   Suporta [Acesso Aberto](http://www.acessoaberto.org/) (**recomendado**) ou exclusivo para assinantes
--   Diversas funcionalidades extras através de _plugins_
+## Estrutura
+
+```
+/
+├── index.php              # Página inicial com busca e coleções
+├── sobre.php              # Sobre o Portal e serviços
+├── duvidas.php            # Central de Ajuda
+├── periodicos.php         # Periódicos correntes
+├── incubadas.php          # Periódicos incubados
+├── nao-correntes.php      # Periódicos não correntes
+├── anais-eventos.php      # Anais de eventos
+├── parcerias.php          # Parcerias institucionais
+├── dados.php              # Base de dados dos periódicos
+├── header.html            # Cabeçalho global
+└── footer.html            # Rodapé global
+```
+
+---
+
+## Tecnologias
+
+- **PHP** — geração dinâmica da listagem de periódicos
+- **Bootstrap 4** — layout responsivo
+- **JavaScript** — busca com autocomplete e normalização de acentos
+- **OJS 3.3** — plataforma de gestão editorial
+
+---
+
+## Links
+
+- [Portal de Periódicos da UFPB](https://periodicos.ufpb.br/capa/index.php)
+- [Editora UFPB](https://editora.ufpb.br)
+- [Guia OJS 3.3](https://docs.pkp.sfu.ca/learning-ojs/3.3/pt/)
+
+---
+
+<sub>© 2026 Portal de Periódicos da UFPB · Licença <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></sub>
