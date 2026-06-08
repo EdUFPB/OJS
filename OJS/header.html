@@ -3,12 +3,18 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Portal de Periódicos UFPB</title>
+	<title>Portal de Periódicos da UFPB</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1,
 			shrink-to-fit=no">
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
+	<meta name="description" content="Portal de Periódicos da Universidade Federal da Paraíba — acesso a periódicos científicos correntes, incubados e não correntes." />
+	<meta name="keywords" content="Periódico científico" />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+	<style>
+		body, body * {
+			font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+		}
+	</style>
 	<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/skel.min.js"></script>
@@ -23,22 +29,66 @@
 </head>
 
 <body class="landing">
+
+	<!-- Pular navegação (eMAG) -->
+	<a href="#conteudo-principal" accesskey="1" style="position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden;">
+		Ir para o conteúdo principal (Alt+1)
+	</a>
+	<a href="#menu-principal" accesskey="2" style="position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden;">
+		Ir para o menu (Alt+2)
+	</a>
+
+	<!-- Barra de acessibilidade (eMAG) -->
+	<div role="navigation" aria-label="Acessibilidade" style="background:#444; padding: 4px 16px; display:flex; justify-content:flex-end; align-items:center; gap:12px;">
+		<span style="font-size:11px; color:#ccc; font-family:sans-serif;">Acessibilidade:</span>
+		<button onclick="document.body.classList.toggle('alto-contraste')" accesskey="3" title="Alto Contraste (Alt+3)"
+			style="background:none; border:1px solid #ccc; color:white; font-size:11px; padding:2px 8px; cursor:pointer; border-radius:3px;">
+			Alto Contraste
+		</button>
+		<button onclick="alterarFonte(1)" title="Aumentar fonte" aria-label="Aumentar tamanho da fonte"
+			style="background:none; border:1px solid #ccc; color:white; font-size:13px; padding:2px 8px; cursor:pointer; border-radius:3px;">A+</button>
+		<button onclick="alterarFonte(-1)" title="Diminuir fonte" aria-label="Diminuir tamanho da fonte"
+			style="background:none; border:1px solid #ccc; color:white; font-size:11px; padding:2px 8px; cursor:pointer; border-radius:3px;">A-</button>
+		<button onclick="alterarFonte(0)" title="Tamanho normal" aria-label="Restaurar tamanho da fonte"
+			style="background:none; border:1px solid #ccc; color:white; font-size:11px; padding:2px 8px; cursor:pointer; border-radius:3px;">A</button>
+	</div>
+	<style>
+		body.alto-contraste { background: #000 !important; color: #ff0 !important; }
+		body.alto-contraste a { color: #ff0 !important; }
+		body.alto-contraste nav, body.alto-contraste header { background: #000 !important; }
+		body.alto-contraste .navbar-nav .nav-link { color: #ff0 !important; }
+	</style>
+	<script>
+		var tamanhoBase = 16;
+		function alterarFonte(delta) {
+			if (delta === 0) { tamanhoBase = 16; }
+			else { tamanhoBase = Math.min(22, Math.max(12, tamanhoBase + delta)); }
+			document.documentElement.style.fontSize = tamanhoBase + 'px';
+		}
+	</script>
 	<div id="barra-brasil" style="background:#7F7F7F; height: 20px; padding:0 0 0
 			10px;display:block;">
 		<ul id="menu-barra-temp" style="list-style:none;">
 			<li style="display:inline; float:left;padding-right:10px; margin-right:10px;
 					border-right:1px solid #EDEDED">
 				<a href="http://brasil.gov.br"
-					style="font-family:sans,sans-serif; text-decoration:none; color:white;">Portal
-					do Governo
-					Brasileiro</a>
+					style="font-family:sans,sans-serif; text-decoration:none; color:white;">Portal do Governo Brasileiro</a>
 			</li>
 			<li>
 				<a style="font-family:sans,sans-serif; text-decoration:none; color:white;"
-					href="http://epwg.governoeletronico.gov.br/barra/atualize.html">Atualize
-					sua Barra de Governo</a>
+					href="http://epwg.governoeletronico.gov.br/barra/atualize.html">Atualize sua Barra de Governo</a>
 			</li>
 		</ul>
+	</div>
+	<!-- Barra institucional -->
+	<div style="background: #f5f5f3; border-bottom: 1px solid #e0e0e0; padding: 6px 16px; display: flex; justify-content: center; gap: 20px;">
+		<a href="https://www.ufpb.br" target="_blank" style="font-size: 12px; color: hsl(243, 84%, 25%); text-decoration: none; font-family: sans-serif;">
+			Universidade Federal da Paraíba
+		</a>
+		<span style="color: #ccc; font-family: sans-serif;">·</span>
+		<a href="https://editora.ufpb.br" target="_blank" style="font-size: 12px; color: #E8682A; text-decoration: none; font-family: sans-serif; font-weight: 500;">
+			Editora UFPB
+		</a>
 	</div>
 
 	<!--PreLoading-->
@@ -47,8 +97,8 @@
 	</div>
 		<div class="container">
 			<header>
-				<nav class="navbar navbar-expand-lg navbar-light" style="color: #444751 !important;">
-					<a class="navbar-brand" href="index.php"><img src="images/logo.png" width="600" height="200" alt="" srcset=""></a>
+				<nav id="menu-principal" class="navbar navbar-expand-lg navbar-light" style="color: #444751 !important;" role="navigation" aria-label="Menu principal">
+					<a class="navbar-brand" href="index.php"><img src="images/logo.png" width="600" height="200" alt="Portal de Periódicos da UFPB — Editora UFPB" srcset=""></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
@@ -74,10 +124,6 @@
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="duvidas.php">Ajuda</a>
-							</li>
-							
-							<li class="nav-item">
-								<a class="nav-link" href="contato.php">Contato</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link orange-rounded button-special" href="acesso.php">Acesso</a>
