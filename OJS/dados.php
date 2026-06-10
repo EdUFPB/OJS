@@ -125,7 +125,7 @@ $revistas = [
     [
         "nome" => "Cadernos Imbondeiro",
         "link" => "https://periodicos.ufpb.br/index.php/ci",
-        "colecao" => "correntes"
+        "colecao" => "anais-eventos"
     ],
     [
         "nome" => "Revista Brasileira de Ciências da Saúde",
@@ -160,7 +160,7 @@ $revistas = [
     [
         "nome" => "Cultura e Tradução",
         "link" => "https://periodicos.ufpb.br/index.php/ct",
-        "colecao" => "correntes"
+        "colecao" => "anais-eventos"
     ],
     [
         "nome" => "Diversidade Religiosa",
@@ -320,7 +320,7 @@ $revistas = [
     [
         "nome" => "Sudamérica: Revista Internacional de Direitos Humanos",
         "link" => "https://periodicos.ufpb.br/index.php/sda/index",
-        "colecao" => "correntes"
+        "colecao" => "incubados"
     ],
 
     // ==================== INCUBADOS ====================
@@ -368,6 +368,23 @@ $revistas = [
         "nome" => "Perg@minho - Revista Discente de História",
         "link" => "https://periodicos.ufpb.br/index.php/perg/index",
         "colecao" => "incubados"
+    ],
+
+    // ==================== ANAIS DE EVENTOS ====================
+    [
+        "nome" => "Congresso de Inclusão e Acessibilidade",
+        "link" => "https://periodicos.ufpb.br/index.php/cia",
+        "colecao" => "anais-eventos"
+    ],
+    [
+        "nome" => "Anais do Colóquio de Cinema e Arte da América Latina",
+        "link" => "https://periodicos.ufpb.br/index.php/cocaal",
+        "colecao" => "anais-eventos"
+    ],
+    [
+        "nome" => "Revista do Encontro de Iniciação à Docência",
+        "link" => "https://periodicos.ufpb.br/index.php/enid",
+        "colecao" => "anais-eventos"
     ],
 
     // ==================== NÃO CORRENTES ====================
