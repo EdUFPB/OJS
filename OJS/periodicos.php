@@ -1,2242 +1,666 @@
 <?php include 'header.html'; ?>
-<!-- One -->
 
-<!--
- <section id="one" class="wrapper style1 special">
-    <div class="container">
-        <header class="major">
-            <h2><strong>Revistas</strong></h2>
-            <p>Revistas em <strong>DESTAQUE</strong></p>
-        </header>
-        <div class="row 150%">
-            <div class="4u 12u$(medium)">
-                <section class="box">
-                    <img src="images/informacao_e_sociedade.png" alt="" class="imageBox">
-                    <h4><strong>Informação e Sociedade</strong></h4>
-                    <p> É publicada ininterruptamente desde 1991 quando foi criada pela UFPB.
-                    </p>
-                </section>
-            </div>
-            <div class="4u 12u$(medium)">
-                <section class="box">
-                    <img src="images/moringa.png" alt="" class="imageBox">
-                    <h4><strong>Moringa</strong></h4>
-                    <p> MORINGA é uma publicação semestral do Departamento de Artes Cênicas, vinculado ao Centro de
-                        Comunicação. <br></p>
-                </section>
-            </div>
-            <div class="4u$ 12u$(medium)">
-                <section class="box">
-                    <img src="images/juee1.png" alt="" class="imageBox">
-                    <h4><strong>JUEE</strong></h4>
-                    <p> Journal of Urban and Environmental Engineering (JUEE) provides a forum for original papers.</p>
-                    </a>
-                </section>
-            </div>
+<?php
+$periodicos = [
+    // A1
+    ['titulo'=>'MORINGA',                  'subtitulo'=>'Artes do Espetáculo',
+     'caminho'=>'moringa',     'qualis'=>'A1', 'issn'=>'2177-8841',
+     'img'=>'images/moringa.png',
+     'desc'=>'Diálogo interdisciplinar nas artes cênicas — criação, poéticas espetaculares e relações com a cultura.'],
+
+    ['titulo'=>'Problemata',               'subtitulo'=>'Revista Internacional de Filosofia',
+     'caminho'=>'problemata',  'qualis'=>'A1', 'issn'=>'2236-8612',
+     'img'=>'images/problemata.png',
+     'desc'=>'Publica artigos, traduções e resenhas filosóficas em português, francês, espanhol, italiano e alemão.'],
+
+    // A2
+    ['titulo'=>'Aufklärung',               'subtitulo'=>'Journal of Philosophy',
+     'caminho'=>'arf',         'qualis'=>'A2', 'issn'=>'2318-9428',
+     'img'=>'images/auk.png',
+     'desc'=>'Espaço aberto ao debate filosófico entre pesquisadores do Brasil e do exterior, com ênfase em ética e epistemologia.'],
+
+    ['titulo'=>'Informação &amp; Sociedade', 'subtitulo'=>'Estudos',
+     'caminho'=>'ies',         'qualis'=>'A2', 'issn'=>'1809-4783',
+     'img'=>'images/informacao_e_sociedade.png',
+     'desc'=>'Uma das primeiras revistas brasileiras de Ciência da Informação indexada no Journal Citation Reports (JCR), publicada desde 1991.'],
+
+    ['titulo'=>'OKARA',                    'subtitulo'=>'Geografia em Debate',
+     'caminho'=>'okara',       'qualis'=>'A2', 'issn'=>'1982-3878',
+     'img'=>'images/okara.png',
+     'desc'=>'Fomenta o debate geográfico entre pesquisadores, docentes e profissionais, com foco em teoria e prática da Geografia.'],
+
+    ['titulo'=>'Revista Ártemis',          'subtitulo'=>'Gênero, Feminismos e Sexualidades',
+     'caminho'=>'artemis',     'qualis'=>'A2', 'issn'=>'1807-8214',
+     'img'=>'images/artemis.png',
+     'desc'=>'Produção científica interdisciplinar sobre gênero, feminismos e sexualidades sob perspectivas históricas, literárias e culturais.'],
+
+    ['titulo'=>'Sæculum',                  'subtitulo'=>'Revista de História',
+     'caminho'=>'srh',         'qualis'=>'A2', 'issn'=>'2317-6725',
+     'img'=>'images/saeculum2.png',
+     'desc'=>'Publicação do PPGH/UFPB voltada para pesquisas em História, Cultura Histórica e interfaces com outras áreas.'],
+
+    // A3
+    ['titulo'=>'Claves',                   'subtitulo'=>'Música e Pesquisa',
+     'caminho'=>'claves',      'qualis'=>'A3', 'issn'=>'1983-3709',
+     'img'=>'images/claves.png',
+     'desc'=>'Periódico do PPGM/UFPB dedicado à Composição, Educação Musical, Musicologia e Práticas Interpretativas.'],
+
+    ['titulo'=>'Política &amp; Trabalho',  'subtitulo'=>'Revista de Ciências Sociais',
+     'caminho'=>'politicaetrabalho', 'qualis'=>'A3', 'issn'=>'1517-5901',
+     'img'=>'images/politicaetrabalho2.png',
+     'desc'=>'Publicação do PPGS/UFPB com mais de 30 anos de debate qualificado em Sociologia, Política e Antropologia.'],
+
+    ['titulo'=>'Espaço do Currículo',      'subtitulo'=>'GEPPC – UFPB',
+     'caminho'=>'rec',         'qualis'=>'A3', 'issn'=>'1983-1579',
+     'img'=>'images/revista-espaco-do-curriculo.png',
+     'desc'=>'Periódico quadrimestral do GEPPC/UFPB, criado em 2008, dedicado ao debate nacional e internacional sobre políticas e estudos curriculares na Educação.'],
+
+    ['titulo'=>'Temas em Educação',        'subtitulo'=>'PPGE – UFPB',
+     'caminho'=>'rteo',        'qualis'=>'A3', 'issn'=>'0104-2777',
+     'img'=>'images/rte.png',
+     'desc'=>'Fundada em 1991 e online desde 2009, é organizada pelo PPGE/UFPB com publicação quadrimestral contínua, priorizando pesquisas científicas nacionais e internacionais em Educação.'],
+
+    ['titulo'=>'ÂNCORA',                   'subtitulo'=>'Revista Latino-americana de Jornalismo',
+     'caminho'=>'ancora',      'qualis'=>'A3', 'issn'=>'2359-375X',
+     'img'=>'images/ancora.png',
+     'desc'=>'Voltada para a pesquisa em Jornalismo na perspectiva latino-americana, com diálogos entre comunicação e cultura.'],
+
+    // A4
+    ['titulo'=>'Biblionline',              'subtitulo'=>'DCI – UFPB',
+     'caminho'=>'biblio',      'qualis'=>'A4', 'issn'=>'1809-4775',
+     'img'=>'images/biblionline.png',
+     'desc'=>'Publicada ininterruptamente desde 2005 nas áreas de Biblioteconomia, Arquivologia, Ciência da Informação e Museologia — trimestral desde 2017, com acesso aberto e avaliação por pares.'],
+
+    ['titulo'=>'PROLÍNGUA',               'subtitulo'=>'Linguística – UFPB',
+     'caminho'=>'prolingua',   'qualis'=>'A4', 'issn'=>'1983-9979',
+     'img'=>'images/prolingua.png',
+     'desc'=>'Espaço consolidado de divulgação de pesquisas teóricas e aplicadas em Linguística, promovendo o debate entre pesquisadores nacionais e internacionais. Acesso aberto, sem taxas para autores ou leitores.'],
+
+    ['titulo'=>'RPPI',                     'subtitulo'=>'Políticas Públicas e Internacionais',
+     'caminho'=>'rppi',        'qualis'=>'A4', 'issn'=>'2525-5584',
+     'img'=>'images/rppi.png',
+     'desc'=>'Veículo de pesquisas sobre Gestão Pública e Políticas Públicas nos planos doméstico e internacional.'],
+
+    ['titulo'=>'RECFin',                   'subtitulo'=>'Evidenciação Contábil &amp; Finanças',
+     'caminho'=>'recfin',      'qualis'=>'A4', 'issn'=>'2318-1001',
+     'img'=>'images/recfin.png',
+     'desc'=>'Periódico do PPGCC/UFPB indexado em DOAJ, Ebsco e Latindex, com foco em Contabilidade e Finanças.'],
+
+    ['titulo'=>'Scandia',                  'subtitulo'=>'Journal of Medieval Norse Studies',
+     'caminho'=>'scandia',     'qualis'=>'A4', 'issn'=>'2595-9107',
+     'img'=>'images/scandia.png',
+     'desc'=>'Publicação internacional em inglês dedicada aos estudos medievais e à cultura nórdica.'],
+
+    ['titulo'=>'Teoria e Prática em Administração', 'subtitulo'=>'PPGA – UFPB',
+     'caminho'=>'tpa',         'qualis'=>'A4', 'issn'=>'2238-104X',
+     'img'=>'images/tpa.png',
+     'desc'=>'Periódico do PPGA/UFPB voltado a executivos, gestores públicos, empreendedores e docentes — dissemina conhecimentos que conectam teoria e prática da Administração.'],
+
+    ['titulo'=>'Áltera',                   'subtitulo'=>'Revista de Antropologia',
+     'caminho'=>'altera',      'qualis'=>'A4', 'issn'=>'2447-9837',
+     'img'=>'images/altera.png',
+     'desc'=>'Publica pesquisas em Antropologia Social e Cultural sob abordagens teóricas contemporâneas.'],
+
+    // B1
+    ['titulo'=>'Archeion Online',          'subtitulo'=>'Arquivologia – UFPB',
+     'caminho'=>'archeion',    'qualis'=>'B1', 'issn'=>'2318-6186',
+     'img'=>'images/archeion.png',
+     'desc'=>'Periódico semestral vinculado ao curso de Arquivologia da UFPB — publica artigos originais sobre temas relevantes da Arquivologia e áreas afins, cumprindo a missão de produzir e divulgar conhecimento.'],
+
+    ['titulo'=>'Culturas Midiáticas',      'subtitulo'=>'PPGC – UFPB',
+     'caminho'=>'cm',          'qualis'=>'B1', 'issn'=>'1983-5930',
+     'img'=>'images/culturas-midiaticas.png',
+     'desc'=>'Lançada em 2008, publica pesquisas em Comunicação e suas interfaces com culturas audiovisuais, midiatização do cotidiano e do imaginário — incentivando a transdisciplinaridade.'],
+
+    ['titulo'=>'JUEE',                     'subtitulo'=>'Urban &amp; Environmental Engineering',
+     'caminho'=>'juee',        'qualis'=>'B1', 'issn'=>'1982-3932',
+     'img'=>'images/juee1.png',
+     'desc'=>'International journal covering Water Resources, Urban Design, Transportation and Environmental Engineering.'],
+
+    ['titulo'=>'Letr@ Viv@',              'subtitulo'=>'DLEM – UFPB',
+     'caminho'=>'lv',          'qualis'=>'B1', 'issn'=>'1517-3100',
+     'img'=>'https://periodicos.ufpb.br/public/journals/32/pageHeaderLogoImage_pt_BR.png',
+     'desc'=>'Periódico do DLEM/UFPB publicado desde 1999, com edição semestral em fluxo contínuo nas áreas de Literatura, Linguística, Tradução, Ensino de Línguas e Formação de Professores.'],
+
+    ['titulo'=>'PG&amp;C',               'subtitulo'=>'Perspectivas em Gestão &amp; Conhecimento',
+     'caminho'=>'pgc',         'qualis'=>'B1', 'issn'=>'2236-417X',
+     'img'=>'images/pgec.png',
+     'desc'=>'Iniciativa da UFPB em cooperação com o IBICT, publica pesquisas interdisciplinares em gestão do conhecimento, gestão da informação e estudos organizacionais.'],
+
+    ['titulo'=>'Prim Facie',              'subtitulo'=>'Direito, História e Política',
+     'caminho'=>'primafacie',  'qualis'=>'B1', 'issn'=>'1678-2593',
+     'img'=>'images/prima-facie.png',
+     'desc'=>'Periódico do PPGCJ/UFPB voltado às interfaces do Direito com Direitos Humanos, Filosofia e Ciência Política.'],
+
+    ['titulo'=>'Revista Educare',         'subtitulo'=>'DFE/CE – UFPB',
+     'caminho'=>'educare',     'qualis'=>'B1', 'issn'=>'2527-1083',
+     'img'=>'images/educare.png',
+     'desc'=>'Iniciativa do DFE/CE/UFPB, publica anualmente trabalhos inéditos nos Fundamentos da Educação em português, espanhol, inglês e outros idiomas, de pesquisadores e pós-graduandos.'],
+
+    ['titulo'=>'Temática',                'subtitulo'=>'NAMID/DEMID – UFPB',
+     'caminho'=>'tematica',    'qualis'=>'B1', 'issn'=>'1807-8931',
+     'img'=>'images/tematica.png',
+     'desc'=>'Fundada em 2004, é uma publicação mensal interdisciplinar em Comunicação e áreas afins, integrada ao NAMID/UFPB, com fluxo contínuo aberto a pesquisadores da graduação e pós-graduação.'],
+
+    // B2
+    ['titulo'=>'Religare',                'subtitulo'=>'Ciências das Religiões',
+     'caminho'=>'religare',    'qualis'=>'B2', 'issn'=>'1982-6605',
+     'img'=>'images/religare.png',
+     'desc'=>'Periódico do PPGCR/UFPB que publica artigos, resenhas e traduções em Ciências das Religiões e áreas afins.'],
+
+    ['titulo'=>'Revista da ABET',         'subtitulo'=>'Associação Brasileira de Estudo do Trabalho',
+     'caminho'=>'abet',        'qualis'=>'B2', 'issn'=>'1679-2483',
+     'img'=>'images/abet.png',
+     'desc'=>'Lançada em 2001, reúne pesquisas interdisciplinares sobre o mundo do trabalho — Economia, Sociologia, Direito, História, Saúde e outras áreas — em publicação semestral.'],
+
+    ['titulo'=>'RICRI',                   'subtitulo'=>'Relações Internacionais',
+     'caminho'=>'ricri',       'qualis'=>'B2', 'issn'=>'2318-9452',
+     'img'=>'images/ricri.png',
+     'desc'=>'Iniciação científica em Relações Internacionais — incentiva jovens pesquisadores no debate global e diplomático.'],
+
+    // B3
+    ['titulo'=>'Cadernos do LOGEPA',      'subtitulo'=>'LOGEPA/GENAT – UFPB',
+     'caminho'=>'logepa',      'qualis'=>'B3', 'issn'=>'2237-7522',
+     'img'=>'images/cadernos-logepa.png',
+     'desc'=>'Vinculada ao LOGEPA/UFPB, publica pesquisas em Geografia, Geomorfologia, gestão de riscos naturais e dinâmicas socioambientais da Paraíba, com volume anual em fluxo contínuo.'],
+
+    ['titulo'=>'CAOS',                    'subtitulo'=>'Ciências Sociais',
+     'caminho'=>'caos',        'qualis'=>'B3', 'issn'=>'1517-6916',
+     'img'=>'images/caos.png',
+     'desc'=>'Revista eletrônica de Ciências Sociais que explora temas de Sociologia, Política e Cultura com olhar crítico.'],
+
+    ['titulo'=>'DLCV',                    'subtitulo'=>'Língua, Linguística &amp; Literatura',
+     'caminho'=>'dclv',        'qualis'=>'B3', 'issn'=>'2237-0900',
+     'img'=>'images/dlcv.png',
+     'desc'=>'Divulga estudos em Linguística, Literaturas e Letras Clássicas, garantindo diversidade temática e liberdade teórica.'],
+
+    ['titulo'=>'Gaia Scientia',           'subtitulo'=>'PRODEMA – UFPB',
+     'caminho'=>'gaia',        'qualis'=>'B3', 'issn'=>'1981-1268',
+     'img'=>'images/gaia.png',
+     'desc'=>'Lançada em 2007 pelo PRODEMA/UFPB, publica artigos originais em Ciências Ambientais e suas interfaces com Ecologia, Etnobiologia, Geografia Ambiental, Saúde e Engenharia Ambiental.'],
+
+    ['titulo'=>'RBCS',                    'subtitulo'=>'Ciências da Saúde',
+     'caminho'=>'rbcs',        'qualis'=>'B3', 'issn'=>'2317-6032',
+     'img'=>'images/rbcs.png',
+     'desc'=>'Produção acadêmica em Ciências da Saúde com foco na realidade brasileira e na qualidade da assistência.'],
+
+    ['titulo'=>'Revista Graphos',         'subtitulo'=>'PPGL – UFPB',
+     'caminho'=>'graphos',     'qualis'=>'B3', 'issn'=>'2763-9355',
+     'img'=>'images/graphos.png',
+     'desc'=>'Publicada pelo PPGL/UFPB desde 1995, divulga artigos inéditos de pesquisadores brasileiros e estrangeiros nas áreas de Literatura, Cultura, Teoria Literária e Tradução, com periodicidade quadrimestral.'],
+
+    // B4
+    ['titulo'=>'Agropecuária Técnica',    'subtitulo'=>'CCA – UFPB',
+     'caminho'=>'at',          'qualis'=>'B4', 'issn'=>'2525-8990',
+     'img'=>'images/agrotec.png',
+     'desc'=>'Editada pelo CCA/UFPB em fluxo contínuo, publica artigos originais nas Ciências Agrárias — Agronomia, Medicina Veterinária, Zootecnia, Ciências Florestais, Engenharia Agrícola e áreas afins.'],
+
+    ['titulo'=>'Gestão &amp; Aprendizagem', 'subtitulo'=>'PPGOA – UFPB',
+     'caminho'=>'mpgoa',       'qualis'=>'B4', 'issn'=>'2526-3102',
+     'img'=>'https://periodicos.ufpb.br/public/journals/64/pageHeaderLogoImage_pt_BR.jpg',
+     'desc'=>'Periódico do PPGOA/UFPB publicado desde 2012, focado nos estudos dos processos de gestão e aprendizagem organizacionais.'],
+
+    ['titulo'=>'Letras et Ideias',        'subtitulo'=>'PPGL/CCHLA – UFPB',
+     'caminho'=>'letraseideias','qualis'=>'B4', 'issn'=>'2595-7295',
+     'img'=>'https://periodicos.ufpb.br/public/journals/94/pageHeaderLogoImage_pt_BR.png',
+     'desc'=>'Revista eletrônica de acesso livre do PPGL/CCHLA/UFPB, publica trabalhos inéditos em Letras, Linguística, Literatura e áreas afins.'],
+
+    ['titulo'=>'Prosppectus',             'subtitulo'=>'Perspectivas Qualitativas em Contabilidade e Organizações',
+     'caminho'=>'prosp',       'qualis'=>'B4', 'issn'=>'2763-9606',
+     'img'=>'images/prospectus.jpg',
+     'desc'=>'Primeiro periódico nacional dedicado a metodologias qualitativas em Contabilidade — vinculado ao DFC/UFPB, com publicação semestral de artigos teórico-empíricos e ensaios teóricos.'],
+
+    ['titulo'=>'Revista Abordagens',      'subtitulo'=>'PPGS – UFPB',
+     'caminho'=>'rappgs',      'qualis'=>'B4', 'issn'=>'2674-824X',
+     'img'=>'https://periodicos.ufpb.br/public/journals/113/homepageImage_pt_BR.jpg',
+     'desc'=>'Publicação semestral do corpo discente do PPGS/UFPB, com linha editorial plural voltada ao campo sociológico e áreas afins.'],
+
+    ['titulo'=>'Rev. Científica de Produção Animal', 'subtitulo'=>'Sociedade Nordestina de Produção Animal – CCA/UFPB',
+     'caminho'=>'rcpa',        'qualis'=>'B4', 'issn'=>'2176-4158',
+     'img'=>'images/rcpa.png',
+     'desc'=>'Órgão oficial da Sociedade Nordestina de Produção Animal desde 1999, publica semestralmente trabalhos inéditos em Zootecnia — Nutrição Animal, Forragicultura, Genômica, Reprodução e Sistemas de Produção.'],
+
+    ['titulo'=>'LiteralMENTE',            'subtitulo'=>'LIGEPSI – UFPB',
+     'caminho'=>'rl',          'qualis'=>'B4', 'issn'=>'2764-4251',
+     'img'=>'images/literalmente.jpeg',
+     'desc'=>'Periódico semestral do LIGEPSI/UFPB dedicado aos estudos literários e suas interfaces com a Psicanálise — publica artigos, ensaios, resenhas e relatos em fluxo contínuo.'],
+
+    ['titulo'=>'Ratio Iuris',             'subtitulo'=>'CCJ – UFPB',
+     'caminho'=>'rri',         'qualis'=>'B4', 'issn'=>'2358-4351',
+     'img'=>'https://periodicos.ufpb.br/public/journals/123/pageHeaderLogoImage_pt_BR.png',
+     'desc'=>'Periódico semestral do CCJ/UFPB voltado a incentivar a produção científica na graduação e divulgar a produção intelectual em Direito.'],
+
+    ['titulo'=>'Sanhauá',                 'subtitulo'=>'Revista de Extensão da UFPB',
+     'caminho'=>'snh',         'qualis'=>'B4', 'issn'=>'2966-1005',
+     'img'=>'images/sanhaua.png',
+     'desc'=>'Publicação da PROEX/UFPB que valoriza e divulga as ações de extensão universitária em fluxo contínuo.'],
+
+    // C
+    ['titulo'=>'Comunicações em Informática', 'subtitulo'=>'DI – UFPB',
+     'caminho'=>'cei',         'qualis'=>'C',  'issn'=>'2595-0622',
+     'img'=>'https://periodicos.ufpb.br/public/journals/107/pageHeaderLogoImage_pt_BR.png',
+     'desc'=>'Periódico do Departamento de Informática/UFPB que divulga relatos científicos em Ciência da Computação e suas interfaces com Saúde, Educação, Engenharias e outras áreas.'],
+
+    ['titulo'=>'DHT',                     'subtitulo'=>'Direitos Humanos e Transdisciplinaridade',
+     'caminho'=>'dht',         'qualis'=>'C',  'issn'=>'2965-4432',
+     'img'=>'images/dht.jpg',
+     'desc'=>'Aborda Direitos Humanos sob perspectiva transdisciplinar, integrando Direito, Filosofia e Ciências Sociais.'],
+
+    ['titulo'=>'Caderno de Docências',    'subtitulo'=>'UFPB',
+     'caminho'=>'cad',         'qualis'=>'C',  'issn'=>'2764-7153',
+     'img'=>'https://periodicos.ufpb.br/public/site/images/frankaic/caderno-de-docencias.png',
+     'desc'=>'Periódico de acesso aberto da UFPB dedicado a pesquisas, ensaios e experiências sobre práticas docentes e processos educativos em suas dimensões pedagógicas, éticas e políticas.'],
+
+    ['titulo'=>'RevICO',                  'subtitulo'=>'Iniciação Científica em Odontologia',
+     'caminho'=>'revico',      'qualis'=>'C',  'issn'=>'1677-3527',
+     'img'=>'images/revico.png',
+     'desc'=>'Incentiva a pesquisa científica em Odontologia, dando voz à produção de graduandos e pós-graduandos.'],
+
+    ['titulo'=>'Revista InterCulturas',   'subtitulo'=>'MINNI Mundo – UFPB/CNPq',
+     'caminho'=>'rics',        'qualis'=>'C',  'issn'=>'2966-3997',
+     'img'=>'https://periodicos.ufpb.br/public/journals/128/pageHeaderLogoImage_pt_BR.png',
+     'desc'=>'Periódico semestral do grupo MINNI Mundo/UFPB dedicado a mediações interculturais, diplomacia, relações internacionais e processos de negociação em contextos globais.'],
+
+    ['titulo'=>'Medicina &amp; Pesquisa', 'subtitulo'=>'Editora UFPB',
+     'caminho'=>'rmp',         'qualis'=>'C',  'issn'=>'2525-5851',
+     'img'=>'https://periodicos.ufpb.br/public/journals/78/homepageImage_pt_BR.jpg',
+     'desc'=>'Periódico interdisciplinar em Ciências da Saúde da UFPB — publica estudos originais, revisões e produções acadêmicas sobre cuidado, prática clínica, educação e sistemas de saúde.'],
+
+    // NC — Não Classificado
+    ['titulo'=>'Benjaminiana',           'subtitulo'=>'Estudos em Tradução e Imagem',
+     'caminho'=>'breti',       'qualis'=>'NC', 'issn'=>'3086-2396',
+     'img'=>'https://periodicos.ufpb.br/public/journals/131/pageHeaderLogoImage_pt_BR.png',
+     'desc'=>'Publicação trimestral especializada em Estudos da Tradução e Imagem, com ênfase na obra de Walter Benjamin e interfaces com Literatura, Semiótica e História da Arte.'],
+
+    ['titulo'=>'Fala Tu!',               'subtitulo'=>'Publicação Discente de Pedagogia UFPB',
+     'caminho'=>'ftu',         'qualis'=>'NC', 'issn'=>'3086-111X',
+     'img'=>'https://periodicos.ufpb.br/public/journals/141/pageHeaderLogoImage_pt_BR.png',
+     'desc'=>'Periódico semestral que socializa a produção acadêmica e literária de graduandos em Pedagogia/CE/UFPB, com espaço plural para diferentes vozes e formas de linguagem.'],
+
+    ['titulo'=>'Discurso &amp; Imagem Visual em Educação', 'subtitulo'=>'RDIVE – GEPDIVE/UFPB',
+     'caminho'=>'rdive',       'qualis'=>'NC', 'issn'=>'2526-0839',
+     'img'=>'https://periodicos.ufpb.br/public/journals/103/pageHeaderLogoImage_pt_BR.jpg',
+     'desc'=>'Publica pesquisas sobre nexos pedagógicos entre discurso, imagem visual e educação, a partir das artes, filosofia, letras e ciências humanas.'],
+
+    ['titulo'=>'Revista Lugares de Educação', 'subtitulo'=>'Departamento de Educação CCHSA/UFPB',
+     'caminho'=>'rle',         'qualis'=>'NC', 'issn'=>'2237-1451',
+     'img'=>'https://periodicos.ufpb.br/public/journals/48/pageHeaderLogoImage_pt_BR.png',
+     'desc'=>'Publicação anual do Departamento de Educação do CCHSA/UFPB, em fluxo contínuo, voltada para estudos e pesquisas em Educação.'],
+
+    ['titulo'=>'Textos NDIHR',           'subtitulo'=>'Núcleo de Documentação e Informação Histórica Regional',
+     'caminho'=>'ndihr',       'qualis'=>'NC', 'issn'=>'',
+     'img'=>'',
+     'desc'=>'Publicação semestral do NDIHR/UFPB, criada em 1985, dedicada à divulgação de estudos e pesquisas nas Humanidades produzidos por professores, alunos e técnicos.'],
+];
+
+function qualisCor($q) {
+    $map = [
+        'A1' => ['bg'=>'#1a6b3a', 'txt'=>'#fff'],
+        'A2' => ['bg'=>'#2e8b57', 'txt'=>'#fff'],
+        'A3' => ['bg'=>'#52a872', 'txt'=>'#fff'],
+        'A4' => ['bg'=>'#82c99a', 'txt'=>'#222'],
+        'B1' => ['bg'=>'#E8682A', 'txt'=>'#fff'],
+        'B2' => ['bg'=>'#d45a1f', 'txt'=>'#fff'],
+        'B3' => ['bg'=>'#c04d12', 'txt'=>'#fff'],
+        'B4' => ['bg'=>'#a84110', 'txt'=>'#fff'],
+        'C'  => ['bg'=>'#888',    'txt'=>'#fff'],
+        'NC' => ['bg'=>'#b0b0b0', 'txt'=>'#fff'],
+    ];
+    return $map[$q] ?? ['bg'=>'#b0b0b0', 'txt'=>'#fff'];
+}
+
+$totalRevistas = count($periodicos);
+?>
+
+<style>
+/* ── Hero ── */
+#per-hero {
+    background: linear-gradient(135deg, #E8682A 0%, #c4521a 100%);
+    padding: 70px 0 60px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+#per-hero::before {
+    content:''; position:absolute; top:-60px; right:-60px;
+    width:280px; height:280px; border-radius:50%;
+    background:rgba(255,255,255,0.07); pointer-events:none;
+}
+#per-hero::after {
+    content:''; position:absolute; bottom:-80px; left:-40px;
+    width:220px; height:220px; border-radius:50%;
+    background:rgba(255,255,255,0.06); pointer-events:none;
+}
+#per-hero .hero-content { position:relative; z-index:2; }
+#per-hero h1 { font-size:2.2rem; font-weight:800; color:#fff !important; margin-bottom:12px; letter-spacing:-0.02em; }
+#per-hero p  { font-size:1.05rem; opacity:.92; color:#fff !important; max-width:560px; margin:0 auto 24px; }
+#per-hero .hero-wave { position:absolute; bottom:0; left:0; right:0; line-height:0; }
+
+/* ── Stats ── */
+.per-stats { display:flex; justify-content:center; gap:32px; flex-wrap:wrap; margin-top:28px; }
+.per-stats > div { color:#fff; text-align:center; }
+.per-stats .num { font-size:1.9rem; font-weight:800; line-height:1; }
+.per-stats .lab { font-size:.78rem; opacity:.8; margin-top:3px; letter-spacing:.05em; }
+.per-stats .sep { width:1px; background:rgba(255,255,255,0.3); }
+
+/* ── Busca ── */
+.search-bar-wrap { max-width:520px; margin:0 auto; position:relative; }
+.search-bar-wrap input {
+    width:100%; border:none; border-radius:40px;
+    padding:13px 48px 13px 22px; font-size:1rem;
+    background:#f2f4f6;
+    box-shadow:0 4px 20px rgba(0,0,0,0.15);
+    outline:none; color:#3a3a3a;
+}
+.search-bar-wrap .search-icon {
+    position:absolute; right:18px; top:50%; transform:translateY(-50%);
+    font-size:1.1rem; color:#aaa; pointer-events:none;
+}
+
+/* ── Filtros Qualis ── */
+.qualis-filters { display:flex; flex-wrap:wrap; justify-content:center; gap:8px; padding:20px 0 0; }
+.qf-btn {
+    border:none; border-radius:20px; padding:6px 18px;
+    font-size:.82rem; font-weight:600; cursor:pointer;
+    transition:opacity .2s, transform .1s; opacity:.72;
+}
+.qf-btn:hover, .qf-btn.ativo { opacity:1; transform:scale(1.06); }
+.qf-btn.todos { background:rgba(255,255,255,0.25); color:#fff; border:1px solid rgba(255,255,255,0.5); }
+.qf-btn.todos.ativo { background:#fff; color:#E8682A; }
+
+/* ── Acessibilidade ── */
+.sr-only {
+    position:absolute; width:1px; height:1px; padding:0; margin:-1px;
+    overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;
+}
+:focus-visible { outline:3px solid #E8682A; outline-offset:3px; }
+
+/* ── Corpo ── */
+#per-lista { background:#f0f2f5; padding:40px 0 64px; }
+
+/* ── Grid auto-responsivo ── */
+.per-grid {
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    gap:18px;
+}
+
+/* ── Card ── */
+.per-card {
+    background:#fff;
+    border-radius:12px;
+    border:1px solid #e8e8e8;
+    box-shadow:0 1px 3px rgba(0,0,0,0.06), 0 3px 10px rgba(0,0,0,0.05);
+    display:flex; flex-direction:column;
+    transition:box-shadow .2s, transform .18s;
+    overflow:hidden;
+}
+.per-card:hover {
+    box-shadow:0 4px 20px rgba(0,0,0,0.12);
+    transform:translateY(-2px);
+}
+.per-card.oculto { display:none; }
+
+/* Cabeçalho: miniatura + título + Qualis */
+.per-card .card-head {
+    display:flex; align-items:flex-start; gap:12px;
+    padding:16px 18px 10px;
+}
+.per-card .card-thumb {
+    width:48px; height:48px; flex-shrink:0;
+    border-radius:8px; overflow:hidden;
+    border:1px solid rgba(0,0,0,0.07);
+    background:#f7f8fa;
+    display:flex; align-items:center; justify-content:center;
+}
+.per-card .card-thumb img {
+    width:100%; height:100%;
+    object-fit:contain; padding:4px;
+}
+.per-card .card-thumb-letter {
+    width:48px; height:48px; flex-shrink:0;
+    border-radius:8px;
+    background:var(--qcor, #aaa);
+    display:flex; align-items:center; justify-content:center;
+    font-size:1.25rem; font-weight:900; color:#fff;
+}
+.per-card .card-head-info { flex:1; min-width:0; }
+.per-card .card-titulo-h { margin:0 0 3px; }
+.per-card .card-titulo {
+    font-size:.95rem; font-weight:800; color:#1a1a1a;
+    text-decoration:none; line-height:1.3; display:block;
+    transition:color .15s;
+}
+.per-card .card-titulo:hover { color:#E8682A; text-decoration:none; }
+.per-card .card-subtitulo {
+    font-size:.78rem; font-weight:400;
+    color:#b0b0b0;
+}
+.qualis-chip {
+    display:inline-flex; align-items:center; flex-shrink:0;
+    border-radius:6px; padding:3px 9px; margin-top:2px;
+    font-size:.68rem; font-weight:800; letter-spacing:.04em;
+}
+
+/* Corpo */
+.per-card .card-body {
+    padding:0 18px 16px;
+    flex:1; display:flex; flex-direction:column;
+}
+.per-card .card-desc {
+    font-size:.82rem; color:#555; line-height:1.62;
+    flex:1; margin-bottom:14px;
+}
+.per-card .card-footer {
+    display:flex; align-items:center; justify-content:space-between;
+    gap:8px; padding-top:10px; margin-bottom:10px;
+    border-top:1px solid #f0f0f0;
+}
+.card-issn { font-size:.72rem; color:#c8c8c8; }
+.card-contact {
+    font-size:.72rem; font-weight:600; color:#E8682A;
+    text-decoration:none;
+}
+.card-contact:hover { text-decoration:underline; }
+
+/* Botões touch-friendly (mín. 44px) */
+.per-card .card-actions { display:flex; gap:8px; }
+.per-card .card-actions a {
+    display:flex; align-items:center; justify-content:center;
+    flex:1; min-height:44px;
+    border-radius:8px; font-size:.80rem; font-weight:600;
+    text-decoration:none;
+    transition:filter .15s, transform .1s;
+}
+.per-card .card-actions a:hover { filter:brightness(.87); transform:translateY(-1px); text-decoration:none; }
+.per-card .card-actions a:focus-visible { outline:3px solid #E8682A; outline-offset:2px; }
+.btn-acesso { background:#E8682A; color:#fff !important; }
+.btn-edicao { background:#eef0f3; color:#444 !important; }
+
+/* ── Sem resultados ── */
+#sem-resultados { display:none; text-align:center; padding:60px 0; color:#888; }
+#sem-resultados .icon { font-size:2.5rem; margin-bottom:12px; }
+
+/* ── Nota Qualis ── */
+.qualis-nota {
+    font-size:.78rem; color:#aaa; text-align:center;
+    margin-top:36px; padding-top:20px;
+    border-top:1px solid #e4e4e4;
+}
+.qualis-nota a { color:#E8682A; text-decoration:none; }
+.qualis-nota a:hover { text-decoration:underline; }
+
+/* ── Responsivo ── */
+@media(max-width:767px){
+    #per-hero h1 { font-size:1.5rem; }
+    .search-bar-wrap input { font-size:.95rem; }
+    .qualis-filters {
+        flex-wrap:nowrap; overflow-x:auto; justify-content:flex-start;
+        padding-left:4px; padding-right:4px;
+        -webkit-overflow-scrolling:touch; scrollbar-width:none;
+    }
+    .qualis-filters::-webkit-scrollbar { display:none; }
+    .qf-btn { flex-shrink:0; }
+    .per-stats { gap:20px; }
+}
+</style>
+
+<!-- Hero -->
+<section id="per-hero">
+    <div class="container hero-content">
+        <h1>Periódicos Correntes</h1>
+        <p>Acesse as revistas científicas ativas publicadas e apoiadas pelo Portal de Periódicos da UFPB.</p>
+
+        <div role="search" class="search-bar-wrap">
+            <label for="buscaInput" class="sr-only">Pesquisar periódico por título ou ISSN</label>
+            <input type="search" id="buscaInput"
+                   placeholder="Pesquise por título ou ISSN…"
+                   oninput="filtrar()"
+                   autocomplete="off"
+                   aria-label="Pesquisar periódico por título ou ISSN">
+            <span class="search-icon" aria-hidden="true">🔍</span>
         </div>
 
+        <div class="qualis-filters" role="group" aria-label="Filtrar por nível Qualis">
+            <button class="qf-btn todos ativo" onclick="filtrarQualis('todos',this)"
+                    aria-pressed="true">Todos</button>
+            <?php
+            $niveis = ['A1','A2','A3','A4','B1','B2','B3','B4','C','NC'];
+            foreach($niveis as $n):
+                $c = qualisCor($n);
+            ?>
+            <button class="qf-btn" style="background:<?=$c['bg']?>;color:<?=$c['txt']?>;"
+                    onclick="filtrarQualis('<?=$n?>',this)"
+                    aria-pressed="false"><?=$n?></button>
+            <?php endforeach; ?>
+        </div>
+
+        <div class="per-stats">
+            <div><div class="num"><?=$totalRevistas?></div><div class="lab">Periódicos ativos</div></div>
+        </div>
     </div>
-    <hr />
-</section>   
---->
-
-<!-- Main -->
-<section id="main" class="wrapper" style="padding-top: 0px;">
-    <hr class="mt-5">
-    <div class="container">
-        <header class="major mt-5">
-            <h2><strong>Periódicos Correntes</strong></h2>
-            <h4> <strong>Confira abaixo nossa lista completa com todos os Periódicos Correntes da UFPB</strong> </h4>
-            <br>
-            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Pesquise por periódicos">
-        </header>
-        <hr />
-    </div>
-
-
-    <!-- REVISTAS INICIO -->
-    <div class="container">
-
-        <ul id="myUL">
-
-            
-
-            
-            <li>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/informacao_e_sociedade.png" alt=""
-                            style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/ies">Informação e Sociedade</a>
-                            <br>
-                            <strong>Escopo: </strong> Informação &amp; Sociedade: Estudos (I&amp;S) é um periódico na
-                            área
-                            da Ciência da Informação vinculado ao Programa de Pós-Graduação em Ciência da Informação
-                            da Universidade Federal da Paraíba. I&amp;S está avaliado na base de dados
-                            <a href="">Qualis da CAPES como A1.</a> É publicada ininterruptamente desde 1991 -
-                            quando foi criada pela Universidade Federal da Paraíba, e foi uma das primeiras a ser
-                            publicada no Portal de Periódicos da UFPB. Atualmente, é uma das três revistas
-                            brasileiras da área de Ciência da Informação incluídas no Journal Citation Reports (JCR
-                            Web) do Institute for Scientiﬁc Information (ISI Web of Knowledge).
-                            <br>
-                            <strong>e-ISSN: </strong>1809-4783
-                            <br>
-                            <strong>Contato: </strong>inform.sociedade.ufpb@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/ies">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/ies/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/moringa.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/moringa">Moringa</a>
-                            <br>
-                            <strong>Escopo: </strong> MORINGA é uma publicação semestral do Departamento de Artes
-                            Cênicas e do Mestrado Profissional em Artes (ProfArtes) do Centro de Comunicação,
-                            Turismo e Artes da Universidade Federal da Paraíba (CCTA-UFPB). Fomenta o diálogo
-                            interdisciplinar no campo das artes do espetáculo. Seus eixos de interesse situam-se
-                            tanto nos aspectos que compõem os processos de criação quanto nas poéticas que regem as
-                            artes espetaculares em suas relações com os distintos campos de produção cultural e
-                            demais áreas das humanidades. Este periódico permite, aos autores, a manutenção de
-                            direitos sem restrições. É publicada ininterruptamente desde 1991 - quando foi
-                            criada pela Universidade Federal da Paraíba, e foi uma das primeiras a ser publicada no
-                            Portal de Periódicos da UFPB.
-                            <br>
-                            <strong>e-ISSN: </strong>2177-8841
-                            <br>
-                            <strong>Contato: </strong>tonezzi@hotmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/moringa">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/moringa/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/auk.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/arf">Aufklärung</a>
-                            <br>
-                            <strong>Escopo: </strong> Aufklärung, revista de filosofia (Qualis B1, DOI 10.18012/ARF)
-                            tem foco na publicação de artigos na área de filosofia, ou que sejam relevantes para a
-                            pesquisa em filosofia. Tem como objetivos: a) contribuir para a formação acadêmica de
-                            profissionais de filosofia [ensino e pesquisa] e áreas afins; b) contribuir para a
-                            efetivação de políticas da área de filosofia, ao propiciar a divulgação de resultados
-                            originados a partir de pesquisas filosóficas voltadas para a pós-graduação com base em
-                            princípios éticos tranparentes; e c) constituir-se como um espaço público para o debate
-                            entre pesquisadores do Brasil e do exterior.
-                            <br>
-                            <strong>e-ISSN: </strong>2318-9428
-                            <br>
-                            <strong>Contato: </strong>revistaaufklarung@hotmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/arf">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/arf/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/culturas-midiaticas.png" alt=""
-                            style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/cm">Culturas Midiáticas</a>
-                            <br>
-                            <strong>Escopo: </strong> A revista Culturas Midiáticas destina-se à publicação
-                            semestral da produção científica cujo objeto de estudo é a Comunicação. Sua temática
-                            abrange o universo das Linhas de Pesquisa do Programa de Pós-Graduação em Comunicação
-                            (PPGC/UFPB), intituladas Mídia, Cotidiano e Imaginário, e Culturas Midiáticas
-                            Audiovisuais. Aceitam-se artigos de professores doutores, mestres, doutorandos e de
-                            mestrandos, nesse último caso, em co-autoria com professores doutores.
-                            <br>
-                            <strong>e-ISSN: </strong>2763-9398
-                            <br>
-                            <strong>Contato: </strong>marcosnicolau.ufpb@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/cm">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/cm/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/gaia.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/gaia">Gaia Scientia</a>
-                            <br>
-                            <strong>Escopo: </strong>A Revista GAIA SCIENTIA é uma revista online que destina-se à
-                            divulgação de artigos técnico-científicos originais e inéditos ou artigos de revisão
-                            (apenas com consulta prévia ao Editor-Chefe do periódico ou a convite), nos diferentes
-                            ramos das Ciências Ambientais. Os manuscritos elaborados devem destinar-se
-                            exclusivamente à Revista GAIA SCIENTIA, não sendo permitida sua apresentação simultânea
-                            a outro periódico.
-                            <br>
-                            <strong>e-ISSN: </strong>1981-1268
-                            <br>
-                            <strong>Contato: </strong>gaiascientiaufpb@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/gaia">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/gaia/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/juee1.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/juee">Journal of Urban and Environmental
-                                Engineering</a>
-                            <br>
-                            <strong>Escopo: </strong> Journal of Urban and Environmental Engineering (JUEE) provides
-                            a forum for original papers and for the exchange of information and views on significant
-                            developments in urban and environmental engineering worldwide. The scope of the journal
-                            includes:Water Resources and Waste Management; Constructions and Environment; Urban
-                            Design; Transportation Engineering.The Editors welcome original papers, scientific notes
-                            and discussions, in English, in those and related topics.
-                            <br>
-                            <strong>e-ISSN: </strong>1982-3932
-                            <br>
-                            <strong>Contato: </strong>celso@journal-uee.org
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/juee">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/juee/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/pgec.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/pgc">Perspectivas em Gestão & Conhecimento</a>
-                            <br>
-                            <strong>Escopo: </strong> De iniciativa da <a href="https://ufpb.br">Universidade Federal da
-                                Paraíba</a> com a cooperação técnico-científica do <a
-                                href="https://www.ibict.br/">Instituto Brasileiro de Informação
-                                em Ciência</a> e Tecnologia, a revista Perspectivas em Gestão & Conhecimento (PG&C) tem
-                            por objetivo
-                            publicar trabalhos originais e inéditos relacionados com as temáticas Gestão e
-                            Conhecimento sob abordagens que priorizem diálogos inter/pluri/multi/transdisciplinares
-                            e representem contribuição para o desenvolvimento de novos conhecimentos e/ou para
-                            aplicação nos diversos setores e organizações da sociedade.
-                            <br>
-                            <strong>e-ISSN: </strong>2236-417X
-                            <br>
-                            <strong>Contato: </strong>lucianna.costa@yahoo.com.br
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/pgc">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/pgc/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/prima-facie.png" alt=""
-                            style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/primafacie">Prim@ Facie - Direito, História e
-                                Política</a>
-                            <br>
-                            <strong>Escopo: </strong> A revista eletrônica Prim@ Facie, <a
-                                href="https://ufpb.br">UFPB</a>,
-                            online, ISSN
-                            1678-2593, QUALIS B1 (Direito), é um periódico quadrimestral, vinculado ao Programa de
-                            Pós-Graduação em Ciências Jurídicas (PPGCJ) da UFPB, voltado para o debate científico
-                            entre as interfaces das ciências jurídicas e suas mais amplas interconexões com os
-                            Direitos Humanos e o Desenvolvimento, além da Filosofia, Ciência Política, História do
-                            Direito e demais áreas afins.
-
-                            A revista visa propiciar debates atualizados sobre problemas do Brasil e do mundo
-                            contemporâneo com a participação de pesquisadores de diversas universidades nacionais e
-                            estrangeiras.
-                            <br>
-                            <strong>e-ISSN: </strong>1678-2593
-                            <br>
-                            <strong>Contato: </strong>pfacie.dhp@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/primafacie">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/primafacie/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-<li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="./images/logo_benjaminiana_PRETO.png" alt="" style="width: 100%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/index.php/breti/index">Benjaminiana - Revista de Estudos em Tradução e Imagem</a>
-              <br>
-              <strong>Escopo: </strong>A revista <strong>Benjaminiana</strong> é uma publicação especializada nas áreas de
-              Estudos da Tradução e de Estudos da Imagem, dedicada a publicar textos que envolvam pesquisas
-              voltadas para os campos de Tradução, Literatura, Semiótica, Crítica Literária, História Cultural, História
-              da Arte e campos afins. O periódico enfatiza a discussão sobre a produção artística, crítica, teórica e
-              historiográfica dedicada às Humanidades em suas várias dimensões, dando ênfase àqueles trabalhos que
-              dialoguem com a obra e o pensamento de Walter Benjamin e/ ou de seus comentadores. Benjaminiana é publicada pelo 
-              NEBETI – Núcleo de Estudos Benjaminianos em Tradução e Imagem,
-              órgão do Centro de Ciências Humanas, Letras e Artes da Universidade Federal da Paraíba, com sede em
-              João Pessoa, no Estado da Paraíba. Vincula-se também ao Grupo de Pesquisa “Walter Benjamin:
-              fantasma, imago, espectro” (Diretório CNPq; DMI/CCHLA/UFPB; DH/CCHLA/UFPB) e à Linha
-              de Pesquisa “Tradução e Cultura”, do Programa de Pós-Graduação em Letras do CCHLA/UFPB.
-                            <br>
-              <strong>e-ISSN: </strong>
-              <br>
-              <strong>Contato: </strong>
-              <br>
-              <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/breti/index">Acessar
-                Revista</a>
-              <a class="btn btn-outline-primary btn-sm"
-                href="https://periodicos.ufpb.br/index.php/breti/issue/current">Edição Atual</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-       <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="./images/sudamerica.jpg" alt="" style="width: 100%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/index.php/sda/index">Sudamérica: Revista Internacional de Direitos Humanos </a>
-              <br>
-              <strong>Escopo: </strong>A <strong>Sudamérica: Revista Internacional de Direitos Humanos</strong> é um periódico científico- acadêmico elaborado por docentes 
-              e discentes do Programa de Pós-Graduação em Direitos Humanos, Cidadania e Políticas Públicas da UFPB. Valorizando o diálogo 
-              com diversas áreas do conhecimento científico e a crítica acadêmica, o objetivo do periódico é incentivar a produção científica 
-              e publicação qualificada de artigos científicos relacionados aos direitos humanos. 
-              <br>
-              <strong>e-ISSN: </strong> 
-              <br>
-              <strong>Contato: </strong>
-              <br>
-              <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/sda/index">Acessar
-                Revista</a>
-              <a class="btn btn-outline-primary btn-sm"
-                href="https://periodicos.ufpb.br/index.php/sda/issue/current">Edição Atual</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-
-      <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="./images/sanhaua.png" alt="" style="width: 100%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/index.php/snh/index">Sanhauá</a>
-              <br>
-              <strong>Escopo: </strong>A revista <strong>Sanhauá</strong> Revista de Extensão da UFPB é uma publicação acadêmica seriada de fluxo contínuo e vinculada à Pró-reitoria de Extensão – PROEX/UFPB.
-              <br>
-              <strong>e-ISSN: </strong>2966-1005
-              <br>
-              <strong>Contato: </strong>revistasanhauaufpb@gmail.com
-              <br>
-              <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/snh/index/">Acessar
-                Revista</a>
-              <a class="btn btn-outline-primary btn-sm"
-                href="https://periodicos.ufpb.br/index.php/snh/issue/current">Edição Atual</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/problemata.png" alt=""
-                            style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/problemata">Problemata</a>
-                            <br>
-                            <strong>Escopo: </strong>Problemata, ISSN 1516-9219, e-ISSN 2236-8612, é uma revista
-                            fundada em 1998 pelo Prof. Edmilson A. de Azevêdo. A revista recebe colaborações
-                            diversas como artigo, tradução ou resenha na área de Filosofia, em português, francês,
-                            espanhol, italiano e alemão. Atualmente ela é editada pelo GP Hermes/PPGF/UFPB/CNPq. É
-                            referenciada pelo indexador: LATINDEX, e está registrada no DOI. (Está avaliada na base
-                            de dados Qualis da CAPES como B1 - Área: Filosofia).
-                            <br>
-                            <strong>e-ISSN: </strong>2236-8612
-                            <br>
-                            <strong>Contato: </strong>revista.problemata@cchla.ufpb.br
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/problemata">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/problemata/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/prolingua.png" alt=""
-                            style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/prolingua">PROLÍNGUA</a>
-                            <br>
-                            <strong>Escopo: </strong>A PROLINGUA, revista eletrônica do Programa de Pós-Graduação em
-                            Linguística da Universidade Federal da Paraíba (PROLING/UFPB)
-                            https://www.cchla.ufpb.br/proling, é um periódico semestral que divulga trabalhos
-                            oriundos das variadas linhas de pesquisa dos estudos da linguagem, tanto na área de
-                            teoria e análise linguísticas quanto na esfera da linguística aplicada.
-                            <br>
-                            <strong>e-ISSN: </strong>1983-9979
-                            <br>
-                            <strong>Contato: </strong>revistaprolingua@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/prolingua">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/prolingua/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/artemis.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/artemis">Revista Ártemis</a>
-                            <br>
-                            <strong>Escopo: </strong>A <strong>Revista Ártemis</strong> divulga produção científica em
-                            gênero, feminismos
-                            e sexualidades pelo viés interdisciplinar, abordando fenômenos socioculturais a partir de
-                            análises históricas, literárias, culturais, psicológicas. O objetivo é contribuir com a
-                            construção de novas abordagens teórico-metodológicas, difundir artigos e pesquisas nacionais
-                            e internacionais, resenhas, entrevistas e traduções. A revista é semestral, estando
-                            vinculada ao Programa de Pós-Graduaçãoem Letras da UFPB. Em julho de
-                            2019, recebeu classificação Qualis A2.
-                            <br>
-                            <strong>e-ISSN: </strong>1887-8214
-                            <br>
-                            <strong>Contato: </strong>artemisestudosdegenero@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/artemis">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/artemis/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/revista-espaco-do-curriculo.png" alt=""
-                            style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/rec">Revista Espaço do Currículo</a>
-                            <br>
-                            <strong>Escopo: </strong>A Revista Espaço do Currículo é uma revista eletrônica de
-                            <strong>qualis B1 em Ensino e B2 em Educação</strong>, organizada pelo Grupo de Estudos e
-                            Pesquisas
-                            em
-                            Políticas Curriculares (GEPPC), da Universidade Federal da Paraíba, Campus. Tem como
-                            objetivo socializar conhecimentos sobre abordagens curriculares produzidas em âmbitos
-                            Internacional, Nacional e, em particular, na Região Nordeste, que tanto carece de meios
-                            para publicar a sua produção científica. Como espaço de divulgação eletrônica, a sua
-                            pretensão é facilitar e aprofundar o diálogo acadêmico, não de forma ruidosa, mas na
-                            perspectiva de dar visibilidade à relação existente entre sociedade, educação e
-                            currículo num mundo sem fronteiras.
-                            <br>
-                            <strong>e-ISSN: </strong>1983-1579
-                            <br>
-                            <strong>Contato: </strong>rec@ce.ufpb.br
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/rec">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/rec/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/graphos.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/graphos">Revista Graphos</a>
-                            <br>
-                            <strong>Escopo: </strong>A REVISTA GRAPHOS é uma publicação do PPGL - Programa de
-                            Pós-Graduação em Letras da Universidade Federal da Paraíba. Divulga, desde o ano de
-                            1995, artigos inéditos de pesquisadores brasileiros ou estrangeiros, nas áreas de
-                            Literatura e Cultura, Teoria e Tradução. A partir de 2004, passou a ter periodicidade
-                            semestral. A GRAPHOS está avaliada pela CAPES com o índice Qualis B2.
-                            <br>
-                            <strong>e-ISSN: </strong>1516-1536
-                            <br>
-                            <strong>Contato: </strong>revistagraphos@cchla.ufpb.br
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/graphos">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/graphos/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/rle.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/rle">Revista Lugares de Educação</a>
-                            <br>
-                            <strong>Escopo: </strong>A Revista Lugares de Educação disponível online é uma publicação
-                            semestral do Departamento de Educação do Centro de Ciências Humanas, Sociais e Agrárias da
-                            Universidade Federal da Paraíba. Ela oportuniza edições futuras dos artigos que já estiverem
-                            prontos para publicação antes do prazo da sua periodicidade oficial. Qualis B 1 - ENSINO
-                            <br>
-                            <strong>e-ISSN: </strong>2237-1451
-                            <br>
-                            <strong>Contato: </strong>decchsaufpb@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/rle">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/rle/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/politicaetrabalho2.png" alt=""
-                            style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/politicaetrabalho">REVISTA DE CIÊNCIAS SOCIAIS
-                                - POLÍTICA &
-                                TRABALHO</a>
-                            <br>
-                            <strong>Escopo: </strong>A Revista de Ciências Sociais Política & Trabalho é a
-                            publicação oficial do Programa de Pós-Graduação em Sociologia da UFPB. Em circulação há
-                            mais de 30 anos, reflete o compromisso do PPGS-UFPB na disseminação de um debate
-                            acadêmico atualizado e de alta qualidade na área das ciências sociais. Nas suas
-                            primeiras edições, a Revista enfatizou os temas do trabalho e da política, ampliando seu
-                            escopo para a diversidade temática nas áreas da Sociologia, Política, Antropologia e
-                            Humanidades. Publicamos dossiês temáticos, artigos de tema livre, entrevistas, resenhas
-                            e traduções.
-                            <br>
-                            <strong>e-ISSN: </strong>1517-5901
-                            <br>
-                            <strong>Contato: </strong>politicaetrabalho@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/politicaetrabalho">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/politicaetrabalho/issue/current">Edição
-                                Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/religare.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/religare">Religare: Revista do Programa de
-                                Pós-Graduação em Ciências das Religiões da UFPB</a>
-                            <br>
-                            <strong>Escopo: </strong>Religare é o periódico semestral do Programa de Pós-Graduação
-                            em Ciências das Religiões da Universidade Federal da Paraíba. Seu objetivo é publicar
-                            trabalhos originais na área de Ciências das Religiões. São bem vindos, além de artigos,
-                            resenhas, traduções e entrevistas relacionadas à área. Nosso intuito é apresentar à
-                            comunidade científica textos que refletem uma contribuição significativa para o campo
-                            das Ciências das Religiões e áreas afins. Desde os números de 2017 passamos a contar com
-                            o DOI - Digital Object Identifier. Estamos indexados no Latindex, no CiteFactor, no
-                            Periódicos Capes, no LivRe e no Sumários.Org
-                            <br>
-                            <strong>e-ISSN: </strong>1982-6605
-                            <br>
-                            <strong>Contato: </strong>religare.ppgcr.ufpb@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/religare">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/religare/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/saeculum2.png" alt=""
-                            style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/srh">Sæculum – Revista de História</a>
-                            <br>
-                            <strong>Escopo: </strong>Sæculum - Revista de História é publicada pelo Departamento de
-                            História da UFPB desde 1995 e, a partir de 2004, passou a ser também o periódico do
-                            Programa de Pós-Graduação em História da mesma universidade. Desde então sua frequência
-                            é semestral, e se trata de uma revista voltada à divulgação e debate de pesquisas no
-                            campo da História e da Cultura Histórica e suas diversas interfaces, abrindo espaço para
-                            o diálogo entre pesquisadores do Brasil e do exterior. Está avaliada como Qualis B1 na
-                            área de História pela Capes e é indexada no DOAJ (Directory of Open Access Journals) e
-                            no Latindex (Qualis B1 - História; Qualis B2 - Interdisciplinar; Qualis B3 - Geografia).
-                            <br>
-                            <strong>e-ISSN: </strong>2317-6725
-                            <br>
-                            <strong>Contato: </strong>saeculum@cchla.ufpb.br
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/srh">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/srh/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/dlcv.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/dclv">DLCV - Língua, Linguística &
-                                Literatura</a>
-                            <br>
-                            <strong>Escopo: </strong>A Revista DLCV - Língua, Linguística & Literatura tem como objetivo
-                            divulgar estudos inéditos de caráter teórico, experimental ou aplicado, na área de
-                            Linguística, Literaturas e Letras Clássicas. A Revista é vinculada ao Departamento de Letras
-                            Clássicas e Vernáculas e ao Departamento de Língua Portuguesa e Linguística da UFPB, e
-                            publica artigos, ensaios, traduções, entrevistas e resenhas elaborados por profissionais
-                            vinculados ao ensino e à pesquisa nas áreas em questão, garantindo, assim, efetiva
-                            diversidade de temas e a livre afiliação teórica dos autores, zelando pela qualidade das
-                            discussões através de uma rigorosa seleção dos textos submetidos à publicação.
-                            <br>
-                            <strong>e-ISSN: </strong>2237-0900
-                            <br>
-                            <strong>Contato: </strong>revistadlcv.ufpb@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/dclv">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/dclv/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/okara.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/okara">OKARA: Geografia em debate</a>
-                            <br>
-                            <strong>Escopo: </strong>A revista OKARA: Geografia em debate, é uma publicação
-                            quadrimestral do Programa de Pós-Gradução em Geografia da Universidade Federal da
-                            Paraíba, PPGG/UFPB. Seu propósito é fomentar o debate entre pesquisadores,
-                            especialistas, professores, pós-graduandos e profissionais que trabalham na Geografia.
-                            Enquanto veículo de difusão científica e cultural tem por objetivo divulgar pesquisas e
-                            experiências que contribuam para o conhecimento teórico e prático da Geografia.
-                            <br>
-                            <strong>e-ISSN: </strong>1982-3878
-                            <br>
-                            <strong>Contato: </strong>richarde@geociencias.ufpb.br
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/okara">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/okara/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/abet.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/abet">Revista da ABET</a>
-                            <br>
-                            <strong>Escopo: </strong>A Revista da ABET, periódico mantido pela Associação Brasileira
-                            de Estudos (ABET), tem como objetivo veicular estudos sobre o mundo do trabalho. Dada a
-                            abrangência e complexidade dessa temática, a compreensão dos distintos aspectos
-                            relacionados ao tema exige que os estudos e pesquisas contenham contribuições de
-                            pesquisadores de diferentes áreas, tais como Economia, Sociologia, Ciência Política,
-                            Direito, História, Administração, Educação, Engenharia, Geografia, Demografia, Ciências
-                            da Saúde, entre outras. Requer, ao mesmo tempo, que a construção das abordagens
-                            teórico-metodológicas e empíricas caminhe na direção da interdisciplinaridade e
-                            transdisciplinaridade.
-                            <br>
-                            <strong>e-ISSN: </strong>1679-2483
-                            <br>
-                            <strong>Contato: </strong>revistadaabet@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/abet">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/abet/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/rte.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/rteo">Revista Temas em Educação</a>
-                            <br>
-                            <strong>Escopo: </strong>Criada em 1991, a Revista Temas em Educação (RTE) publicou seu
-                            primeiro número na versão online em 2010. Com publicação quadrimestral e contínua, a partir
-                            de 2019, a RTE é uma revista eminentemente acadêmica, organizada pelo Programa de
-                            Pós-graduação em Educação da UFPB. Sua prioridade é divulgar produções que resultem de
-                            estudos e pesquisas científicas de âmbito nacional e internacional.
-                            Qualis 2013-2016:
-                            B2 (Ensino; Linguística e Literatura),
-                            B3 (Educação; Ciências da Religião e Teologia; Administração Pública e de Empresas; Ciências
-                            Contábeis e Turismo; Ciências Ambientais)
-                            B4 (Psicologia; Serviço Social) e
-                            B5 (Sociologia; Educação Física)
-                            ISSN: 0104-2777 (Versão Impressa) e 2359-7003 (Versão On-line)
-                            <br>
-                            <strong>e-ISSN: </strong>0104-2777
-                            <br>
-                            <strong>Contato: </strong>revistateducppge@ce.ufpb.br
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/rteo">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/rteo/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/tpa.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/tpa">Teoria e Prática em
-                                Administração</a>
-                            <br>
-                            <strong>Escopo: </strong>A revista Teoria e Prática em Administração é um periódico
-                            acadêmico vinculado ao Programa de Pós-Graduação em Administração da UFPB, e tem por
-                            finalidade disseminar conhecimentos voltados a contribuir com a prática de profissionais de
-                            Administração, sejam estes executivos empresariais, gestores públicos ou sociais,
-                            empreendedores ou docentes da área.
-                            A Teoria e Prática em Administração tem Qualis B2 na área de avaliação de Administração
-                            Pública e de Empresas, Ciências
-                            Contábeis e Turismo.
-                            <br>
-                            <strong>e-ISSN: </strong>2238-104X
-                            <br>
-                            <strong>Contato: </strong>pjacome@sti.ufpb.br
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/tpa">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/tpa/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/archeion.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/archeion">Archeion Online</a>
-                            <br>
-                            <strong>Escopo: </strong>A revista Archeion Online é um periódico eletrônico na área de
-                            Arquivologia e tem por objetivo estimular e publicizar artigos produzidos pelos discentes,
-                            docentes e pesquisadores em geral da área de Arquivologia e/ou áreas afins. É de
-                            periodicidade semestral publicando artigos originais, como também resultados da pesquisa de
-                            Teses, dissertações, iniciação científica, da prática nos estágios, da extensão
-                            universitária, dos Trabalhos de Conclusão de Curso e outras pesquisas que enriqueçam a área.
-                            Com o propósito de difundir o ensino, a pesquisa e a extensão, o periódico contribui para o
-                            alinhamento entre teoria e prática profissional atendendo à natureza da Arquivologia bem
-                            como da interdisciplinaridade com áreas afins.
-                            <br>
-                            <strong>e-ISSN: </strong>2318-6186
-                            <br>
-                            <strong>Contato: </strong>archeionline@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/archeion">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/archeion/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/biblionline.png" alt=""
-                            style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/biblio">Biblionline</a>
-                            <br>
-                            <strong>Escopo: </strong>Biblionline é uma revista eletrônica voltada para as áreas de
-                            Biblioteconomia, Arquivologia, Ciência da Informação e Museologia.
-                            Vinculada ao Departamento de Ciência da Informação da Umiversidade Federal da Paraíba,
-                            vem sendo publicada ininterruptamente desde 2005.
-                            Inicialmente tinha periodicidade semestral, entretanto devido à grande demanda, passou a
-                            ter periodicidade trimestral a partir de 2017.
-                            Adota o sistema de avaliação pelos pares e obedece aos preceitos do acesso aberto ao
-                            conhecimento.
-                            <br>
-                            <strong>e-ISSN: </strong>1809-4775
-                            <br>
-                            <strong>Contato: </strong>marynice.autran@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/biblio">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/biblio/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/cadernos-imbondeiro.png" alt=""
-                            style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/ci">Cadernos Imbondeiro</a>
-                            <br>
-                            <strong>Escopo: </strong>Cadernos Imbondeiro é uma publicação do Programa de
-                            Pós-graduação em Letras (PPGL). São publicados textos dos participantes do Seminário
-                            Nacional de Estudos Culturais Afro-Brasileiros e da Semana Afro-Paraibana. Em 2015 o
-                            periódico acolheu os Cadernos Afro-Paraibanos, editados pelo Núcleo de Estudos
-                            Afro-Brasileiros e Indígenas da UFPB, e em 2019 publica os Anais do II COPENE Nordeste.
-                            Temáticas: história, literaturas africanas e da diáspora negra, educação, ações
-                            afirmativas e relações étnico-raciais (Qualis B5 - LETRAS / LINGUÍSTICA; Qualis C -
-                            FILOSOFIA/TEOLOGIA:subcomissão TEOLOGIA).
-                            <br>
-                            <strong>e-ISSN: </strong>2316-2937
-                            <br>
-                            <strong>Contato: </strong>anamarinho@cchla.ufpb.br
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/ci">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/ci/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/rbcs.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/rbcs">Revista Brasileira de Ciências da
-                                Saúde</a>
-                            <br>
-                            <strong>Escopo: </strong>A Revista Brasileira de Ciências da Saúde - RBCS (ISSN
-                            1415-2177 / e-ISSN 2317-6032) é uma publicação científica dirigida à produção acadêmica,
-                            na área de Ciências da Saúde. Publica preferencialmente estudos científicos inseridos na
-                            realidade brasileira e divulga contribuições visando a melhoria da qualidade do Ensino,
-                            da Investigação Científica e da Assistência à Saúde no Brasil.
-                            <br>
-                            <strong>e-ISSN: </strong>2317-6032
-                            <br>
-                            <strong>Contato: </strong>editoriasaudeccs@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/rbcs">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/rbcs/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/economia-e-desenvolvimento.png" alt=""
-                            style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/economia">Revista Economia e
-                                Desenvolvimento</a>
-                            <br>
-                            <strong>Escopo: </strong>A Revista Economia e Desenvolvimento é vinculada ao Programa de
-                            Pós-Graduação em Economia da Universidade Federal de Pernambuco (PIMES). Seu primeiro
-                            número foi editado em 1997. O periódico é dedicado, prioritariamente, à análise de temas
-                            e questões relacionados com o processo de desenvolvimento econômico e social (Qualis B2
-                            - PLANEJAMENTO URBANO E REGIONAL/DEMOGRAFIA; Qualis B4 - ECONOMIA; Qualis B5 -
-                            GEOGRAFIA).
-                            <br>
-                            <strong>e-ISSN: </strong>1517-9354
-                            <br>
-                            <strong>Contato: </strong>cassiodanobrega@yahoo.com.br
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/economia">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/economia/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/recfin.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/recfin">Revista Evidenciação Contábil &
-                                Finanças</a>
-                            <br>
-                            <strong>Escopo: </strong>Revista do Programa de Pós-Graduação em Ciências Contábeis da
-                            UFPB, em parceria com o Departamento de Finanças e Contabilidade dessa instituição,
-                            estando atualmente classificada no estrato Qualis B3. Consta em Indexadores e Diretórios
-                            como: SPELL, DOAJ, Ebsco, e-Revist@s, Latindex, Sumários, entre outros. A RECFin é
-                            publicada quadrimestralmente, com oito artigos identificados pelo DOI (Digital Object
-                            Identifier), sendo ainda disponibilizados na modalidade ahead of print.
-                            <br>
-                            <strong>e-ISSN: </strong>2318-1001
-                            <br>
-                            <strong>Contato: </strong>recfin@ccsa.ufpb.br
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/recfin">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/recfin/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/nordestina-bio.png" alt=""
-                            style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/revnebio">Revista Nordestina de Biologia</a>
-                            <br>
-                            <strong>Escopo: </strong>A <strong>Revista Nordestina de Biologia</strong> tem como objetivo
-                            a
-                            divulgação, em nível nacional e internacional e por prioridade dos conhecimentos
-                            biológicos relativos ao Nordeste brasileiro. Além disso, aceita os trabalhos de cunho
-                            brasileiro, em particular, e neotropical em geral, qualquer que seja a origem dos
-                            autores. Não é uma revista regional e o seu título deve ser entendido como o
-                            representativo de uma revista de biologia editada por uma universidade nordestina.
-                            Alcança todas as disciplinas biológicas clássicas: Virologia, Bacteriologia,
-                            Protistologia, Botânica, Paleobotânica, Zoologia, Paleozoologia, Ecologia, Oceonografia,
-                            Genética, Bioquímica, Biofísica e Evolução.
-                            <br>
-                            <strong>e-ISSN: </strong>2236-1480
-                            <br>
-                            <strong>Contato: </strong>revnebio@dse.ufpb.br
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/revnebio">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/revnebio/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/cadernos-logepa.png" alt=""
-                            style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/logepa">CARDERNOS DO LOGEPA</a>
-                            <br>
-                            <strong>Escopo: </strong>O "CADERNOS DO LOGEPA" faz parte do programa de editoração do
-                            Laboratório e Oficina de Geografia da Paraíba (LOGEPA) e do Departamento de Geociências
-                            da Universidade Federal da Paraíba . Seu objetivo é a publicação, em forma de artigos
-                            técnico-científico e de ensaios teóricos, de preferência sobre a Geografia, que
-                            contribuam para o ensino de Geografia, sobretudo, de temas vinculados a Paraíba e ao
-                            Nordeste. A publicação da revista é semestral. (Qualis B4 -GEOGRAFIA; Qualis B4 -
-                            INTERDISCIPLINAR; Qualis B5 - CIÊNCIAS AMBIENTAIS).
-                            <br>
-                            <strong>e-ISSN: </strong>2237-7522
-                            <br>
-                            <strong>Contato: </strong>richarde@geociencias.ufpb.br
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/logepa">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/logepa/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/claves.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/claves">Claves</a>
-                            <br>
-                            <strong>Escopo: </strong>Claves, periódico do Programa de Pós-Graduação em Música da
-                            UFPB, é uma publicação bianual, aberta à produção acadêmica nas várias subáreas do
-                            conhecimento musical: Composição, Educação, Estética, Musicologias e Práticas
-                            Interpretativas. Publica artigos, resenhas e relatos de pesquisa inéditos em português,
-                            inglês e espanhol, objetivando o estímulo a uma saudável interação com programas
-                            acadêmicos congêneres no país e no exterior.
-                            <br>
-                            <strong>e-ISSN: </strong>1983-3709
-                            <br>
-                            <strong>Contato: </strong>euridessantos@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/claves">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/claves/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/cultura-traducao.png" alt=""
-                            style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/ct">Cultura e Tradução</a>
-                            <br>
-                            <strong>Escopo: </strong>Cultura e tradução é uma publicação do <a
-                                href="https://www.cchla.ufpb.br/ppgl/">Programa de
-                                Pós-graduação em Letras (PPGL)</a>. São publicados textos dos participantes do Encontro
-                            Nacional Cultura e Tradução, que acontece a cada três anos na Universidade Federal da
-                            Paraíba. O ENCULT busca consolidar uma tradição de reflexão sobre o fenômeno tradutório,
-                            aqui abordado em seu duplo viés linguístico-literário.
-                            <br>
-                            <strong>e-ISSN: </strong>2238-9059
-                            <br>
-                            <strong>Contato: </strong>anamarinho@cchla.ufpb.br
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/ct">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/ct/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/diversidade-religiosa.png" alt=""
-                            style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/dr">Diversidade Religiosa</a>
-                            <br>
-                            <strong>Escopo: </strong>Diversidade Religiosa (ISSN 2317-0476) é uma publicação
-                            eletrônica e semestral dos alunos do Programa de Pós-Graduação em Ciências das Religiões
-                            (PPGCR) da Universidade Federal da Paraíba (UFPB). Foi de 2011 a 2015 uma publicação da
-                            Graduação.
-                            <br>
-                            <strong>e-ISSN: </strong>2317-0476
-                            <br>
-                            <strong>Contato: </strong>r.diversidadereligiosa@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/dr">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/dr/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/agrotec.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/at">Agropecuária Técnica</a>
-                            <br>
-                            <strong>Escopo: </strong>A Revista Agropecuária Técnica (AGROTEC) é uma revista de
-                            divulgação científica de fluxo
-                            contínuo, editada pelo Centro de Ciências Agrária (CCA), da Universidade Federal da
-                            Paraíba (UFPB) e destina-se à divulgação de artigos técnico-científicos originais e
-                            inéditos,
-                            resultados de pesquisas ou significativos para a área, artigos de revisão e estudos de caso
-                            nos
-                            diferentes ramos das Ciências Agrárias que contemplem estudos nas seguintes seções:
-                            <strong>Agronomia,
-                                Biodiversidade, Ciências Florestais, Ciências de Alimentos, Engenharia
-                                Agrícola,Geociências, Medicina
-                                Veterinária e Zootecnia.
-                            </strong>
-                            <br>
-                            <strong>e-ISSN: </strong>2525-8990
-                            <br>
-                            <strong>Contato: </strong>agrotec@cca.ufpb.br
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/at">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/at/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/info-e-tec.png" alt=""
-                            style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/itec">Informação & Tecnologia</a>
-                            <br>
-                            <strong>Escopo: </strong>Informação & Tecnologia (Itec) é uma publicação semestral da
-                            <a href="https://www.ancib.org.br/"> Associação Nacional de Pesquisa e Pós-Graduação em
-                                Ciência da
-                                Informação - ANCIB.</a>
-                            Idealizada pelos grupos de pesquisa <a href="https://www.marilia.unesp.br/">UNESP</a> e <a
-                                href="https://ufpb.br">UFPB</a> para o <a
-                                href="https://gtancib.fci.unb.br/index.php/gt-08">GT8-Ancib</a>, tem como
-                            objetivos veicular artigos originais e favorecer a troca de informações e pontos de
-                            vista sobre informação e tecnologia no dominio da Ciência da Informação em todo o mundo.
-                            Dada a abrangência e complexidade dessa temática, a compreensão dos distintos aspectos
-                            relacionados ao tema exige que as abordagens teórico-metodológicas e empíricas sejam na
-                            direção da inter e da transdisciplinaridade, com estudos e pesquisas que contemplem
-                            contribuições de pesquisadores de diferentes áreas.
-                            <br>
-                            <strong>e-ISSN: </strong>2358-3908
-                            <br>
-                            <strong>Contato: </strong>santarem@usp.br
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/itec">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/itec/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/lv.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/lv">Letr@ Viv@</a>
-                            <br>
-                            <strong>Escopo: </strong>A Letr@ Viv@ é o períodico do <a
-                                href="https://www.cchla.ufpb.br/dlem/">Departamento de Letras
-                                Estrangeiras Modernas (DLEM)</a> da Universidade Federal da Paraíba. A Revista publica,
-                            desde 1999, estudos de caráter teórico ou aplicado, nas áreas de Literatura,
-                            Linguística, Tradução, Ensino de Línguas e Formação de Professores. Os textos submetidos
-                            ao periódico são avaliados, anonimamente, pelo Conselho Consultivo da Revista e, quando
-                            necessário, por pareceristas ad hoc. A Letr@ Viv@ tem edição semestral, com um número
-                            regular e outro temático (Qualis B4 - LETRAS / LINGUÍSTICA).
-                            <br>
-                            <strong>e-ISSN: </strong>1517-3100
-                            <br>
-                            <strong>Contato: </strong>betamedrado@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/lv">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/lv/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/logos.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/le">Revista Logos & Existência: Revista da
-                                Associação Brasileira de Logoterapia e Análise Existencial
-                            </a>
-                            <br>
-                            <strong>Escopo: </strong>A Revista Logos e Existência, com periodicidade semestral, é um
-                            periódico online, vinculado a Associação Brasileira de Logoterapia e Análise Existencial
-                            (ABLAE). Seu objetivo é divulgar artigos científicos originais (teóricos e empíricos) dos
-                            pesquisadores e estudiosos do sentido da vida, bem como difundir o pensamento de Viktor
-                            Frankl em suas possíveis aplicações em diversos contextos (filosófico, clínico, educacional,
-                            laboral, social etc.). Além dos artigos, a revista também publica resenhas de livros e
-                            entrevistas com personalidades de destaque na Logoterapia no Brasil e no mundo.
-                            <br>
-                            <strong>e-ISSN: </strong>2316-9923
-                            <br>
-                            <strong>Contato: </strong>revistalogosexistencia@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/le">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/le/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/cultura-oriental.png" alt=""
-                            style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/co">Cultura Oriental</a>
-                            <br>
-                            <strong>Escopo: </strong>O objetivo da revista Cultura Oriental é divulgar trabalhos de
-                            pesquisa a respeito dos vários aspectos culturais do extremo oriente asiático
-                            (especialmente Índia, China, Japão e Tibete), incluindo língua, religião, literatura,
-                            filosofia, artes e outros temas, abrangendo tanto a cultura atual quanto aspectos
-                            históricos. Este periódico pretende fortalecer e dar maior visibilidade às pesquisas
-                            brasileiras dessa área, oferecendo um veículo para intercâmbio, difusão e debate, que
-                            poderá contribuir para a redução da fragmentação e para a institucionalização desse
-                            campo de estudos eminentemente interdisciplinar. A iniciativa de criação desta revista é
-                            do Grupo de Pesquisa Padma.
-                            <br>
-                            <strong>e-ISSN: </strong>2358-5021
-                            <br>
-                            <strong>Contato: </strong>cultura.oriental.ufpb@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/co">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/co/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/rppi.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/rppi">Revista Brasileira de Políticas
-                                Públicas e Internacionais - RPPI</a>
-                            <br>
-                            <strong>Escopo: </strong>A RPPI – Revista Brasileira de Políticas Públicas e
-                            Internacionais (ISSN 2525-5584) é um periódico científico vinculado ao Programa de
-                            Pós-Graduação em Gestão Pública e Cooperação Internacional (PGPCI) da Universidade
-                            Federal da Paraíba (UFPB). Criada em 2016, seu principal objetivo é ser um veículo
-                            inédito de divulgação de pesquisas que abordam temas de Gestão Pública e Políticas
-                            Públicas sob dois níveis: o doméstico e o internacional.
-                            <br>
-                            <strong>e-ISSN: </strong>2525-5584
-                            <br>
-                            <strong>Contato: </strong>rppi.ufpb@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/rppi">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/rppi/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/revico.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/revico">Revista de Iniciação Científica em
-                                Odontologia - RevICO</a>
-                            <br>
-                            <strong>Escopo: </strong>A Revista de Iniciação Científica em Odontologia - RevICO (ISSN
-                            1677-3527) é editada semestralmente pelo Grupo de Pesquisa em Odontopediatria e Clínica
-                            Integrada da UFPB, em parceria com a Associação de Apoio à Pesquisa em Saúde Bucal e o
-                            Centro Acadêmico de Odontologia da Universidade )Federal da Paraíba. Sua missão é a
-                            divulgação de artigos técnico-científicos originais e inéditos, resultados de pesquisas
-                            produzidas no Curso de Iniciação à Pesquisa Científica, de relatos de casos clínicos e
-                            de vivências no campo da Odontologia e dos Anais da Mostra de Iniciação Científica em
-                            Odontologia (MICO). No Quadriênio 2013-2016 obteve Qualis 5 para Odontologia e
-                            Interdisciplinar.
-                            <br>
-                            <strong>e-ISSN: </strong>1677-3527
-                            <br>
-                            <strong>Contato: </strong>wiltonpadilha@yahoo.com.br
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/revico">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/revico/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/ric.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/ricri">Revista de Iniciação Científica em
-                                Relações Internacionais</a>
-                            <br>
-                            <strong>Escopo: </strong>A Revista de Iniciação Científica em Relações Internacionais é
-                            uma publicação semestral do Departamento de Relações Internacionais da Universidade
-                            Federal da Paraíba. O principal objetivo da RIC é divulgar as pesquisas que abordam
-                            temas das relações internacionais realizadas nos cursos de graduação e pós-graduação do
-                            Brasil e exterior, incentivando essa modalidade de produção científica. Buscamos
-                            contribuir para a ampliação do debate sobre as relações internacionais em suas distintas
-                            abordagens epistemológica e metodológica.</p>
-                        <br>
-                        <strong>e-ISSN: </strong>2318-9452
-                        <br>
-                        <strong>Contato: </strong>ricri.ufpb@gmail.com
-                        <br>
-                        <br>
-                        <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/ricri">Acessar
-                            Revista</a>
-                        <a class="btn btn-outline-primary btn-sm"
-                            href="https://periodicos.ufpb.br/index.php/ricri/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/revista-pb-historia.png" alt=""
-                            style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/rph">Revista Paraibana de História</a>
-                            <br>
-                            <strong>Escopo: </strong>Periódico eletrônico mantido pela Associação Nacional de
-                            História – Seção Regional da Paraíba (ANPUH-PB). ISSN: 2446-5852. O objetivo geral é
-                            promover a divulgação de produções originais (artigos, resenhas e entrevistas)
-                            elaborados em consonância com a produção historiográfica contemporânea, buscando se
-                            constituir como um espaço de veiculação de práticas de pesquisa, extensão e ensino da
-                            história, bem como reflexões acerca de sua escrita.
-                            <br>
-                            <strong>e-ISSN: </strong>2446-5852
-                            <br>
-                            <strong>Contato: </strong>revistapbhistoria@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/rph">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/rph/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/gestao-aprendizagem.png" alt=""
-                            style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/mpgoa">Gestão & Aprendizagem</a>
-                            <br>
-                            <strong>Escopo: </strong>Gestão & Aprendizagem (G&A) é um periódico do Programa de
-                            Pós-Graduação em Gestão nas Organizações Aprendentes (MPGOA) da Universidade Federal da
-                            Paraíba. Nasce em 2012 enquanto meio de divulgação dos trabalhos oriundos do MPGOA/UFPB
-                            e vem se consolidando enquanto um periódico com o foco nos estudos dos processos de
-                            gestão e aprendizagem organizacionais.
-                            <br>
-                            <strong>e-ISSN: </strong>2526-3102
-                            <br>
-                            <strong>Contato: </strong>gestaoeaprendizagem@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/mpgoa">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/mpgoa/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/tematica.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/tematica">Revista Temática</a>
-                            <br>
-                            <strong>Escopo: </strong>A revista Temática é uma publicação mensal de Comunicação e áreas
-                            afins (interdisciplinar), destinada à publicação de artigos científicos de pesquisadores da
-                            graduação e da pós-graduação (graduandos, graduados, mestrandos, mestres, doutorandos e
-                            doutores). Fundada em 2004, tem conceito Qualis da Capes e atualmente está integrada ao
-                            NAMID - Núcleo de Arte, Midia e Informação Digital, do Curso de Comunicação em Mídias
-                            Digitais (DEMID/CCHLA/UFPB).
-                            <br>
-                            <strong>e-ISSN: </strong>1807-8931
-                            <br>
-                            <strong>Contato: </strong>marcosnicolau.ufpb@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/tematica">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/tematica/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/ancora.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/ancora">ÂNCORA - Revista Latino-americana
-                                de Jornalismo</a>
-                            <br>
-                            <strong>Escopo: </strong>Âncora - Revista Latino-americana de Jornalismo é uma publicação
-                            acadêmica semestral vinculada ao Programa de Pós-graduação em Jornalismo – PPJ|UFPB.
-                            Objetiva a produção acadêmico-Científica na área do Jornalismo e suas interfaces com o campo
-                            comunicacional e em áreas afins. Seu foco de abordagem temática será direcionado para
-                            publicações de artigos, resenhas e entrevistas que retratem, de modo interdisciplinar,
-                            narrativas, linguagens, produtos e processos do Jornalismo.
-                            <br>
-                            <strong>e-ISSN: </strong>2359‐375X
-                            <br>
-                            <strong>Contato: </strong>revistaancoraufpb@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/ancora">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/ancora/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/letras-ideias.png" alt=""
-                            style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/letraseideias">Letras & Ideias</a>
-                            <br>
-                            <strong>Escopo: </strong>L E T R A S & I D E I A S é uma revista eletrônica de acesso
-                            livre da Universidade Federal da Paraíba (UFPB) vinculada ao Centro de Ciências Humanas,
-                            Letras e Artes (<a href="https://www.cchla.ufpb.br/cchla">CCHLA</a>) e ao Programa de
-                            Pós-Graduação de Letras (<a href="https://www.cchla.ufpb.br/ppgl/">PPGL</a>). Publica
-                            trabalhos inéditos na área de Letras, especialmente nas linhas de pesquisa do programa
-                            de pós-graduação.
-                            <br>
-                            <strong>e-ISSN: </strong>2595-7295
-                            <br>
-                            <strong>Contato: </strong>ligepsi@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/letraseideias">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/letraseideias/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/educare.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/educare">Revista Educare</a>
-                            <br>
-                            <strong>Escopo: </strong>A Revista Educare (RE), com periodicidade semestral, é editada
-                            pelo Departamento de Fundamentação da Educação, do Centro de Educação da Universidade
-                            Federal da Paraíba, objetiva publicar trabalhos acadêmicos inéditos, no campo dos
-                            Fundamentos da Educação, que tomem como objeto de suas reflexões o estudo do fenômeno
-                            educativo, tendo como referência as seguintes áreas: Antropologia da Educação; Economia
-                            da Educação; Filosofia da Educação; História da Educação; Psicologia da Educação e
-                            Sociologia da Educação (Conforme CNPq/Área de conhecimento/Educação).
-                            <br>
-                            <strong>e-ISSN: </strong>2527-1083
-                            <br>
-                            <strong>Contato: </strong>eduardojorgels@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/educare">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/educare/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/medicina-pesquisa.png" alt=""
-                            style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/rmp">Revista Medicina & Pesquisa</a>
-                            <br>
-                            <strong>Escopo: </strong>A RM&P é uma publicação quadrimestral do Centro de Ciências
-                            Médicas da Universidade Federal da Paraíba, com objetivo de publicar e disseminar a
-                            produção científica no âmbito do conhecimento médico e da saúde, abrangendo as ciências
-                            básicas, a clínica e a investigação. Nesta revista serão publicados os melhores
-                            trabalhos de conclusão dos cursos de graduação na referida área do conhecimento da UFPB
-                            e de outras universidades, assim como de trabalhos de iniciação científica, após
-                            avaliação pelo Conselho Editorial da Revista. Será considerado para publicação todo
-                            manuscrito fruto de pesquisa científica de alunos, com o respectivo professor orientador
-                            e outros alunos e professores colaboradores do trabalho.
-                            <br>
-                            <strong>e-ISSN: </strong>2525-5851
-                            <br>
-                            <strong>Contato: </strong>claudiosmp@terra.com.br
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/rmp">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/rmp/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/comunicacoes-informatica.png" alt=""
-                            style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/cei">Comunicações em Informática</a>
-                            <br>
-                            <strong>Escopo: </strong>Comunicações em Informática (CI) é um periódico da área de
-                            Ciências da Computação, vinculado ao Departamento de Informática da Universidade Federal
-                            da Paraíba.
-                            A revista foi criada no ano de 2017 como um veículo de comunicação de trabalhos
-                            desenvolvidos no contexto unidisciplinar da Computação e também multidisciplinar que
-                            envolva a área de informática. Assim, a política editorial da CI está aberta às diversas
-                            teorias e aplicações da informática, bem como a sua relação com as demais ciências.
-                            <br>
-                            <strong>e-ISSN: </strong>2595-0622
-                            <br>
-                            <strong>Contato: </strong>liliane@di.ufpb.br
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/cei">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/cei/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/rdive.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/rdive">Revista Discurso & Imagem Visual em
-                                Educação</a>
-                            <br>
-                            <strong>Escopo: </strong>A Revista Discurso & Imagem Visual em Educação - RDIVE é uma
-                            publicação semestral do Grupo de Estudos e Pesquisas em Educação de Jovens e Adultos –
-                            GEPEJA, que integra a Linha de Pesquisa Educação Popular do Programa de Pós-graduação em
-                            Educação, do Centro de Educação da Universidade Federal da Paraíba.
-                            <br>
-                            <strong>e-ISSN: </strong>2526-0839
-                            <br>
-                            <strong>Contato: </strong>rdive.gepeja.ufpb@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/rdive">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/rdive/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/altera.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/altera">Áltera Revista de Antropologia</a>
-                            <br>
-                            <strong>Escopo: </strong>A Revista Áltera é um periódico científico de fluxo contínuo produzido
-                             pelo Programa de Pós-graduação em Antropologia (PPGA) da Universidade Federal da Paraíba (UFPB) 
-                             com o intuito de apoiar a produção antropológica nacional e internacional e realizar um trabalho 
-                             de divulgação científica acessível e de qualidade. O periódico promove contribuições para os debates 
-                             teórico-metodológicos e empíricos da disciplina da Antropologia, recebendo e publicando em fluxo 
-                             contínuo artigos, ensaios visuais, resenhas, entrevistas e traduções nos idiomas português, espanhol 
-                             e inglês. A revista conta com um espaço continuamente aberto para publicações com temática livre e 
-                             também com dossiês semestrais que abordam tópicos particulares. Avaliação com conceito Qualis A4 na CAPES.
-                            <br>
-                            <strong>e-ISSN: </strong>2447-9837
-                            <br>
-                            <strong>Contato: </strong>revistaaltera@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/altera">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/altera/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/rcpa.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/rcpa">Revista Científica de Produção Animal</a>
-                            <br>
-                            <strong>Escopo: </strong>A <strong>Revista Científica de Produção Animal (RCPA)</strong>
-                            é o órgão oficial de publicação Cientifica da Sociedade Nordestina de Produção Animal, desde
-                            1999,
-                            estando
-                            vinculada ao Departamento de Zootecnia do Centro de Ciências Agrárias da Universidade
-                            Federal da Paraíba. A RCPA publica semestralmente trabalhos acadêmicos inéditos, no
-                            campo da Zootecnia, em Português, Inglês e Espanhol nas seguintes áreas temáticas:
-                            <strong>Avaliação de Alimentos para Animais; Produção e Nutrição de Animais Ruminantes e Não
-                                Ruminantes; Forragicultura; Melhoramento Genético Animal; Reprodução Animal; Avaliação
-                                de Produtos de Origem Animal; Genômica; Sistemas de Produção Animal</strong> e demais
-                            temas
-                            relacionados a Zootecnia.
-                            <br>
-                            <strong>e-ISSN: </strong>2176-4158
-                            <br>
-                            <strong>Contato: </strong>recipran@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/rcpa">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/rcpa/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/scandia.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/scandia">Scandia Journal of Medieval Norse
-                                Studies</a>
-                            <br>
-                            <strong>Escopo: </strong>Scandia: Journal of Medieval Norse Studies (ISSN: 2595-9107) is
-                            the annual journal published by NEVE – Nucleus of Vikings and Scandinavian Studies, an
-                            academic research group registered at the Brazilian National Council for Scientific and
-                            Technological Development (CNPq). Scandia is related to the Postgraduate Program of
-                            Religious Studies of the Federal University of Paraíba (UFPB) and fosters approaches to
-                            Old Norse Studies, mainly the Viking Age. Published works include many perspectives of
-                            the Human Sciences concerning the journal’s general field of research, especially those
-                            regarding Mythology, Religion, History, Literature, and Archaeology.
-                            <br>
-                            <strong>e-ISSN: </strong>2595-9107
-                            <br>
-                            <strong>Contato: </strong>scandiajournalneve@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/scandia">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/scandia/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/trombone.jpg" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/btaj">The Brazilian Trombone Association
-                                Journal</a>
-                            <br>
-                            <strong>Escopo: </strong>Criada no dia dez de outubro de 1995, a Associação Brasileira
-                            de Trombonistas (ABT) tem o prazer de apresentar a nossa Revista Científica da
-                            Associação Brasileira de Trombonistas. Divulgada no âmbito internacional como The
-                            Brazilian Trombone Association Journal, a publicacação é uma conquista dos trombonistas
-                            brasileiros.
-                            A Revista tem como objetivo divulgar pesquisas e relatos de experiência de músicos
-                            brasileiros e estrangeiros.
-                            <br>
-                            <strong>e-ISSN: </strong>2595-1238
-                            <br>
-                            <strong>Contato: </strong>leliotrombone@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/btaj">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/btaj/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/petrart.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/petrart">Revista PetrART</a>
-                            <br>
-                            <strong>Escopo: </strong>PetrART é um periódico online na área de Arqueologia vinculada
-                            à Associação Brasileira de Arte Rupestre. Sua missão é divulgar trabalhos que apresentem
-                            contribuição à temática dos estudos da chamada Arte Rupestre, dentro do escopo da
-                            Arqueologia, mas que agregue com as demais áreas de conhecimento que tenham sua atenção
-                            voltadas para os fenômenos rupestres, tais como as Artes, Comunicação, Antropologia,
-                            dentre outras. Como expectativa, espera-se que a revista, além de registro do
-                            conhecimento produzido pelos estudos dos registros rupestres, contribua para a
-                            comunicação e interlocução sobre relatos de estudos, proposição e resultados de
-                            aplicações, reflexões e proposições junto às comunidades de estudiosos sobre o tema.
-                            <br>
-                            <strong>e-ISSN: </strong>
-                            <br>
-                            <strong>Contato: </strong>revistapetrart@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/petrart">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/petrart/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/caos.png" alt="" style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/caos">CAOS – Revista Eletrônica de
-                                Ciências Sociais</a>
-                            <br>
-                            <strong>Escopo: </strong>Publicação do Curso de Ciências Sociais da UFPB, criada em
-                            1999, teve circulação contínua até 2012, publicando nesse período 22 números. Em 2012,
-                            por questões internas, deixou de publicar. Em 2019, retoma sua atribuição, voltando à
-                            publicação periódica semestral. A reativação da CAOS reflete o compromisso da
-                            Coordenação do Curso de Ciências Sociais na disseminação de um debate acadêmico
-                            atualizado, no qual, alunos de ciências sociais (especialmente da graduação) encontrem
-                            acolhimento para suas produções.
-                            <br>
-                            <strong>e-ISSN: </strong>1517-6916
-                            <br>
-                            <strong>Contato: </strong>revistacaos99@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/caos">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/caos/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <div class="row">
-                    <div class="col-md-3 col-lg-3">
-                        <img class="float left" src="images/abordagens.png" alt=""
-                            style="width: 100%;margin-right:15px;">
-                    </div>
-                    <div class="col-md-9 col-lg-9">
-                        <p class="text-justify">
-                            <a href="https://periodicos.ufpb.br/index.php/rappgs">Revista Abordagens</a>
-                            <br>
-                            <strong>Escopo: </strong>A Revista Abordagens é uma publicação científica do corpo discente
-                            do Programa de Pós-Graduação em Sociologia da Universidade Federal da Paraíba (PPGS/UFPB).
-                            Trata-se de um periódico com publicação semestral e com uma linha editorial plural,
-                            objetivando, com isso, construir diálogos e promover a disseminação de pesquisas que abordem
-                            o campo sociológico e áreas que com ele dialogue. O seu meio de divulgação será eletrônico.
-                            <br>
-                            <strong>e-ISSN: </strong>
-                            <br>
-                            <strong>Contato: </strong>revistaabordagens@gmail.com
-                            <br>
-                            <br>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/rappgs">Acessar Revista</a>
-                            <a class="btn btn-outline-primary btn-sm"
-                                href="https://periodicos.ufpb.br/index.php/rappgs/issue/current">Edição Atual</a>
-                        </p>
-                        <hr>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                <div class="col-md-3 col-lg-3">
-                    <img class="float left" src="./images/prospectus.jpg" alt="" style="width: 100%;margin-right:15px;">
-                </div>
-                <div class="col-md-9 col-lg-9">
-                    <p class="text-justify">
-                    <a href="https://periodicos.ufpb.br/index.php/prosp/index">Prosppectus</a>
-                    <br>
-                    <strong>Escopo: </strong>A <strong>Prosppectus</strong> é uma revista do Departamento de Finanças e
-                    Contabilidade
-                    (DFC) do Centro de Ciências Sociais Aplicadas (CCSA) da Universidade
-                    Federal da Paraíba que tem como objetivo divulgar artigos inéditos teóricos e
-                    teórico-empíricos, com metodologias qualitativas na área de Contabilidade e
-                    Organizações, em diferentes contextos e de várias perspectivas teóricas, escritos
-                    nos idiomas Português, Espanhol ou Inglês e que contribuam para os debates
-                    acadêmicos contemporâneos.
-                    <br>
-                    <strong>e-ISSN: </strong>2763-9606
-                    <br>
-                    <strong>Contato: vivifreitag@gmail.com</strong>
-                    <br>
-                    <br>
-                    <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/prosp/index/">Acessar
-                        Revista</a>
-                    <a class="btn btn-outline-primary btn-sm"
-                        href="https://periodicos.ufpb.br/index.php/prosp/issue/current">Edições Disponíveis</a>
-                    </p>
-                    <hr>
-                </div>
-                </div>
-            </li>
-
-            <li>
-                <br>
-                <div class="row">
-                <div class="col-md-3 col-lg-3">
-                    <img class="float left" src="images/literalmente.jpeg" alt="" style="width: 100%;margin-right:15px;">
-                </div>
-                <div class="col-md-9 col-lg-9">
-                    <p class="text-justify">
-                    <a href="https://periodicos.ufpb.br/index.php/rl/index">LiteralMente</a>
-                    <br>
-                    <strong>Escopo: </strong>A revista <strong>LiteralMENTE</strong> é uma publicação eletrônica do Grupo de
-                    Pesquisa em
-                    Literatura, Gênero e Psicanálise (LIGEPSI - UFPB). Publica artigos, ensaios e traduções que contemplem as
-                    interlocuções da Literatura com a Psicanálise, com a Psicologia Analítica e coma Psicopatologia. Tem
-                    periodicidade semestral (com edições em julho e dezembro).
-                    <br>
-                    <strong>e-ISSN: </strong>2764-4251
-                    <br>
-                    <strong>Contato: </strong>henriquemais@gmail.com
-                    <br>
-                    <br>
-                    <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/rl/index/">Acessar
-                        Revista</a>
-                    <a class="btn btn-outline-primary btn-sm"
-                        href="https://periodicos.ufpb.br/index.php/rl/issue/current">Edições Disponíveis</a>
-                    </p>
-                    <hr>
-                </div>
-                </div>
-            </li>
-
-            <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="./images/dht.jpg" alt="" style="width: 100%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/index.php/dht/index">Direitos Humanos e Transdisciplinaridade</a>
-              <br>
-              <strong>Escopo: </strong>A revista <strong>Direitos Humanos e Transdisciplinaridade</strong> é um periódico científico-acadêmico elaborado por discentes do Departamento de Ciências Jurídicas da UFPB. Valorizando o diálogo com diversas áreas do conhecimento científico e a crítica acadêmica, o objetivo do periódico é incentivar a produção científica construtiva no âmbito jurídico por discentes e docentes de instituições de ensino públicas e privadas em escalas regionais, nacionais e internacionais.
-              <br>
-              <strong>e-ISSN: </strong>2965-4432
-              <br>
-              <strong>Contato: </strong>revistadhtrans@gmail.com
-              <br>
-              <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/dht/index/">Acessar
-                Revista</a>
-              <a class="btn btn-outline-primary btn-sm"
-                href="https://periodicos.ufpb.br/index.php/dht/issue/current">Edições Disponíveis</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-
-      <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="./images/rri.jpeg" alt="" style="width: 100%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/index.php/rri/index">Ratio Iuris</a>
-              <br>
-              <strong>Escopo: </strong>A <strong>Revista Ratio Iuris</strong> é um periódico acadêmico construído por alunos do curso de direito do Centro de Ciências Jurídicas da UFPB. Seu objetivo é fomentar a produção científica em direito, a partir da publicação de artigos inéditos elaborados por discentes ou docentes de quaisquer instituições, sejam nacionais ou estrangeiras.
-              <br>
-              <strong>e-ISSN: </strong> 2358-4351
-              <br>
-              <strong>Contato: </strong>ratioiurisufpb@gmail.com
-              <br>
-              <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/rri/index/">Acessar
-                Revista</a>
-              <a class="btn btn-outline-primary btn-sm"
-                href="https://periodicos.ufpb.br/index.php/rri/issue/current">Edições Disponíveis</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-
-
-        </ul>
-
+    <div class="hero-wave">
+        <svg viewBox="0 0 1440 48" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style="width:100%;height:48px;display:block;">
+            <path d="M0,32 C360,0 1080,60 1440,20 L1440,48 L0,48 Z" fill="#eef0f3"/>
+        </svg>
     </div>
 </section>
-<!-- Footer -->
-<?php 
-            include 'footer.html'
-            ?>
+
+<!-- Lista -->
+<section id="per-lista">
+<div class="container">
+
+<div class="per-grid" id="per-grid">
+<?php foreach($periodicos as $p):
+    $c      = qualisCor($p['qualis']);
+    $tPlain = html_entity_decode(strip_tags($p['titulo']), ENT_QUOTES, 'UTF-8');
+    $letra  = mb_strtoupper(mb_substr($tPlain, 0, 1, 'UTF-8'), 'UTF-8');
+    $hasImg = !empty($p['img']);
+?>
+<article class="per-card"
+     style="--qcor:<?=$c['bg']?>;"
+     data-titulo="<?=htmlspecialchars(mb_strtolower($tPlain,'UTF-8'))?>"
+     data-issn="<?=$p['issn']?>"
+     data-qualis="<?=$p['qualis']?>">
+
+    <!-- Cabeçalho: miniatura + título + Qualis -->
+    <div class="card-head">
+        <?php if($hasImg): ?>
+        <div class="card-thumb">
+            <img src="<?=$p['img']?>" alt="Logo <?=htmlspecialchars($tPlain)?>"
+                 onerror="this.closest('.card-thumb').outerHTML='<div class=\'card-thumb-letter\'><?=$letra?></div>'">
+        </div>
+        <?php else: ?>
+        <div class="card-thumb-letter" aria-hidden="true"><?=$letra?></div>
+        <?php endif; ?>
+
+        <div class="card-head-info">
+            <h3 class="card-titulo-h">
+                <a class="card-titulo"
+                   href="https://periodicos.ufpb.br/index.php/<?=$p['caminho']?>"
+                   target="_blank" rel="noopener noreferrer"><?=$p['titulo']?></a>
+            </h3>
+            <?php if(!empty($p['subtitulo'])): ?>
+            <div class="card-subtitulo"><?=$p['subtitulo']?></div>
+            <?php endif; ?>
+        </div>
+
+        <span class="qualis-chip"
+              style="background:<?=$c['bg']?>;color:<?=$c['txt']?>"
+              aria-label="Qualis <?=$p['qualis']?>"><?=$p['qualis']?></span>
+    </div>
+
+    <!-- Corpo -->
+    <div class="card-body">
+        <p class="card-desc"><?=$p['desc']?></p>
+        <div class="card-footer">
+            <span class="card-issn">ISSN <?=$p['issn']?></span>
+            <a class="card-contact"
+               href="https://periodicos.ufpb.br/index.php/<?=$p['caminho']?>/about/contact"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Contato de <?=htmlspecialchars($tPlain)?>">Contato</a>
+        </div>
+        <div class="card-actions">
+            <a class="btn-acesso"
+               href="https://periodicos.ufpb.br/index.php/<?=$p['caminho']?>"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Acessar <?=htmlspecialchars($tPlain)?>">Acessar</a>
+            <a class="btn-edicao"
+               href="https://periodicos.ufpb.br/index.php/<?=$p['caminho']?>/issue/current"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Edição atual de <?=htmlspecialchars($tPlain)?>">Edição Atual</a>
+        </div>
+    </div>
+</article>
+<?php endforeach; ?>
+</div><!-- /.per-grid -->
+
+<div id="sem-resultados" role="status" aria-live="polite" aria-atomic="true">
+    <div class="icon">🔍</div>
+    <p>Nenhum periódico encontrado para esta busca.</p>
+</div>
+
+<p class="qualis-nota">
+    * As classificações Qualis indicadas referem-se às notas disponibilizadas pela
+    <a href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf" target="_blank" rel="noopener">Plataforma Sucupira/CAPES</a>
+    para o quadriênio 2021–2024.
+    Periódicos identificados como <strong>NC</strong> (Não Classificado) ainda não possuem classificação disponível na Plataforma Sucupira/CAPES para o referido quadriênio.
+</p>
+
+</div>
+</section>
+
+<script>
+function removerAcentos(s){ return s.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase(); }
+
+var qualisAtivo = 'todos';
+
+function filtrar(){
+    var q = removerAcentos(document.getElementById('buscaInput').value.trim());
+    var total = 0;
+    document.querySelectorAll('.per-card').forEach(function(card){
+        var titulo = removerAcentos(card.dataset.titulo||'');
+        var issn   = (card.dataset.issn||'').replace(/-/g,'');
+        var qTerm  = q.replace(/-/g,'');
+        var matchBusca  = !q || titulo.indexOf(q)>=0 || issn.indexOf(qTerm)>=0;
+        var matchQualis = qualisAtivo==='todos' || card.dataset.qualis===qualisAtivo;
+        var show = matchBusca && matchQualis;
+        card.classList.toggle('oculto', !show);
+        if(show) total++;
+    });
+    document.getElementById('sem-resultados').style.display = total===0 ? 'block' : 'none';
+}
+
+function filtrarQualis(nivel, btn){
+    document.querySelectorAll('.qf-btn').forEach(function(b){
+        b.classList.remove('ativo');
+        b.setAttribute('aria-pressed','false');
+    });
+    btn.classList.add('ativo');
+    btn.setAttribute('aria-pressed','true');
+    qualisAtivo = nivel;
+    filtrar();
+}
+</script>
+
+<?php include 'footer.html'; ?>

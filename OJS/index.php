@@ -15,6 +15,32 @@
     .sobre-stats { gap: 1.5rem !important; }
 }
 
+/* ===== CARDS MESMA ALTURA ===== */
+#colecoes .row { display: flex !important; flex-wrap: wrap; align-items: stretch; }
+#colecoes .row > div { display: flex; }
+#colecoes .row > div .box { display: flex; flex-direction: column; width: 100%; }
+#colecoes .row > div .box p { flex: 1; }
+
+/* ===== HERO ===== */
+#hero {
+    background: linear-gradient(135deg, #E8682A 0%, #c4521e 100%);
+    padding: 70px 0 60px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+#hero::before {
+    content:''; position:absolute; top:-80px; right:-80px;
+    width:340px; height:340px; border-radius:50%;
+    background:rgba(255,255,255,0.07); pointer-events:none;
+}
+#hero::after {
+    content:''; position:absolute; bottom:-100px; left:-60px;
+    width:280px; height:280px; border-radius:50%;
+    background:rgba(255,255,255,0.05); pointer-events:none;
+}
+#hero .hero-inner { position:relative; z-index:2; }
+
 /* ===== AUTOCOMPLETE ===== */
 .search-container { position: relative; max-width: 500px; margin: 0 auto; }
 .autocomplete-list {
@@ -57,12 +83,12 @@
 </style>
 
 <!-- Hero Banner -->
-<section id="hero" style="background-color: #e2601a; padding: 3em 0; text-align: center;">
-    <div class="container">
-        <h1 style="color: #e7e9ee; font-size: 28px; font-weight: bold; margin: 0.5em 0; font-family: 'Inter', Helvetica, sans-serif;">
+<section id="hero">
+    <div class="container hero-inner">
+        <h1 style="color: #fff; font-size: 32px; font-weight: 800; margin: 0 0 0.4em; font-family: 'Inter', Helvetica, sans-serif; letter-spacing: -0.02em;">
             Explore os periódicos científicos da UFPB
         </h1>
-        <p style="color: #f2efef; font-size: 14px; max-width: 520px; margin: 0 auto 1.25em; line-height: 1.6;">
+        <p style="color: rgba(255,255,255,0.88); font-size: 14px; max-width: 520px; margin: 0 auto 1.5em; line-height: 1.7;">
             Pesquise por título, área ou ISSN — encontre periódicos relevantes rapidamente e acesse produções de alta qualidade técnica e científica.
         </p>
 
@@ -72,15 +98,15 @@
                 <input type="text" id="campoBusca" name="q"
                     placeholder="Buscar periódico por nome, ISSN ou palavra-chave"
                     class="search-box"
-                    style="width: 100%; padding: 13px 20px 13px 40px; border-radius: 8px; border: 1px solid #ddd; font-size: 14px; box-sizing: border-box; background: white; outline: none;"
+                    style="width: 100%; padding: 13px 20px 13px 40px; border-radius: 40px; border: none; font-size: 14px; box-sizing: border-box; background: #f2f4f6; outline: none; box-shadow: 0 4px 20px rgba(0,0,0,0.15);"
                     aria-label="Buscar periódico"
                     aria-autocomplete="list">
             </form>
             <div class="autocomplete-list" id="autocompleteList" role="listbox"></div>
         </div>
 
-        <div style="color: #808080; font-size: 12px; margin-top: 1em;">
-            <span style="background: #1B3A6B; color: white; padding: 3px 10px; border-radius: 20px; font-weight: bold;">✦ Open Access</span>
+        <div style="margin-top: 1.2em;">
+            <span style="background: rgba(255,255,255,0.18); color: white; padding: 4px 14px; border-radius: 20px; font-size: 12px; font-weight: 600;">✦ Open Access</span>
         </div>
     </div>
 </section>
@@ -93,7 +119,7 @@
             <p style="font-size: 14px; line-height: 1.4; color: #808080;">Navegue pelos nossos catálogos organizados por status e maturidade editorial.</p>
         </div>
         <div class="row 150%">
-            <div class="4u 12u$(medium)">
+            <div class="3u 12u$(medium)">
                 <section class="box" style="text-align: center; padding: 1.2em;">
                     <a href="periodicos.php"><i class="icon rounded fas fa-book" style="background-color: #E05A2B;"></i></a>
                     <h3 style="font-size: 16px; margin: 0.5em 0;"><strong>Correntes</strong></h3>
@@ -101,7 +127,15 @@
                     <a href="periodicos.php" class="button alt small">Ver coleção →</a>
                 </section>
             </div>
-            <div class="4u 12u$(medium)">
+            <div class="3u 12u$(medium)">
+                <section class="box" style="text-align: center; padding: 1.2em;">
+                    <a href="incubadas.php"><i class="icon rounded fas fa-leaf" style="background-color: #1B3A6B;"></i></a>
+                    <h3 style="font-size: 16px; margin: 0.5em 0;"><strong>Incubados</strong></h3>
+                    <p style="font-size: 13px; line-height: 1.4;">Novos projetos editoriais em fase de estruturação dentro do portal.</p>
+                    <a href="incubadas.php" class="button alt small">Ver coleção →</a>
+                </section>
+            </div>
+            <div class="3u 12u$(medium)">
                 <section class="box" style="text-align: center; padding: 1.2em;">
                     <a href="nao-correntes.php"><i class="icon rounded fas fa-archive" style="background-color: #808080;"></i></a>
                     <h3 style="font-size: 16px; margin: 0.5em 0;"><strong>Não Correntes</strong></h3>
@@ -109,12 +143,12 @@
                     <a href="nao-correntes.php" class="button alt small">Ver coleção →</a>
                 </section>
             </div>
-            <div class="4u$ 12u$(medium)">
+            <div class="3u$ 12u$(medium)">
                 <section class="box" style="text-align: center; padding: 1.2em;">
-                    <a href="incubadas.php"><i class="icon rounded fa-leaf" style="background-color: #1B3A6B;"></i></a>
-                    <h3 style="font-size: 16px; margin: 0.5em 0;"><strong>Incubados</strong></h3>
-                    <p style="font-size: 13px; line-height: 1.4;">Novos projetos editoriais em fase de estruturação dentro do portal.</p>
-                    <a href="incubadas.php" class="button alt small">Ver coleção →</a>
+                    <a href="anais-eventos.php"><i class="icon rounded fa fa-calendar" style="background-color: #2e8a6a;"></i></a>
+                    <h3 style="font-size: 16px; margin: 0.5em 0;"><strong>Publicações de Eventos</strong></h3>
+                    <p style="font-size: 13px; line-height: 1.4;">Anais e revistas vinculados a congressos, colóquios e encontros científicos da UFPB.</p>
+                    <a href="anais-eventos.php" class="button alt small">Ver coleção →</a>
                 </section>
             </div>
         </div>
@@ -202,7 +236,7 @@
 <!-- Script de Autocomplete -->
 <script>
 var revistas = <?php echo $revistas_json; ?>;
-var labels = { correntes: 'Corrente', incubados: 'Incubado', 'nao-correntes': 'Não Corrente' };
+var labels = { correntes: 'Corrente', incubados: 'Incubado', 'nao-correntes': 'Não Corrente', 'anais-eventos': 'Pub. Eventos' };
 
 function removerAcentos(str) {
     return str.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();

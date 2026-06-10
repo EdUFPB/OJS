@@ -1,570 +1,448 @@
 <?php include 'header.html'; ?>
-<!-- One -->
 
-<!--
- <section id="one" class="wrapper style1 special">
-    <div class="container">
-        <header class="major">
-            <h2><strong>Revistas</strong></h2>
-            <p>Revistas em <strong>DESTAQUE</strong></p>
-        </header>
-        <div class="row 150%">
-            <div class="4u 12u$(medium)">
-                <section class="box">
-                    <img src="images/informacao_e_sociedade.png" alt="" class="imageBox">
-                    <h4><strong>Informação e Sociedade</strong></h4>
-                    <p> É publicada ininterruptamente desde 1991 quando foi criada pela UFPB.
-                    </p>
-                </section>
-            </div>
-            <div class="4u 12u$(medium)">
-                <section class="box">
-                    <img src="images/moringa.png" alt="" class="imageBox">
-                    <h4><strong>Moringa</strong></h4>
-                    <p> MORINGA é uma publicação semestral do Departamento de Artes Cênicas, vinculado ao Centro de
-                        Comunicação. <br></p>
-                </section>
-            </div>
-            <div class="4u$ 12u$(medium)">
-                <section class="box">
-                    <img src="images/juee1.png" alt="" class="imageBox">
-                    <h4><strong>JUEE</strong></h4>
-                    <p> Journal of Urban and Environmental Engineering (JUEE) provides a forum for original papers.</p>
-                    </a>
-                </section>
-            </div>
-        </div>
-
-    </div>
-    <hr />
-</section>   
---->
-
-<!-- Main -->
-<section id="main" class="wrapper" style="padding-top: 0px;">
-  <hr class="mt-5">
-  <div class="container">
-    <header class="major mt-5">
-      <h2><strong>Periódicos Não Correntes</strong></h2>
-      <h4> <strong>Confira abaixo nossa lista completa com todos os Periódicos Não Correntes da UFPB</strong> </h4>
-      <br>
-      <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Pesquise por periódicos">
-    </header>
-    <hr />
-  </div>
-
-
-  <!-- REVISTAS INICIO -->
-  <div class="container">
-
-    <ul id="myUL">
-
-      <li>
-          <br>
-          <div class="row">
-              <div class="col-md-3 col-lg-3">
-                  <img class="float left" src="images/acta.png" alt="" style="width: 100%;margin-right:15px;">
-              </div>
-              <div class="col-md-9 col-lg-9">
-                  <p class="text-justify">
-                      <a href="https://periodicos.ufpb.br/index.php/actas">Acta Semiótica et Lingvistica</a>
-                      <br>
-                      <strong>Escopo: </strong>Acta Semiotica et Linguistica (ASEL) é um periódico cientifico
-                      internacional, com publicação quadrimestral, que tem por objetivo favorecer o intercâmbio
-                      entre docentes e pesquisadores de ciências humanas, interessados nos problemas da Semiótica
-                      e da Linguística, considerando tendências teóricas diversas. Fundada na USP de São Paulo, em
-                      1977, hoje, está sendo publicada pelo Programa de Pós Graduação em Letras da Universidade
-                      Federal da Paraíba-Br e atende, também, a estudiosos de Literatura Popular, libras e braile
-                      que utilizem a Semiótica e a Linguística como proposta teórica. As produções são
-                      distribuídas em três seções: artigos, traduções/versões e entrevistas (com pesquisadores que
-                      atuam na linha de proposta da revista).
-                      <br>
-                      <strong>e-ISSN: </strong>2446-7006
-                      <br>
-                      <strong>Contato: </strong>mariadefatimambatista@gmail.com <br>
-                      actasemioticaetlingvistica@gmail.com
-                      <br>
-                      <br>
-                      <a class="btn btn-outline-primary btn-sm"
-                          href="https://periodicos.ufpb.br/index.php/actas">Acessar Revista</a>
-                      <a class="btn btn-outline-primary btn-sm"
-                          href="https://periodicos.ufpb.br/index.php/actas/issue/current">Edição Atual</a>
-                  </p>
-                  <hr>
-              </div>
-          </div>
-      </li>
-      <li>
-        <br>
-        <div class="row">
-            <div class="col-md-3 col-lg-3">
-                <img class="float left" src="images/mepad.png" alt="" style="width: 100%;margin-right:15px;">
-            </div>
-            <div class="col-md-9 col-lg-9">
-                <p class="text-justify">
-                    <a href="https://periodicos.ufpb.br/index.php/mepad">Métodos e Pesquisa em
-                        Administração</a>
-                    <br>
-                    <strong>Escopo: </strong> Os trabalhos mais bem avaliados no WIDaT 2018 (II Workshop de
-                    Informação, Dados e Tecnologia) podem ser encaminhados para fast-track na MEPAD. Os
-                    trabalhados indicados para o fast-track automaticamente superam a fase de desk review e
-                    passam diretamente para a fase de blind review da MEPAD, podendo assim concluir mais
-                    rapidamente os processos de avaliação e publicação. Para maiores informações sobre o
-                    evento: https://www.ufpb.br/widat
-                    <br>
-                    <strong>e-ISSN: </strong>2525-3867
-                    <br>
-                    <strong>Contato: </strong>stephanieisb@gmail.com
-                    <br>
-                    <br>
-                    <a class="btn btn-outline-primary btn-sm"
-                        href="https://periodicos.ufpb.br/index.php/mepad">Acessar Revista</a>
-                    <a class="btn btn-outline-primary btn-sm"
-                        href="https://periodicos.ufpb.br/index.php/mepad/issue/current">Edição Atual</a>
-                </p>
-                <hr>
-            </div>
-        </div>
-      </li>
-
-      <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="images/pbcib.png" alt="" style="width: 100%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="#">Pesquisa Brasileira em Ciência da
-                Informação e Biblioteconomia</a>
-              <br>
-              <strong>Escopo: </strong>A revista Pesquisa Brasileira em Ciência da Informação e
-              Biblioteconomia (PBCIB), editada pelo Grupo de Pesquisa Informação e Inclusão Social (CNPq),
-              é publicada no Portal de Periódicos da Universidade Federal da Paraíba (UFPB), em parceria
-              com o Laboratório de Tecnologias Intelectuais – LTi do Departamento de Ciência da
-              Informação. Classificada como B4 no Web Qualis da Capes.
-              <br>
-              <strong>e-ISSN: </strong>1981-0695
-              <br>
-              <strong>Contato: </strong>isafreire@globo.com
-              <br>
-              <br>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-      <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="images/genero-direito.png" alt="" style="width: 100%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/index.php/ged">Revista Gênero & Direito</a>
-              <br>
-              <strong>Escopo: </strong>A missão da Revista Gênero e Direito (G&D) destina-se a
-              informar a comunidade acadêmica sobre os desafios e perspectivas que revestem a
-              discussão interdisciplinar do gênero. O objetivo da G&D é estimular o debate e produção
-              científica com o propósito de produzir conhecimentos e atuar como transformador social e
-              instrumento de reflexão para uma isonomia entre os indivíduos.
-              O público-alvo de nossa revista é pós-doutores, doutores, mestres e estudantes de
-              pós-graduação. Dessa maneira os autores devem possuir alguma titulação citada ou cursar
-              algum curso de pós-graduação. Além disso a G&D aceitará a participação em coautoria.
-              <br>
-              <strong>e-ISSN: </strong>2179-7137
-              <br>
-              <strong>Contato: </strong>revistageneroedireito@gmail.com
-              <br>
-              <br>
-              <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/ged">Acessar Revista</a>
-              <a class="btn btn-outline-primary btn-sm" href="http://periodicos.ufpb.br/index.php/ged/issue/current">Edição Atual</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-
-      <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="images/hidrogeografia.png" alt="" style="width: 50%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/index.php/hidrogeografias">HIDROGEOGRAFIA: Geografias das águas hidrogeografias</a>
-              <br>
-              <strong>Escopo: </strong>A revista “HIDROGEOGRAFIA: Geografias das águas”, é uma publicação semestral do Laboratório de Estudos e Gestão de Águas e Território/UFPB. Seu propósito é fomentar o debate entre pesquisadores, especialistas, professores, pós-graduandos e profissionais da Geografia e áreas afins que trabalham as águas e os recursos hídricos na perspectiva da Geografia. Enquanto veículo de difusão científica e técnica, tem por objetivo divulgar pesquisas e experiências que contribuam para o conhecimento teórico e prático na análise, no estudo e no debate sobre as águas e os recursos hídricos à partir do ponto de vista das ciências voltados ao espaço e ao território. Diante do exposto a revista HIDROGEOGRAFIA está aberta para submissões de artigos a toda comunidade geográfica e aos que tem como objeto de estudo as águas e os recursos hídricos.
-              <br>
-              <strong>Contato: </strong> pedro.costa.vianna@gmail.com
-              <br>
-              <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/hidrogeografias">Acessar Revista</a>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/hidrogeografias/issue/current">Edição Atual</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-      <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="images/ciab.png" alt="" style="width: 50%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/index.php/ciab">CIAB - Ciência da Informação em Aberto</a>
-              <br>
-              Ciência da Informação em Aberto (CIAB) – prioriza as variadas perspectivas pelas quais os cientistas da informação observam a informação na sociedade, contribuindo para trocas comunicacionais sobre relatos de estudos e de pesquisas, bem como reflexões e proposições dos cientistas da informação do Brasil e do mundo.
-              <br>
-              <strong>Contato: </strong> henry.poncio@gmail.com
-              <br>
-              <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/ciab">Acessar Revista</a>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/ciab/issue/current">Edição Atual</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-      <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="images/vj.jpg" alt="" style="width: 50%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/index.php/vj">VERBA JURIS - Anuário da Pós-Graduação em Direito</a>
-              <br>
-              A revista Verba Juris é uma publicação anual do Programa de Pós-Graduação em Ciências Jurídicas da Universidade Federal da Paraíba (CCJ/UFPB). Desde 2002, quando lançada, a revista é o seu principal órgão de difusão da produção científica no campo dos estudos do Direito e, dado o caráter interdisciplinar da pós-graduação, suas áreas afins, como Economia, Administração, Sociologia, História, Filosofia, Antropologia e Ciência Política. Tem por objetivo a divulgação de trabalhos que representam contribuição relevante para o desenvolvimento de novos conhecimentos entre pesquisadores, docentes, discentes e profissionais do Direito. A cada quinquênio a publicação adota um eixo temático, sendo, em 2006, os Direitos Humanos e, em 2011, o Direito Internacional.
-              <br>
-              <strong>e-ISSN: </strong>1678-183X
-              <br>
-              <strong>Contato: </strong>mfilho@tce.pb.gov.br
-              <br>
-              <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/vj">Acessar Revista</a>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/vj/issue/current">Edição Atual</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-      <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="images\ensaios.png" alt="" style="width: 50%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/index.php/ensaios">Ensaios</a>
-              <br>
-              O Periódico Ensaios objetiva disseminar trabalhos científicos com temáticas estudadas na Ciência da Informação. Propiciando o desenvolvimento de conhecimentos produzidos por pesquisadores, docentes, discentes e profissionais da Ciência da Informação.
-              Por meio de números temáticos, o periódico articula a produção de pesquisadores da área de Ciência da Informação. 
-              <br>
-              <strong>Contato: </strong> henry.poncio@gmail.com
-              <br>
-              <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/ensaios">Acessar Revista</a>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/ensaios/issue/current">Edição Atual</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-      <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="images/geo.jpg" alt="" style="width: 50%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/index.php/geo">Revista Estudos Geoambientais</a>
-              <br>
-              A Revista Estudos Geoambientais é uma publicação quadrimestral, vinculada ao grupo de estudos GeodiversidadePB, do curso de Ecologia da UFPB.
-              Tem por objetivo divulgar a produção intelectual relacionada à Geografia, Geologia, Meteorologia/ Climatologia, Gestão Ambiental, Ecologia, Turismo, Engenharia Ambiental, através de trabalhos inéditos.
-              <br>
-              <strong>Contato: </strong>lfmeneses@hotmail.com
-              <br>
-              <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/geo">Acessar Revista</a>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/geo/issue/current">Edição Atual</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-      <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="images/tn.jpg" alt="" style="width: 50%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/index.php/tn">Turis Nostrum</a>
-              <br>
-              Bem vindo a revista Turis Nostrum! Somos um periódico científico planejado e editado pelo curso de pós-graduação lato senso da UFPB, com publicação semestral, dedicado à divulgação eletrônica gratuita de artigos originais e resenhas críticas que discutam temas de interesse do Turismo, particularmente nos seus entrelaçamentos com a cultura e desenvolvimento, seja em perspectivas do interesse acadêmico-científico ou da sociedade em geral (Qualis B5 - CIÊNCIAS SOCIAIS APLICADAS I; Qualis B5 - PSICOLOGIA).
-              <br>
-              <strong>e-ISSN: </strong>2316-4530
-              <br>
-              <strong>Contato: </strong>turisnostrum@gmail.com
-              <br>
-              <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/tn">Acessar Revista</a>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/tn/issue/current">Edição Atual</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-      <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="images/tps.jpg" alt="" style="width: 50%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/index.php/tps">Teoria Política & Social</a>
-              <br>
-              Teoria e Política Social, periódico semestral organizado pelo Programa de Pós-Graduação em Serviço Social da UFPB da UFPB , objetiva divulgar e intercambiar com docentes, estudantes e pesquisadores de instituições nacionais e internacionais, estudos e pesquisas associados às temáticas da política e do social. Nesse sentido firma dois compromissos inarredáveis com a excelência acadêmica e com os valores universais da democracia, da liberdade e da justiça social.
-              <br>
-              <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/tn">Acessar Revista</a>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/tn/issue/current">Edição Atual</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-      <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="images/ra.png" alt="" style="width: 50%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/index.php/ra">Revista de Arqueologia</a>
-              <br>
-              <strong>e-ISSN: </strong>1982-1999
-              <br>
-              <strong>Contato: </strong>revistadearqueologia@gmail.com ou dias.a@uol.com.br
-              <br>
-              <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/ra">Acessar Revista</a>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/ra/issue/current">Edição Atual</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-      <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="images/autogestao.png" alt="" style="width: 50%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/index.php/autogestao">AUTOGESTÃO: Economia dos Trabalhadores & Educação Popular (ET & EP)</a>
-              <br>
-              Autogestão, Economia dos trabalhadores&Educação Popular: (ET &EP) é um periódico do Núcleo Interdisciplinar de Pesquisa em Economia Solidaria e Educação Popular (NUPLAR) que abriga a Incubadora de Economia Solidaria (INCUBES) e ao ESTELAR vinculado a Pro-Reitoria de Extensão e Assuntos Comunitários (PRAC) da Universidade Fedetral da Paraíba (UFPB-Brasil). Neste sentido, a revista Autogestão, parte do principio que o ensino-pesquisa-extensão comunga um campo transdiciplinar único, de produção de conhecimento. Sua política editorial está aberta aos diversos esquemas conceituais pelos quais os pesquisadores co-participam, ativamente, na construção da autogestão social. Nossa expectativa é que a revista contribua para trocas fraternais sobre experiências autogestionarias, estudos, reflexões e proposições dos cientistas sociais do Brasil, de América Latina e também dos outros continentes.
-              <br>
-              <strong>Contato: </strong>rober.men@bol.com.br
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/autogestao">Acessar Revista</a>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/autogestao/issue/current">Edição Atual</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-      <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="images/extensaocidada.jpg" alt="" style="width: 50%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/index.php/extensaocidada">Revista Eletrônica Extensão Cidadã</a>
-              <br>
-              <strong>e-ISSN: </strong>1982-2138
-              <br>
-              <strong>Contato: </strong>euridessantos@gmail.com
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/extensaocidada">Acessar Revista</a>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/extensaocidada/issue/current">Edição Atual</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-      <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="images/rpcm.jpg" alt="" style="width: 50%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/ojs2/index.php/rpcm">Revista Pesquisas em Ciências Médicas</a>
-              <br>
-              A RPCM é uma publicação semestral do Centro de Ciências Médicas da Universidade Federal da Paraíba, com objetivo de publicar e disseminar a produção científica no âmbito do conhecimento médico e da saúde, abrangendo as ciências básicas, a clínica e a investigação. Nesta revista serão publicados os trabalhos de cursos de pós graduação sricto sensu na referida área do conhecimento da UFPB e outras universidades, após avaliação pelo Conselho Editorial da Revista.
-              <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/rpcm">Acessar Revista</a>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/rpcm/issue/current">Edição Atual</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-      <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="images/aes.jpg" alt="" style="width: 50%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="#">Arquivo & Sociedade: Estudos</a>
-              <br>
-              A revista de Arquivologia da UFPB é um periódico eletrônico que tem por objetivo publicizar trabalhos com contribuição relevante para o desenvolvimento da Arquivistica, fomentando o debate científico em torno das áreas de interesse da Arquivologia e afins. De periodicidade semestral, aceita colaborações, sob o formato de artigos, relatos de pesquisa, relatos de experiência, entrevistas e resenhas, de pesquisadores, professores e alunos que contribuam para o debate acerca das áreas específicas da Arquivologia.
-              <br>
-              <strong>Contato: </strong>arquivoesociedade@gmail.com
-              <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/aes">Acessar Revista</a>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/aes/issue/current">Edição Atual</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-      <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="https://via.placeholder.com/110" alt="" style="width: 50%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/ojs2/index.php/sublimacao">Revista Sublimação</a>
-              <br>
-              A revista Sublimação é uma publicação semestral (com edições em julho e dezembro) do Departamento de Letras Clássicas e Vernáculas, da Universidade Federal da Paraíba. Publica artigos inéditos, de autores brasileiros e estrangeiros, tratando de temáticas ligadas à Literatura e seus diálogos com a Psicanálise, o Cinema e a Música.
-              <br>
-              <strong>Contato: </strong>revistasublimacao@gmail.com
-              <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/sublimacao">Acessar Revista</a>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/sublimacao/issue/current">Edição Atual</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-      <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="https://via.placeholder.com/110" alt="" style="width: 50%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/ojs2/index.php/ridcc/">Humanare - Perspectivas e desafios para a humanização do Direito</a>
-              <br>
-              A Humanare - Perspectivas e Desafios para a Humanização do Direito é divulgar o conhecimento sobre as novas compreensões do direito, as quais devem ser centradas no ser humano, na sua dignidade inerente e na busca pela superação cargas axiológicas que amarram a Ciência Jurídica ao dogmatismo. A revista é um periódico do Grupo de Pesquisas "Perspectivas e novos desafios de humanização do Direito Civil-Constitucional - UFPB", que gerou, dentre os seus frutos, o grupo de pesquisa e extensão "Instituto Perspectivas e Desafios de Humanização do Direito Civil-Constitucional", ao qual a Revista está também atrelada. Suas atividades são desempenhadas junto ao Centro de Ciências Jurídicas da Universidade Federal da Paraíba (UFPB) e em parceria com professores da UFPE, UFRN e UFAL.
-              <br>
-              <strong>Contato: </strong>revistahumanare@gmail.com
-              <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/ridcc">Acessar Revista</a>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/ridcc/issue/current">Edição Atual</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-      <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="https://via.placeholder.com/110" alt="" style="width: 50%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="https://periodicos.ufpb.br/ojs2/index.php/palavrar">Comunicação Audiovisual</a>
-              <br>
-              A Revista Comunicação Audiovisual - Revista da Graduação em Radialismo da UFPB - é de periodicidade semestral. Tem como propósito divulgar a produção discente de trabalhos de conclusão de curso (TCCs) e eventuais artigos, estimulando a pesquisa na graduação e o interesse na iniciação científica. Além de trabalhos de conclusão de curso, recebe artigos técnico-científicos, resenhas e entrevistas relacionadas ao universo do Audiovisual. A revista está aberta ainda a outras contribuições, previstas em suas normas.
-              <br>
-              <strong>Contato: </strong>comunicao.audiovisual@yandex.com
-              <br>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/palavrar">Acessar Revista</a>
-              <a class="btn btn-outline-primary btn-sm" href="https://periodicos.ufpb.br/index.php/palavrar/issue/current">Edição Atual</a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-      <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="https://via.placeholder.com/110" alt="" style="width: 50%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="#">ESFERA PÚBLICA</a>
-              <br>
-              <br>
-              <br>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-      <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="https://via.placeholder.com/110" alt="" style="width: 50%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="#">Periódico Escola do Curso de Biblioteconomia</a>
-              <br>
-              <br>
-              <br>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-      <li>
-        <br>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-            <img class="float left" src="https://via.placeholder.com/110" alt="" style="width: 50%;margin-right:15px;">
-          </div>
-          <div class="col-md-9 col-lg-9">
-            <p class="text-justify">
-              <a href="#">Revista de Educação e Conhecimento em Administração</a>
-              <br>
-              <br>
-              <br>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </li>
-    </ul>
-
-  </div>
-</section>
-<!-- Footer -->
 <?php
-include 'footer.html'
+$periodicos = [
+    ['titulo'=>'Acta Semiótica et Lingvistica',
+     'subtitulo'=>'Programa de Pós-Graduação em Letras – UFPB',
+     'caminho'=>'actas', 'issn'=>'0102-4264',
+     'img'=>'images/acta.png',
+     'desc'=>'Periódico científico internacional, quadrimestral, dedicado ao intercâmbio entre pesquisadores de Semiótica e Linguística, Literatura Popular, Libras e Braile.'],
+
+    ['titulo'=>'Pesquisa Brasileira em Ciência da Informação e Biblioteconomia',
+     'subtitulo'=>'PBCIB',
+     'caminho'=>'pbcib', 'issn'=>'1981-0695',
+     'img'=>'images/pbcib.png',
+     'desc'=>'Editada pelo Grupo de Pesquisa Informação e Inclusão Social (CNPq) em parceria com o Laboratório de Tecnologias Intelectuais da UFPB.'],
+
+    ['titulo'=>'Revista Nordestina de Biologia',
+     'subtitulo'=>'Departamento de Sistemática e Ecologia – UFPB',
+     'caminho'=>'revnebio', 'issn'=>'2236-1480',
+     'img'=>'',
+     'desc'=>'Publicação científica dedicada à Biologia, com ênfase em estudos realizados na região Nordeste do Brasil.'],
+
+    ['titulo'=>'The Brazilian Trombone Association Journal',
+     'subtitulo'=>'Associação Brasileira de Trombone',
+     'caminho'=>'btaj', 'issn'=>'2595-1238',
+     'img'=>'',
+     'desc'=>'Periódico da Associação Brasileira de Trombone, voltado à pesquisa e divulgação científica em música e performance de trombone.'],
+
+    ['titulo'=>'Métodos e Pesquisa em Administração',
+     'subtitulo'=>'MEPAD',
+     'caminho'=>'mepad', 'issn'=>'2525-3867',
+     'img'=>'images/mepad.png',
+     'desc'=>'Publicação voltada à divulgação de pesquisas em Administração, com ênfase em métodos quantitativos e qualitativos aplicados à gestão.'],
+
+    ['titulo'=>'Data Science and Business Review',
+     'subtitulo'=>'DSBR',
+     'caminho'=>'dsbr', 'issn'=>'2764-2682',
+     'img'=>'',
+     'desc'=>'Publicação dedicada à ciência de dados aplicada a contextos de negócios e gestão empresarial.'],
+
+    ['titulo'=>'Revista PRÁXIS: Educação e Diversidade',
+     'subtitulo'=>'Centro de Educação – UFPB',
+     'caminho'=>'prx', 'issn'=>'2525-5355',
+     'img'=>'',
+     'desc'=>'Publicação voltada à pesquisa em Educação, com ênfase em diversidade, inclusão e práxis pedagógica.'],
+
+    ['titulo'=>'Gênero &amp; Direito',
+     'subtitulo'=>'Centro de Ciências Jurídicas – UFPB',
+     'caminho'=>'ged', 'issn'=>'2179-7137',
+     'img'=>'images/genero-direito.png',
+     'desc'=>'Estimula o debate e a produção científica interdisciplinar sobre gênero e Direito, com foco na isonomia e transformação social.'],
+
+    ['titulo'=>'Imaginário!',
+     'subtitulo'=>'Pós-Graduação em Letras – UFPB',
+     'caminho'=>'imgn', 'issn'=>'2237-6933',
+     'img'=>'',
+     'desc'=>'Revista acadêmica dedicada ao imaginário, às artes e às humanidades, com publicação de artigos, ensaios e resenhas.'],
+
+    ['titulo'=>'Diversidade Religiosa',
+     'subtitulo'=>'Pós-Graduação em Ciências das Religiões – UFPB',
+     'caminho'=>'dr', 'issn'=>'2317-0476',
+     'img'=>'',
+     'desc'=>'Publicação dedicada ao estudo da diversidade religiosa e das culturas, fomentando o diálogo inter-religioso e a pesquisa nas Ciências das Religiões.'],
+
+    ['titulo'=>'Informação &amp; Tecnologia',
+     'subtitulo'=>'Ciência da Informação e Arquivologia – UFPB',
+     'caminho'=>'itec', 'issn'=>'2358-3908',
+     'img'=>'',
+     'desc'=>'Publicação dedicada à pesquisa em Ciência da Informação, Arquivologia e Biblioteconomia, com ênfase nas interfaces com as tecnologias digitais.'],
+
+    ['titulo'=>'Revista Economia e Desenvolvimento',
+     'subtitulo'=>'Pós-Graduação em Economia – UFPB',
+     'caminho'=>'economia', 'issn'=>'2358-2510',
+     'img'=>'',
+     'desc'=>'Publicação científica voltada às áreas de Economia e Desenvolvimento Regional, com destaque para temas de economia nordestina.'],
+
+    ['titulo'=>'Revista Logos &amp; Existência',
+     'subtitulo'=>'Teologia e Ciências das Religiões – UFPB',
+     'caminho'=>'le', 'issn'=>'2316-9923',
+     'img'=>'',
+     'desc'=>'Periódico dedicado ao estudo das interfaces entre fé, razão e existência, nas perspectivas da Teologia e das Ciências das Religiões.'],
+
+    ['titulo'=>'Revista Paraibana de História',
+     'subtitulo'=>'Departamento de História – UFPB',
+     'caminho'=>'rph', 'issn'=>'2446-5852',
+     'img'=>'',
+     'desc'=>'Publicação dedicada à pesquisa histórica com ênfase na história da Paraíba e do Nordeste.'],
+
+    ['titulo'=>'Cultura Oriental',
+     'subtitulo'=>'Letras Orientais – UFPB',
+     'caminho'=>'co', 'issn'=>'2358-5021',
+     'img'=>'',
+     'desc'=>'Publicação dedicada ao estudo das línguas, literaturas e culturas orientais no contexto brasileiro e ibero-americano.'],
+
+    ['titulo'=>'Turis Nostrum',
+     'subtitulo'=>'Pós-Graduação em Turismo – UFPB',
+     'caminho'=>'tn', 'issn'=>'2316-4530',
+     'img'=>'images/tn.jpg',
+     'desc'=>'Periódico semestral dedicado à divulgação de artigos e resenhas sobre Turismo, com ênfase em cultura e desenvolvimento.'],
+
+    ['titulo'=>'Extensão Cidadã',
+     'subtitulo'=>'Revista Eletrônica – UFPB',
+     'caminho'=>'extensaocidada', 'issn'=>'1982-2138',
+     'img'=>'images/extensaocidada.jpg',
+     'desc'=>'Divulga ações e reflexões sobre extensão universitária, fomentando o diálogo entre a universidade e a sociedade.'],
+
+    ['titulo'=>'Teoria Política &amp; Social',
+     'subtitulo'=>'Pós-Graduação em Serviço Social – UFPB',
+     'caminho'=>'tps', 'issn'=>'2176-5332',
+     'img'=>'images/tps.jpg',
+     'desc'=>'Periódico semestral dedicado às temáticas da política e do social, comprometido com a democracia e a justiça social.'],
+
+    ['titulo'=>'Verba Juris',
+     'subtitulo'=>'Anuário da Pós-Graduação em Direito – UFPB',
+     'caminho'=>'vj', 'issn'=>'1678-183X',
+     'img'=>'images/vj.jpg',
+     'desc'=>'Publicação anual do Programa de Pós-Graduação em Ciências Jurídicas da UFPB, voltada à difusão de pesquisas no campo do Direito e suas interfaces.'],
+
+    ['titulo'=>'Revista PetrART',
+     'subtitulo'=>'Arte Rupestre e Patrimônio Arqueológico',
+     'caminho'=>'petrart', 'issn'=>'',
+     'img'=>'',
+     'desc'=>'Publicação dedicada à arte rupestre e ao patrimônio arqueológico do Nordeste brasileiro.'],
+
+    ['titulo'=>'AUTOGESTÃO',
+     'subtitulo'=>'Economia dos Trabalhadores &amp; Educação Popular',
+     'caminho'=>'autogestao', 'issn'=>'',
+     'img'=>'images/autogestao.png',
+     'desc'=>'Periódico do NUPLAR/UFPB dedicado ao campo transdisciplinar da autogestão social, economia solidária e educação popular.'],
+
+    ['titulo'=>'Revista Estudos Geoambientais',
+     'subtitulo'=>'Ecologia – UFPB',
+     'caminho'=>'geo', 'issn'=>'',
+     'img'=>'images/geo.jpg',
+     'desc'=>'Publicação quadrimestral vinculada ao grupo GeodiversidadePB, dedicada à Geografia, Geologia, Climatologia, Gestão Ambiental e Ecologia.'],
+
+    ['titulo'=>'Comunicação Audiovisual',
+     'subtitulo'=>'Graduação em Radialismo – UFPB',
+     'caminho'=>'palavrar', 'issn'=>'',
+     'img'=>'',
+     'desc'=>'Publicação semestral que divulga TCCs e artigos do curso de Radialismo da UFPB, estimulando a pesquisa e a iniciação científica no audiovisual.'],
+
+    ['titulo'=>'Revista de Arqueologia',
+     'subtitulo'=>'Sociedade de Arqueologia Brasileira',
+     'caminho'=>'ra', 'issn'=>'',
+     'img'=>'images/ra.png',
+     'desc'=>'Publicação da Sociedade de Arqueologia Brasileira, referência na difusão de pesquisas arqueológicas nacionais e internacionais.'],
+];
+
+$total = count($periodicos);
 ?>
+
+<style>
+/* ── Acessibilidade ── */
+.sr-only {
+    position:absolute; width:1px; height:1px; padding:0; margin:-1px;
+    overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;
+}
+:focus-visible { outline:3px solid #E8682A; outline-offset:3px; }
+
+/* ── Hero ── */
+#nc-hero {
+    background: linear-gradient(135deg, #3a3a3a 0%, #555 100%);
+    padding: 70px 0 60px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+#nc-hero::before {
+    content:''; position:absolute; top:-60px; right:-60px;
+    width:280px; height:280px; border-radius:50%;
+    background:rgba(255,255,255,0.05); pointer-events:none;
+}
+#nc-hero::after {
+    content:''; position:absolute; bottom:-80px; left:-40px;
+    width:220px; height:220px; border-radius:50%;
+    background:rgba(255,255,255,0.04); pointer-events:none;
+}
+#nc-hero .hero-content { position:relative; z-index:2; }
+#nc-hero h1 { font-size:2.2rem; font-weight:800; color:#fff !important; margin-bottom:12px; letter-spacing:-0.02em; }
+#nc-hero p  { font-size:1.05rem; opacity:.88; color:#fff !important; max-width:560px; margin:0 auto 24px; }
+#nc-hero .hero-wave { position:absolute; bottom:0; left:0; right:0; line-height:0; }
+
+/* ── Stats ── */
+.nc-stats { display:flex; justify-content:center; gap:32px; flex-wrap:wrap; margin-top:28px; }
+.nc-stats > div { color:#fff; text-align:center; }
+.nc-stats .num { font-size:1.9rem; font-weight:800; line-height:1; }
+.nc-stats .lab { font-size:.78rem; opacity:.8; margin-top:3px; letter-spacing:.05em; }
+
+/* ── Busca ── */
+.search-bar-wrap { max-width:520px; margin:0 auto; position:relative; }
+.search-bar-wrap input {
+    width:100%; border:none; border-radius:40px;
+    padding:13px 48px 13px 22px; font-size:1rem;
+    background:#f2f4f6;
+    box-shadow:0 4px 20px rgba(0,0,0,0.15);
+    outline:none; color:#3a3a3a;
+}
+.search-bar-wrap input:focus { box-shadow:0 4px 20px rgba(0,0,0,0.25); }
+.search-bar-wrap .search-icon {
+    position:absolute; right:18px; top:50%; transform:translateY(-50%);
+    font-size:1.1rem; color:#aaa; pointer-events:none;
+}
+
+/* ── Corpo ── */
+#nc-lista { background:#f0f2f5; padding:40px 0 64px; }
+
+/* ── Grid ── */
+.nc-grid {
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    gap:18px;
+}
+
+/* ── Card ── */
+.nc-card {
+    background:#fff;
+    border-radius:12px;
+    border:1px solid #e8e8e8;
+    box-shadow:0 1px 3px rgba(0,0,0,0.06), 0 3px 10px rgba(0,0,0,0.05);
+    display:flex; flex-direction:column;
+    transition:box-shadow .2s, transform .18s;
+    overflow:hidden;
+}
+.nc-card:hover {
+    box-shadow:0 4px 20px rgba(0,0,0,0.12);
+    transform:translateY(-2px);
+}
+.nc-card.oculto { display:none; }
+
+/* Cabeçalho */
+.nc-card .card-head {
+    display:flex; align-items:flex-start; gap:12px;
+    padding:16px 18px 10px;
+}
+.nc-card .card-thumb {
+    width:48px; height:48px; flex-shrink:0;
+    border-radius:8px; overflow:hidden;
+    border:1px solid rgba(0,0,0,0.07);
+    background:#f7f8fa;
+    display:flex; align-items:center; justify-content:center;
+}
+.nc-card .card-thumb img {
+    width:100%; height:100%;
+    object-fit:contain; padding:4px;
+}
+.nc-card .card-thumb-letter {
+    width:48px; height:48px; flex-shrink:0;
+    border-radius:8px; background:#5a7fa8;
+    display:flex; align-items:center; justify-content:center;
+    font-size:1.25rem; font-weight:900; color:#fff;
+}
+.nc-card .card-head-info { flex:1; min-width:0; }
+.nc-card .card-titulo-h { margin:0 0 3px; }
+.nc-card .card-titulo {
+    font-size:.95rem; font-weight:800; color:#1a1a1a;
+    text-decoration:none; line-height:1.3; display:block;
+    transition:color .15s;
+}
+.nc-card .card-titulo:hover { color:#E8682A; text-decoration:none; }
+.nc-card .card-titulo-nolink {
+    font-size:.95rem; font-weight:800; color:#1a1a1a; line-height:1.3; display:block;
+}
+.nc-card .card-subtitulo { font-size:.78rem; font-weight:400; color:#b0b0b0; }
+
+/* Corpo */
+.nc-card .card-body {
+    padding:0 18px 16px;
+    flex:1; display:flex; flex-direction:column;
+}
+.nc-card .card-desc { font-size:.82rem; color:#555; line-height:1.62; flex:1; margin-bottom:14px; }
+.nc-card .card-footer {
+    display:flex; align-items:center; justify-content:space-between;
+    gap:8px; padding-top:10px; margin-bottom:10px;
+    border-top:1px solid #f0f0f0;
+}
+.card-issn { font-size:.72rem; color:#c8c8c8; }
+.card-contact { font-size:.72rem; font-weight:600; color:#E8682A; text-decoration:none; }
+.card-contact:hover { text-decoration:underline; }
+
+/* Botões */
+.nc-card .card-actions { display:flex; gap:8px; }
+.nc-card .card-actions a {
+    display:flex; align-items:center; justify-content:center;
+    flex:1; min-height:44px;
+    border-radius:8px; font-size:.80rem; font-weight:600;
+    text-decoration:none;
+    transition:filter .15s, transform .1s;
+}
+.nc-card .card-actions a:hover { filter:brightness(.87); transform:translateY(-1px); text-decoration:none; }
+.nc-card .card-actions a:focus-visible { outline:3px solid #E8682A; outline-offset:2px; }
+.btn-acesso { background:#E8682A; color:#fff !important; }
+.btn-edicao { background:#eef0f3; color:#444 !important; }
+
+/* ── Sem resultados ── */
+#sem-resultados { display:none; text-align:center; padding:60px 0; color:#888; }
+#sem-resultados .icon { font-size:2.5rem; margin-bottom:12px; }
+
+/* ── Aviso ── */
+.nc-aviso {
+    font-size:.78rem; color:#aaa; text-align:center;
+    margin-top:36px; padding-top:20px;
+    border-top:1px solid #e4e4e4;
+}
+
+/* ── Responsivo ── */
+@media(max-width:767px){
+    #nc-hero h1 { font-size:1.5rem; }
+    .search-bar-wrap input { font-size:.95rem; }
+    .nc-stats .num { font-size:1.5rem; }
+}
+</style>
+
+<!-- Hero -->
+<section id="nc-hero">
+    <div class="container hero-content">
+        <h1>Periódicos Não Correntes</h1>
+        <p>Revistas científicas da UFPB que encerraram suas atividades ou estão temporariamente inativas no portal.</p>
+
+        <div role="search" class="search-bar-wrap">
+            <label for="buscaInput" class="sr-only">Pesquisar periódico por título ou ISSN</label>
+            <input type="search" id="buscaInput"
+                   placeholder="Pesquise por título ou ISSN…"
+                   oninput="filtrar()"
+                   autocomplete="off">
+            <span class="search-icon" aria-hidden="true">🔍</span>
+        </div>
+
+        <div class="nc-stats">
+            <div><div class="num"><?=$total?></div><div class="lab">Periódicos não correntes</div></div>
+        </div>
+    </div>
+    <div class="hero-wave">
+        <svg viewBox="0 0 1440 48" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style="width:100%;height:48px;display:block;">
+            <path d="M0,32 C360,0 1080,60 1440,20 L1440,48 L0,48 Z" fill="#f0f2f5"/>
+        </svg>
+    </div>
+</section>
+
+<!-- Lista -->
+<section id="nc-lista">
+<div class="container">
+
+<div class="nc-grid" id="nc-grid">
+<?php foreach($periodicos as $p):
+    $tPlain = html_entity_decode(strip_tags($p['titulo']), ENT_QUOTES, 'UTF-8');
+    $letra  = mb_strtoupper(mb_substr($tPlain, 0, 1, 'UTF-8'), 'UTF-8');
+    $hasImg  = !empty($p['img']);
+    $hasLink = !empty($p['caminho']);
+    $hasISSN = !empty($p['issn']);
+?>
+<article class="nc-card"
+     data-titulo="<?=htmlspecialchars(mb_strtolower($tPlain,'UTF-8'))?>"
+     data-issn="<?=htmlspecialchars($p['issn'])?>">
+
+    <div class="card-head">
+        <?php if($hasImg): ?>
+        <div class="card-thumb">
+            <img src="<?=$p['img']?>" alt="Logo <?=htmlspecialchars($tPlain)?>"
+                 onerror="this.closest('.card-thumb').outerHTML='<div class=\'card-thumb-letter\' aria-hidden=\'true\'><?=$letra?></div>'">
+        </div>
+        <?php else: ?>
+        <div class="card-thumb-letter" aria-hidden="true"><?=$letra?></div>
+        <?php endif; ?>
+
+        <div class="card-head-info">
+            <h3 class="card-titulo-h">
+                <?php if($hasLink): ?>
+                <a class="card-titulo"
+                   href="https://periodicos.ufpb.br/index.php/<?=$p['caminho']?>"
+                   target="_blank" rel="noopener noreferrer"><?=$p['titulo']?></a>
+                <?php else: ?>
+                <span class="card-titulo-nolink"><?=$p['titulo']?></span>
+                <?php endif; ?>
+            </h3>
+            <?php if(!empty($p['subtitulo'])): ?>
+            <div class="card-subtitulo"><?=$p['subtitulo']?></div>
+            <?php endif; ?>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <p class="card-desc"><?=$p['desc']?></p>
+
+        <?php if($hasISSN || $hasLink): ?>
+        <div class="card-footer">
+            <?php if($hasISSN): ?>
+            <span class="card-issn">ISSN <?=$p['issn']?></span>
+            <?php else: ?>
+            <span></span>
+            <?php endif; ?>
+            <?php if($hasLink): ?>
+            <a class="card-contact"
+               href="https://periodicos.ufpb.br/index.php/<?=$p['caminho']?>/about/contact"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Contato de <?=htmlspecialchars($tPlain)?>">Contato</a>
+            <?php endif; ?>
+        </div>
+        <?php endif; ?>
+
+        <?php if($hasLink): ?>
+        <div class="card-actions">
+            <a class="btn-acesso"
+               href="https://periodicos.ufpb.br/index.php/<?=$p['caminho']?>"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Acessar <?=htmlspecialchars($tPlain)?>">Acessar</a>
+            <a class="btn-edicao"
+               href="https://periodicos.ufpb.br/index.php/<?=$p['caminho']?>/issue/current"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Edição atual de <?=htmlspecialchars($tPlain)?>">Edição Atual</a>
+        </div>
+        <?php endif; ?>
+    </div>
+</article>
+<?php endforeach; ?>
+</div><!-- /.nc-grid -->
+
+<div id="sem-resultados" role="status" aria-live="polite">
+    <div class="icon">🔍</div>
+    <p>Nenhum periódico encontrado para esta busca.</p>
+</div>
+
+<p class="nc-aviso">
+    Periódicos não correntes são revistas que encerraram suas publicações ou estão temporariamente inativas no Portal de Periódicos da UFPB.
+</p>
+
+</div>
+</section>
+
+<script>
+function removerAcentos(s){ return s.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase(); }
+
+function filtrar(){
+    var q = removerAcentos(document.getElementById('buscaInput').value.trim());
+    var total = 0;
+    document.querySelectorAll('.nc-card').forEach(function(card){
+        var titulo = removerAcentos(card.dataset.titulo||'');
+        var issn   = (card.dataset.issn||'').replace(/-/g,'');
+        var qTerm  = q.replace(/-/g,'');
+        var show   = !q || titulo.indexOf(q)>=0 || issn.indexOf(qTerm)>=0;
+        card.classList.toggle('oculto', !show);
+        if(show) total++;
+    });
+    document.getElementById('sem-resultados').style.display = total===0 ? 'block' : 'none';
+}
+</script>
+
+<?php include 'footer.html'; ?>
