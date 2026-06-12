@@ -11,7 +11,7 @@ $periodicos = [
     ['titulo'=>'Sudamerica',
      'subtitulo'=>'Revista Internacional de Direitos Humanos',
      'caminho'=>'sda', 'issn'=>'3086-3562',
-     'img'=>'',
+     'img'=>'images/sudamerica.jpg',
      'desc'=>'Periódico internacional dedicado à pesquisa e debate em Direitos Humanos, com enfoque nos contextos e perspectivas da América do Sul.'],
 ];
 

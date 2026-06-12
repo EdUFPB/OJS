@@ -5,25 +5,25 @@ $publicacoes = [
     ['titulo'=>'Cadernos Imbondeiro',
      'subtitulo'=>'Estudos Africanos e Afro-brasileiros – UFPB',
      'caminho'=>'ci', 'issn'=>'2316-2937',
-     'img'=>'',
+     'img'=>'images/cadernos-imbondeiro.png',
      'desc'=>'Publicação acadêmica dedicada aos estudos africanos, afro-brasileiros e da diáspora africana, articulando pesquisa sobre cultura, história e identidade.'],
 
     ['titulo'=>'Cultura e Tradução',
      'subtitulo'=>'Estudos da Tradução – UFPB',
      'caminho'=>'ct', 'issn'=>'2238-9059',
-     'img'=>'',
+     'img'=>'images/cultura-traducao.png',
      'desc'=>'Periódico dedicado aos Estudos da Tradução e suas interfaces com a Cultura, a Linguística e a Literatura, com publicações de artigos originais e inéditos.'],
 
     ['titulo'=>'Congresso de Inclusão e Acessibilidade',
      'subtitulo'=>'Anais – UFPB',
      'caminho'=>'cia', 'issn'=>'',
-     'img'=>'',
+     'img'=>'images/cia.jpg',
      'desc'=>'Anais do congresso dedicado à produção e disseminação de conhecimentos sobre inclusão, acessibilidade e diversidade no contexto educacional e social.'],
 
     ['titulo'=>'Anais do Colóquio de Cinema e Arte da América Latina',
      'subtitulo'=>'COCAAL – UFPB',
      'caminho'=>'cocaal', 'issn'=>'',
-     'img'=>'',
+     'img'=>'images/cocaal.jpg',
      'desc'=>'Publicação dos trabalhos apresentados no colóquio dedicado ao cinema e às artes visuais na América Latina, com ênfase em perspectivas críticas e decoloniais.'],
 
     ['titulo'=>'Revista do Encontro de Iniciação à Docência',
@@ -238,8 +238,9 @@ $total = count($publicacoes);
     <div class="card-head">
         <?php if($hasImg): ?>
         <div class="card-thumb">
-            <img src="<?=$p['img']?>" alt="Logo <?=htmlspecialchars($tPlain)?>"
-                 onerror="this.closest('.card-thumb').outerHTML='<div class=\'card-thumb-letter\' aria-hidden=\'true\'><?=$letra?></div>'">
+    <img src="<?=htmlspecialchars($p['img'])?>"
+     alt="Logo <?=htmlspecialchars($tPlain)?>"
+     onerror="var p=this.closest('.card-thumb');p.outerHTML='<div class=\'card-thumb-letter\' aria-hidden=\'true\'><?=$letra?></div>'">
         </div>
         <?php else: ?>
         <div class="card-thumb-letter" aria-hidden="true"><?=$letra?></div>
