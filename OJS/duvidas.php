@@ -717,7 +717,7 @@
                             <ul>
                                 <li>Entre <strong>3 e 6 termos</strong></li>
                                 <li>Preferencialmente de vocabulário controlado (DeCS, Thesaurus etc.)</li>
-                                <li>Primeira letra maiúscula; separadas por ponto-e-vírgula no sistema</li>
+                                <li>Cada palavra-chave deve ser confirmada pressionando Enter após digitá-la e o sistema registra cada termo individualmente.</li>
                             </ul>
                         </div>
 
@@ -731,7 +731,7 @@
                             <div class="checklist-item"><span class="check-num">6</span> Resumo entre 150–250 palavras, sem citações</div>
                             <div class="checklist-item"><span class="check-num">7</span> Abstract em inglês presente (para artigos em PT)</div>
                             <div class="checklist-item"><span class="check-num">8</span> Entre 3 e 6 palavras-chave</div>
-                            <div class="checklist-item"><span class="check-num">9</span> DOI atribuído e validado</div>
+                            <div class="checklist-item"><span class="check-num">9</span> DOI atribuído e validado, exceto para DOI atribuído pela Editora UFPB, neste caso, pular esta etapa.</div>
                             <div class="checklist-item"><span class="check-num">10</span> Arquivos finais do artigo (PDF/HTML) enviados e publicados corretamente</div>
                             <div class="checklist-item"><span class="check-num">11</span> Data de publicação definida</div>
                             <div class="checklist-item"><span class="check-num">12</span> Fascículo (número/edição) publicado e visível no site da revista</div>
