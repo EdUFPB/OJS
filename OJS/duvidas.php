@@ -319,6 +319,63 @@
 }
 .contact-pill strong { font-weight: 600; }
 
+/* ── Tabela de similaridade ── */
+.table-responsive-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 12px;
+    border-radius: 8px;
+}
+.similaridade-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    min-width: 420px;
+}
+.similaridade-table th {
+    background: #3a3a3a;
+    color: #fff;
+    padding: 10px 14px;
+    text-align: left;
+    font-weight: 600;
+}
+.similaridade-table td {
+    padding: 10px 14px;
+    border-bottom: 1px solid #eee;
+    vertical-align: middle;
+}
+.similaridade-table tr:last-child td { border-bottom: none; }
+.badge-nivel {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 3px 12px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.badge-ok    { background: #d4edda; color: #155724; }
+.badge-warn  { background: #fff3cd; color: #856404; }
+.badge-grave { background: #ffd5b0; color: #7d3200; }
+.badge-crit  { background: #f8d7da; color: #721c24; }
+
+/* ── Responsivo — aba integridade ── */
+@media (max-width: 767px) {
+    .similaridade-table { font-size: 0.82rem; }
+    .similaridade-table th,
+    .similaridade-table td { padding: 8px 10px; }
+}
+
+/* ── Aviso integridade ── */
+.aviso-integridade {
+    background: #fff8f5;
+    border-left: 4px solid #E8682A;
+    border-radius: 0 8px 8px 0;
+    padding: 12px 16px;
+    font-size: 0.9rem;
+    color: #5a3010;
+    margin-top: 14px;
+    line-height: 1.6;
+}
+
 /* ── Responsive ── */
 @media (max-width: 767px) {
     #ajuda-hero h1 { font-size: 1.4rem; }
@@ -353,6 +410,12 @@
                 <a class="nav-link" id="editores-tab" data-toggle="tab" href="#editores" role="tab"
                    aria-controls="editores" aria-selected="false">
                     Para Editores
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="integridade-tab" data-toggle="tab" href="#integridade" role="tab"
+                   aria-controls="integridade" aria-selected="false">
+                    Integridade Acadêmica
                 </a>
             </li>
         </ul>
@@ -743,6 +806,225 @@
         </section>
 
     </div><!-- /tab editores -->
+
+
+    <!-- ===== ABA INTEGRIDADE ACADÊMICA ===== -->
+    <div class="tab-pane fade" id="integridade" role="tabpanel" aria-labelledby="integridade-tab">
+
+        <section class="ajuda-section">
+            <div class="container">
+                <p class="section-title">Integridade Acadêmica e Científica</p>
+                <p class="section-subtitle">
+                    Diretrizes da UFPB sobre plágio, uso de inteligência artificial e boas práticas
+                    na produção científica, conforme a
+                    <a href="https://sig-arq.ufpb.br/arquivos/2025189036a9a38041387d66209cac73d/Resoluo_Consepe_n_57.2025.pdf"
+                       target="_blank" rel="noopener">Resolução Consepe nº&nbsp;57/2025</a>.
+                </p>
+
+                <div id="accordionIntegridade">
+
+                    <!-- 1. O que é plágio -->
+                    <div class="faq-card card">
+                        <div class="card-header" id="hI0">
+                            <button class="collapsed" data-toggle="collapse" data-target="#cI0"
+                                    aria-expanded="false" aria-controls="cI0">
+                                O que é plágio acadêmico?
+                                <span class="faq-icon">+</span>
+                            </button>
+                        </div>
+                        <div id="cI0" class="collapse" aria-labelledby="hI0" data-parent="#accordionIntegridade">
+                            <div class="card-body">
+                                <p>É a <strong>apropriação indevida da produção intelectual de outra pessoa sem o devido crédito à fonte</strong> (Art. 1º, §1º da Resolução Consepe nº&nbsp;57/2025).</p>
+                                <p>O plágio pode ocorrer em qualquer trabalho acadêmico, científico, tecnológico ou de extensão produzido, apresentado ou publicado por discentes, docentes, servidores técnico-administrativos e colaboradores vinculados à UFPB.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2. O que NÃO é plágio -->
+                    <div class="faq-card card">
+                        <div class="card-header" id="hI1">
+                            <button class="collapsed" data-toggle="collapse" data-target="#cI1"
+                                    aria-expanded="false" aria-controls="cI1">
+                                O que não é considerado plágio ou autoplágio?
+                                <span class="faq-icon">+</span>
+                            </button>
+                        </div>
+                        <div id="cI1" class="collapse" aria-labelledby="hI1" data-parent="#accordionIntegridade">
+                            <div class="card-body">
+                                <p>Conforme o Art. 1º, §2º, não configuram plágio:</p>
+                                <ul>
+                                    <li>A republicação de texto com indicação expressa da publicação anterior;</li>
+                                    <li>A atualização ou ampliação de texto anteriormente publicado;</li>
+                                    <li>A utilização de método anteriormente desenvolvido em pesquisa posterior, com o devido crédito;</li>
+                                    <li>O desenvolvimento e ampliação de trabalhos produzidos em atividades da UFPB aproveitados em trabalhos de conclusão, inclusive em coautoria com o(a) orientador(a);</li>
+                                    <li>A publicação posterior, no todo ou em parte, em periódicos ou livros, de trabalho de conclusão.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3. IA -->
+                    <div class="faq-card card">
+                        <div class="card-header" id="hI2">
+                            <button class="collapsed" data-toggle="collapse" data-target="#cI2"
+                                    aria-expanded="false" aria-controls="cI2">
+                                Como posso usar ferramentas de Inteligência Artificial (IA) no meu trabalho?
+                                <span class="faq-icon">+</span>
+                            </button>
+                        </div>
+                        <div id="cI2" class="collapse" aria-labelledby="hI2" data-parent="#accordionIntegridade">
+                            <div class="card-body">
+                                <p>O uso de IA é <strong>autorizado como apoio</strong> nas seguintes etapas (Art. 2º): ideação, busca e organização da literatura, leitura e síntese, revisão linguística, transcrição, tradução, formatação, programação e visualização de dados.</p>
+
+                                <p><strong>É obrigatório:</strong></p>
+                                <ul>
+                                    <li>Indicar explicitamente a ferramenta utilizada, com versão e finalidade, sempre que o uso ultrapassar a revisão linguística ou ortográfica;</li>
+                                    <li>Validar integralmente o conteúdo gerado, incluindo exatidão, coerência metodológica e conformidade das fontes e citações;</li>
+                                    <li>Garantir a originalidade do trabalho e o respeito aos direitos autorais;</li>
+                                    <li>Certificar que todas as referências correspondem a obras efetivamente consultadas pelo(a) autor(a).</li>
+                                </ul>
+
+                                <p><strong>É vedado:</strong></p>
+                                <ul>
+                                    <li>Reproduzir textos gerados por IA que resultem em mascaramento de autoria;</li>
+                                    <li>Falsificar dados ou praticar qualquer mascaramento de autoria;</li>
+                                    <li>Enviar dados inéditos, sensíveis ou identificáveis a sistemas de IA sem salvaguarda contratual formal de confidencialidade;</li>
+                                    <li>Substituir o raciocínio humano, a autoria e o método científico por IA em qualquer fase do trabalho.</li>
+                                </ul>
+
+                                <div class="aviso-integridade">
+                                    ⚠️ A omissão da utilização de ferramentas de IA, ou seu uso indevido, pode configurar infração ética (Art. 2º, §3º).
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4. Similaridade -->
+                    <div class="faq-card card">
+                        <div class="card-header" id="hI3">
+                            <button class="collapsed" data-toggle="collapse" data-target="#cI3"
+                                    aria-expanded="false" aria-controls="cI3">
+                                O que significam os percentuais de similaridade?
+                                <span class="faq-icon">+</span>
+                            </button>
+                        </div>
+                        <div id="cI3" class="collapse" aria-labelledby="hI3" data-parent="#accordionIntegridade">
+                            <div class="card-body">
+                                <p>O relatório de similaridade, por si só, <strong>não determina a ocorrência de plágio</strong> — serve como indício para orientar a análise (Art. 5º, §2º). Os percentuais são interpretados conforme abaixo (Art. 6º):</p>
+                                <div class="table-responsive-wrap" role="region" aria-label="Tabela de percentuais de similaridade">
+                                <table class="similaridade-table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Percentual</th>
+                                            <th scope="col">Classificação</th>
+                                            <th scope="col">Providência</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Até 10%</strong></td>
+                                            <td><span class="badge-nivel badge-ok">Aceitável</span></td>
+                                            <td>Passível de aprovação</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>10,1% – 30%</strong></td>
+                                            <td><span class="badge-nivel badge-warn">Atenção</span></td>
+                                            <td>Revisão textual obrigatória e reapresentação para nova verificação</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>30,1% – 50%</strong></td>
+                                            <td><span class="badge-nivel badge-grave">Grave</span></td>
+                                            <td>Reescrita substancial obrigatória</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Acima de 50%</strong></td>
+                                            <td><span class="badge-nivel badge-crit">Indício crítico</span></td>
+                                            <td>Análise e parecer conclusivo da CIAC</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 5. Denúncia -->
+                    <div class="faq-card card">
+                        <div class="card-header" id="hI4">
+                            <button class="collapsed" data-toggle="collapse" data-target="#cI4"
+                                    aria-expanded="false" aria-controls="cI4">
+                                Como é feita uma denúncia de plágio?
+                                <span class="faq-icon">+</span>
+                            </button>
+                        </div>
+                        <div id="cI4" class="collapse" aria-labelledby="hI4" data-parent="#accordionIntegridade">
+                            <div class="card-body">
+                                <p>Qualquer membro da comunidade interna ou externa da UFPB pode formalizar uma denúncia à <strong>Comissão de Integridade Acadêmica do Centro (CIAC)</strong> à qual o(a) autor(a) principal está vinculado(a) (Art. 8º).</p>
+                                <p>O processo segue as seguintes etapas:</p>
+                                <ol>
+                                    <li>Recebimento da denúncia pela CIAC;</li>
+                                    <li>Análise preliminar e verificação de conflito de interesses (prazo: 5 dias);</li>
+                                    <li>Notificação dos(as) denunciados(as) para manifestação (prazo: 10 dias);</li>
+                                    <li>Elaboração de relatório circunstanciado (prazo máximo: 60 dias, prorrogável);</li>
+                                    <li>Apreciação pelo Conselho de Centro, com possibilidade de recurso ao Consepe.</li>
+                                </ol>
+                                <p>São garantidos em todas as etapas o <strong>contraditório</strong> e a <strong>ampla defesa</strong>, além da confidencialidade do processo (Art. 8º, §§9º e 10).</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 6. Sanções -->
+                    <div class="faq-card card">
+                        <div class="card-header" id="hI5">
+                            <button class="collapsed" data-toggle="collapse" data-target="#cI5"
+                                    aria-expanded="false" aria-controls="cI5">
+                                Quais são as sanções previstas para casos de plágio?
+                                <span class="faq-icon">+</span>
+                            </button>
+                        </div>
+                        <div id="cI5" class="collapse" aria-labelledby="hI5" data-parent="#accordionIntegridade">
+                            <div class="card-body">
+                                <p>Verificada a procedência da denúncia, as sanções podem ser aplicadas de forma isolada ou cumulativa, considerando gravidade, intencionalidade, extensão do dano e retratação (Art. 12):</p>
+                                <ul>
+                                    <li>Despublicação de trabalhos em bases e periódicos institucionais;</li>
+                                    <li>Recomendação de retratação e despublicação a periódicos ou editoras científicas;</li>
+                                    <li>Cancelamento de agendamento de qualificação ou defesa;</li>
+                                    <li>Anulação de defesa e cassação de diploma, quando cabível;</li>
+                                    <li>Procedimentos administrativos-disciplinares a servidores(as).</li>
+                                </ul>
+                                <p>O cometimento não intencional do plágio e eventual retratação são considerados na determinação das sanções (Art. 12, §§1º e 2º).</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 7. Documento completo -->
+                    <div class="faq-card card">
+                        <div class="card-header" id="hI6">
+                            <button class="collapsed" data-toggle="collapse" data-target="#cI6"
+                                    aria-expanded="false" aria-controls="cI6">
+                                Onde posso ler a Política de Integridade Acadêmica completa?
+                                <span class="faq-icon">+</span>
+                            </button>
+                        </div>
+                        <div id="cI6" class="collapse" aria-labelledby="hI6" data-parent="#accordionIntegridade">
+                            <div class="card-body">
+                                <p>A Política de Integridade Acadêmica e Científica da UFPB está regulamentada pela <strong>Resolução Consepe nº&nbsp;57/2025</strong>, aprovada em 17 de setembro de 2025.</p>
+                                <div style="margin-top:16px;">
+                                    <a href="https://sig-arq.ufpb.br/arquivos/2025189036a9a38041387d66209cac73d/Resoluo_Consepe_n_57.2025.pdf"
+                                       target="_blank" rel="noopener"
+                                       style="display:inline-flex; align-items:center; gap:8px; background:#E8682A; color:#fff; border-radius:7px; padding:9px 20px; font-size:0.88rem; font-weight:600; text-decoration:none;">
+                                        📄 Acessar Resolução Consepe nº 57/2025 (PDF)
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- /accordionIntegridade -->
+            </div>
+        </section>
+
+    </div><!-- /tab integridade -->
 
 </div><!-- /tab-content -->
 
