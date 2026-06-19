@@ -13,6 +13,12 @@ $periodicos = [
      'caminho'=>'sda', 'issn'=>'3086-3562',
      'img'=>'images/sudamerica.jpg',
      'desc'=>'Periódico internacional dedicado à pesquisa e debate em Direitos Humanos, com enfoque nos contextos e perspectivas da América do Sul.'],
+
+      ['titulo'=>'Ostium Solis',
+     'subtitulo'=>'Revista de Filosofia',
+     'caminho'=>'ros', 'issn'=>'',
+     'img'=>'images/ostiumSolis.jpg',
+     'desc'=>'A Revista Ostium Solis publica trabalhos de filosofia elaborados por graduandos, graduados, mestrandos, mestres, doutorandos e doutores, sem distinções.'],
 ];
 
 $total = count($periodicos);
