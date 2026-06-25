@@ -10,11 +10,10 @@
 	<meta name="description" content="Portal de Periódicos da Universidade Federal da Paraíba — acesso a periódicos científicos correntes, incubados e não correntes." />
 	<meta name="keywords" content="Periódico científico" />
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-	<style>
-		body, body * {
-			font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
-		}
-	</style>
+<style>
+body, body * {font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;}
+body, body.landing, #wrapper { background: #fff !important; }
+</style>
 	<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/skel.min.js"></script>
@@ -27,9 +26,7 @@
 		<link rel="stylesheet" href="css/style-xlarge.css" />
 	</noscript>
 </head>
-
-<body class="landing">
-
+<body class="landing" style="background: #fff;">
 	<!-- Pular navegação (eMAG) -->
 	<a href="#conteudo-principal" accesskey="1" style="position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden;">
 		Ir para o conteúdo principal (Alt+1)
@@ -38,26 +35,80 @@
 		Ir para o menu (Alt+2)
 	</a>
 
-	<!-- Barra de acessibilidade (eMAG) -->
-	<div role="navigation" aria-label="Acessibilidade" style="background:#444; padding: 4px 16px; display:flex; justify-content:flex-end; align-items:center; gap:12px;">
-		<span style="font-size:11px; color:#ccc; font-family:sans-serif;">Acessibilidade:</span>
-		<button onclick="document.body.classList.toggle('alto-contraste')" accesskey="3" title="Alto Contraste (Alt+3)"
-			style="background:none; border:1px solid #ccc; color:white; font-size:11px; padding:2px 8px; cursor:pointer; border-radius:3px;">
-			Alto Contraste
-		</button>
-		<button onclick="alterarFonte(1)" title="Aumentar fonte" aria-label="Aumentar tamanho da fonte"
-			style="background:none; border:1px solid #ccc; color:white; font-size:13px; padding:2px 8px; cursor:pointer; border-radius:3px;">A+</button>
-		<button onclick="alterarFonte(-1)" title="Diminuir fonte" aria-label="Diminuir tamanho da fonte"
-			style="background:none; border:1px solid #ccc; color:white; font-size:11px; padding:2px 8px; cursor:pointer; border-radius:3px;">A-</button>
-		<button onclick="alterarFonte(0)" title="Tamanho normal" aria-label="Restaurar tamanho da fonte"
-			style="background:none; border:1px solid #ccc; color:white; font-size:11px; padding:2px 8px; cursor:pointer; border-radius:3px;">A</button>
-	</div>
+	<!-- Barra unificada: Governo Federal + Institucional + Acessibilidade -->
 	<style>
+		#barra-unificada {
+			background: #fff;
+			border-bottom: 1px solid #d0d8e8;
+			padding: 5px 16px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			flex-wrap: nowrap;
+			gap: 8px;
+			overflow-x: auto;
+		}
+		#barra-unificada a, #barra-unificada span {
+			font-size: 11px;
+			color: #071D41 !important;
+			text-decoration: none;
+			font-family: 'Inter', sans-serif;
+			white-space: nowrap;
+		}
+		#barra-unificada a:hover { text-decoration: underline; }
+		.barra-sep { color: rgba(7,29,65,0.3) !important; margin: 0 4px; }
+		.barra-grupo { display: flex; align-items: center; flex-wrap: nowrap; gap: 4px; }
+		.barra-btn {
+			background: none;
+			border: 1px solid rgba(7,29,65,0.4);
+			color: #071D41;
+			font-size: 11px;
+			padding: 1px 7px;
+			cursor: pointer;
+			border-radius: 3px;
+			font-family: 'Inter', sans-serif;
+		}
+		.barra-btn:hover { background: rgba(7,29,65,0.08); }
 		body.alto-contraste { background: #000 !important; color: #ff0 !important; }
 		body.alto-contraste a { color: #ff0 !important; }
 		body.alto-contraste nav, body.alto-contraste header { background: #000 !important; }
 		body.alto-contraste .navbar-nav .nav-link { color: #ff0 !important; }
+		body.alto-contraste #barra-unificada { background: #000 !important; border-bottom: 1px solid #ff0; }
+		body.alto-contraste #barra-unificada a,
+		body.alto-contraste #barra-unificada span,
+		body.alto-contraste .barra-btn { color: #ff0 !important; border-color: #ff0; }
 	</style>
+
+	<div id="barra-unificada" role="navigation" aria-label="Barra superior">
+		<!-- Governo Federal -->
+		<div class="barra-grupo">
+			<a href="https://www.gov.br" target="_blank">🇧🇷 Portal do Governo Brasileiro</a>
+			<span class="barra-sep">|</span>
+			<a href="https://www.gov.br/pt-br/acesso-a-informacao/" target="_blank">Acesso à Informação</a>
+			<span class="barra-sep">|</span>
+			<a href="https://www.gov.br/economia/pt-br/canais_atendimento/ouvidoria/simplifique" target="_blank">Simplifique!</a>
+			<span class="barra-sep">|</span>
+			<a href="https://www.gov.br/pt-br/participacao-social/" target="_blank">Participe</a>
+		</div>
+		<!-- Institucional -->
+		<div class="barra-grupo">
+			<a href="https://www.ufpb.br" target="_blank">Universidade Federal da Paraíba</a>
+			<span class="barra-sep">·</span>
+			<a href="https://editora.ufpb.br" target="_blank" style="font-weight:600;">Editora UFPB</a>
+		</div>
+		<!-- Acessibilidade -->
+		<div class="barra-grupo" aria-label="Acessibilidade">
+			<span>Acessibilidade:</span>
+			<button class="barra-btn" onclick="document.body.classList.toggle('alto-contraste')" accesskey="3" title="Alto Contraste (Alt+3)">Alto Contraste</button>
+			<button class="barra-btn" onclick="alterarFonte(1)" title="Aumentar fonte" aria-label="Aumentar fonte" style="font-size:13px;">A+</button>
+			<button class="barra-btn" onclick="alterarFonte(-1)" title="Diminuir fonte" aria-label="Diminuir fonte">A-</button>
+			<button class="barra-btn" onclick="alterarFonte(0)" title="Tamanho normal" aria-label="Restaurar fonte">A</button>
+			<button class="barra-btn" onclick="toggleVLibras()" accesskey="4" title="Acessibilidade em Libras — Língua Brasileira de Sinais (Alt+4)" aria-label="Ativar VLibras — acessibilidade em Libras">
+				&#9654; VLibras
+			</button>
+		</div>
+	</div>
+
 	<script>
 		var tamanhoBase = 16;
 		function alterarFonte(delta) {
@@ -66,30 +117,6 @@
 			document.documentElement.style.fontSize = tamanhoBase + 'px';
 		}
 	</script>
-	<div id="barra-brasil" style="background:#7F7F7F; height: 20px; padding:0 0 0
-			10px;display:block;">
-		<ul id="menu-barra-temp" style="list-style:none;">
-			<li style="display:inline; float:left;padding-right:10px; margin-right:10px;
-					border-right:1px solid #EDEDED">
-				<a href="http://brasil.gov.br"
-					style="font-family:sans,sans-serif; text-decoration:none; color:white;">Portal do Governo Brasileiro</a>
-			</li>
-			<li>
-				<a style="font-family:sans,sans-serif; text-decoration:none; color:white;"
-					href="http://epwg.governoeletronico.gov.br/barra/atualize.html">Atualize sua Barra de Governo</a>
-			</li>
-		</ul>
-	</div>
-	<!-- Barra institucional -->
-	<div style="background: #f5f5f3; border-bottom: 1px solid #e0e0e0; padding: 6px 16px; display: flex; justify-content: center; gap: 20px;">
-		<a href="https://www.ufpb.br" target="_blank" style="font-size: 12px; color: hsl(243, 84%, 25%); text-decoration: none; font-family: sans-serif;">
-			Universidade Federal da Paraíba
-		</a>
-		<span style="color: #ccc; font-family: sans-serif;">·</span>
-		<a href="https://editora.ufpb.br" target="_blank" style="font-size: 12px; color: #E8682A; text-decoration: none; font-family: sans-serif; font-weight: 500;">
-			Editora UFPB
-		</a>
-	</div>
 
 	<!--PreLoading-->
 	<div id="loading">
@@ -112,7 +139,7 @@
 							</li>
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle" href="periodicos.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Periódicos
+									Coleções
 								</a>
 								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 									<a class="dropdown-item" href="periodicos.php">Periódicos Correntes</a>
@@ -141,4 +168,21 @@
 		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
 	</script>
 	<script src="bootstrap/js/bootstrap.js"></script>
+
+	<!-- VLibras: acessibilidade em Língua Brasileira de Sinais (Decreto 5.626/2005) -->
+	<div vw class="enabled" aria-hidden="true">
+		<div vw-access-button class="active"></div>
+		<div vw-plugin-wrapper>
+			<div class="vw-plugin-top-wrapper"></div>
+		</div>
+	</div>
+	<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+	<script>
+		new window.VLibras.Widget('https://vlibras.gov.br/app');
+
+		function toggleVLibras() {
+			var btn = document.querySelector('[vw-access-button]');
+			if (btn) { btn.click(); }
+		}
+	</script>
 </body>

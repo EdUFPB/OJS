@@ -194,7 +194,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, [tabindex]:focus-vis
         <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 2em; flex-wrap: wrap; gap: 8px;">
             <div>
                 <p style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; color: #E8682A; font-weight: 600; margin-bottom: 0.3rem;">Fique por dentro</p>
-                <h2 style="font-size: 22px; color: #1B3A6B; font-weight: 700; margin: 0;">Notícias e Anúncios</h2>
+                <h2 style="font-size: 22px; color: #1B3A6B; font-weight: 700; margin: 0;">Notícias</h2>
             </div>
             <a href="noticias-todas.php" style="font-size: 13px; color: #E8682A; text-decoration: none; font-weight: 600;">Ver todas →</a>
         </div>
@@ -326,46 +326,6 @@ a:focus-visible, button:focus-visible, input:focus-visible, [tabindex]:focus-vis
             </div>
         </div>
     </div>
-</section>
-
-<!-- Equipe -->
-<section aria-label="Equipe do Portal" style="background: #fff; padding: 36px 0 40px; text-align: center; border-top: 2px solid #f0f0f0;">
-    <div class="container">
-        <p style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; color: #E8682A; font-weight: 600; margin-bottom: 0.3rem;">Equipe</p>
-        <h2 style="font-size: 17px; font-weight: 700; color: #1B3A6B; margin-bottom: 1.8rem;">Quem faz o Portal acontecer</h2>
-        <div class="equipe-mobile" style="display: flex; justify-content: center; gap: 24px; flex-wrap: wrap;">
-
-            <div style="display: flex; align-items: center; gap: 12px; background: #f8f8f6; border-radius: 12px; padding: 14px 20px; min-width: 220px; max-width: 280px;">
-                <img src="images/ana.png" alt="Foto de Ana Roberta Mota" width="48" height="48" style="border-radius: 50%; object-fit: cover; object-position: center; filter: grayscale(100%); border: 2px solid #E8682A; flex-shrink:0;" />
-                <div style="text-align: left;">
-                    <div style="font-size: 13px; font-weight: 700; color: #222;">Ana Roberta Mota</div>
-                    <div style="font-size: 12px; color: #E8682A; margin-bottom: 3px;">Bibliotecária</div>
-                    <a href="http://lattes.cnpq.br/6636072425703164" target="_blank" rel="noopener noreferrer" style="font-size: 11px; color: #999; text-decoration: none; border-bottom: 0.5px solid #ccc;">Currículo Lattes</a>
-                </div>
-            </div>
-
-            <div style="display: flex; align-items: center; gap: 12px; background: #f8f8f6; border-radius: 12px; padding: 14px 20px; min-width: 220px; max-width: 280px;">
-                <img src="images/cassandra.jpg" alt="Foto de Cassandra Campos" width="48" height="48" style="border-radius: 50%; object-fit: cover; filter: grayscale(100%); border: 2px solid #E8682A; flex-shrink:0;" />
-                <div style="text-align: left;">
-                    <div style="font-size: 13px; font-weight: 700; color: #222;">Cassandra Campos</div>
-                    <div style="font-size: 12px; color: #E8682A; margin-bottom: 3px;">Editora de Publicações</div>
-                    <a href="http://lattes.cnpq.br/8767155212928230" target="_blank" rel="noopener noreferrer" style="font-size: 11px; color: #999; text-decoration: none; border-bottom: 0.5px solid #ccc;">Currículo Lattes</a>
-                </div>
-            </div>
-
-            <div style="display: flex; align-items: center; gap: 12px; background: #f8f8f6; border-radius: 12px; padding: 14px 20px; min-width: 220px; max-width: 280px;">
-                <img src="images/fabi.png" alt="Foto de Fabiana França" width="48" height="48" style="border-radius: 50%; object-fit: cover; filter: grayscale(100%); border: 2px solid #E8682A; flex-shrink:0;" />
-                <div style="text-align: left;">
-                    <div style="font-size: 13px; font-weight: 700; color: #222;">Fabiana França</div>
-                    <div style="font-size: 12px; color: #E8682A; margin-bottom: 3px;">Bibliotecária</div>
-                    <a href="http://lattes.cnpq.br/0843349256910839" target="_blank" rel="noopener noreferrer" style="font-size: 11px; color: #999; text-decoration: none; border-bottom: 0.5px solid #ccc;">Currículo Lattes</a>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
 </main>
 
 <!-- Script de Autocomplete -->
