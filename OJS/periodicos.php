@@ -53,14 +53,14 @@ $periodicos = [
     ['titulo'=>'Espaço do Currículo',      'subtitulo'=>'GEPPC – UFPB',
      'caminho'=>'rec',         'qualis'=>'A3', 'issn'=>'1983-1579',
      'img'=>'images/revista-espaco-do-curriculo.png',
-     'desc'=>'Periódico quadrimestral do GEPPC/UFPB, criado em 2008, dedicado ao debate nacional e internacional sobre políticas e estudos curriculares na Educação.'],
+     'desc'=>'Periódico do GEPPC/UFPB, criado em 2008, dedicado ao debate nacional e internacional sobre políticas e estudos curriculares na Educação.'],
 
     ['titulo'=>'Temas em Educação',        'subtitulo'=>'PPGE – UFPB',
      'caminho'=>'rteo',        'qualis'=>'A3', 'issn'=>'0104-2777',
      'img'=>'images/rte.png',
-     'desc'=>'Fundada em 1991 e online desde 2009, é organizada pelo PPGE/UFPB com publicação quadrimestral contínua, priorizando pesquisas científicas nacionais e internacionais em Educação.'],
+     'desc'=>'Fundada em 1991 e online desde 2009, é organizada pelo PPGE/UFPB prioriza pesquisas científicas nacionais e internacionais em Educação.'],
 
-    ['titulo'=>'Âncora',                   'subtitulo'=>'Revista Latino-americana de Jornalismo',
+    ['titulo'=>'Âncora',                   'subtitulo'=>'Revista de Jornalismo',
      'caminho'=>'ancora',      'qualis'=>'A3', 'issn'=>'2359-375X',
      'img'=>'images/ancora.png',
      'desc'=>'Voltada para a pesquisa em Jornalismo na perspectiva latino-americana, com diálogos entre comunicação e cultura.'],
@@ -69,27 +69,27 @@ $periodicos = [
     ['titulo'=>'Biblionline',              'subtitulo'=>'DCI – UFPB',
      'caminho'=>'biblio',      'qualis'=>'A4', 'issn'=>'1809-4775',
      'img'=>'images/biblionline.png',
-     'desc'=>'Publicada ininterruptamente desde 2005 nas áreas de Biblioteconomia, Arquivologia, Ciência da Informação e Museologia — trimestral desde 2017, com acesso aberto e avaliação por pares.'],
+     'desc'=>'Publicada ininterruptamente desde 2005 nas áreas de Biblioteconomia, Arquivologia, Ciência da Informação e Museologia com acesso aberto e avaliação por pares.'],
 
     ['titulo'=>'Prolíngua',               'subtitulo'=>'Linguística – UFPB',
      'caminho'=>'prolingua',   'qualis'=>'A4', 'issn'=>'1983-9979',
      'img'=>'images/prolingua.png',
-     'desc'=>'Espaço consolidado de divulgação de pesquisas teóricas e aplicadas em Linguística, promovendo o debate entre pesquisadores nacionais e internacionais. Acesso aberto, sem taxas para autores ou leitores.'],
+     'desc'=>'Espaço consolidado de divulgação de pesquisas teóricas e aplicadas em Linguística, promovendo o debate entre pesquisadores nacionais e internacionais.'],
 
     ['titulo'=>'RPPI',                     'subtitulo'=>'Políticas Públicas e Internacionais',
      'caminho'=>'rppi',        'qualis'=>'A4', 'issn'=>'2525-5584',
      'img'=>'images/rppi.png',
-     'desc'=>'Veículo de pesquisas sobre Gestão Pública e Políticas Públicas nos planos doméstico e internacional.'],
+     'desc'=>'A Revista Brasileira de Políticas Públicas e Internacionais aborda Gestão Pública e Políticas Públicas nos planos doméstico e internacional.'],
 
     ['titulo'=>'RECFin',                   'subtitulo'=>'Evidenciação Contábil &amp; Finanças',
      'caminho'=>'recfin',      'qualis'=>'A4', 'issn'=>'2318-1001',
      'img'=>'images/recfin.png',
-     'desc'=>'Periódico do PPGCC/UFPB indexado em DOAJ, Ebsco e Latindex, com foco em Contabilidade e Finanças.'],
+     'desc'=>'Reúne estudos voltados à Contabilidade, Atuária e Finanças, abordando temas relacionados à gestão, mercados, educação e inovação, com foco na produção e disseminação do conhecimento científico.'],
 
     ['titulo'=>'Scandia',                  'subtitulo'=>'Journal of Medieval Norse Studies',
      'caminho'=>'scandia',     'qualis'=>'A4', 'issn'=>'2595-9107',
      'img'=>'images/scandia.png',
-     'desc'=>'Publicação internacional em inglês dedicada aos estudos medievais e à cultura nórdica.'],
+     'desc'=>'Especializada em Estudos Nórdicos Medievais, publica pesquisas sobre a Era Viking e o mundo escandinavo, contemplando abordagens em história, mitologia, religião, literatura e arqueologia.'],
 
     ['titulo'=>'Teoria e Prática em Administração', 'subtitulo'=>'PPGA – UFPB',
      'caminho'=>'tpa',         'qualis'=>'A4', 'issn'=>'2238-104X',
@@ -99,7 +99,7 @@ $periodicos = [
     ['titulo'=>'Áltera',                   'subtitulo'=>'Revista de Antropologia',
      'caminho'=>'altera',      'qualis'=>'A4', 'issn'=>'2447-9837',
      'img'=>'images/altera.png',
-     'desc'=>'Publica pesquisas em Antropologia Social e Cultural sob abordagens teóricas contemporâneas.'],
+     'desc'=>'Espaço dedicado ao debate antropológico contemporâneo, acolhendo diferentes perspectivas teóricas, metodológicas e etnográficas sobre fenômenos sociais, culturais e políticos.'],
 
     // B1
     ['titulo'=>'Archeion Online',          'subtitulo'=>'Arquivologia – UFPB',
@@ -115,22 +115,22 @@ $periodicos = [
     ['titulo'=>'JUEE',                     'subtitulo'=>'Urban &amp; Environmental Engineering',
      'caminho'=>'juee',        'qualis'=>'B1', 'issn'=>'1982-3932',
      'img'=>'images/juee1.png',
-     'desc'=>'International journal covering Water Resources, Urban Design, Transportation and Environmental Engineering.'],
+     'desc'=>'Focada nos desafios das cidades e do meio ambiente, publica pesquisas sobre recursos hídricos, saneamento, transporte, planejamento urbano e sustentabilidade ambiental.'],
 
     ['titulo'=>'Letr@ Viv@',              'subtitulo'=>'DLEM – UFPB',
      'caminho'=>'lv',          'qualis'=>'B1', 'issn'=>'1517-3100',
      'img'=>'images/lv.jpg',
      'desc'=>'Periódico do DLEM/UFPB publicado desde 1999, com edição semestral em fluxo contínuo nas áreas de Literatura, Linguística, Tradução, Ensino de Línguas e Formação de Professores.'],
 
-    ['titulo'=>'PG&amp;C',               'subtitulo'=>'Perspectivas em Gestão &amp; Conhecimento',
+    ['titulo'=>'PG&amp;C',               'subtitulo'=>'Perspectivas  em Gestão &amp; Conhecimento',
      'caminho'=>'pgc',         'qualis'=>'B1', 'issn'=>'2236-417X',
      'img'=>'images/pgec.png',
-     'desc'=>'Iniciativa da UFPB em cooperação com o IBICT, publica pesquisas interdisciplinares em gestão do conhecimento, gestão da informação e estudos organizacionais.'],
+     'desc'=>'A Revista Perspectivas em Gestão e Conhecimento é iniciativa da UFPB em cooperação com o IBICT, publica pesquisas interdisciplinares em gestão do conhecimento, gestão da informação e estudos organizacionais.'],
 
-    ['titulo'=>'Prim Facie',              'subtitulo'=>'Direito, História e Política',
+    ['titulo'=>'Prim Facie',              'subtitulo'=>'Estudos Jurídicos Contemporâneos',
      'caminho'=>'primafacie',  'qualis'=>'B1', 'issn'=>'1678-2593',
      'img'=>'images/prima-facie.png',
-     'desc'=>'Periódico do PPGCJ/UFPB voltado às interfaces do Direito com Direitos Humanos, Filosofia e Ciência Política.'],
+     'desc'=>'Dedicado à divulgação de pesquisas inovadoras e ao debate de temas contemporâneos do Direito. Destaca-se pela abordagem interdisciplinar de questões relacionadas aos direitos humanos, desenvolvimento, meio ambiente e justiça social.'],
 
     ['titulo'=>'Revista Educare',         'subtitulo'=>'DFE/CE – UFPB',
      'caminho'=>'educare',     'qualis'=>'B1', 'issn'=>'2527-1083',
@@ -148,15 +148,15 @@ $periodicos = [
      'img'=>'images/religare.png',
      'desc'=>'Periódico do PPGCR/UFPB que publica artigos, resenhas e traduções em Ciências das Religiões e áreas afins.'],
 
-    ['titulo'=>'Revista da ABET',         'subtitulo'=>'Associação Brasileira de Estudo do Trabalho',
+    ['titulo'=>'Revista da ABET',         'subtitulo'=>'Estudos do Trabalho',
      'caminho'=>'abet',        'qualis'=>'B2', 'issn'=>'1679-2483',
      'img'=>'images/abet.png',
-     'desc'=>'Lançada em 2001, reúne pesquisas interdisciplinares sobre o mundo do trabalho — Economia, Sociologia, Direito, História, Saúde e outras áreas — em publicação semestral.'],
+     'desc'=>'A Revista da Associação Brasileira de Estudos do Trabalho foi lançada em 2001, reúne pesquisas interdisciplinares sobre o mundo do trabalho — Economia, Sociologia, Direito, História, Saúde e outras áreas.'],
 
     ['titulo'=>'RICRI',                   'subtitulo'=>'Relações Internacionais',
      'caminho'=>'ricri',       'qualis'=>'B2', 'issn'=>'2318-9452',
      'img'=>'images/ricri.jpg',
-     'desc'=>'Iniciação científica em Relações Internacionais — incentiva jovens pesquisadores no debate global e diplomático.'],
+     'desc'=>'Revista da Iniciação científica em Relações Internacionais — incentiva jovens pesquisadores no debate global e diplomático.'],
 
     // B3
     ['titulo'=>'Cadernos do LOGEPA',      'subtitulo'=>'LOGEPA/GENAT – UFPB',
@@ -167,12 +167,12 @@ $periodicos = [
     ['titulo'=>'CAOS',                    'subtitulo'=>'Ciências Sociais',
      'caminho'=>'caos',        'qualis'=>'B3', 'issn'=>'1517-6916',
      'img'=>'images/caos.png',
-     'desc'=>'Revista eletrônica de Ciências Sociais que explora temas de Sociologia, Política e Cultura com olhar crítico.'],
+     'desc'=>'A Revista Eletrônica de Ciências Sociais é um espaço de diálogo e reflexão nas áreas de Antropologia, Ciência Política e Sociologia, reunindo pesquisas, ensaios e debates sobre questões contemporâneas da sociedade.'],
 
     ['titulo'=>'DLCV',                    'subtitulo'=>'Língua, Linguística &amp; Literatura',
      'caminho'=>'dclv',        'qualis'=>'B3', 'issn'=>'2237-0900',
      'img'=>'images/dlcv.png',
-     'desc'=>'Divulga estudos em Linguística, Literaturas e Letras Clássicas, garantindo diversidade temática e liberdade teórica.'],
+     'desc'=>'Um espaço para a divulgação e o debate de pesquisas sobre linguagem, literatura e culturas. Publica estudos, ensaios, traduções e resenhas que ampliam as reflexões sobre os múltiplos aspectos das línguas e das práticas literárias.'],
 
     ['titulo'=>'Gaia Scientia',           'subtitulo'=>'PRODEMA – UFPB',
      'caminho'=>'gaia',        'qualis'=>'B3', 'issn'=>'1981-1268',
@@ -202,32 +202,32 @@ $periodicos = [
 
     ['titulo'=>'Letras et Ideias',        'subtitulo'=>'PPGL/CCHLA – UFPB',
      'caminho'=>'letraseideias','qualis'=>'B4', 'issn'=>'2595-7295',
-     'img'=>'https://periodicos.ufpb.br/public/journals/94/pageHeaderLogoImage_pt_BR.png',
+     'img'=>'images/letraseideias.jpg',
      'desc'=>'Revista eletrônica de acesso livre do PPGL/CCHLA/UFPB, publica trabalhos inéditos em Letras, Linguística, Literatura e áreas afins.'],
 
-    ['titulo'=>'Prosppectus',             'subtitulo'=>'Perspectivas Qualitativas em Contabilidade e Organizações',
+    ['titulo'=>'Prosppectus',             'subtitulo'=>'Metodologias Qualitativas',
      'caminho'=>'prosp',       'qualis'=>'B4', 'issn'=>'2763-9606',
      'img'=>'images/prospectus.jpg',
      'desc'=>'Primeiro periódico nacional dedicado a metodologias qualitativas em Contabilidade — vinculado ao DFC/UFPB, com publicação semestral de artigos teórico-empíricos e ensaios teóricos.'],
 
     ['titulo'=>'Revista Abordagens',      'subtitulo'=>'PPGS – UFPB',
      'caminho'=>'rappgs',      'qualis'=>'B4', 'issn'=>'2674-824X',
-     'img'=>'https://periodicos.ufpb.br/public/journals/113/homepageImage_pt_BR.jpg',
+     'img'=>'images/rappgs.jpg',
      'desc'=>'Publicação semestral do corpo discente do PPGS/UFPB, com linha editorial plural voltada ao campo sociológico e áreas afins.'],
 
-    ['titulo'=>'Rev. Científica de Produção Animal', 'subtitulo'=>'Sociedade Nordestina de Produção Animal – CCA/UFPB',
+    ['titulo'=>'Revista Científica de Produção Animal', 'subtitulo'=>'Produção Animal',
      'caminho'=>'rcpa',        'qualis'=>'B4', 'issn'=>'2176-4158',
      'img'=>'images/rcpa.jpg',
-     'desc'=>'Órgão oficial da Sociedade Nordestina de Produção Animal desde 1999, publica semestralmente trabalhos inéditos em Zootecnia — Nutrição Animal, Forragicultura, Genômica, Reprodução e Sistemas de Produção.'],
+     'desc'=>'Vinculado ao CCA/UFPB e a Sociedade Nordestina de Produção Animal desde 1999, publica trabalhos inéditos em Zootecnia — Nutrição Animal, Forragicultura, Genômica, Reprodução e Sistemas de Produção.'],
 
     ['titulo'=>'LiteralMENTE',            'subtitulo'=>'LIGEPSI – UFPB',
      'caminho'=>'rl',          'qualis'=>'B4', 'issn'=>'2764-4251',
-     'img'=>'images/literalmente.jpeg',
+     'img'=>'images/rl.jpg',
      'desc'=>'Periódico semestral do LIGEPSI/UFPB dedicado aos estudos literários e suas interfaces com a Psicanálise — publica artigos, ensaios, resenhas e relatos em fluxo contínuo.'],
 
     ['titulo'=>'Ratio Iuris',             'subtitulo'=>'CCJ – UFPB',
      'caminho'=>'rri',         'qualis'=>'B4', 'issn'=>'2358-4351',
-     'img'=>'https://periodicos.ufpb.br/public/journals/123/pageHeaderLogoImage_pt_BR.png',
+     'img'=>'images/rri.jpg',
      'desc'=>'Periódico semestral do CCJ/UFPB voltado a incentivar a produção científica na graduação e divulgar a produção intelectual em Direito.'],
 
     ['titulo'=>'Sanhauá',                 'subtitulo'=>'Revista de Extensão da UFPB',
@@ -241,14 +241,14 @@ $periodicos = [
      'img'=>'images/cei.jpg',
      'desc'=>'Periódico do Departamento de Informática/UFPB que divulga relatos científicos em Ciência da Computação e suas interfaces com Saúde, Educação, Engenharias e outras áreas.'],
 
-    ['titulo'=>'DHT',                     'subtitulo'=>'Direitos Humanos e Transdisciplinaridade',
+    ['titulo'=>'DHT',                     'subtitulo'=>'Direitos Humanos',
      'caminho'=>'dht',         'qualis'=>'C',  'issn'=>'2965-4432',
      'img'=>'images/dht.jpg',
-     'desc'=>'Aborda Direitos Humanos sob perspectiva transdisciplinar, integrando Direito, Filosofia e Ciências Sociais.'],
+     'desc'=>'A Revista Direitos Humanos e Transdisciplinaridade aborda os direitos humanos sob perspectiva transdisciplinar, integrando Direito, Filosofia e Ciências Sociais.'],
 
-    ['titulo'=>'Caderno de Docências',    'subtitulo'=>'UFPB',
+    ['titulo'=>'Caderno de Docências',    'subtitulo'=>'Educação e Ensino',
      'caminho'=>'cad',         'qualis'=>'C',  'issn'=>'2764-7153',
-     'img'=>'https://periodicos.ufpb.br/public/site/images/frankaic/caderno-de-docencias.png',
+     'img'=>'images/cad.jpg',
      'desc'=>'Periódico de acesso aberto da UFPB dedicado a pesquisas, ensaios e experiências sobre práticas docentes e processos educativos em suas dimensões pedagógicas, éticas e políticas.'],
 
     ['titulo'=>'RevICO',                  'subtitulo'=>'Iniciação Científica em Odontologia',
@@ -272,22 +272,22 @@ $periodicos = [
      'img'=>'images/breti.jpg',
      'desc'=>'Publicação trimestral especializada em Estudos da Tradução e Imagem, com ênfase na obra de Walter Benjamin e interfaces com Literatura, Semiótica e História da Arte.'],
 
-    ['titulo'=>'Fala Tu!',               'subtitulo'=>'Publicação Discente de Pedagogia UFPB',
+    ['titulo'=>'Fala Tu!',               'subtitulo'=>'Pedagogia UFPB',
      'caminho'=>'ftu',         'qualis'=>'NC', 'issn'=>'3086-111X',
-     'img'=>'https://periodicos.ufpb.br/public/journals/141/pageHeaderLogoImage_pt_BR.png',
+     'img'=>'images/ftu.jpg',
      'desc'=>'Periódico semestral que socializa a produção acadêmica e literária de graduandos em Pedagogia/CE/UFPB, com espaço plural para diferentes vozes e formas de linguagem.'],
 
-    ['titulo'=>'Discurso &amp; Imagem Visual em Educação', 'subtitulo'=>'RDIVE – GEPDIVE/UFPB',
+    ['titulo'=>'Revista Discurso &amp; Imagem Visual em Educação', 'subtitulo'=>'RDIVE – GEPDIVE/UFPB',
      'caminho'=>'rdive',       'qualis'=>'NC', 'issn'=>'2526-0839',
      'img'=>'images/rdive.jpg',
      'desc'=>'Publica pesquisas sobre nexos pedagógicos entre discurso, imagem visual e educação, a partir das artes, filosofia, letras e ciências humanas.'],
 
-    ['titulo'=>'Revista Lugares de Educação', 'subtitulo'=>'Departamento de Educação CCHSA/UFPB',
+    ['titulo'=>'Revista Lugares de Educação', 'subtitulo'=>'Educação - CCHSA/UFPB',
      'caminho'=>'rle',         'qualis'=>'NC', 'issn'=>'2237-1451',
      'img'=>'images/rle.jpg',
      'desc'=>'Publicação anual do Departamento de Educação do CCHSA/UFPB, em fluxo contínuo, voltada para estudos e pesquisas em Educação.'],
 
-    ['titulo'=>'Textos NDIHR',           'subtitulo'=>'Núcleo de Documentação e Informação Histórica Regional',
+    ['titulo'=>'Textos NDIHR',           'subtitulo'=>'Memória e História',
      'caminho'=>'ndihr',       'qualis'=>'NC', 'issn'=>'',
      'img'=>'images/ndihr.jpg',
      'desc'=>'Publicação semestral do NDIHR/UFPB, criada em 1985, dedicada à divulgação de estudos e pesquisas nas Humanidades produzidos por professores, alunos e técnicos.'],
