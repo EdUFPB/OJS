@@ -76,7 +76,7 @@ $periodicos = [
      'img'=>'images/prolingua.png',
      'desc'=>'Espaço consolidado de divulgação de pesquisas teóricas e aplicadas em Linguística, promovendo o debate entre pesquisadores nacionais e internacionais.'],
 
-    ['titulo'=>'RPPI',                     'subtitulo'=>'Políticas Públicas e Internacionais',
+    ['titulo'=>'Revista Brasileira de Políticas Públicas e Internacionais',                     'subtitulo'=>'RPPI',
      'caminho'=>'rppi',        'qualis'=>'A4', 'issn'=>'2525-5584',
      'img'=>'images/rppi.png',
      'desc'=>'A Revista Brasileira de Políticas Públicas e Internacionais aborda Gestão Pública e Políticas Públicas nos planos doméstico e internacional.'],
@@ -112,7 +112,7 @@ $periodicos = [
      'img'=>'images/culturas-midiaticas.png',
      'desc'=>'Lançada em 2008, publica pesquisas em Comunicação e suas interfaces com culturas audiovisuais, midiatização do cotidiano e do imaginário — incentivando a transdisciplinaridade.'],
 
-    ['titulo'=>'JUEE',                     'subtitulo'=>'Urban &amp; Environmental Engineering',
+    ['titulo'=>'Journal Urban &amp; Environmental Engineering',                     'subtitulo'=>'JUEE',
      'caminho'=>'juee',        'qualis'=>'B1', 'issn'=>'1982-3932',
      'img'=>'images/juee1.png',
      'desc'=>'Focada nos desafios das cidades e do meio ambiente, publica pesquisas sobre recursos hídricos, saneamento, transporte, planejamento urbano e sustentabilidade ambiental.'],
@@ -122,7 +122,7 @@ $periodicos = [
      'img'=>'images/lv.jpg',
      'desc'=>'Periódico do DLEM/UFPB publicado desde 1999, com edição semestral em fluxo contínuo nas áreas de Literatura, Linguística, Tradução, Ensino de Línguas e Formação de Professores.'],
 
-    ['titulo'=>'PG&amp;C',               'subtitulo'=>'Perspectivas  em Gestão &amp; Conhecimento',
+    ['titulo'=>'Perspectivas em Gestão & Conhecimento',               'subtitulo'=>'PG&amp;C',
      'caminho'=>'pgc',         'qualis'=>'B1', 'issn'=>'2236-417X',
      'img'=>'images/pgec.png',
      'desc'=>'A Revista Perspectivas em Gestão e Conhecimento é iniciativa da UFPB em cooperação com o IBICT, publica pesquisas interdisciplinares em gestão do conhecimento, gestão da informação e estudos organizacionais.'],
@@ -153,7 +153,7 @@ $periodicos = [
      'img'=>'images/abet.png',
      'desc'=>'A Revista da Associação Brasileira de Estudos do Trabalho foi lançada em 2001, reúne pesquisas interdisciplinares sobre o mundo do trabalho — Economia, Sociologia, Direito, História, Saúde e outras áreas.'],
 
-    ['titulo'=>'RICRI',                   'subtitulo'=>'Relações Internacionais',
+    ['titulo'=>'Revista da Iniciação Científica em Relações Internacionais',                   'subtitulo'=>'RICRI',
      'caminho'=>'ricri',       'qualis'=>'B2', 'issn'=>'2318-9452',
      'img'=>'images/ricri.jpg',
      'desc'=>'Revista da Iniciação científica em Relações Internacionais — incentiva jovens pesquisadores no debate global e diplomático.'],
@@ -179,7 +179,7 @@ $periodicos = [
      'img'=>'images/gaia.png',
      'desc'=>'Lançada em 2007 pelo PRODEMA/UFPB, publica artigos originais em Ciências Ambientais e suas interfaces com Ecologia, Etnobiologia, Geografia Ambiental, Saúde e Engenharia Ambiental.'],
 
-    ['titulo'=>'RBCS',                    'subtitulo'=>'Ciências da Saúde',
+    ['titulo'=>'Revista Brasileira de Ciências da Saúde',                    'subtitulo'=>'RBCS',
      'caminho'=>'rbcs',        'qualis'=>'B3', 'issn'=>'2317-6032',
      'img'=>'images/rbcs.png',
      'desc'=>'Produção acadêmica em Ciências da Saúde com foco na realidade brasileira e na qualidade da assistência.'],
@@ -190,7 +190,7 @@ $periodicos = [
      'desc'=>'Publicada pelo PPGL/UFPB desde 1995, divulga artigos inéditos de pesquisadores brasileiros e estrangeiros nas áreas de Literatura, Cultura, Teoria Literária e Tradução, com periodicidade quadrimestral.'],
 
     // B4
-    ['titulo'=>'Agropecuária Técnica',    'subtitulo'=>'CCA – UFPB',
+    ['titulo'=>'Revista Agropecuária Técnica',    'subtitulo'=>'AGROTEC',
      'caminho'=>'at',          'qualis'=>'B4', 'issn'=>'2525-8990',
      'img'=>'images/at.jpg',
      'desc'=>'Editada pelo CCA/UFPB em fluxo contínuo, publica artigos originais nas Ciências Agrárias — Agronomia, Medicina Veterinária, Zootecnia, Ciências Florestais, Engenharia Agrícola e áreas afins.'],
@@ -241,7 +241,7 @@ $periodicos = [
      'img'=>'images/cei.jpg',
      'desc'=>'Periódico do Departamento de Informática/UFPB que divulga relatos científicos em Ciência da Computação e suas interfaces com Saúde, Educação, Engenharias e outras áreas.'],
 
-    ['titulo'=>'DHT',                     'subtitulo'=>'Direitos Humanos',
+    ['titulo'=>'Direitos Humanos e Transdisciplinaridade',                     'subtitulo'=>'DHT',
      'caminho'=>'dht',         'qualis'=>'C',  'issn'=>'2965-4432',
      'img'=>'images/dht.jpg',
      'desc'=>'A Revista Direitos Humanos e Transdisciplinaridade aborda os direitos humanos sob perspectiva transdisciplinar, integrando Direito, Filosofia e Ciências Sociais.'],
@@ -251,7 +251,7 @@ $periodicos = [
      'img'=>'images/cad.jpg',
      'desc'=>'Periódico de acesso aberto da UFPB dedicado a pesquisas, ensaios e experiências sobre práticas docentes e processos educativos em suas dimensões pedagógicas, éticas e políticas.'],
 
-    ['titulo'=>'RevICO',                  'subtitulo'=>'Iniciação Científica em Odontologia',
+    ['titulo'=>'Revista de Iniciação Científica em Odontologia',                  'subtitulo'=>'RevICO',
      'caminho'=>'revico',      'qualis'=>'C',  'issn'=>'1677-3527',
      'img'=>'images/revico.png',
      'desc'=>'Incentiva a pesquisa científica em Odontologia, dando voz à produção de graduandos e pós-graduandos.'],
@@ -261,7 +261,7 @@ $periodicos = [
      'img'=>'images/rics.jpg',
      'desc'=>'Periódico semestral do grupo MINNI Mundo/UFPB dedicado a mediações interculturais, diplomacia, relações internacionais e processos de negociação em contextos globais.'],
 
-    ['titulo'=>'Medicina &amp; Pesquisa', 'subtitulo'=>'Editora UFPB',
+    ['titulo'=>'Revista Medicina &amp; Pesquisa', 'subtitulo'=>'Ciências da Saúde',
      'caminho'=>'rmp',         'qualis'=>'C',  'issn'=>'2525-5851',
      'img'=>'images/rmp.jpg',
      'desc'=>'Periódico interdisciplinar em Ciências da Saúde da UFPB — publica estudos originais, revisões e produções acadêmicas sobre cuidado, prática clínica, educação e sistemas de saúde.'],
@@ -512,12 +512,12 @@ $totalRevistas = count($periodicos);
         <p>Acesse as revistas científicas ativas publicadas e apoiadas pelo Portal de Periódicos da UFPB.</p>
 
         <div role="search" class="search-bar-wrap">
-            <label for="buscaInput" class="sr-only">Pesquisar periódico por título ou ISSN</label>
+            <label for="buscaInput" class="sr-only">Pesquisar periódico por título, subtítulo ou ISSN</label>
             <input type="search" id="buscaInput"
-                   placeholder="Pesquise por título ou ISSN…"
+                   placeholder="Pesquise por título, subtítulo ou ISSN…"
                    oninput="filtrar()"
                    autocomplete="off"
-                   aria-label="Pesquisar periódico por título ou ISSN">
+                   aria-label="Pesquisar periódico por título, subtítulo ou ISSN">
             <span class="search-icon" aria-hidden="true">🔍</span>
         </div>
 
@@ -554,12 +554,14 @@ $totalRevistas = count($periodicos);
 <?php foreach($periodicos as $p):
     $c      = qualisCor($p['qualis']);
     $tPlain = html_entity_decode(strip_tags($p['titulo']), ENT_QUOTES, 'UTF-8');
+    $sPlain = html_entity_decode(strip_tags($p['subtitulo'] ?? ''), ENT_QUOTES, 'UTF-8');
     $letra  = mb_strtoupper(mb_substr($tPlain, 0, 1, 'UTF-8'), 'UTF-8');
     $hasImg = !empty($p['img']);
 ?>
 <article class="per-card"
      style="--qcor:<?=$c['bg']?>;"
      data-titulo="<?=htmlspecialchars(mb_strtolower($tPlain,'UTF-8'))?>"
+     data-subtitulo="<?=htmlspecialchars(mb_strtolower($sPlain,'UTF-8'))?>"
      data-issn="<?=$p['issn']?>"
      data-qualis="<?=$p['qualis']?>">
 
@@ -636,13 +638,25 @@ function removerAcentos(s){ return s.normalize('NFD').replace(/[̀-ͯ]/g,'').toL
 var qualisAtivo = 'todos';
 
 function filtrar(){
-    var q = removerAcentos(document.getElementById('buscaInput').value.trim());
+    var qRaw = document.getElementById('buscaInput').value.trim();
+    var q = removerAcentos(qRaw);
+    var termos = q.split(/\s+/).filter(Boolean);
+    var issnTerm = q.replace(/-/g,'');
     var total = 0;
+
     document.querySelectorAll('.per-card').forEach(function(card){
-        var titulo = removerAcentos(card.dataset.titulo||'');
-        var issn   = (card.dataset.issn||'').replace(/-/g,'');
-        var qTerm  = q.replace(/-/g,'');
-        var matchBusca  = !q || titulo.indexOf(q)>=0 || issn.indexOf(qTerm)>=0;
+        var titulo    = removerAcentos(card.dataset.titulo||'');
+        var subtitulo = removerAcentos(card.dataset.subtitulo||'');
+        var texto     = (titulo + ' ' + subtitulo).trim();
+        var issn      = (card.dataset.issn||'').replace(/-/g,'');
+
+        // ISSN: compara dígitos, ignorando hífen
+        var matchIssn = issnTerm.length>0 && issn.indexOf(issnTerm)>=0;
+
+        // Título/Subtítulo: cada termo digitado deve aparecer em algum lugar do texto
+        var matchTexto = termos.length>0 && termos.every(function(t){ return texto.indexOf(t)>=0; });
+
+        var matchBusca  = !q || matchTexto || matchIssn;
         var matchQualis = qualisAtivo==='todos' || card.dataset.qualis===qualisAtivo;
         var show = matchBusca && matchQualis;
         card.classList.toggle('oculto', !show);
