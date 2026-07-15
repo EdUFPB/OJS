@@ -418,6 +418,12 @@
                     Integridade Acadêmica
                 </a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" id="recursos-tab" data-toggle="tab" href="#recursos" role="tab"
+                   aria-controls="recursos" aria-selected="false">
+                    Manuais, Guias e Tutoriais
+                </a>
+            </li>
         </ul>
     </div>
 </div>
@@ -516,12 +522,7 @@
                                     <li><strong>Palavras-chave:</strong> 3 a 6 termos de vocabulário controlado.</li>
                                     <li><strong>Não use CAPS LOCK</strong> em nenhum campo.</li>
                                 </ul>
-                                <div style="margin-top:16px;">
-                                    <a href="Manual_Metadados_OJS.pdf" download
-                                       style="display:inline-flex; align-items:center; gap:8px; background:#E8682A; color:#fff; border-radius:7px; padding:9px 20px; font-size:0.88rem; font-weight:600; text-decoration:none;">
-                                        ⬇️ Baixar Manual de Metadados (PDF)
-                                    </a>
-                                </div>
+                                <p style="margin-top:16px;">📄 O manual completo está disponível na aba <a href="#recursos" data-toggle="tab"><strong>Manuais, Guias e Tutoriais</strong></a>.</p>
                             </div>
                         </div>
                     </div>
@@ -536,20 +537,8 @@
                         </div>
                         <div id="cA4" class="collapse" aria-labelledby="hA4" data-parent="#accordionAutores">
                             <div class="card-body">
-                                <div class="row align-items-center">
-                                    <div class="col-md-9">
-                                        <p>O <strong>Guia de Aprendizado do OJS 3.3</strong> é o manual oficial do Public Knowledge Project (PKP), traduzido para o português. Cobre todas as etapas do fluxo editorial: submissão, avaliação, edição, produção e publicação.</p>
-                                        <a class="btn btn-sm mt-2" href="https://docs.pkp.sfu.ca/learning-ojs/3.3/pt/" target="_blank"
-                                           style="background:#E8682A; color:#fff; border-radius:6px; padding:8px 20px; font-weight:600; text-decoration:none;">
-                                            Acessar Guia OJS 3.3
-                                        </a>
-                                        &nbsp;
-                                        <a class="btn btn-sm mt-2" href="https://drive.google.com/file/d/1EsTxRoMKsa7LoZ9aZPmGF2QLOZIyHSy9/view?usp=sharing" target="_blank"
-                                           style="background:#3a3a3a; color:#fff; border-radius:6px; padding:8px 20px; font-weight:600; text-decoration:none;">
-                                            Manual OJS 3 (IBICT/PDF)
-                                        </a>
-                                    </div>
-                                </div>
+                                <p>O <strong>Guia de Aprendizado do OJS 3.3</strong> é o manual oficial do Public Knowledge Project (PKP), traduzido para o português. Cobre todas as etapas do fluxo editorial: submissão, avaliação, edição, produção e publicação.</p>
+                                <p>📘 O guia e o manual complementar da IBICT estão disponíveis na aba <a href="#recursos" data-toggle="tab"><strong>Manuais, Guias e Tutoriais</strong></a>.</p>
                             </div>
                         </div>
                     </div>
@@ -672,52 +661,8 @@
                         </div>
                         <div id="cE2" class="collapse" aria-labelledby="hE2" data-parent="#accordionEditores">
                             <div class="card-body">
-                                <div class="row">
-                                    <div class="col-md-6 mb-3">
-                                        <div class="info-card">
-                                            <div class="ic-icon">📘</div>
-                                            <h4>Guia OJS 3.3 — Documentação Oficial</h4>
-                                            <p>Manual completo do Public Knowledge Project (PKP) em português. Cobre configuração, fluxo editorial, avaliação por pares e publicação.</p>
-                                            <a href="https://docs.pkp.sfu.ca/learning-ojs/3.3/pt/" target="_blank"
-                                               style="display:inline-block; margin-top:12px; background:#E8682A; color:#fff; border-radius:6px; padding:7px 18px; font-size:0.88rem; font-weight:600; text-decoration:none;">
-                                                Acessar guia
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <div class="info-card">
-                                            <div class="ic-icon">📄</div>
-                                            <h4>Manual OJS 3 — IBICT</h4>
-                                            <p>Adaptação do manual oficial para o contexto das universidades brasileiras, desenvolvido pelo IBICT com foco na língua portuguesa.</p>
-                                            <a href="https://drive.google.com/file/d/1EsTxRoMKsa7LoZ9aZPmGF2QLOZIyHSy9/view?usp=sharing" target="_blank"
-                                               style="display:inline-block; margin-top:12px; background:#3a3a3a; color:#fff; border-radius:6px; padding:7px 18px; font-size:0.88rem; font-weight:600; text-decoration:none;">
-                                                Baixar PDF
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <div class="info-card">
-                                            <div class="ic-icon">📚</div>
-                                            <h4>Manual de Procedimentos para Submissão ao DOAJ</h4>
-                                            <p>Passo a passo para indexação da revista no Directory of Open Access Journals (DOAJ), incluindo requisitos de elegibilidade e preenchimento do formulário de aplicação.</p>
-                                            <a href="Manual_DOAJ.pdf" download
-                                               style="display:inline-block; margin-top:12px; background:#E8682A; color:#fff; border-radius:6px; padding:7px 18px; font-size:0.88rem; font-weight:600; text-decoration:none;">
-                                                Baixar PDF
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <div class="info-card">
-                                            <div class="ic-icon">🎓</div>
-                                            <h4>Guia de Cadastro no Google Scholar</h4>
-                                            <p>Orientações para cadastrar a revista no Google Scholar e configurar o perfil da publicação para acompanhamento do índice de citações.</p>
-                                            <a href="Guia_Cadastro_Google_Scholar.pdf" download
-                                               style="display:inline-block; margin-top:12px; background:#3a3a3a; color:#fff; border-radius:6px; padding:7px 18px; font-size:0.88rem; font-weight:600; text-decoration:none;">
-                                                Baixar PDF
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
+                                <p>O Portal disponibiliza guias oficiais do OJS (PKP e IBICT), manual de submissão ao DOAJ e guia de cadastro no Google Scholar.</p>
+                                <p>📚 Acesse todos esses materiais na aba <a href="#recursos" data-toggle="tab"><strong>Manuais, Guias e Tutoriais</strong></a>.</p>
                             </div>
                         </div>
                     </div>
@@ -730,18 +675,7 @@
         <section class="ajuda-section gray">
             <div class="container">
                 <p class="section-title">Manual de Metadados OJS</p>
-                <p class="section-subtitle">Boas práticas para o preenchimento correto dos metadados no sistema.</p>
-                <div style="background:#fff; border-radius:14px; padding:28px 32px; margin-bottom:36px; box-shadow:0 4px 18px rgba(0,0,0,0.08); display:flex; align-items:center; gap:28px; flex-wrap:wrap; border-left:5px solid #E8682A;">
-                    <div style="font-size:3rem; line-height:1;">📄</div>
-                    <div style="flex:1; min-width:200px;">
-                        <div style="font-size:1.05rem; font-weight:700; color:#3a3a3a; margin-bottom:4px;">Manual de Preenchimento de Metadados OJS</div>
-                        <div style="font-size:0.9rem; color:#666; line-height:1.6;">Guia completo com boas práticas para o preenchimento correto de títulos, autores, afiliações, resumos e palavras-chave no sistema OJS.</div>
-                    </div>
-                    <a href="Manual_Metadados_OJS.pdf" download
-                       style="flex-shrink:0; display:inline-flex; align-items:center; gap:8px; background:#E8682A; color:#fff; border-radius:8px; padding:12px 24px; font-size:0.93rem; font-weight:600; text-decoration:none; white-space:nowrap;">
-                        ⬇️ Baixar PDF
-                    </a>
-                </div>
+                <p class="section-subtitle">Boas práticas para o preenchimento correto dos metadados no sistema. O manual completo em PDF está disponível na aba <a href="#recursos" data-toggle="tab" style="color:#E8682A; font-weight:600;">Manuais, Guias e Tutoriais</a>.</p>
 
                 <div class="row">
                     <div class="col-md-6">
@@ -1031,13 +965,7 @@
                         <div id="cI6" class="collapse" aria-labelledby="hI6" data-parent="#accordionIntegridade">
                             <div class="card-body">
                                 <p>A Política de Integridade Acadêmica e Científica da UFPB está regulamentada pela <strong>Resolução Consepe nº&nbsp;57/2025</strong>, aprovada em 17 de setembro de 2025.</p>
-                                <div style="margin-top:16px;">
-                                    <a href="https://sig-arq.ufpb.br/arquivos/2025189036a9a38041387d66209cac73d/Resoluo_Consepe_n_57.2025.pdf"
-                                       target="_blank" rel="noopener"
-                                       style="display:inline-flex; align-items:center; gap:8px; background:#E8682A; color:#fff; border-radius:7px; padding:9px 20px; font-size:0.88rem; font-weight:600; text-decoration:none;">
-                                        📄 Acessar Resolução Consepe nº 57/2025 (PDF)
-                                    </a>
-                                </div>
+                                <p style="margin-top:16px;">📄 O documento completo está disponível na aba <a href="#recursos" data-toggle="tab"><strong>Manuais, Guias e Tutoriais</strong></a>.</p>
                             </div>
                         </div>
                     </div>
@@ -1047,6 +975,95 @@
         </section>
 
     </div><!-- /tab integridade -->
+
+
+    <!-- ===== ABA RECURSOS E DOWNLOADS ===== -->
+    <div class="tab-pane fade" id="recursos" role="tabpanel" aria-labelledby="recursos-tab">
+
+        <section class="ajuda-section">
+            <div class="container">
+                <p class="section-title">Central de Manuais, Guias e Tutoriais</p>
+                <p class="section-subtitle">Todos os manuais, guias e documentos oficiais do Portal reunidos em um só lugar, sem precisar procurar dentro das perguntas frequentes.</p>
+
+                <div class="row">
+
+                    <div class="col-md-4 mb-4">
+                        <div class="info-card">
+                            <div class="ic-icon">📄</div>
+                            <h4>Manual de Metadados OJS</h4>
+                            <p>Boas práticas para preencher corretamente títulos, autores, afiliações, resumos e palavras-chave no sistema OJS.</p>
+                            <a href="Manual_Metadados_OJS.pdf" download
+                               style="display:inline-block; margin-top:12px; background:#E8682A; color:#fff; border-radius:6px; padding:7px 18px; font-size:0.88rem; font-weight:600; text-decoration:none;">
+                                ⬇️ Baixar PDF
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="info-card">
+                            <div class="ic-icon">📚</div>
+                            <h4>Manual de Submissão ao DOAJ</h4>
+                            <p>Passo a passo para indexação da revista no Directory of Open Access Journals (DOAJ).</p>
+                            <a href="Manual_DOAJ.pdf" download
+                               style="display:inline-block; margin-top:12px; background:#3a3a3a; color:#fff; border-radius:6px; padding:7px 18px; font-size:0.88rem; font-weight:600; text-decoration:none;">
+                                ⬇️ Baixar PDF
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="info-card">
+                            <div class="ic-icon">🎓</div>
+                            <h4>Guia de Cadastro no Google Scholar</h4>
+                            <p>Como cadastrar a revista e configurar o perfil para acompanhamento do índice de citações no Google Scholar.</p>
+                            <a href="Guia_Cadastro_Google_Scholar.pdf" download
+                               style="display:inline-block; margin-top:12px; background:#E8682A; color:#fff; border-radius:6px; padding:7px 18px; font-size:0.88rem; font-weight:600; text-decoration:none;">
+                                ⬇️ Baixar PDF
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="info-card">
+                            <div class="ic-icon">📘</div>
+                            <h4>Guia OJS 3.3 — Documentação Oficial</h4>
+                            <p>Manual completo do Public Knowledge Project (PKP) em português: configuração, fluxo editorial, avaliação por pares e publicação.</p>
+                            <a href="https://docs.pkp.sfu.ca/learning-ojs/3.3/pt/" target="_blank"
+                               style="display:inline-block; margin-top:12px; background:#3a3a3a; color:#fff; border-radius:6px; padding:7px 18px; font-size:0.88rem; font-weight:600; text-decoration:none;">
+                                Acessar guia
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="info-card">
+                            <div class="ic-icon">📄</div>
+                            <h4>Manual OJS 3 — IBICT</h4>
+                            <p>Adaptação do manual oficial para o contexto das universidades brasileiras, desenvolvido pelo IBICT com foco na língua portuguesa.</p>
+                            <a href="https://drive.google.com/file/d/1EsTxRoMKsa7LoZ9aZPmGF2QLOZIyHSy9/view?usp=sharing" target="_blank"
+                               style="display:inline-block; margin-top:12px; background:#E8682A; color:#fff; border-radius:6px; padding:7px 18px; font-size:0.88rem; font-weight:600; text-decoration:none;">
+                                Baixar PDF
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="info-card">
+                            <div class="ic-icon">⚖️</div>
+                            <h4>Resolução Consepe nº 57/2025</h4>
+                            <p>Política de Integridade Acadêmica e Científica da UFPB: plágio, uso de inteligência artificial e boas práticas na produção científica.</p>
+                            <a href="https://sig-arq.ufpb.br/arquivos/2025189036a9a38041387d66209cac73d/Resoluo_Consepe_n_57.2025.pdf" target="_blank" rel="noopener"
+                               style="display:inline-block; margin-top:12px; background:#3a3a3a; color:#fff; border-radius:6px; padding:7px 18px; font-size:0.88rem; font-weight:600; text-decoration:none;">
+                                Acessar PDF
+                            </a>
+                        </div>
+                    </div>
+
+                </div><!-- /row -->
+            </div>
+        </section>
+
+    </div><!-- /tab recursos -->
 
 </div><!-- /tab-content -->
 
