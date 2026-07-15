@@ -695,6 +695,28 @@
                                             </a>
                                         </div>
                                     </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="info-card">
+                                            <div class="ic-icon">📚</div>
+                                            <h4>Manual de Procedimentos para Submissão ao DOAJ</h4>
+                                            <p>Passo a passo para indexação da revista no Directory of Open Access Journals (DOAJ), incluindo requisitos de elegibilidade e preenchimento do formulário de aplicação.</p>
+                                            <a href="Manual_DOAJ.pdf" download
+                                               style="display:inline-block; margin-top:12px; background:#E8682A; color:#fff; border-radius:6px; padding:7px 18px; font-size:0.88rem; font-weight:600; text-decoration:none;">
+                                                Baixar PDF
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="info-card">
+                                            <div class="ic-icon">🎓</div>
+                                            <h4>Guia de Cadastro no Google Scholar</h4>
+                                            <p>Orientações para cadastrar a revista no Google Scholar e configurar o perfil da publicação para acompanhamento do índice de citações.</p>
+                                            <a href="Guia_Cadastro_Google_Scholar.pdf" download
+                                               style="display:inline-block; margin-top:12px; background:#3a3a3a; color:#fff; border-radius:6px; padding:7px 18px; font-size:0.88rem; font-weight:600; text-decoration:none;">
+                                                Baixar PDF
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
