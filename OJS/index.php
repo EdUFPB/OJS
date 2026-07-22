@@ -625,12 +625,12 @@ sort($periodicidadesUnicas, SORT_STRING | SORT_FLAG_CASE);
 }
 .search-bar-wrap button {
     display:flex; align-items:center; gap:6px;
-    border:none; background:#6b7280; color:#fff;
+    border:none; background:linear-gradient(135deg, #173f7a 0%, #0d2b52 100%); color:#fff;
     font-weight:700; font-size:.92rem;
     padding:0 26px; cursor:pointer;
-    transition:filter .15s;
+    transition:filter .15s, transform .1s;
 }
-.search-bar-wrap button:hover { filter:brightness(.92); }
+.search-bar-wrap button:hover { filter:brightness(1.15); transform:translateY(-1px); }
 
 /* ── Acessibilidade ── */
 .sr-only {
@@ -672,9 +672,24 @@ sort($periodicidadesUnicas, SORT_STRING | SORT_FLAG_CASE);
 }
 .per-field input[type="text"]:focus, .per-field select:focus { border-color:#E8682A; }
 
-.qualis-check-grid { display:grid; grid-template-columns:1fr 1fr; gap:9px 10px; }
-.qualis-check-item { display:flex; align-items:center; gap:7px; font-size:.86rem; font-weight:700; color:#333; cursor:pointer; }
-.qualis-check-item input { width:15px; height:15px; accent-color:#E8682A; cursor:pointer; }
+.qualis-check-grid { display:grid; grid-template-columns:1fr 1fr; gap:8px 9px; }
+.qualis-check-item {
+    position:relative;
+    display:flex; align-items:center; justify-content:center;
+    gap:6px; font-size:.82rem; font-weight:800; letter-spacing:.02em;
+    padding:7px 8px; border-radius:20px; cursor:pointer;
+    background:#fff; color:var(--qc-bg); border:1.5px solid var(--qc-bg);
+    transition:background .15s, color .15s, transform .1s;
+    user-select:none;
+}
+.qualis-check-item:hover { transform:translateY(-1px); }
+.qualis-check-item input {
+    position:absolute; opacity:0; width:100%; height:100%; margin:0; cursor:pointer;
+}
+.qualis-check-item.is-active {
+    background:var(--qc-bg); color:var(--qc-txt); border-color:var(--qc-bg);
+}
+.qualis-check-item:has(input:focus-visible) { outline:3px solid #E8682A; outline-offset:2px; }
 
 /* ── Barra superior (contagem + ordenar) ── */
 .per-topbar { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px; margin-bottom:18px; }
@@ -758,7 +773,7 @@ sort($periodicidadesUnicas, SORT_STRING | SORT_FLAG_CASE);
     text-decoration:none; transition:filter .15s, transform .1s, background .15s;
 }
 .per-card .card-actions a:hover { transform:translateY(-1px); text-decoration:none; }
-.per-card .card-actions a:focus-visible { outline:3px solid #E8682A; outline-offset:2px; }
+.per-card .card-actions a:focus-visible { outline:3px solid #020202; outline-offset:2px; }
 .btn-acesso { background:#E8682A; color:#fff !important; }
 .btn-acesso:hover { filter:brightness(.9); }
 .btn-edicao { background:#fff; color:#173f7a !important; border:1.5px solid #173f7a; }
@@ -792,7 +807,7 @@ sort($periodicidadesUnicas, SORT_STRING | SORT_FLAG_CASE);
 <!-- Hero -->
 <section id="per-hero">
     <div class="container hero-content">
-        <p>Busque e filtre entre <?=$totalRevistas?> periódicos em acesso aberto.</p>
+        <p>Explore nossos periódicos científicos em acesso aberto e encontre o ideal para publicar sua pesquisa.</p>
 
         <div role="search" class="search-bar-wrap">
             <label for="buscaHero" class="sr-only">Pesquisar periódico por nome, área ou ISSN</label>
@@ -826,7 +841,7 @@ sort($periodicidadesUnicas, SORT_STRING | SORT_FLAG_CASE);
         </div>
 
         <div class="per-field">
-            <label for="filtroSituacao">Situação</label>
+            <label for="filtroSituacao">Periódicos</label>
             <select id="filtroSituacao" onchange="filtrarTudo()">
                 <option value="todos">Todos</option>
                 <?php foreach($situacoesUnicas as $s): ?>
@@ -848,9 +863,10 @@ sort($periodicidadesUnicas, SORT_STRING | SORT_FLAG_CASE);
         <div class="per-field">
             <label>Qualis CAPES</label>
             <div class="qualis-check-grid">
-                <?php foreach($niveis as $n): ?>
-                <label class="qualis-check-item">
-                    <input type="checkbox" class="qualis-check" value="<?=$n?>" onchange="filtrarTudo()">
+                <?php foreach($niveis as $n): $qc = qualisCor($n); ?>
+                <label class="qualis-check-item" style="--qc-bg:<?=$qc['bg']?>; --qc-txt:<?=$qc['txt']?>;">
+                    <input type="checkbox" class="qualis-check" value="<?=$n?>"
+                           onchange="this.closest('.qualis-check-item').classList.toggle('is-active', this.checked); filtrarTudo()">
                     <?=$n?>
                 </label>
                 <?php endforeach; ?>
@@ -1027,7 +1043,10 @@ function limparFiltros(){
     document.getElementById('filtroSituacao').value = 'todos';
     document.getElementById('filtroArea').value = 'todas';
     document.getElementById('filtroPeriodicidade').value = 'todas';
-    document.querySelectorAll('.qualis-check').forEach(function(cb){ cb.checked = false; });
+    document.querySelectorAll('.qualis-check').forEach(function(cb){
+        cb.checked = false;
+        cb.closest('.qualis-check-item').classList.remove('is-active');
+    });
     document.getElementById('ordenarSelect').value = 'az';
     ordenar();
     filtrarTudo();
