@@ -673,7 +673,7 @@ sort($periodicidadesUnicas, SORT_STRING | SORT_FLAG_CASE);
 .per-field input[type="text"]:focus, .per-field select:focus { border-color:#E8682A; }
 
 .qualis-check-grid { display:grid; grid-template-columns:1fr 1fr; gap:8px 9px; }
-.qualis-check-item {
+.per-field .qualis-check-item {
     position:relative;
     display:flex; align-items:center; justify-content:center;
     gap:6px; font-size:.82rem; font-weight:800; letter-spacing:.02em;

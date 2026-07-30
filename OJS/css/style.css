@@ -38,7 +38,7 @@
 
 	body, input, select, textarea {
 		color: rgb(68, 68, 68) !important;
-		font-family: "Raleway", Helvetica, sans-serif !important;
+		font-family: font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 		font-size: 13pt !important;
 		font-weight: 400 !important;
 		line-height: 1.65em !important;
