@@ -998,7 +998,17 @@
                             </a>
                         </div>
                     </div>
-
+<div class="col-md-4 mb-4">
+    <div class="info-card">
+        <div class="ic-icon">🖋️</div>
+        <h4>Manual do Editor</h4>
+        <p>Numeração de volumes, fascículos e suplementos, cadastro e configuração do periódico no OJS (incluindo dados em inglês e DOI) e preenchimento correto dos metadados, conforme a ABNT NBR 6021:2015.</p>
+        <a href="Manual_do_Editor.pdf" download
+           style="display:inline-block; margin-top:12px; background:#3a3a3a; color:#fff; border-radius:6px; padding:7px 18px; font-size:0.88rem; font-weight:600; text-decoration:none;">
+            ⬇️ Baixar PDF
+        </a>
+    </div>
+</div>
                     <div class="col-md-4 mb-4">
                         <div class="info-card">
                             <div class="ic-icon">📚</div>
