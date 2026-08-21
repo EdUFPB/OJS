@@ -1004,7 +1004,7 @@
         <h4>Manual do Editor</h4>
         <p>Numeração de volumes, fascículos e suplementos, cadastro e configuração do periódico no OJS (incluindo dados em inglês e DOI) e preenchimento correto dos metadados, conforme a ABNT NBR 6021:2015.</p>
         <a href="Manual_do_Editor.pdf" download
-           style="display:inline-block; margin-top:12px; background:#3a3a3a; color:#fff; border-radius:6px; padding:7px 18px; font-size:0.88rem; font-weight:600; text-decoration:none;">
+           style="display:inline-block; margin-top:12px; background:#E8682A; color:#fff; border-radius:6px; padding:7px 18px; font-size:0.88rem; font-weight:600; text-decoration:none;">
             ⬇️ Baixar PDF
         </a>
     </div>
@@ -1015,7 +1015,7 @@
                             <h4>Manual de Submissão ao DOAJ</h4>
                             <p>Passo a passo para indexação da revista no Directory of Open Access Journals (DOAJ).</p>
                             <a href="Manual_DOAJ.pdf" download
-                               style="display:inline-block; margin-top:12px; background:#3a3a3a; color:#fff; border-radius:6px; padding:7px 18px; font-size:0.88rem; font-weight:600; text-decoration:none;">
+                               style="display:inline-block; margin-top:12px; background:#E8682A; color:#fff; border-radius:6px; padding:7px 18px; font-size:0.88rem; font-weight:600; text-decoration:none;">
                                 ⬇️ Baixar PDF
                             </a>
                         </div>
@@ -1039,7 +1039,7 @@
                             <h4>Guia OJS 3.3 — Documentação Oficial</h4>
                             <p>Manual completo do Public Knowledge Project (PKP) em português: configuração, fluxo editorial, avaliação por pares e publicação.</p>
                             <a href="https://docs.pkp.sfu.ca/learning-ojs/3.3/pt/" target="_blank"
-                               style="display:inline-block; margin-top:12px; background:#3a3a3a; color:#fff; border-radius:6px; padding:7px 18px; font-size:0.88rem; font-weight:600; text-decoration:none;">
+                               style="display:inline-block; margin-top:12px; background:#E8682A; color:#fff; border-radius:6px; padding:7px 18px; font-size:0.88rem; font-weight:600; text-decoration:none;">
                                 Acessar guia
                             </a>
                         </div>
@@ -1052,7 +1052,7 @@
                             <p>Adaptação do manual oficial para o contexto das universidades brasileiras, desenvolvido pelo IBICT com foco na língua portuguesa.</p>
                             <a href="https://drive.google.com/file/d/1EsTxRoMKsa7LoZ9aZPmGF2QLOZIyHSy9/view?usp=sharing" target="_blank"
                                style="display:inline-block; margin-top:12px; background:#E8682A; color:#fff; border-radius:6px; padding:7px 18px; font-size:0.88rem; font-weight:600; text-decoration:none;">
-                                Baixar PDF
+                                Acessar PDF
                             </a>
                         </div>
                     </div>
@@ -1063,7 +1063,7 @@
                             <h4>Resolução Consepe nº 57/2025</h4>
                             <p>Política de Integridade Acadêmica e Científica da UFPB: plágio, uso de inteligência artificial e boas práticas na produção científica.</p>
                             <a href="https://sig-arq.ufpb.br/arquivos/2025189036a9a38041387d66209cac73d/Resoluo_Consepe_n_57.2025.pdf" target="_blank" rel="noopener"
-                               style="display:inline-block; margin-top:12px; background:#3a3a3a; color:#fff; border-radius:6px; padding:7px 18px; font-size:0.88rem; font-weight:600; text-decoration:none;">
+                               style="display:inline-block; margin-top:12px; background:#E8682A; color:#fff; border-radius:6px; padding:7px 18px; font-size:0.88rem; font-weight:600; text-decoration:none;">
                                 Acessar PDF
                             </a>
                         </div>
