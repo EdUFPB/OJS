@@ -376,6 +376,20 @@
     line-height: 1.6;
 }
 
+/* ── Etiqueta de público no card ── */
+.card-audience-tag {
+    display: inline-block;
+    background: #fdece2;
+    color: #c4521a;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
 /* ── Responsive ── */
 @media (max-width: 767px) {
     #ajuda-hero h1 { font-size: 1.4rem; }
@@ -661,7 +675,7 @@
                         </div>
                         <div id="cE2" class="collapse" aria-labelledby="hE2" data-parent="#accordionEditores">
                             <div class="card-body">
-                                <p>O Portal disponibiliza guias oficiais do OJS (PKP e IBICT), manual de submissão ao DOAJ e guia de cadastro no Google Scholar.</p>
+                                <p>O Portal disponibiliza guias oficiais do OJS (PKP e IBICT), o guia rápido de designação e depósito de DOI, manual de submissão ao DOAJ e guia de cadastro no Google Scholar.</p>
                                 <p>📚 Acesse todos esses materiais na aba <a href="#recursos" data-toggle="tab"><strong>Manuais, Guias e Tutoriais</strong></a>.</p>
                             </div>
                         </div>
@@ -1001,6 +1015,7 @@
 <div class="col-md-4 mb-4">
     <div class="info-card">
         <div class="ic-icon">🖋️</div>
+        <span class="card-audience-tag">Para Editores</span>
         <h4>Manual do Editor</h4>
         <p>Numeração de volumes, fascículos e suplementos, cadastro e configuração do periódico no OJS (incluindo dados em inglês e DOI) e preenchimento correto dos metadados, conforme a ABNT NBR 6021:2015.</p>
         <a href="Manual_do_Editor.pdf" download
@@ -1011,7 +1026,20 @@
 </div>
                     <div class="col-md-4 mb-4">
                         <div class="info-card">
+                            <div class="ic-icon">🆔</div>
+                            <span class="card-audience-tag">Para Editores</span>
+                            <h4>Guia Rápido: DOI — Designação e Depósito</h4>
+                            <p>Como funciona o DOI na aba Identificadores do OJS: passo a passo para designar o identificador e as diferenças entre depósito com contrato próprio e institucional junto à Crossref.</p>
+                            <a href="Guia_DOI_Designacao_Deposito.pdf" download
+                               style="display:inline-block; margin-top:12px; background:#E8682A; color:#fff; border-radius:6px; padding:7px 18px; font-size:0.88rem; font-weight:600; text-decoration:none;">
+                                ⬇️ Baixar PDF
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="info-card">
                             <div class="ic-icon">📚</div>
+                            <span class="card-audience-tag">Para Editores</span>
                             <h4>Manual de Submissão ao DOAJ</h4>
                             <p>Passo a passo para indexação da revista no Directory of Open Access Journals (DOAJ).</p>
                             <a href="Manual_DOAJ.pdf" download
@@ -1024,6 +1052,7 @@
                     <div class="col-md-4 mb-4">
                         <div class="info-card">
                             <div class="ic-icon">🎓</div>
+                            <span class="card-audience-tag">Para Editores</span>
                             <h4>Guia de Cadastro no Google Scholar</h4>
                             <p>Como cadastrar a revista e configurar o perfil para acompanhamento do índice de citações no Google Scholar.</p>
                             <a href="Guia_Cadastro_Google_Scholar.pdf" download
