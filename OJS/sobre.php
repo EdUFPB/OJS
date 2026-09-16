@@ -477,6 +477,16 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
             </div>
             <div class="col-md-4 col-sm-6 mb-3">
                 <div class="equipe-mini">
+                    <img src="images/edilson.png" alt="Foto de Edilson de Melo Filho">
+                    <div>
+                        <div class="eq-nome">Edilson de Melo Filho</div>
+                        <div class="eq-cargo">Bibliotecário</div>
+                        <a class="lattes" href="http://lattes.cnpq.br/8525675502520396" target="_blank" rel="noopener noreferrer">Currículo Lattes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-3">
+                <div class="equipe-mini">
                     <img src="images/fabi.png" alt="Foto de Fabiana França">
                     <div>
                         <div class="eq-nome">Fabiana França</div>
