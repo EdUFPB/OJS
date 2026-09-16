@@ -7,5 +7,6 @@
 
 # Arquivos sensíveis
 config.inc.php
+smtp-config.php
 *.env
 *.log
