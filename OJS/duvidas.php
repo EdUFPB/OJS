@@ -1730,7 +1730,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ajuda_contato_submit'
                                     <ul>
                                         <li>Ana Roberta Mota — <strong>Bibliotecária</strong></li>
                                         <li>Cassandra Campos — <strong>Editora de Publicações</strong></li>
-                                        <li>Edilson de Melo Filho — <strong>Bibliotecário</strong></li>
+                                        <li>Edilson Targino — <strong>Bibliotecário</strong></li>
                                         <li>Fabiana França — <strong>Bibliotecária</strong> (em licença)</li>
                                     </ul>
                                 </div>

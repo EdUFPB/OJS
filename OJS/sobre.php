@@ -455,7 +455,7 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
         <h2>Nossa Equipe</h2>
         <div class="section-divider" aria-hidden="true"></div>
         <div class="row justify-content-center mt-3">
-            <div class="col-md-4 col-sm-6 mb-3">
+            <div class="col-6 col-md-3 mb-3">
                 <div class="equipe-mini">
                     <img src="images/ana.png" alt="Foto de Ana Roberta Mota">
                     <div>
@@ -465,7 +465,7 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 mb-3">
+            <div class="col-6 col-md-3 mb-3">
                 <div class="equipe-mini">
                     <img src="images/cassandra.jpg" alt="Foto de Cassandra Campos">
                     <div>
@@ -475,17 +475,17 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 mb-3">
+            <div class="col-6 col-md-3 mb-3">
                 <div class="equipe-mini">
-                    <img src="images/edilson.png" alt="Foto de Edilson de Melo Filho">
+                    <img src="images/edilson.jpg" alt="Foto de Edilson Targino">
                     <div>
-                        <div class="eq-nome">Edilson de Melo Filho</div>
+                        <div class="eq-nome">Edilson Targino</div>
                         <div class="eq-cargo">Bibliotecário</div>
                         <a class="lattes" href="http://lattes.cnpq.br/8525675502520396" target="_blank" rel="noopener noreferrer">Currículo Lattes</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 mb-3">
+            <div class="col-6 col-md-3 mb-3">
                 <div class="equipe-mini">
                     <img src="images/fabi.png" alt="Foto de Fabiana França">
                     <div>
