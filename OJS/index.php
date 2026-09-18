@@ -30,7 +30,7 @@ $periodicos = [
 
     ['titulo'=>'Okara',                    'subtitulo'=>'Geografia em Debate',
      'caminho'=>'okara',       'qualis'=>'A2', 'issn'=>'1982-3878',
-     'area'=>'Geografia', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Geografia', 'situacao'=>'Correntes', 'periodicidade'=>'Semestral',
      'img'=>'images/okara.png',
      'desc'=>'Fomenta o debate geográfico entre pesquisadores, docentes e profissionais, com foco em teoria e prática da Geografia.'],
 
@@ -42,26 +42,26 @@ $periodicos = [
 
     ['titulo'=>'Sæculum',                  'subtitulo'=>'Revista de História',
      'caminho'=>'srh',         'qualis'=>'A2', 'issn'=>'2317-6725',
-     'area'=>'História', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'História', 'situacao'=>'Correntes', 'periodicidade'=>'Semestral',
      'img'=>'images/saeculum2.png',
      'desc'=>'Publicação do PPGH/UFPB voltada para pesquisas em História, Cultura Histórica e interfaces com outras áreas.'],
 
     // A3
     ['titulo'=>'Claves',                   'subtitulo'=>'Música e Pesquisa',
      'caminho'=>'claves',      'qualis'=>'A3', 'issn'=>'1983-3709',
-     'area'=>'Música', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Música', 'situacao'=>'Correntes', 'periodicidade'=>'Anual',
      'img'=>'images/claves.png',
      'desc'=>'Periódico do PPGM/UFPB dedicado à Composição, Educação Musical, Musicologia e Práticas Interpretativas.'],
 
     ['titulo'=>'Política &amp; Trabalho',  'subtitulo'=>'Revista de Ciências Sociais',
      'caminho'=>'politicaetrabalho', 'qualis'=>'A3', 'issn'=>'1517-5901',
-     'area'=>'Ciências Sociais', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Ciências Sociais', 'situacao'=>'Correntes', 'periodicidade'=>'Anual',
      'img'=>'images/politicaetrabalho2.png',
      'desc'=>'Publicação do PPGS/UFPB com mais de 30 anos de debate qualificado em Sociologia, Política e Antropologia.'],
 
     ['titulo'=>'Espaço do Currículo',      'subtitulo'=>'GEPPC – UFPB',
      'caminho'=>'rec',         'qualis'=>'A3', 'issn'=>'1983-1579',
-     'area'=>'Educação', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Educação', 'situacao'=>'Correntes', 'periodicidade'=>'Quadrimestral',
      'img'=>'images/revista-espaco-do-curriculo.png',
      'desc'=>'Periódico do GEPPC/UFPB, criado em 2008, dedicado ao debate nacional e internacional sobre políticas e estudos curriculares na Educação.'],
 
@@ -73,50 +73,50 @@ $periodicos = [
 
     ['titulo'=>'Âncora',                   'subtitulo'=>'Revista de Jornalismo',
      'caminho'=>'ancora',      'qualis'=>'A3', 'issn'=>'2359-375X',
-     'area'=>'Comunicação', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Comunicação', 'situacao'=>'Correntes', 'periodicidade'=>'Semestral',
      'img'=>'images/ancora.png',
      'desc'=>'Voltada para a pesquisa em Jornalismo na perspectiva latino-americana, com diálogos entre comunicação e cultura.'],
 
     // A4
     ['titulo'=>'Biblionline',              'subtitulo'=>'DCI – UFPB',
      'caminho'=>'biblio',      'qualis'=>'A4', 'issn'=>'1809-4775',
-     'area'=>'Ciência da Informação', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Ciência da Informação', 'situacao'=>'Correntes', 'periodicidade'=>'Trimestral',
      'img'=>'images/biblionline.png',
      'desc'=>'Publicada ininterruptamente desde 2005 nas áreas de Biblioteconomia, Arquivologia, Ciência da Informação e Museologia com acesso aberto e avaliação por pares.'],
 
     ['titulo'=>'Prolíngua',               'subtitulo'=>'Linguística – UFPB',
      'caminho'=>'prolingua',   'qualis'=>'A4', 'issn'=>'1983-9979',
-     'area'=>'Linguística', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Linguística', 'situacao'=>'Correntes', 'periodicidade'=>'Semestral',
      'img'=>'images/prolingua.png',
      'desc'=>'Espaço consolidado de divulgação de pesquisas teóricas e aplicadas em Linguística, promovendo o debate entre pesquisadores nacionais e internacionais.'],
 
     ['titulo'=>'Revista Brasileira de Políticas Públicas e Internacionais',                     'subtitulo'=>'RPPI',
      'caminho'=>'rppi',        'qualis'=>'A4', 'issn'=>'2525-5584',
-     'area'=>'Relações Internacionais', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Relações Internacionais', 'situacao'=>'Correntes', 'periodicidade'=>'Semestral',
      'img'=>'images/rppi.png',
      'desc'=>'A Revista Brasileira de Políticas Públicas e Internacionais aborda Gestão Pública e Políticas Públicas nos planos doméstico e internacional.'],
 
     ['titulo'=>'RECFin',                   'subtitulo'=>'Evidenciação Contábil &amp; Finanças',
      'caminho'=>'recfin',      'qualis'=>'A4', 'issn'=>'2318-1001',
-     'area'=>'Contabilidade', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Contabilidade', 'situacao'=>'Correntes', 'periodicidade'=>'Quadrimestral',
      'img'=>'images/recfin.png',
      'desc'=>'Reúne estudos voltados à Contabilidade, Atuária e Finanças, abordando temas relacionados à gestão, mercados, educação e inovação, com foco na produção e disseminação do conhecimento científico.'],
 
     ['titulo'=>'Scandia',                  'subtitulo'=>'Journal of Medieval Norse Studies',
      'caminho'=>'scandia',     'qualis'=>'A4', 'issn'=>'2595-9107',
-     'area'=>'História', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'História', 'situacao'=>'Correntes', 'periodicidade'=>'Anual',
      'img'=>'images/scandia.png',
      'desc'=>'Especializada em Estudos Nórdicos Medievais, publica pesquisas sobre a Era Viking e o mundo escandinavo, contemplando abordagens em história, mitologia, religião, literatura e arqueologia.'],
 
     ['titulo'=>'Teoria e Prática em Administração', 'subtitulo'=>'PPGA – UFPB',
      'caminho'=>'tpa',         'qualis'=>'A4', 'issn'=>'2238-104X',
-     'area'=>'Administração', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Administração', 'situacao'=>'Correntes', 'periodicidade'=>'Semestral',
      'img'=>'images/tpa.png',
      'desc'=>'Periódico do PPGA/UFPB voltado a executivos, gestores públicos, empreendedores e docentes — dissemina conhecimentos que conectam teoria e prática da Administração.'],
 
     ['titulo'=>'Áltera',                   'subtitulo'=>'Revista de Antropologia',
      'caminho'=>'altera',      'qualis'=>'A4', 'issn'=>'2447-9837',
-     'area'=>'Antropologia', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Antropologia', 'situacao'=>'Correntes', 'periodicidade'=>'Semestral',
      'img'=>'images/altera.png',
      'desc'=>'Espaço dedicado ao debate antropológico contemporâneo, acolhendo diferentes perspectivas teóricas, metodológicas e etnográficas sobre fenômenos sociais, culturais e políticos.'],
 
@@ -135,7 +135,7 @@ $periodicos = [
 
     ['titulo'=>'Journal Urban &amp; Environmental Engineering',                     'subtitulo'=>'JUEE',
      'caminho'=>'juee',        'qualis'=>'B1', 'issn'=>'1982-3932',
-     'area'=>'Engenharia', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Engenharia', 'situacao'=>'Correntes', 'periodicidade'=>'Semestral',
      'img'=>'images/juee1.png',
      'desc'=>'Focada nos desafios das cidades e do meio ambiente, publica pesquisas sobre recursos hídricos, saneamento, transporte, planejamento urbano e sustentabilidade ambiental.'],
 
@@ -147,13 +147,13 @@ $periodicos = [
 
     ['titulo'=>'Perspectivas em Gestão & Conhecimento',               'subtitulo'=>'PG&amp;C',
      'caminho'=>'pgc',         'qualis'=>'B1', 'issn'=>'2236-417X',
-     'area'=>'Ciência da Informação', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Ciência da Informação', 'situacao'=>'Correntes', 'periodicidade'=>'Semestral',
      'img'=>'images/pgec.png',
      'desc'=>'A Revista Perspectivas em Gestão e Conhecimento é iniciativa da UFPB em cooperação com o IBICT, publica pesquisas interdisciplinares em gestão do conhecimento, gestão da informação e estudos organizacionais.'],
 
     ['titulo'=>'Prim Facie',              'subtitulo'=>'Estudos Jurídicos Contemporâneos',
      'caminho'=>'primafacie',  'qualis'=>'B1', 'issn'=>'1678-2593',
-     'area'=>'Direito', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Direito', 'situacao'=>'Correntes', 'periodicidade'=>'Quadrimestral',
      'img'=>'images/prima-facie.png',
      'desc'=>'Dedicado à divulgação de pesquisas inovadoras e ao debate de temas contemporâneos do Direito. Destaca-se pela abordagem interdisciplinar de questões relacionadas aos direitos humanos, desenvolvimento, meio ambiente e justiça social.'],
 
@@ -178,26 +178,26 @@ $periodicos = [
 
     ['titulo'=>'Revista da ABET',         'subtitulo'=>'Estudos do Trabalho',
      'caminho'=>'abet',        'qualis'=>'B2', 'issn'=>'1679-2483',
-     'area'=>'Ciências Sociais', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Ciências Sociais', 'situacao'=>'Correntes', 'periodicidade'=>'Semestral',
      'img'=>'images/abet.png',
      'desc'=>'A Revista da Associação Brasileira de Estudos do Trabalho foi lançada em 2001, reúne pesquisas interdisciplinares sobre o mundo do trabalho — Economia, Sociologia, Direito, História, Saúde e outras áreas.'],
 
     ['titulo'=>'Revista da Iniciação Científica em Relações Internacionais',                   'subtitulo'=>'RICRI',
      'caminho'=>'ricri',       'qualis'=>'B2', 'issn'=>'2318-9452',
-     'area'=>'Relações Internacionais', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Relações Internacionais', 'situacao'=>'Correntes', 'periodicidade'=>'Semestral',
      'img'=>'images/ricri.jpg',
      'desc'=>'Revista da Iniciação científica em Relações Internacionais — incentiva jovens pesquisadores no debate global e diplomático.'],
 
     // B3
     ['titulo'=>'Cadernos do LOGEPA',      'subtitulo'=>'LOGEPA/GENAT – UFPB',
      'caminho'=>'logepa',      'qualis'=>'B3', 'issn'=>'2237-7522',
-     'area'=>'Geografia', 'situacao'=>'Correntes', 'periodicidade'=>'Anual',
+     'area'=>'Geografia', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
      'img'=>'images/cadernos-logepa.png',
      'desc'=>'Vinculada ao LOGEPA/UFPB, publica pesquisas em Geografia, Geomorfologia, gestão de riscos naturais e dinâmicas socioambientais da Paraíba, com volume anual em fluxo contínuo.'],
 
     ['titulo'=>'CAOS',                    'subtitulo'=>'Ciências Sociais',
      'caminho'=>'caos',        'qualis'=>'B3', 'issn'=>'1517-6916',
-     'area'=>'Ciências Sociais', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Ciências Sociais', 'situacao'=>'Correntes', 'periodicidade'=>'Semestral',
      'img'=>'images/caos.png',
      'desc'=>'A Revista Eletrônica de Ciências Sociais é um espaço de diálogo e reflexão nas áreas de Antropologia, Ciência Política e Sociologia, reunindo pesquisas, ensaios e debates sobre questões contemporâneas da sociedade.'],
 
@@ -209,7 +209,7 @@ $periodicos = [
 
     ['titulo'=>'Gaia Scientia',           'subtitulo'=>'PRODEMA – UFPB',
      'caminho'=>'gaia',        'qualis'=>'B3', 'issn'=>'1981-1268',
-     'area'=>'Ciências Ambientais', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Ciências Ambientais', 'situacao'=>'Correntes', 'periodicidade'=>'Trimestral',
      'img'=>'images/gaia.png',
      'desc'=>'Lançada em 2007 pelo PRODEMA/UFPB, publica artigos originais em Ciências Ambientais e suas interfaces com Ecologia, Etnobiologia, Geografia Ambiental, Saúde e Engenharia Ambiental.'],
 
@@ -221,7 +221,7 @@ $periodicos = [
 
     ['titulo'=>'Revista Graphos',         'subtitulo'=>'PPGL – UFPB',
      'caminho'=>'graphos',     'qualis'=>'B3', 'issn'=>'2763-9355',
-     'area'=>'Letras', 'situacao'=>'Correntes', 'periodicidade'=>'Quadrimestral',
+     'area'=>'Letras', 'situacao'=>'Correntes', 'periodicidade'=>'Semestral',
      'img'=>'images/graphos.png',
      'desc'=>'Publicada pelo PPGL/UFPB desde 1995, divulga artigos inéditos de pesquisadores brasileiros e estrangeiros nas áreas de Literatura, Cultura, Teoria Literária e Tradução, com periodicidade quadrimestral.'],
 
@@ -234,7 +234,7 @@ $periodicos = [
 
     ['titulo'=>'Gestão &amp; Aprendizagem', 'subtitulo'=>'PPGOA – UFPB',
      'caminho'=>'mpgoa',       'qualis'=>'B4', 'issn'=>'2526-3102',
-     'area'=>'Administração', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Administração', 'situacao'=>'Correntes', 'periodicidade'=>'Semestral',
      'img'=>'images/mpgoa.jpg',
      'desc'=>'Periódico do PPGOA/UFPB publicado desde 2012, focado nos estudos dos processos de gestão e aprendizagem organizacionais.'],
 
@@ -252,13 +252,13 @@ $periodicos = [
 
     ['titulo'=>'Revista Abordagens',      'subtitulo'=>'PPGS – UFPB',
      'caminho'=>'rappgs',      'qualis'=>'B4', 'issn'=>'2674-824X',
-     'area'=>'Sociologia', 'situacao'=>'Correntes', 'periodicidade'=>'Semestral',
+     'area'=>'Sociologia', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
      'img'=>'images/rappgs.jpg',
      'desc'=>'Publicação semestral do corpo discente do PPGS/UFPB, com linha editorial plural voltada ao campo sociológico e áreas afins.'],
 
     ['titulo'=>'Revista Científica de Produção Animal', 'subtitulo'=>'Produção Animal',
      'caminho'=>'rcpa',        'qualis'=>'B4', 'issn'=>'2176-4158',
-     'area'=>'Ciências Agrárias', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Ciências Agrárias', 'situacao'=>'Correntes', 'periodicidade'=>'Semestral',
      'img'=>'images/rcpa.jpg',
      'desc'=>'Vinculado ao CCA/UFPB e a Sociedade Nordestina de Produção Animal desde 1999, publica trabalhos inéditos em Zootecnia — Nutrição Animal, Forragicultura, Genômica, Reprodução e Sistemas de Produção.'],
 
@@ -283,13 +283,13 @@ $periodicos = [
     // C
     ['titulo'=>'Comunicações em Informática', 'subtitulo'=>'DI – UFPB',
      'caminho'=>'cei',         'qualis'=>'C',  'issn'=>'2595-0622',
-     'area'=>'Ciência da Computação', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Ciência da Computação', 'situacao'=>'Correntes', 'periodicidade'=>'Semestral',
      'img'=>'images/cei.jpg',
      'desc'=>'Periódico do Departamento de Informática/UFPB que divulga relatos científicos em Ciência da Computação e suas interfaces com Saúde, Educação, Engenharias e outras áreas.'],
 
     ['titulo'=>'Direitos Humanos e Transdisciplinaridade',                     'subtitulo'=>'DHT',
      'caminho'=>'dht',         'qualis'=>'C',  'issn'=>'2965-4432',
-     'area'=>'Direito', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Direito', 'situacao'=>'Correntes', 'periodicidade'=>'Semestral',
      'img'=>'images/dht.jpg',
      'desc'=>'A Revista Direitos Humanos e Transdisciplinaridade aborda os direitos humanos sob perspectiva transdisciplinar, integrando Direito, Filosofia e Ciências Sociais.'],
 
@@ -301,7 +301,7 @@ $periodicos = [
 
     ['titulo'=>'Revista de Iniciação Científica em Odontologia',                  'subtitulo'=>'RevICO',
      'caminho'=>'revico',      'qualis'=>'C',  'issn'=>'1677-3527',
-     'area'=>'Odontologia', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Odontologia', 'situacao'=>'Correntes', 'periodicidade'=>'Semestral',
      'img'=>'images/revico.png',
      'desc'=>'Incentiva a pesquisa científica em Odontologia, dando voz à produção de graduandos e pós-graduandos.'],
 
@@ -313,7 +313,7 @@ $periodicos = [
 
     ['titulo'=>'Revista Medicina &amp; Pesquisa', 'subtitulo'=>'Ciências da Saúde',
      'caminho'=>'rmp',         'qualis'=>'C',  'issn'=>'2525-5851',
-     'area'=>'Ciências da Saúde', 'situacao'=>'Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Ciências da Saúde', 'situacao'=>'Correntes', 'periodicidade'=>'Quadrimestral',
      'img'=>'images/rmp.jpg',
      'desc'=>'Periódico interdisciplinar em Ciências da Saúde da UFPB — publica estudos originais, revisões e produções acadêmicas sobre cuidado, prática clínica, educação e sistemas de saúde.'],
 
@@ -351,49 +351,49 @@ $periodicos = [
     // ── Anais de Eventos ──
     ['titulo'=>'Cadernos Imbondeiro',      'subtitulo'=>'Estudos Africanos e Afro-brasileiros – UFPB',
      'caminho'=>'ci',          'qualis'=>'', 'issn'=>'2316-2937',
-     'area'=>'Estudos Africanos e Afro-brasileiros', 'situacao'=>'Anais de Eventos', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Estudos Africanos e Afro-brasileiros', 'situacao'=>'Anais de Eventos', 'periodicidade'=>'NI',
      'img'=>'images/cadernos-imbondeiro.png',
      'desc'=>'Apresenta estudos africanos, afro-brasileiros e da diáspora africana, articulando pesquisa sobre cultura, história e identidade.'],
 
     ['titulo'=>'Cultura e Tradução',       'subtitulo'=>'Estudos da Tradução – UFPB',
      'caminho'=>'ct',          'qualis'=>'', 'issn'=>'2238-9059',
-     'area'=>'Letras', 'situacao'=>'Anais de Eventos', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Letras', 'situacao'=>'Anais de Eventos', 'periodicidade'=>'NI',
      'img'=>'images/cultura-traducao.png',
      'desc'=>'Aborda estudos da Tradução e suas interfaces com a Cultura, a Linguística e a Literatura, com publicações de artigos originais e inéditos.'],
 
     ['titulo'=>'Congresso de Inclusão e Acessibilidade', 'subtitulo'=>'Anais – UFPB',
      'caminho'=>'cia',         'qualis'=>'', 'issn'=>'',
-     'area'=>'Educação', 'situacao'=>'Anais de Eventos', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Educação', 'situacao'=>'Anais de Eventos', 'periodicidade'=>'NI',
      'img'=>'images/cia.jpg',
      'desc'=>'Anais de congresso dedicado à produção e disseminação de conhecimentos sobre inclusão, acessibilidade e diversidade no contexto educacional e social.'],
 
     ['titulo'=>'Anais do Colóquio de Cinema e Arte da América Latina', 'subtitulo'=>'COCAAL – UFPB',
      'caminho'=>'cocaal',      'qualis'=>'', 'issn'=>'',
-     'area'=>'Artes', 'situacao'=>'Anais de Eventos', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Artes', 'situacao'=>'Anais de Eventos', 'periodicidade'=>'NI',
      'img'=>'images/cocaal.jpg',
      'desc'=>'Publicação dos trabalhos apresentados no colóquio voltados ao cinema e às artes visuais na América Latina, com ênfase em perspectivas críticas e decoloniais.'],
 
     ['titulo'=>'Revista do Encontro de Iniciação à Docência', 'subtitulo'=>'ENID – UFPB',
      'caminho'=>'enid',        'qualis'=>'', 'issn'=>'',
-     'area'=>'Educação', 'situacao'=>'Anais de Eventos', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Educação', 'situacao'=>'Anais de Eventos', 'periodicidade'=>'NI',
      'img'=>'',
      'desc'=>'Publicação do Encontro de Iniciação à Docência da UFPB, divulga pesquisas e experiências em formação de professores e práticas pedagógicas.'],
 
     ['titulo'=>'Revista de Iniciação Científica', 'subtitulo'=>'PROPESQ - UFPB',
      'caminho'=>'enic',        'qualis'=>'', 'issn'=>'',
-     'area'=>'Multidisciplinar', 'situacao'=>'Anais de Eventos', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Multidisciplinar', 'situacao'=>'Anais de Eventos', 'periodicidade'=>'NI',
      'img'=>'',
      'desc'=>'Publicação do Encontro de Iniciação à Científica da Pro-Reitoria de Pesquisa da UFPB.'],
 
     ['titulo'=>'Anais do Encontro de Extensão da UFPB', 'subtitulo'=>'PROEX – UFPB',
      'caminho'=>'extensao',    'qualis'=>'', 'issn'=>'',
-     'area'=>'Extensão Universitária', 'situacao'=>'Anais de Eventos', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Extensão Universitária', 'situacao'=>'Anais de Eventos', 'periodicidade'=>'NI',
      'img'=>'',
      'desc'=>'Publicação do Encontro de Extensão da UFPB.'],
 
     ['titulo'=>'Encontro Unificado da UFPB: anais do ENEX', 'subtitulo'=>'PROEX – UFPB',
      'caminho'=>'enex',        'qualis'=>'', 'issn'=>'',
-     'area'=>'Extensão Universitária', 'situacao'=>'Anais de Eventos', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Extensão Universitária', 'situacao'=>'Anais de Eventos', 'periodicidade'=>'NI',
      'img'=>'',
      'desc'=>'Publicação do Encontro Unificado da UFPB, anais do ENEX.'],
 
@@ -406,7 +406,7 @@ $periodicos = [
 
     ['titulo'=>'Sudamerica',               'subtitulo'=>'Revista Internacional de Direitos Humanos',
      'caminho'=>'sda',         'qualis'=>'', 'issn'=>'3086-3562',
-     'area'=>'Direito', 'situacao'=>'Incubados', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Direito', 'situacao'=>'Incubados', 'periodicidade'=>'Semestral',
      'img'=>'images/sudamerica.jpg',
      'desc'=>'Periódico internacional dedicado à pesquisa e debate em Direitos Humanos, com enfoque nos contextos e perspectivas da América do Sul.'],
 
@@ -425,85 +425,85 @@ $periodicos = [
 
     ['titulo'=>'Pesquisa Brasileira em Ciência da Informação e Biblioteconomia', 'subtitulo'=>'PBCIB',
      'caminho'=>'pbcib',       'qualis'=>'', 'issn'=>'1981-0695',
-     'area'=>'Ciência da Informação', 'situacao'=>'Não Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Ciência da Informação', 'situacao'=>'Não Correntes', 'periodicidade'=>'Semestral',
      'img'=>'images/pbcib.png',
      'desc'=>'Editada pelo Grupo de Pesquisa Informação e Inclusão Social (CNPq) em parceria com o Laboratório de Tecnologias Intelectuais da UFPB.'],
 
     ['titulo'=>'Revista Nordestina de Biologia', 'subtitulo'=>'Departamento de Sistemática e Ecologia – UFPB',
      'caminho'=>'revnebio',    'qualis'=>'', 'issn'=>'2236-1480',
-     'area'=>'Biologia', 'situacao'=>'Não Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Biologia', 'situacao'=>'Não Correntes', 'periodicidade'=>'Semestral',
      'img'=>'images/nordestina-bio.png',
      'desc'=>'Publicação científica dedicada à Biologia, com ênfase em estudos realizados na região Nordeste do Brasil.'],
 
     ['titulo'=>'The Brazilian Trombone Association Journal', 'subtitulo'=>'Associação Brasileira de Trombone',
      'caminho'=>'btaj',        'qualis'=>'', 'issn'=>'2595-1238',
-     'area'=>'Música', 'situacao'=>'Não Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Música', 'situacao'=>'Não Correntes', 'periodicidade'=>'Semestral',
      'img'=>'images/trombone.jpg',
      'desc'=>'Periódico da Associação Brasileira de Trombone, voltado à pesquisa e divulgação científica em música e performance de trombone.'],
 
     ['titulo'=>'Métodos e Pesquisa em Administração', 'subtitulo'=>'MEPAD',
      'caminho'=>'mepad',       'qualis'=>'', 'issn'=>'2525-3867',
-     'area'=>'Administração', 'situacao'=>'Não Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Administração', 'situacao'=>'Não Correntes', 'periodicidade'=>'NI',
      'img'=>'images/mepad.png',
      'desc'=>'Publicação voltada à divulgação de pesquisas em Administração, com ênfase em métodos quantitativos e qualitativos aplicados à gestão.'],
 
     ['titulo'=>'Data Science and Business Review', 'subtitulo'=>'DSBR',
      'caminho'=>'dsbr',        'qualis'=>'', 'issn'=>'2764-2682',
-     'area'=>'Ciência da Computação', 'situacao'=>'Não Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Ciência da Computação', 'situacao'=>'Não Correntes', 'periodicidade'=>'NI',
      'img'=>'images/dsbr.png',
      'desc'=>'Publicação dedicada à ciência de dados aplicada a contextos de negócios e gestão empresarial.'],
 
     ['titulo'=>'Revista PRÁXIS: Educação e Diversidade', 'subtitulo'=>'Centro de Educação – UFPB',
      'caminho'=>'prx',         'qualis'=>'', 'issn'=>'2525-5355',
-     'area'=>'Educação', 'situacao'=>'Não Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Educação', 'situacao'=>'Não Correntes', 'periodicidade'=>'NI',
      'img'=>'images/praxis.png',
      'desc'=>'Publicação voltada à pesquisa em Educação, com ênfase em diversidade, inclusão e práxis pedagógica.'],
 
     ['titulo'=>'Gênero &amp; Direito', 'subtitulo'=>'Centro de Ciências Jurídicas – UFPB',
      'caminho'=>'ged',         'qualis'=>'', 'issn'=>'2179-7137',
-     'area'=>'Direito', 'situacao'=>'Não Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Direito', 'situacao'=>'Não Correntes', 'periodicidade'=>'NI',
      'img'=>'images/genero-direito.png',
      'desc'=>'Estimula o debate e a produção científica interdisciplinar sobre gênero e Direito, com foco na isonomia e transformação social.'],
 
     ['titulo'=>'Imaginário!', 'subtitulo'=>'Pós-Graduação em Letras – UFPB',
      'caminho'=>'imgn',        'qualis'=>'', 'issn'=>'2237-6933',
-     'area'=>'Letras', 'situacao'=>'Não Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Letras', 'situacao'=>'Não Correntes', 'periodicidade'=>'NI',
      'img'=>'images/imaginario.png',
      'desc'=>'Revista acadêmica dedicada ao imaginário, às artes e às humanidades, com publicação de artigos, ensaios e resenhas.'],
 
     ['titulo'=>'Diversidade Religiosa', 'subtitulo'=>'Pós-Graduação em Ciências das Religiões – UFPB',
      'caminho'=>'dr',          'qualis'=>'', 'issn'=>'2317-0476',
-     'area'=>'Ciência da Religião', 'situacao'=>'Não Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Ciência da Religião', 'situacao'=>'Não Correntes', 'periodicidade'=>'NI',
      'img'=>'images/diversidade-religiosa.png',
      'desc'=>'Publicação dedicada ao estudo da diversidade religiosa e das culturas, fomentando o diálogo inter-religioso e a pesquisa nas Ciências das Religiões.'],
 
     ['titulo'=>'Informação &amp; Tecnologia', 'subtitulo'=>'Ciência da Informação e Arquivologia – UFPB',
      'caminho'=>'itec',        'qualis'=>'', 'issn'=>'2358-3908',
-     'area'=>'Ciência da Informação', 'situacao'=>'Não Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Ciência da Informação', 'situacao'=>'Não Correntes', 'periodicidade'=>'NI',
      'img'=>'images/info-e-tec.png',
      'desc'=>'Publicação dedicada à pesquisa em Ciência da Informação, Arquivologia e Biblioteconomia, com ênfase nas interfaces com as tecnologias digitais.'],
 
     ['titulo'=>'Revista Economia e Desenvolvimento', 'subtitulo'=>'Pós-Graduação em Economia – UFPB',
      'caminho'=>'economia',    'qualis'=>'', 'issn'=>'2358-2510',
-     'area'=>'Economia', 'situacao'=>'Não Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Economia', 'situacao'=>'Não Correntes', 'periodicidade'=>'NI',
      'img'=>'images/economia-e-desenvolvimento.png',
      'desc'=>'Publicação científica voltada às áreas de Economia e Desenvolvimento Regional, com destaque para temas de economia nordestina.'],
 
     ['titulo'=>'Revista Logos &amp; Existência', 'subtitulo'=>'Teologia e Ciências das Religiões – UFPB',
      'caminho'=>'le',          'qualis'=>'', 'issn'=>'2316-9923',
-     'area'=>'Ciência da Religião', 'situacao'=>'Não Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Ciência da Religião', 'situacao'=>'Não Correntes', 'periodicidade'=>'NI',
      'img'=>'images/logos.png',
      'desc'=>'Periódico dedicado ao estudo das interfaces entre fé, razão e existência, nas perspectivas da Teologia e das Ciências das Religiões.'],
 
     ['titulo'=>'Revista Paraibana de História', 'subtitulo'=>'Departamento de História – UFPB',
      'caminho'=>'rph',         'qualis'=>'', 'issn'=>'2446-5852',
-     'area'=>'História', 'situacao'=>'Não Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'História', 'situacao'=>'Não Correntes', 'periodicidade'=>'NI',
      'img'=>'images/revista-pb-historia.png',
      'desc'=>'Publicação dedicada à pesquisa histórica com ênfase na história da Paraíba e do Nordeste.'],
 
     ['titulo'=>'Cultura Oriental', 'subtitulo'=>'Letras Orientais – UFPB',
      'caminho'=>'co',          'qualis'=>'', 'issn'=>'2358-5021',
-     'area'=>'Letras', 'situacao'=>'Não Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Letras', 'situacao'=>'Não Correntes', 'periodicidade'=>'NI',
      'img'=>'images/cultura-oriental.png',
      'desc'=>'Publicação dedicada ao estudo das línguas, literaturas e culturas orientais no contexto brasileiro e ibero-americano.'],
 
@@ -515,7 +515,7 @@ $periodicos = [
 
     ['titulo'=>'Extensão Cidadã', 'subtitulo'=>'Revista Eletrônica – UFPB',
      'caminho'=>'extensaocidada', 'qualis'=>'', 'issn'=>'1982-2138',
-     'area'=>'Extensão Universitária', 'situacao'=>'Não Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Extensão Universitária', 'situacao'=>'Não Correntes', 'periodicidade'=>'NI',
      'img'=>'images/extensaocidada.jpg',
      'desc'=>'Divulga ações e reflexões sobre extensão universitária, fomentando o diálogo entre a universidade e a sociedade.'],
 
@@ -533,13 +533,13 @@ $periodicos = [
 
     ['titulo'=>'Revista PetrART', 'subtitulo'=>'Arte Rupestre e Patrimônio Arqueológico',
      'caminho'=>'petrart',     'qualis'=>'', 'issn'=>'',
-     'area'=>'Arqueologia', 'situacao'=>'Não Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Arqueologia', 'situacao'=>'Não Correntes', 'periodicidade'=>'NI',
      'img'=>'images/petrart.png',
      'desc'=>'Publicação dedicada à arte rupestre e ao patrimônio arqueológico do Nordeste brasileiro.'],
 
     ['titulo'=>'AUTOGESTÃO', 'subtitulo'=>'Economia dos Trabalhadores &amp; Educação Popular',
      'caminho'=>'autogestao',  'qualis'=>'', 'issn'=>'',
-     'area'=>'Economia', 'situacao'=>'Não Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Economia', 'situacao'=>'Não Correntes', 'periodicidade'=>'NI',
      'img'=>'images/autogestao.png',
      'desc'=>'Periódico do NUPLAR/UFPB dedicado ao campo transdisciplinar da autogestão social, economia solidária e educação popular.'],
 
@@ -557,7 +557,7 @@ $periodicos = [
 
     ['titulo'=>'Revista de Arqueologia', 'subtitulo'=>'Sociedade de Arqueologia Brasileira',
      'caminho'=>'ra',          'qualis'=>'', 'issn'=>'',
-     'area'=>'Arqueologia', 'situacao'=>'Não Correntes', 'periodicidade'=>'Fluxo Contínuo',
+     'area'=>'Arqueologia', 'situacao'=>'Não Correntes', 'periodicidade'=>'NI',
      'img'=>'images/ra.png',
      'desc'=>'Publicação da Sociedade de Arqueologia Brasileira, referência na difusão de pesquisas arqueológicas nacionais e internacionais.'],
 ];
@@ -978,7 +978,7 @@ sort($periodicidadesUnicas, SORT_STRING | SORT_FLAG_CASE);
             * As classificações Qualis indicadas referem-se às notas disponibilizadas pela
             <a href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf" target="_blank" rel="noopener">Plataforma Sucupira/CAPES</a>
             para o quadriênio 2021–2024.
-            Periódicos identificados como <strong>NC</strong> (Não Classificado) ainda não possuem classificação disponível na Plataforma Sucupira/CAPES para o referido quadriênio.
+            Periódicos identificados como <strong>NC</strong> (Não Classificado) ainda não possuem classificação disponível na Plataforma Sucupira/CAPES para o referido quadriênio. Já os periódicos cuja periodicidade está identificada como <strong>NI<strong> (Não Identificado) são aqueles para os quais não foi localizada informação sobre a periodicidade de publicação.
         </p>
 
     </div><!-- /.per-main -->
